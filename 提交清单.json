@@ -3507,8 +3507,8 @@
     },
     {
       "path": "运行记录/final-submission/state.json",
-      "bytes": 185,
-      "sha256": "a23d62d8bd26cc22709deccbff3179fc46d0ff3baaf2540848efc3f315db6d09"
+      "bytes": 369,
+      "sha256": "3d3b4fb938f43c482ed44e610ee6c68ce8abeeb858dfc2d309d25b4a6d477eee"
     },
     {
       "path": "运行记录/final-submission/submission-audit.txt",
@@ -5292,12 +5292,12 @@
     },
     {
       "path": "进度日志.md",
-      "bytes": 169467,
-      "sha256": "c610aa3bbd0eab5f1b2868a7931aafe4c9551ff03847e4f5e6ab9f7b80b7a085"
+      "bytes": 170186,
+      "sha256": "d7c29aff6393256a57de7624c0d1db3870f55d133cc74de079706a0bc7ab90d7"
     }
   ],
   "count": 1059,
-  "bytes": 22136062,
+  "bytes": 22136965,
   "excluded": [
     "virtual environments",
     "git metadata of upstream clones",

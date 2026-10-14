@@ -1,6 +1,9 @@
 {
   "status": "completed",
-  "published": false,
+  "published": true,
   "finished": "2026-10-14T12:57:26.919919+08:00",
-  "screenshot_recovery": "CPU/CUDA scores verified; AP absolute tolerance 1e-5"
+  "screenshot_recovery": "CPU/CUDA scores verified; AP absolute tolerance 1e-5",
+  "repository": "ShiXing321/freshman-nlp-graph-plm-2026",
+  "url": "https://github.com/ShiXing321/freshman-nlp-graph-plm-2026",
+  "published_at": "2026-10-14T13:04:08.639082+08:00"
 }
