@@ -1,0 +1,6 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{"answered": 20, "valid": 20}
+{"answered": 40, "valid": 40}
+{"answered": 60, "valid": 60}
+{"answered": 80, "valid": 80}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\qwen_mbti.json

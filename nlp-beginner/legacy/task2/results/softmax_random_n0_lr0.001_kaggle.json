@@ -1,0 +1,100 @@
+{
+  "name": "softmax_random_n0_lr0.001_kaggle",
+  "config": {
+    "task": "classification",
+    "data_name": "sentiment_kaggle",
+    "eval_limit": 1000,
+    "tag": "",
+    "model": "softmax",
+    "glove": "",
+    "dim": 50,
+    "hidden": 64,
+    "batch": 64,
+    "epochs": 8,
+    "lr": 0.001,
+    "max_length": 100,
+    "limit": 0,
+    "seed": 42
+  },
+  "started": "2026-10-14T09:39:44.087534+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.3297813033622077,
+      "dev": {
+        "accuracy": 0.5111966634584536,
+        "macro_f1": 0.13779516964029973
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.230987581011406,
+      "dev": {
+        "accuracy": 0.5174205967276228,
+        "macro_f1": 0.17950159394280324
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.1725000124750447,
+      "dev": {
+        "accuracy": 0.5271735643246711,
+        "macro_f1": 0.21282632342391486
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.1264010761478274,
+      "dev": {
+        "accuracy": 0.5017003529034327,
+        "macro_f1": 0.24047725678712378
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.0929897538976745,
+      "dev": {
+        "accuracy": 0.507795957651588,
+        "macro_f1": 0.2586128952875856
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.0664158628758984,
+      "dev": {
+        "accuracy": 0.5115174847609881,
+        "macro_f1": 0.2750603630078191
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.0460483292717369,
+      "dev": {
+        "accuracy": 0.51478986204684,
+        "macro_f1": 0.29217809974522385
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.0267457268697184,
+      "dev": {
+        "accuracy": 0.5180622393326917,
+        "macro_f1": 0.29117853320968257
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 63.6613212999946,
+  "best_dev_score": 0.5271735643246711,
+  "test": {
+    "accuracy": 0.5368263098661998,
+    "macro_f1": 0.21981661831855245
+  },
+  "counts": {
+    "train": 124481,
+    "dev": 15585,
+    "test": 15994
+  },
+  "glove_coverage": null
+}

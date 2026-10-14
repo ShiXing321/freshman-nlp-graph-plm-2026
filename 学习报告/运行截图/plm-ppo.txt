@@ -1,0 +1,7 @@
+{
+  "task": "ppo",
+  "input": "请用一句话解释梯度下降。",
+  "output": "梯度下降是一种优化算法，通过迭代地调整模型参数以最小化损失函数来实现。它基于对学习率的控制，使得每次迭代都能在训练数据上找到一个局部最优解。",
+  "checkpoint": "C:\\Users\\86157\\Documents\\ChatGPT\\新生任务\\transformers_tasks\\local_runs\\checkpoints\\ppo_expanded"
+}
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

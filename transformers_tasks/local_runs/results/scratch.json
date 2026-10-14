@@ -1,0 +1,97 @@
+{
+  "name": "scratch",
+  "config": {
+    "task": "scratch",
+    "limit": 1000,
+    "epochs": 5,
+    "batch": 8,
+    "accumulate": 1,
+    "length": 192,
+    "lr": 0.0005,
+    "seed": 42,
+    "model": "random GPT2 4-layer/128 hidden, custom byte BPE",
+    "parameters": 1201920,
+    "trainable_parameters": 1201920,
+    "counts": {
+      "train": 200,
+      "dev": 25,
+      "test": 25
+    },
+    "masking": "all nonpadding tokens",
+    "split": "deduplicated document/prompt split, fixed seed, no test-based selection",
+    "truncation": "prefix capped to half context; target truncated to remaining capacity"
+  },
+  "started": "2026-10-14T00:03:53.783349+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 7.632720832824707,
+      "dev": {
+        "loss": 7.258613655093507,
+        "perplexity": 1420.286165218266,
+        "tokens": 3604
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 7.1342888450622555,
+      "dev": {
+        "loss": 7.0212251565829495,
+        "perplexity": 1120.1581465333395,
+        "tokens": 3604
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 6.952059307098389,
+      "dev": {
+        "loss": 6.916582952990516,
+        "perplexity": 1008.8667528296339,
+        "tokens": 3604
+      }
+    },
+    {
+      "epoch": 4,
+      "loss": 6.792436256408691,
+      "dev": {
+        "loss": 6.803630778712781,
+        "perplexity": 901.1131016132748,
+        "tokens": 3604
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 6.602569637298584,
+      "dev": {
+        "loss": 6.665355837834662,
+        "perplexity": 784.7426564322224,
+        "tokens": 3604
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 2.9915822000002663,
+  "baseline_dev": {
+    "loss": 8.02529921820108,
+    "perplexity": 3057.3359714810977,
+    "tokens": 3604
+  },
+  "best_dev_loss": 6.665355837834662,
+  "test": {
+    "loss": 6.7755281348001715,
+    "perplexity": 876.1419619263902,
+    "tokens": 4143
+  },
+  "examples_before": [],
+  "examples": [
+    {
+      "input": "春天来了",
+      "output": "专栏：\n\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏："
+    },
+    {
+      "input": "请解释梯度下降。",
+      "output": "专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏：\n专栏："
+    }
+  ]
+}

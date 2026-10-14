@@ -1,0 +1,17 @@
+{
+  "task": "nlp4",
+  "started": "2026-10-14T12:44:20.478331+08:00",
+  "finished": "2026-10-14T12:44:25.032405+08:00",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-u",
+    "scripts/demo_saved.py",
+    "nlp4"
+  ],
+  "exit_code": 0,
+  "output_sha256": "ea71d216cfe07b1c6493a43176c1c21aa2425e427a72591854bb60d07e5e0cf7",
+  "capture": "Playwright screenshot of actual local execution page, no image editing",
+  "screenshot_sha256": "c9041b5372bee5722abc26a9bd158dbf448eca5e7ee236e29cfc5ba4bd32c822"
+}

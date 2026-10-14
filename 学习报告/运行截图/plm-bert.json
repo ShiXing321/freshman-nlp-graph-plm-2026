@@ -1,0 +1,17 @@
+{
+  "task": "plm-bert",
+  "started": "2026-10-14T12:50:28.494147+08:00",
+  "finished": "2026-10-14T12:50:40.719788+08:00",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-u",
+    "scripts/demo_saved.py",
+    "plm-bert"
+  ],
+  "exit_code": 0,
+  "output_sha256": "94e04e78b316a490c6562b30d05f5532c8a061f0ded5acff403ee6e6ed18cdd0",
+  "capture": "Playwright screenshot of actual local execution page, no image editing",
+  "screenshot_sha256": "60fcd9c6a308a19d8d756505e1ec04c809be1ec48de73f75b3c23481e29df3a4"
+}

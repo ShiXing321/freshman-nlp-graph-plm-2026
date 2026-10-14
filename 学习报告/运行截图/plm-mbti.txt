@@ -1,0 +1,6 @@
+{
+  "question": "1",
+  "prompt": "请选择A或B，只输出一个字母。\n当你要外出一整天时，你会：\nA.计划要做的事情以及做的时间\nB.不做计划，说走就走",
+  "output": "A"
+}
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

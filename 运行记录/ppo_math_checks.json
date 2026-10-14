@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "clipped objective against hand calculation",
+    "zero gradient in clipped branches",
+    "finite differences in unclipped branches",
+    "GAE terminal reward and bootstrap zero"
+  ]
+}

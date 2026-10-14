@@ -1,0 +1,189 @@
+{
+  "name": "torch_bow_softmax_kaggle",
+  "config": {
+    "data_name": "sentiment_kaggle",
+    "loss": "softmax",
+    "batch": 64,
+    "lr": 0.5,
+    "epochs": 20,
+    "seed": 42,
+    "features": "TF-IDF unigram; identical preprocessing and zero initialization to task1",
+    "gradient_equivalence": "NumPy and PyTorch checked at zero weights",
+    "counts": {
+      "train": 124481,
+      "dev": 15585,
+      "test": 15994
+    }
+  },
+  "started": "2026-10-14T09:33:55.252605+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.2449720861205391,
+      "dev": {
+        "accuracy": 0.5054218800128328,
+        "macro_f1": 0.2088794781474209
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.1918614905769664,
+      "dev": {
+        "accuracy": 0.5188322104587745,
+        "macro_f1": 0.22982228060168128
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.1611364985158552,
+      "dev": {
+        "accuracy": 0.5349374398460057,
+        "macro_f1": 0.233216595532237
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.139477487337499,
+      "dev": {
+        "accuracy": 0.5281360282322746,
+        "macro_f1": 0.2516233438456475
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.1230504570384754,
+      "dev": {
+        "accuracy": 0.5280076997112608,
+        "macro_f1": 0.19315699975522282
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.1098207803979583,
+      "dev": {
+        "accuracy": 0.5445620789220404,
+        "macro_f1": 0.27591125337823164
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.099483905623711,
+      "dev": {
+        "accuracy": 0.534809111324992,
+        "macro_f1": 0.21431039839758403
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.0908743424185599,
+      "dev": {
+        "accuracy": 0.5386589669554058,
+        "macro_f1": 0.22488315273165074
+      }
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.083775303984281,
+      "dev": {
+        "accuracy": 0.5349374398460057,
+        "macro_f1": 0.20919727112008535
+      }
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.0776778049128684,
+      "dev": {
+        "accuracy": 0.5525184472248957,
+        "macro_f1": 0.2856966422676039
+      }
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.0727383862632052,
+      "dev": {
+        "accuracy": 0.5389156239974334,
+        "macro_f1": 0.22952937882024355
+      }
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.0683648488195419,
+      "dev": {
+        "accuracy": 0.5351299326275265,
+        "macro_f1": 0.21434898983900652
+      }
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.064689924313999,
+      "dev": {
+        "accuracy": 0.5406480590311197,
+        "macro_f1": 0.2356632569254265
+      }
+    },
+    {
+      "epoch": 14,
+      "train_loss": 1.0615665106104515,
+      "dev": {
+        "accuracy": 0.5393006095604748,
+        "macro_f1": 0.22229997906787605
+      }
+    },
+    {
+      "epoch": 15,
+      "train_loss": 1.0588631609258596,
+      "dev": {
+        "accuracy": 0.5581007378889958,
+        "macro_f1": 0.2805630773985514
+      }
+    },
+    {
+      "epoch": 16,
+      "train_loss": 1.0565288090393485,
+      "dev": {
+        "accuracy": 0.5452037215271094,
+        "macro_f1": 0.24696074528753292
+      }
+    },
+    {
+      "epoch": 17,
+      "train_loss": 1.0543133802494995,
+      "dev": {
+        "accuracy": 0.5577799165864613,
+        "macro_f1": 0.27728328513039613
+      }
+    },
+    {
+      "epoch": 18,
+      "train_loss": 1.0526867277831125,
+      "dev": {
+        "accuracy": 0.5354507539300609,
+        "macro_f1": 0.2145265128345592
+      }
+    },
+    {
+      "epoch": 19,
+      "train_loss": 1.051163192811646,
+      "dev": {
+        "accuracy": 0.5407122232916266,
+        "macro_f1": 0.22729167430895716
+      }
+    },
+    {
+      "epoch": 20,
+      "train_loss": 1.0496903130180757,
+      "dev": {
+        "accuracy": 0.5417388514597369,
+        "macro_f1": 0.2986256829407896
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 167.13171819999843,
+  "best_dev_accuracy": 0.5581007378889958,
+  "test": {
+    "accuracy": 0.5584594222833562,
+    "macro_f1": 0.27082000881513774
+  }
+}

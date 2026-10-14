@@ -1,0 +1,17 @@
+{
+  "task": "plm-filling",
+  "started": "2026-10-14T12:51:44.068604+08:00",
+  "finished": "2026-10-14T12:51:58.556118+08:00",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-u",
+    "scripts/demo_saved.py",
+    "plm-filling"
+  ],
+  "exit_code": 0,
+  "output_sha256": "0d4c8435e82e97ff2a7394be1a312a13b33ce50ad48cec61f2b80884b69d39e1",
+  "capture": "Playwright screenshot of actual local execution page, no image editing",
+  "screenshot_sha256": "1086a23e1cae79ea3f5b90b71b050e62663f646cec4208d7688dc42ee87b62c8"
+}

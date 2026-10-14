@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "manifest file hashes",
+      "passed": true,
+      "files": 1059,
+      "mismatches": []
+    },
+    {
+      "name": "large artifacts excluded",
+      "passed": true,
+      "large": []
+    },
+    {
+      "name": "credential patterns",
+      "passed": true,
+      "files": []
+    },
+    {
+      "name": "portable report links",
+      "passed": true,
+      "reports": 34,
+      "broken": []
+    },
+    {
+      "name": "fresh clone retrains missing weights",
+      "passed": true
+    }
+  ]
+}

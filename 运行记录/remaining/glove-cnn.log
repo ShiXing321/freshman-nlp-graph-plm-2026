@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\train_torch.py", line 223, in <module>
+    language_model(args) if args.task == "lm" else supervised(args)
+                                                   ^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\train_torch.py", line 113, in supervised
+    vectors, hits = glove_vectors(args.glove, vocab, args.dim)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\train_torch.py", line 60, in glove_vectors
+    with open(path, encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt'

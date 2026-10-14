@@ -1,0 +1,131 @@
+{
+  "name": "binary_n1_softmax_lr0.1_b64_shuffleTrue_kaggle",
+  "config": {
+    "data_name": "sentiment_kaggle",
+    "features": "binary",
+    "ngram": 1,
+    "loss": "softmax",
+    "lr": 0.1,
+    "batch": 64,
+    "epochs": 20,
+    "seed": 42,
+    "shuffle": true,
+    "device_used": "cpu",
+    "implementation": "NumPy"
+  },
+  "started": "2026-10-14T09:10:52.393886+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.2200197442871412,
+      "dev_accuracy": 0.5298684632659608
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.164293647057498,
+      "dev_accuracy": 0.5407122232916266
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.136485312724628,
+      "dev_accuracy": 0.547321142123837
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.1168007582494437,
+      "dev_accuracy": 0.5496310555020854
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.1009939354458425,
+      "dev_accuracy": 0.5484760988129612
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.0880438792539404,
+      "dev_accuracy": 0.5527751042669233
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.0771339534197166,
+      "dev_accuracy": 0.5532884183509785
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.0680123338438132,
+      "dev_accuracy": 0.5543792107795957
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.0603985555345452,
+      "dev_accuracy": 0.5543150465190889
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.054847303723554,
+      "dev_accuracy": 0.5576515880654476
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.0473694550056005,
+      "dev_accuracy": 0.5600256657042028
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.0423043960167964,
+      "dev_accuracy": 0.558678216233558
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.0372978636119496,
+      "dev_accuracy": 0.562399743342958
+    },
+    {
+      "epoch": 14,
+      "train_loss": 1.033230778454166,
+      "dev_accuracy": 0.5628488931665062
+    },
+    {
+      "epoch": 15,
+      "train_loss": 1.0296147557388475,
+      "dev_accuracy": 0.5679178697465511
+    },
+    {
+      "epoch": 16,
+      "train_loss": 1.0258251936634912,
+      "dev_accuracy": 0.5666987487969202
+    },
+    {
+      "epoch": 17,
+      "train_loss": 1.0227890307125551,
+      "dev_accuracy": 0.5688161693936478
+    },
+    {
+      "epoch": 18,
+      "train_loss": 1.019961730222075,
+      "dev_accuracy": 0.5654796278472891
+    },
+    {
+      "epoch": 19,
+      "train_loss": 1.01740780401742,
+      "dev_accuracy": 0.5660571061918511
+    },
+    {
+      "epoch": 20,
+      "train_loss": 1.0156114237668215,
+      "dev_accuracy": 0.5746551170997755
+    }
+  ],
+  "device": "cpu",
+  "elapsed_seconds": 19.635977800004184,
+  "best_dev_accuracy": 0.5746551170997755,
+  "test_accuracy": 0.5780917844191572,
+  "test_macro_f1": 0.3189200348935961,
+  "counts": {
+    "train": 124481,
+    "dev": 15585,
+    "test": 15994
+  },
+  "vocabulary_size": 13635
+}

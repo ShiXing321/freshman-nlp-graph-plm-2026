@@ -1,0 +1,91 @@
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 1, "loss": 0.676998496055603, "train_seconds": 0.5858031999996456, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 2, "loss": 0.6696404814720154, "train_seconds": 0.024206300000514602, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 3, "loss": 0.6608486771583557, "train_seconds": 0.014895599999363185, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 4, "loss": 0.6525329351425171, "train_seconds": 0.021705699999074568, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 5, "loss": 0.6489213705062866, "train_seconds": 0.027692599998772494, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 6, "loss": 0.6441788673400879, "train_seconds": 0.02373950000037439, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 7, "loss": 0.639404833316803, "train_seconds": 0.022548599999936414, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 8, "loss": 0.637703001499176, "train_seconds": 0.018894500000897096, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 9, "loss": 0.6319867968559265, "train_seconds": 0.018715800000791205, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 10, "loss": 0.6270177960395813, "train_seconds": 0.02620749999914551, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 11, "loss": 0.6262249946594238, "train_seconds": 0.024411200000031386, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 12, "loss": 0.6255316138267517, "train_seconds": 0.03239410000060161, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 13, "loss": 0.6214856505393982, "train_seconds": 0.028510300000561983, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 14, "loss": 0.6208861470222473, "train_seconds": 0.027925200000026962, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 15, "loss": 0.618983268737793, "train_seconds": 0.02354899999954796, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 16, "loss": 0.617287278175354, "train_seconds": 0.02164199999970151, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 17, "loss": 0.6149021983146667, "train_seconds": 0.012813299999834271, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 18, "loss": 0.6135424971580505, "train_seconds": 0.02354190000005474, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 19, "loss": 0.6137549877166748, "train_seconds": 0.020688200000222423, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 20, "loss": 0.6127545237541199, "train_seconds": 0.02747119999912684, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 21, "loss": 0.6109523773193359, "train_seconds": 0.024028800000451156, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 22, "loss": 0.6135888695716858, "train_seconds": 0.022226600000067265, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 23, "loss": 0.6105307936668396, "train_seconds": 0.018519700000979356, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 24, "loss": 0.611138105392456, "train_seconds": 0.024272799999380368, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 25, "loss": 0.6104446649551392, "train_seconds": 0.018406200000754325, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 26, "loss": 0.6098605394363403, "train_seconds": 0.015652100000806968, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 27, "loss": 0.6085368394851685, "train_seconds": 0.016528300000572926, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 28, "loss": 0.6094071269035339, "train_seconds": 0.012590700000146171, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 29, "loss": 0.6083588600158691, "train_seconds": 0.012800100001186365, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='min')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 30, "loss": 0.6111012697219849, "train_seconds": 0.011768700000175158, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\graph_beginner\task3\results\MUTAG_sage_min_full_n0_lr0.001_l2.json

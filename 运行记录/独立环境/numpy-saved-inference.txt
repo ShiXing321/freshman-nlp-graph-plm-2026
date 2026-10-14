@@ -1,0 +1,31 @@
+{
+  "checkpoint": "nlp-beginner/legacy/task1/checkpoints/tfidf_n2_softmax_lr0.5_b64_shuffleTrue_kaggle.npz",
+  "test_examples": 15994,
+  "accuracy": 0.5613355008128048,
+  "macro_f1": 0.27267419308803875
+}
+{
+  "text": "This quiet , introspective and entertaining independent is worth seeking .",
+  "gold": 4,
+  "prediction": 3
+}
+{
+  "text": "This quiet , introspective and entertaining independent",
+  "gold": 3,
+  "prediction": 3
+}
+{
+  "text": "This",
+  "gold": 2,
+  "prediction": 2
+}
+{
+  "text": "quiet , introspective and entertaining independent",
+  "gold": 4,
+  "prediction": 3
+}
+{
+  "text": "quiet , introspective and entertaining",
+  "gold": 3,
+  "prediction": 3
+}

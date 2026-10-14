@@ -1,0 +1,4 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{"epoch": 1, "loss": 1.0513539813598618, "dev": {"loss": 0.44578158500577075, "perplexity": 1.561710328327901, "tokens": 991}}
+{"epoch": 2, "loss": 0.28911285381851487, "dev": {"loss": 0.3105543819444083, "perplexity": 1.3641811819538159, "tokens": 991}}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\sft.json

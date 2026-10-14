@@ -1,0 +1,10 @@
+SwapSPO 140 samples
+{"epoch": 1, "loss": 0.022495079234416095, "dev": {"precision": 0.5581395348837209, "recall": 1.0, "f1": 0.7164179104477612, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 2, "loss": 0.007205712528652245, "dev": {"precision": 0.5897435897435898, "recall": 0.9583333333333334, "f1": 0.7301587301587301, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 3, "loss": 0.004588080057916652, "dev": {"precision": 0.5641025641025641, "recall": 0.9166666666666666, "f1": 0.6984126984126983, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 4, "loss": 0.005265481546084826, "dev": {"precision": 0.5526315789473685, "recall": 0.875, "f1": 0.6774193548387096, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 5, "loss": 0.0022113579639549755, "dev": {"precision": 0.6551724137931034, "recall": 0.7916666666666666, "f1": 0.7169811320754716, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 6, "loss": 0.002381284843830256, "dev": {"precision": 0.65625, "recall": 0.875, "f1": 0.75, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 7, "loss": 0.0017571039399375122, "dev": {"precision": 0.525, "recall": 0.875, "f1": 0.6562500000000001, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 8, "loss": 0.001423915918657522, "dev": {"precision": 0.6216216216216216, "recall": 0.9583333333333334, "f1": 0.7540983606557377, "gold_spans": 24}, "threshold": 0.7}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\uie_base_swap_v1.json

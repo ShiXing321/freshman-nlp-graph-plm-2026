@@ -1,0 +1,465 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "NLP task1 original Kaggle data",
+      "passed": true,
+      "count": 9,
+      "expected": 9
+    },
+    {
+      "name": "NLP task2 original Kaggle data",
+      "passed": true,
+      "count": 7,
+      "expected": 7
+    },
+    {
+      "name": "NLP task3 expanded experiment",
+      "passed": true
+    },
+    {
+      "name": "SNLI full held-out evaluation",
+      "passed": true
+    },
+    {
+      "name": "NLP task4 expanded experiment",
+      "passed": true
+    },
+    {
+      "name": "CoNLL complete sentence coverage",
+      "passed": true
+    },
+    {
+      "name": "NER casing study",
+      "passed": true
+    },
+    {
+      "name": "Graph task1 model/dataset/mode grid",
+      "passed": true,
+      "count": 24
+    },
+    {
+      "name": "Graph task1 learning-rate/layer studies",
+      "passed": true
+    },
+    {
+      "name": "Graph task2 model/dataset/mode grid",
+      "passed": true,
+      "count": 24
+    },
+    {
+      "name": "Graph task2 learning-rate/layer studies",
+      "passed": true
+    },
+    {
+      "name": "Graph graph-level full pooling grid",
+      "passed": true
+    },
+    {
+      "name": "Graph graph-level parameter studies",
+      "passed": true
+    },
+    {
+      "name": "KGE full training and test",
+      "passed": true
+    },
+    {
+      "name": "PLM classification",
+      "passed": true
+    },
+    {
+      "name": "PLM pointwise",
+      "passed": true
+    },
+    {
+      "name": "PLM dssm",
+      "passed": true
+    },
+    {
+      "name": "PLM sbert",
+      "passed": true
+    },
+    {
+      "name": "PLM simcse",
+      "passed": true
+    },
+    {
+      "name": "PLM pet",
+      "passed": true
+    },
+    {
+      "name": "PLM ptuning",
+      "passed": true
+    },
+    {
+      "name": "PLM reward",
+      "passed": true
+    },
+    {
+      "name": "PLM qwen_ppo",
+      "passed": true
+    },
+    {
+      "name": "PLM qwen_mbti",
+      "passed": true
+    },
+    {
+      "name": "PLM sft",
+      "passed": true
+    },
+    {
+      "name": "PLM cpt",
+      "passed": true
+    },
+    {
+      "name": "PLM scratch",
+      "passed": true
+    },
+    {
+      "name": "PLM scratch-sft",
+      "passed": true
+    },
+    {
+      "name": "UIE pretrained and augmentation grid",
+      "passed": true
+    },
+    {
+      "name": "T5 expanded QA and filling",
+      "passed": true
+    },
+    {
+      "name": "Zero-shot expanded evaluation",
+      "passed": true
+    },
+    {
+      "name": "Zero-shot prompt validation study",
+      "passed": true
+    },
+    {
+      "name": "Zero-shot source-text output check",
+      "passed": true
+    },
+    {
+      "name": "PPO held-out before/after evaluation",
+      "passed": true
+    },
+    {
+      "name": "Actual Mask Then Fill generation",
+      "passed": true
+    },
+    {
+      "name": "Mask filling quality and offsets",
+      "passed": true
+    },
+    {
+      "name": "Actual SwapSPO augmentation",
+      "passed": true
+    },
+    {
+      "name": "Held-out diagnostics task2_classes.json",
+      "passed": true
+    },
+    {
+      "name": "Held-out diagnostics task3_classes.json",
+      "passed": true
+    },
+    {
+      "name": "Held-out diagnostics task4_entities.json",
+      "passed": true
+    },
+    {
+      "name": "ESIM attention on held-out example",
+      "passed": true
+    },
+    {
+      "name": "Link saved-model CPU/CUDA comparison",
+      "passed": true
+    },
+    {
+      "name": "Kaggle group split has no overlap",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/总报告.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/总报告.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM任务.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections nlp-beginner/legacy/task1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links nlp-beginner/legacy/task1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections nlp-beginner/legacy/task2/README.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links nlp-beginner/legacy/task2/README.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections nlp-beginner/legacy/task3/README.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links nlp-beginner/legacy/task3/README.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections nlp-beginner/legacy/task4/README.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links nlp-beginner/legacy/task4/README.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections nlp-beginner/legacy/task5/README.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links nlp-beginner/legacy/task5/README.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections graph_beginner/task1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links graph_beginner/task1/README.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections graph_beginner/task2/README.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links graph_beginner/task2/README.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections graph_beginner/task3/README.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links graph_beginner/task3/README.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections graph_beginner/task4/README.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links graph_beginner/task4/README.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_Prompt.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_Prompt.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_RLHF.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_RLHF.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_T5生成.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_T5生成.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_信息抽取.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_信息抽取.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_分类.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_分类.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_大模型应用.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_大模型应用.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_大模型训练.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_大模型训练.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_工具.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_工具.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_文本分类.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_文本分类.md",
+      "passed": true
+    },
+    {
+      "name": "Report sections 学习报告/PLM_文本匹配.md",
+      "passed": true
+    },
+    {
+      "name": "Portable links 学习报告/PLM_文本匹配.md",
+      "passed": true
+    },
+    {
+      "name": "Report links exist",
+      "passed": true,
+      "broken": []
+    },
+    {
+      "name": "Raw screenshot nlp1",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot nlp2",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot nlp3",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot nlp4",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot nlp5",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot graph1",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot graph2",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot graph3",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot graph4",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-bert",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-uie",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-reward",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-qa",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-filling",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-sft",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-cpt",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-ppo",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-scratch",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-scratch-sft",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-zero-shot",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-mbti",
+      "passed": true
+    },
+    {
+      "name": "Raw screenshot plm-tools",
+      "passed": true
+    },
+    {
+      "name": "运行记录/核查/audit.json",
+      "passed": true
+    },
+    {
+      "name": "运行记录/核查/generation_reload_checks.json",
+      "passed": true
+    },
+    {
+      "name": "运行记录/local_tools_checks.json",
+      "passed": true
+    },
+    {
+      "name": "运行记录/核查/kge_ranking.json",
+      "passed": true
+    },
+    {
+      "name": "运行记录/独立环境核查.json",
+      "passed": true
+    },
+    {
+      "name": "Data and model provenance manifest",
+      "passed": true
+    }
+  ],
+  "scope": "all original task categories with documented local model/data conditions; human review remains separate"
+}

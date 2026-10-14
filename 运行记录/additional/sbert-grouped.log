@@ -1,0 +1,18 @@
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+{"epoch": 1, "loss": 0.6443926711704981, "dev": {"accuracy": 0.672316384180791, "macro_f1": 0.41802721088435374, "auc": 0.747076023391813, "average_precision": 0.5097316040737854}}
+{"epoch": 2, "loss": 0.546001067657512, "dev": {"accuracy": 0.7627118644067796, "macro_f1": 0.7257231404958677, "auc": 0.8326023391812865, "average_precision": 0.6736671506022404}}
+{"epoch": 3, "loss": 0.44811344492215893, "dev": {"accuracy": 0.7909604519774012, "macro_f1": 0.7695069158483793, "auc": 0.8859649122807017, "average_precision": 0.8152074784752985}}
+{"epoch": 4, "loss": 0.3380440781912075, "dev": {"accuracy": 0.8418079096045198, "macro_f1": 0.827485380116959, "auc": 0.9228070175438596, "average_precision": 0.8579755658624386}}
+{"epoch": 5, "loss": 0.24348732684602717, "dev": {"accuracy": 0.8700564971751412, "macro_f1": 0.8544251743250492, "auc": 0.945029239766082, "average_precision": 0.8847044967599993}}
+{"epoch": 6, "loss": 0.16973436542283157, "dev": {"accuracy": 0.8531073446327684, "macro_f1": 0.8267841011743451, "auc": 0.9241228070175438, "average_precision": 0.8857875391831973}}
+{"epoch": 7, "loss": 0.11258937885837463, "dev": {"accuracy": 0.8700564971751412, "macro_f1": 0.849071293515738, "auc": 0.928654970760234, "average_precision": 0.8972080973759476}}
+{"epoch": 8, "loss": 0.08084703689665086, "dev": {"accuracy": 0.903954802259887, "macro_f1": 0.8836111863226704, "auc": 0.927485380116959, "average_precision": 0.9079266399909397}}
+{"epoch": 9, "loss": 0.054216676943593396, "dev": {"accuracy": 0.903954802259887, "macro_f1": 0.8861477921979644, "auc": 0.9419590643274853, "average_precision": 0.9159885914714567}}
+{"epoch": 10, "loss": 0.03132852952208931, "dev": {"accuracy": 0.8813559322033898, "macro_f1": 0.8578313253012049, "auc": 0.9321637426900585, "average_precision": 0.9027426608103061}}
+{"epoch": 11, "loss": 0.01846667773262845, "dev": {"accuracy": 0.8870056497175142, "macro_f1": 0.8653377967133293, "auc": 0.9359649122807018, "average_precision": 0.9113846983097749}}
+{"epoch": 12, "loss": 0.016177278954459036, "dev": {"accuracy": 0.903954802259887, "macro_f1": 0.8849110728628802, "auc": 0.9441520467836259, "average_precision": 0.9254796917549923}}
+{"epoch": 13, "loss": 0.011468740535308712, "dev": {"accuracy": 0.8870056497175142, "macro_f1": 0.8653377967133293, "auc": 0.9406432748538012, "average_precision": 0.9191728481619936}}
+{"epoch": 14, "loss": 0.007226510639357929, "dev": {"accuracy": 0.903954802259887, "macro_f1": 0.8849110728628802, "auc": 0.9498538011695906, "average_precision": 0.9290354804857097}}
+{"epoch": 15, "loss": 0.00525280209091711, "dev": {"accuracy": 0.8700564971751412, "macro_f1": 0.84596466003254, "auc": 0.9358187134502924, "average_precision": 0.9089861498012267}}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\sbert_n0_lr0.0003_grouped.json

@@ -1,0 +1,4 @@
+{"epoch": 1, "loss": 7.983323232650757, "dev": {"loss": 7.073514955361894}}
+{"epoch": 2, "loss": 7.002278696060181, "dev": {"loss": 6.443717673716174}}
+{"epoch": 3, "loss": 6.468332134246826, "dev": {"loss": 5.9860671155518865}}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\t5_qa_n1000.json

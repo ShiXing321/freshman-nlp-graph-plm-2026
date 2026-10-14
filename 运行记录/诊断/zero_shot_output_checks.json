@@ -1,0 +1,2946 @@
+{
+  "status": "passed",
+  "method": "Keep a parsed entity only when its exact text occurs in the original content; invalid JSON stays invalid. No new model generation or label-based filtering.",
+  "reports": [
+    {
+      "model": "qwen_zero_shot_v2_expanded",
+      "raw": {
+        "exact_set_accuracy": 0.02,
+        "valid_json_rate": 1.0,
+        "precision": 0.043010752688172046,
+        "recall": 0.47058823529411764,
+        "f1": 0.0788177339901478,
+        "positive_samples": 15,
+        "negative_samples": 85,
+        "positive_exact_set_accuracy": 0.13333333333333333,
+        "negative_exact_set_accuracy": 0.0,
+        "balanced_exact_set_accuracy": 0.06666666666666667,
+        "empty_output_rate": 0.0
+      },
+      "source_checked": {
+        "exact_set_accuracy": 0.28,
+        "valid_json_rate": 1.0,
+        "precision": 0.05555555555555555,
+        "recall": 0.47058823529411764,
+        "f1": 0.09937888198757763,
+        "positive_samples": 15,
+        "negative_samples": 85,
+        "positive_exact_set_accuracy": 0.13333333333333333,
+        "negative_exact_set_accuracy": 0.3058823529411765,
+        "balanced_exact_set_accuracy": 0.2196078431372549,
+        "empty_output_rate": 0.27
+      },
+      "removed_entities": 42,
+      "invalid_gold_mentions": [],
+      "examples": [
+        {
+          "prompt": "李泳豪的出生地",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"国家海洋局工程技术带头人\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "国家海洋局工程技术带头人",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "国家海洋局工程技术带头人",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的母亲",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司的母亲\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司的母亲"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李泳豪的毕业院校",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"艺校\",\n    \"艺校\"\n]\n```",
+          "prediction": [
+            "艺校",
+            "艺校"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "王宏文的出生地",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "河南新密市"
+          ],
+          "output": "```json\n[\"河南新密市\"]\n```",
+          "prediction": [
+            "河南新密市"
+          ],
+          "correct": true,
+          "source_checked_prediction": [
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "李泳豪的朝代",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎"
+          ]
+        },
+        {
+          "prompt": "Date",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李泳豪",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "李泳豪"
+          ]
+        },
+        {
+          "prompt": "企业",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南省人民政府宗教事务局\",\n    \"河南新密市\"\n]\n```",
+          "prediction": [
+            "河南省人民政府宗教事务局",
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市",
+            "河南省人民政府宗教事务局"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司\",\n    \"中小型企业\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司",
+            "中小型企业"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中小型企业",
+            "创域企业管理顾问有限公司"
+          ]
+        },
+        {
+          "prompt": "张国亮的丈夫",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮，男，博士，博士生导师，教授级高工\"\n]\n```",
+          "prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工"
+          ]
+        },
+        {
+          "prompt": "历史人物",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南新密市\",\n    \"1952年1月\"\n]\n```",
+          "prediction": [
+            "河南新密市",
+            "1952年1月"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月",
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "王宏文的目",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南新密市\",\n    \"1952年1月\"\n]\n```",
+          "prediction": [
+            "河南新密市",
+            "1952年1月"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月",
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "王宏文的国籍",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\"河南新密市\"]\n```",
+          "prediction": [
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "历史人物",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [
+            "李贺"
+          ],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "李泳豪的成立日期",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"2013-07-15\"\n]\n```",
+          "prediction": [
+            "2013-07-15"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "目",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"博士\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "博士",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "王宏文的民族",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "汉",
+            "汉族"
+          ],
+          "output": "```json\n[\n    \"河南新密市\",\n    \"汉族\",\n    \"1952年1月\"\n]\n```",
+          "prediction": [
+            "河南新密市",
+            "汉族",
+            "1952年1月"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月",
+            "汉族",
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "人物",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "王宏文"
+          ],
+          "output": "```json\n[\n    \"王宏文\",\n    \"河南新密市\"\n]\n```",
+          "prediction": [
+            "王宏文",
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市",
+            "王宏文"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"中唐\",\n    \"中唐最后一位诗人\"\n]\n```",
+          "prediction": [
+            "中唐",
+            "中唐最后一位诗人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "中唐最后一位诗人"
+          ]
+        },
+        {
+          "prompt": "地点",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\",\n    \"上海\"\n]\n```",
+          "prediction": [
+            "中国",
+            "上海"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "地点",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"天津大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "天津大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "国家海洋局工程技术带头人",
+            "天津大学"
+          ]
+        },
+        {
+          "prompt": "地点",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎"
+          ]
+        },
+        {
+          "prompt": "人物",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [
+            "张国亮"
+          ],
+          "output": "```json\n[\n    \"张国亮\",\n    \"博士\",\n    \"博士生导师\",\n    \"教授级高工\",\n    \"毕业于天津大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "张国亮",
+            "博士",
+            "博士生导师",
+            "教授级高工",
+            "毕业于天津大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "博士生导师",
+            "国家海洋局工程技术带头人",
+            "张国亮",
+            "教授级高工",
+            "毕业于天津大学"
+          ]
+        },
+        {
+          "prompt": "张国亮的朝代",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"天津大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "天津大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "国家海洋局工程技术带头人",
+            "天津大学"
+          ]
+        },
+        {
+          "prompt": "王宏文的妻子",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文\",\n    \"妻子\"\n]\n```",
+          "prediction": [
+            "王宏文",
+            "妻子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文"
+          ]
+        },
+        {
+          "prompt": "Date",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [
+            "2002年"
+          ],
+          "output": "```json\n[\n    \"2002\"\n]\n```",
+          "prediction": [
+            "2002"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002"
+          ]
+        },
+        {
+          "prompt": "李泳豪的妻子",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "张国亮的目",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"博士\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "博士",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [
+            "天津大学"
+          ],
+          "output": "```json\n[\n    \"浙江工业大学\",\n    \"天津大学\"\n]\n```",
+          "prediction": [
+            "浙江工业大学",
+            "天津大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "天津大学",
+            "浙江工业大学"
+          ]
+        },
+        {
+          "prompt": "王宏文的毕业院校",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\"河南新密市\"]\n```",
+          "prediction": [
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "李泳豪的民族",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "李贺的妻子",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的妻子\"\n]\n```",
+          "prediction": [
+            "李贺的妻子"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "王宏文的父亲",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员\"\n]\n```",
+          "prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南省人民政府宗教事务局\",\n    \"河南新密市\"\n]\n```",
+          "prediction": [
+            "河南省人民政府宗教事务局",
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市",
+            "河南省人民政府宗教事务局"
+          ]
+        },
+        {
+          "prompt": "目",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李泳豪",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "李泳豪"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的国籍",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\"\n]\n```",
+          "prediction": [
+            "中国"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的出生地",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\"\n]\n```",
+          "prediction": [
+            "中国"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "企业",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"艺人\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "艺人",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "艺人"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的成立日期",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [
+            "2002年"
+          ],
+          "output": "```json\n[\"2002\"]\n```",
+          "prediction": [
+            "2002"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的毕业院校",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中国科学技术大学\",\n    \"上海交通大学\"\n]\n```",
+          "prediction": [
+            "中国科学技术大学",
+            "上海交通大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的国籍",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\",\n    \"中国\"\n]\n```",
+          "prediction": [
+            "中国",
+            "中国"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的成立日期",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"1063\",\n    \"1074\"\n]\n```",
+          "prediction": [
+            "1063",
+            "1074"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的民族",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中小企业\",\n    \"企业家\"\n]\n```",
+          "prediction": [
+            "中小企业",
+            "企业家"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的出生日期",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\"201\"]\n```",
+          "prediction": [
+            "201"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的目",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的目\",\n    \"李贺的年代\"\n]\n```",
+          "prediction": [
+            "李贺的目",
+            "李贺的年代"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "地点",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"中唐\",\n    \"唐代\"\n]\n```",
+          "prediction": [
+            "中唐",
+            "唐代"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐"
+          ]
+        },
+        {
+          "prompt": "王宏文的出生日期",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "1952年1月"
+          ],
+          "output": "```json\n[\"1952-01-01\"]\n```",
+          "prediction": [
+            "1952-01-01"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的出生地",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\"天津大学\"]\n```",
+          "prediction": [
+            "天津大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "天津大学"
+          ]
+        },
+        {
+          "prompt": "Date",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "1952年1月"
+          ],
+          "output": "```json\n[\"王宏文\"]\n```",
+          "prediction": [
+            "王宏文"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文"
+          ]
+        },
+        {
+          "prompt": "李泳豪的母亲",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [
+            "施明"
+          ],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "Text",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [
+            "中唐"
+          ],
+          "output": "```json\n[\n    \"李贺所处年代属于中唐\",\n    \"有人称他为中唐最后一位诗人\"\n]\n```",
+          "prediction": [
+            "李贺所处年代属于中唐",
+            "有人称他为中唐最后一位诗人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "有人称他为中唐最后一位诗人",
+            "李贺所处年代属于中唐"
+          ]
+        },
+        {
+          "prompt": "历史人物",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮\",\n    \"博士\"\n]\n```",
+          "prediction": [
+            "张国亮",
+            "博士"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "张国亮"
+          ]
+        },
+        {
+          "prompt": "Text",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮\",\n    \"博士\",\n    \"博士生导师\",\n    \"教授级高工\",\n    \"毕业于天津大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "张国亮",
+            "博士",
+            "博士生导师",
+            "教授级高工",
+            "毕业于天津大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "博士生导师",
+            "国家海洋局工程技术带头人",
+            "张国亮",
+            "教授级高工",
+            "毕业于天津大学"
+          ]
+        },
+        {
+          "prompt": "李贺的丈夫",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的丈夫\"\n]\n```",
+          "prediction": [
+            "李贺的丈夫"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的目",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"帮助中小型企业领导人建立和完善企业管理系统\",\n    \"使自己企业成为一个自动运作的商业盈利机构\"\n]\n```",
+          "prediction": [
+            "帮助中小型企业领导人建立和完善企业管理系统",
+            "使自己企业成为一个自动运作的商业盈利机构"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "使自己企业成为一个自动运作的商业盈利机构",
+            "帮助中小型企业领导人建立和完善企业管理系统"
+          ]
+        },
+        {
+          "prompt": "李贺的毕业院校",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"长安大学\",\n    \"西安电子科技大学\"\n]\n```",
+          "prediction": [
+            "长安大学",
+            "西安电子科技大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的妻子",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮\",\n    \"副教授\"\n]\n```",
+          "prediction": [
+            "张国亮",
+            "副教授"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "张国亮"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的出生日期",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\"2002\"]\n```",
+          "prediction": [
+            "2002"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"国家\",\n    \"中国\"\n]\n```",
+          "prediction": [
+            "国家",
+            "中国"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "生物",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"博士\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "博士",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "Text",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "汉",
+            "汉族"
+          ],
+          "output": "```json\n[\n    \"王宏文\",\n    \"男\",\n    \"汉族\",\n    \"1952年1月出生\",\n    \"河南新密市人\",\n    \"中共党员\",\n    \"大学学历\"\n]\n```",
+          "prediction": [
+            "王宏文",
+            "男",
+            "汉族",
+            "1952年1月出生",
+            "河南新密市人",
+            "中共党员",
+            "大学学历"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月出生",
+            "中共党员",
+            "大学学历",
+            "汉族",
+            "河南新密市人",
+            "王宏文",
+            "男"
+          ]
+        },
+        {
+          "prompt": "李贺的民族",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"中唐\",\n    \"李贺\"\n]\n```",
+          "prediction": [
+            "中唐",
+            "李贺"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "王宏文的丈夫",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员\"\n]\n```",
+          "prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ]
+        },
+        {
+          "prompt": "张国亮的出生日期",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\"1964-05-23\"]\n```",
+          "prediction": [
+            "1964-05-23"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的母亲",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的母亲\"\n]\n```",
+          "prediction": [
+            "李贺的母亲"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的民族",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"博士\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "博士",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "生物",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"艺人\",\n    \"儿子\"\n]\n```",
+          "prediction": [
+            "艺人",
+            "儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "儿子",
+            "艺人"
+          ]
+        },
+        {
+          "prompt": "李泳豪的出生日期",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\"2001-05-18\"]\n```",
+          "prediction": [
+            "2001-05-18"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "生物",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"唐代\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "唐代"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李泳豪",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "李泳豪"
+          ]
+        },
+        {
+          "prompt": "企业",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "Date",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\"博士\"]\n```",
+          "prediction": [
+            "博士"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的父亲",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司的父亲\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司的父亲"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的毕业院校",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [
+            "天津大学"
+          ],
+          "output": "```json\n[\"天津大学\"]\n```",
+          "prediction": [
+            "天津大学"
+          ],
+          "correct": true,
+          "source_checked_prediction": [
+            "天津大学"
+          ]
+        },
+        {
+          "prompt": "张国亮的父亲",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮，男，博士，博士生导师，教授级高工\"\n]\n```",
+          "prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工"
+          ]
+        },
+        {
+          "prompt": "王宏文的成立日期",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\"1952-01-01\"]\n```",
+          "prediction": [
+            "1952-01-01"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "Text",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "人物",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "生物",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中小企业\",\n    \"企业管理系统\"\n]\n```",
+          "prediction": [
+            "中小企业",
+            "企业管理系统"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "企业管理系统"
+          ]
+        },
+        {
+          "prompt": "李泳豪的父亲",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [
+            "李家鼎"
+          ],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "历史人物",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司\",\n    \"2002年\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司",
+            "2002年"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002年",
+            "创域企业管理顾问有限公司"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的妻子",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司的创始人是张伟\",\n    \"创域企业管理顾问有限公司的董事长是王丽\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司的创始人是张伟",
+            "创域企业管理顾问有限公司的董事长是王丽"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "Date",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "王宏文的母亲",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员\"\n]\n```",
+          "prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ]
+        },
+        {
+          "prompt": "张国亮的母亲",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮，男，博士，博士生导师，教授级高工\",\n    \"毕业于天津大学\"\n]\n```",
+          "prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工",
+            "毕业于天津大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工",
+            "毕业于天津大学"
+          ]
+        },
+        {
+          "prompt": "王宏文的朝代",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南省\",\n    \"新密市\"\n]\n```",
+          "prediction": [
+            "河南省",
+            "新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "新密市",
+            "河南省"
+          ]
+        },
+        {
+          "prompt": "李贺的父亲",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的父亲\"\n]\n```",
+          "prediction": [
+            "李贺的父亲"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "历史人物",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的朝代",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"2002\"\n]\n```",
+          "prediction": [
+            "2002"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李泳豪",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "李泳豪"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南省人民政府宗教事务局\",\n    \"河南新密市\"\n]\n```",
+          "prediction": [
+            "河南省人民政府宗教事务局",
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市",
+            "河南省人民政府宗教事务局"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的丈夫",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司的丈夫\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司的丈夫"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李泳豪的目",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的出生地",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\",\n    \"上海\"\n]\n```",
+          "prediction": [
+            "中国",
+            "上海"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李泳豪的丈夫",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "生物",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"男性\",\n    \"汉族\",\n    \"1952年1月出生\",\n    \"河南新密市人\",\n    \"中共党员\",\n    \"大学学历\"\n]\n```",
+          "prediction": [
+            "男性",
+            "汉族",
+            "1952年1月出生",
+            "河南新密市人",
+            "中共党员",
+            "大学学历"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月出生",
+            "中共党员",
+            "大学学历",
+            "汉族",
+            "河南新密市人"
+          ]
+        },
+        {
+          "prompt": "目",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文\",\n    \"男\",\n    \"汉族\",\n    \"1952年1月出生\",\n    \"河南新密市人\",\n    \"中共党员\",\n    \"大学学历\"\n]\n```",
+          "prediction": [
+            "王宏文",
+            "男",
+            "汉族",
+            "1952年1月出生",
+            "河南新密市人",
+            "中共党员",
+            "大学学历"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月出生",
+            "中共党员",
+            "大学学历",
+            "汉族",
+            "河南新密市人",
+            "王宏文",
+            "男"
+          ]
+        },
+        {
+          "prompt": "企业",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"浙江工业大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "浙江工业大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "国家海洋局工程技术带头人",
+            "浙江工业大学"
+          ]
+        },
+        {
+          "prompt": "张国亮的成立日期",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\"2013-01-01\"]\n```",
+          "prediction": [
+            "2013-01-01"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        }
+      ]
+    },
+    {
+      "model": "qwen_zero_shot_prompt_study",
+      "raw": {
+        "exact_set_accuracy": 0.02,
+        "valid_json_rate": 1.0,
+        "precision": 0.043010752688172046,
+        "recall": 0.47058823529411764,
+        "f1": 0.0788177339901478,
+        "positive_samples": 15,
+        "negative_samples": 85,
+        "positive_exact_set_accuracy": 0.13333333333333333,
+        "negative_exact_set_accuracy": 0.0,
+        "balanced_exact_set_accuracy": 0.06666666666666667,
+        "empty_output_rate": 0.0
+      },
+      "source_checked": {
+        "exact_set_accuracy": 0.28,
+        "valid_json_rate": 1.0,
+        "precision": 0.05555555555555555,
+        "recall": 0.47058823529411764,
+        "f1": 0.09937888198757763,
+        "positive_samples": 15,
+        "negative_samples": 85,
+        "positive_exact_set_accuracy": 0.13333333333333333,
+        "negative_exact_set_accuracy": 0.3058823529411765,
+        "balanced_exact_set_accuracy": 0.2196078431372549,
+        "empty_output_rate": 0.27
+      },
+      "removed_entities": 42,
+      "invalid_gold_mentions": [],
+      "examples": [
+        {
+          "prompt": "李泳豪的出生地",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"国家海洋局工程技术带头人\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "国家海洋局工程技术带头人",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "国家海洋局工程技术带头人",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的母亲",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司的母亲\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司的母亲"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李泳豪的毕业院校",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"艺校\",\n    \"艺校\"\n]\n```",
+          "prediction": [
+            "艺校",
+            "艺校"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "王宏文的出生地",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "河南新密市"
+          ],
+          "output": "```json\n[\"河南新密市\"]\n```",
+          "prediction": [
+            "河南新密市"
+          ],
+          "correct": true,
+          "source_checked_prediction": [
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "李泳豪的朝代",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎"
+          ]
+        },
+        {
+          "prompt": "Date",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李泳豪",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "李泳豪"
+          ]
+        },
+        {
+          "prompt": "企业",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南省人民政府宗教事务局\",\n    \"河南新密市\"\n]\n```",
+          "prediction": [
+            "河南省人民政府宗教事务局",
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市",
+            "河南省人民政府宗教事务局"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司\",\n    \"中小型企业\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司",
+            "中小型企业"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中小型企业",
+            "创域企业管理顾问有限公司"
+          ]
+        },
+        {
+          "prompt": "张国亮的丈夫",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮，男，博士，博士生导师，教授级高工\"\n]\n```",
+          "prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工"
+          ]
+        },
+        {
+          "prompt": "历史人物",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南新密市\",\n    \"1952年1月\"\n]\n```",
+          "prediction": [
+            "河南新密市",
+            "1952年1月"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月",
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "王宏文的目",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南新密市\",\n    \"1952年1月\"\n]\n```",
+          "prediction": [
+            "河南新密市",
+            "1952年1月"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月",
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "王宏文的国籍",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\"河南新密市\"]\n```",
+          "prediction": [
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "历史人物",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [
+            "李贺"
+          ],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "李泳豪的成立日期",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"2013-07-15\"\n]\n```",
+          "prediction": [
+            "2013-07-15"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "目",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"博士\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "博士",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "王宏文的民族",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "汉",
+            "汉族"
+          ],
+          "output": "```json\n[\n    \"河南新密市\",\n    \"汉族\",\n    \"1952年1月\"\n]\n```",
+          "prediction": [
+            "河南新密市",
+            "汉族",
+            "1952年1月"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月",
+            "汉族",
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "人物",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "王宏文"
+          ],
+          "output": "```json\n[\n    \"王宏文\",\n    \"河南新密市\"\n]\n```",
+          "prediction": [
+            "王宏文",
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市",
+            "王宏文"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"中唐\",\n    \"中唐最后一位诗人\"\n]\n```",
+          "prediction": [
+            "中唐",
+            "中唐最后一位诗人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "中唐最后一位诗人"
+          ]
+        },
+        {
+          "prompt": "地点",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\",\n    \"上海\"\n]\n```",
+          "prediction": [
+            "中国",
+            "上海"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "地点",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"天津大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "天津大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "国家海洋局工程技术带头人",
+            "天津大学"
+          ]
+        },
+        {
+          "prompt": "地点",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎"
+          ]
+        },
+        {
+          "prompt": "人物",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [
+            "张国亮"
+          ],
+          "output": "```json\n[\n    \"张国亮\",\n    \"博士\",\n    \"博士生导师\",\n    \"教授级高工\",\n    \"毕业于天津大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "张国亮",
+            "博士",
+            "博士生导师",
+            "教授级高工",
+            "毕业于天津大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "博士生导师",
+            "国家海洋局工程技术带头人",
+            "张国亮",
+            "教授级高工",
+            "毕业于天津大学"
+          ]
+        },
+        {
+          "prompt": "张国亮的朝代",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"天津大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "天津大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "国家海洋局工程技术带头人",
+            "天津大学"
+          ]
+        },
+        {
+          "prompt": "王宏文的妻子",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文\",\n    \"妻子\"\n]\n```",
+          "prediction": [
+            "王宏文",
+            "妻子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文"
+          ]
+        },
+        {
+          "prompt": "Date",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [
+            "2002年"
+          ],
+          "output": "```json\n[\n    \"2002\"\n]\n```",
+          "prediction": [
+            "2002"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002"
+          ]
+        },
+        {
+          "prompt": "李泳豪的妻子",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "张国亮的目",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"博士\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "博士",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [
+            "天津大学"
+          ],
+          "output": "```json\n[\n    \"浙江工业大学\",\n    \"天津大学\"\n]\n```",
+          "prediction": [
+            "浙江工业大学",
+            "天津大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "天津大学",
+            "浙江工业大学"
+          ]
+        },
+        {
+          "prompt": "王宏文的毕业院校",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\"河南新密市\"]\n```",
+          "prediction": [
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "李泳豪的民族",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "李贺的妻子",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的妻子\"\n]\n```",
+          "prediction": [
+            "李贺的妻子"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "王宏文的父亲",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员\"\n]\n```",
+          "prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南省人民政府宗教事务局\",\n    \"河南新密市\"\n]\n```",
+          "prediction": [
+            "河南省人民政府宗教事务局",
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市",
+            "河南省人民政府宗教事务局"
+          ]
+        },
+        {
+          "prompt": "目",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李泳豪",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "李泳豪"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的国籍",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\"\n]\n```",
+          "prediction": [
+            "中国"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的出生地",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\"\n]\n```",
+          "prediction": [
+            "中国"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "企业",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"艺人\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "艺人",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "艺人"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的成立日期",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [
+            "2002年"
+          ],
+          "output": "```json\n[\"2002\"]\n```",
+          "prediction": [
+            "2002"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的毕业院校",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中国科学技术大学\",\n    \"上海交通大学\"\n]\n```",
+          "prediction": [
+            "中国科学技术大学",
+            "上海交通大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的国籍",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\",\n    \"中国\"\n]\n```",
+          "prediction": [
+            "中国",
+            "中国"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的成立日期",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"1063\",\n    \"1074\"\n]\n```",
+          "prediction": [
+            "1063",
+            "1074"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的民族",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中小企业\",\n    \"企业家\"\n]\n```",
+          "prediction": [
+            "中小企业",
+            "企业家"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的出生日期",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\"201\"]\n```",
+          "prediction": [
+            "201"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的目",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的目\",\n    \"李贺的年代\"\n]\n```",
+          "prediction": [
+            "李贺的目",
+            "李贺的年代"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "地点",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"中唐\",\n    \"唐代\"\n]\n```",
+          "prediction": [
+            "中唐",
+            "唐代"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐"
+          ]
+        },
+        {
+          "prompt": "王宏文的出生日期",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "1952年1月"
+          ],
+          "output": "```json\n[\"1952-01-01\"]\n```",
+          "prediction": [
+            "1952-01-01"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的出生地",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\"天津大学\"]\n```",
+          "prediction": [
+            "天津大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "天津大学"
+          ]
+        },
+        {
+          "prompt": "Date",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "1952年1月"
+          ],
+          "output": "```json\n[\"王宏文\"]\n```",
+          "prediction": [
+            "王宏文"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文"
+          ]
+        },
+        {
+          "prompt": "李泳豪的母亲",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [
+            "施明"
+          ],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "Text",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [
+            "中唐"
+          ],
+          "output": "```json\n[\n    \"李贺所处年代属于中唐\",\n    \"有人称他为中唐最后一位诗人\"\n]\n```",
+          "prediction": [
+            "李贺所处年代属于中唐",
+            "有人称他为中唐最后一位诗人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "有人称他为中唐最后一位诗人",
+            "李贺所处年代属于中唐"
+          ]
+        },
+        {
+          "prompt": "历史人物",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮\",\n    \"博士\"\n]\n```",
+          "prediction": [
+            "张国亮",
+            "博士"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "张国亮"
+          ]
+        },
+        {
+          "prompt": "Text",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮\",\n    \"博士\",\n    \"博士生导师\",\n    \"教授级高工\",\n    \"毕业于天津大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "张国亮",
+            "博士",
+            "博士生导师",
+            "教授级高工",
+            "毕业于天津大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "博士生导师",
+            "国家海洋局工程技术带头人",
+            "张国亮",
+            "教授级高工",
+            "毕业于天津大学"
+          ]
+        },
+        {
+          "prompt": "李贺的丈夫",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的丈夫\"\n]\n```",
+          "prediction": [
+            "李贺的丈夫"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的目",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"帮助中小型企业领导人建立和完善企业管理系统\",\n    \"使自己企业成为一个自动运作的商业盈利机构\"\n]\n```",
+          "prediction": [
+            "帮助中小型企业领导人建立和完善企业管理系统",
+            "使自己企业成为一个自动运作的商业盈利机构"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "使自己企业成为一个自动运作的商业盈利机构",
+            "帮助中小型企业领导人建立和完善企业管理系统"
+          ]
+        },
+        {
+          "prompt": "李贺的毕业院校",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"长安大学\",\n    \"西安电子科技大学\"\n]\n```",
+          "prediction": [
+            "长安大学",
+            "西安电子科技大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的妻子",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮\",\n    \"副教授\"\n]\n```",
+          "prediction": [
+            "张国亮",
+            "副教授"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "张国亮"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的出生日期",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\"2002\"]\n```",
+          "prediction": [
+            "2002"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"国家\",\n    \"中国\"\n]\n```",
+          "prediction": [
+            "国家",
+            "中国"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "生物",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"博士\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "博士",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "Text",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [
+            "汉",
+            "汉族"
+          ],
+          "output": "```json\n[\n    \"王宏文\",\n    \"男\",\n    \"汉族\",\n    \"1952年1月出生\",\n    \"河南新密市人\",\n    \"中共党员\",\n    \"大学学历\"\n]\n```",
+          "prediction": [
+            "王宏文",
+            "男",
+            "汉族",
+            "1952年1月出生",
+            "河南新密市人",
+            "中共党员",
+            "大学学历"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月出生",
+            "中共党员",
+            "大学学历",
+            "汉族",
+            "河南新密市人",
+            "王宏文",
+            "男"
+          ]
+        },
+        {
+          "prompt": "李贺的民族",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"中唐\",\n    \"李贺\"\n]\n```",
+          "prediction": [
+            "中唐",
+            "李贺"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "王宏文的丈夫",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员\"\n]\n```",
+          "prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ]
+        },
+        {
+          "prompt": "张国亮的出生日期",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\"1964-05-23\"]\n```",
+          "prediction": [
+            "1964-05-23"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李贺的母亲",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的母亲\"\n]\n```",
+          "prediction": [
+            "李贺的母亲"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的民族",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"博士\",\n    \"教授级高工\"\n]\n```",
+          "prediction": [
+            "博士",
+            "教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士",
+            "教授级高工"
+          ]
+        },
+        {
+          "prompt": "生物",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"艺人\",\n    \"儿子\"\n]\n```",
+          "prediction": [
+            "艺人",
+            "儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "儿子",
+            "艺人"
+          ]
+        },
+        {
+          "prompt": "李泳豪的出生日期",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\"2001-05-18\"]\n```",
+          "prediction": [
+            "2001-05-18"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "生物",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"唐代\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "唐代"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李泳豪",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "李泳豪"
+          ]
+        },
+        {
+          "prompt": "企业",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "Date",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\"博士\"]\n```",
+          "prediction": [
+            "博士"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "博士"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的父亲",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司的父亲\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司的父亲"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "张国亮的毕业院校",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [
+            "天津大学"
+          ],
+          "output": "```json\n[\"天津大学\"]\n```",
+          "prediction": [
+            "天津大学"
+          ],
+          "correct": true,
+          "source_checked_prediction": [
+            "天津大学"
+          ]
+        },
+        {
+          "prompt": "张国亮的父亲",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮，男，博士，博士生导师，教授级高工\"\n]\n```",
+          "prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工"
+          ]
+        },
+        {
+          "prompt": "王宏文的成立日期",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\"1952-01-01\"]\n```",
+          "prediction": [
+            "1952-01-01"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "Text",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "人物",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "生物",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中小企业\",\n    \"企业管理系统\"\n]\n```",
+          "prediction": [
+            "中小企业",
+            "企业管理系统"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "企业管理系统"
+          ]
+        },
+        {
+          "prompt": "李泳豪的父亲",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [
+            "李家鼎"
+          ],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "历史人物",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司\",\n    \"2002年\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司",
+            "2002年"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002年",
+            "创域企业管理顾问有限公司"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的妻子",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司的创始人是张伟\",\n    \"创域企业管理顾问有限公司的董事长是王丽\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司的创始人是张伟",
+            "创域企业管理顾问有限公司的董事长是王丽"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "Date",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺\",\n    \"中唐\"\n]\n```",
+          "prediction": [
+            "李贺",
+            "中唐"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "中唐",
+            "李贺"
+          ]
+        },
+        {
+          "prompt": "王宏文的母亲",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员\"\n]\n```",
+          "prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员"
+          ]
+        },
+        {
+          "prompt": "张国亮的母亲",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"张国亮，男，博士，博士生导师，教授级高工\",\n    \"毕业于天津大学\"\n]\n```",
+          "prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工",
+            "毕业于天津大学"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "张国亮，男，博士，博士生导师，教授级高工",
+            "毕业于天津大学"
+          ]
+        },
+        {
+          "prompt": "王宏文的朝代",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南省\",\n    \"新密市\"\n]\n```",
+          "prediction": [
+            "河南省",
+            "新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "新密市",
+            "河南省"
+          ]
+        },
+        {
+          "prompt": "李贺的父亲",
+          "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+          "gold": [],
+          "output": "```json\n[\n    \"李贺的父亲\"\n]\n```",
+          "prediction": [
+            "李贺的父亲"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "历史人物",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的朝代",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"2002\"\n]\n```",
+          "prediction": [
+            "2002"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "2002"
+          ]
+        },
+        {
+          "prompt": "国家",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪\",\n    \"李家鼎\",\n    \"施明\"\n]\n```",
+          "prediction": [
+            "李泳豪",
+            "李家鼎",
+            "施明"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "施明",
+            "李家鼎",
+            "李泳豪"
+          ]
+        },
+        {
+          "prompt": "学校",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"河南省人民政府宗教事务局\",\n    \"河南新密市\"\n]\n```",
+          "prediction": [
+            "河南省人民政府宗教事务局",
+            "河南新密市"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "河南新密市",
+            "河南省人民政府宗教事务局"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的丈夫",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"创域企业管理顾问有限公司的丈夫\"\n]\n```",
+          "prediction": [
+            "创域企业管理顾问有限公司的丈夫"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李泳豪的目",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "创域企业管理顾问有限公司的出生地",
+          "content": "创域企业管理顾问有限公司成立于2002年，以帮助中小型企业领导人建立和完善企业管理系统为使命，从而使自己企业成为一个自动运作的商业盈利机构",
+          "gold": [],
+          "output": "```json\n[\n    \"中国\",\n    \"上海\"\n]\n```",
+          "prediction": [
+            "中国",
+            "上海"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        },
+        {
+          "prompt": "李泳豪的丈夫",
+          "content": "李泳豪是艺人李家鼎和施明的儿子",
+          "gold": [],
+          "output": "```json\n[\n    \"李泳豪是艺人李家鼎和施明的儿子\"\n]\n```",
+          "prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "李泳豪是艺人李家鼎和施明的儿子"
+          ]
+        },
+        {
+          "prompt": "生物",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"男性\",\n    \"汉族\",\n    \"1952年1月出生\",\n    \"河南新密市人\",\n    \"中共党员\",\n    \"大学学历\"\n]\n```",
+          "prediction": [
+            "男性",
+            "汉族",
+            "1952年1月出生",
+            "河南新密市人",
+            "中共党员",
+            "大学学历"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月出生",
+            "中共党员",
+            "大学学历",
+            "汉族",
+            "河南新密市人"
+          ]
+        },
+        {
+          "prompt": "目",
+          "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+          "gold": [],
+          "output": "```json\n[\n    \"王宏文\",\n    \"男\",\n    \"汉族\",\n    \"1952年1月出生\",\n    \"河南新密市人\",\n    \"中共党员\",\n    \"大学学历\"\n]\n```",
+          "prediction": [
+            "王宏文",
+            "男",
+            "汉族",
+            "1952年1月出生",
+            "河南新密市人",
+            "中共党员",
+            "大学学历"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "1952年1月出生",
+            "中共党员",
+            "大学学历",
+            "汉族",
+            "河南新密市人",
+            "王宏文",
+            "男"
+          ]
+        },
+        {
+          "prompt": "企业",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\n    \"浙江工业大学\",\n    \"国家海洋局工程技术带头人\"\n]\n```",
+          "prediction": [
+            "浙江工业大学",
+            "国家海洋局工程技术带头人"
+          ],
+          "correct": false,
+          "source_checked_prediction": [
+            "国家海洋局工程技术带头人",
+            "浙江工业大学"
+          ]
+        },
+        {
+          "prompt": "张国亮的成立日期",
+          "content": "张国亮，男，博士，博士生导师，教授级高工，毕业于天津大学，国家海洋局工程技术带头人，现浙江工业大学教授",
+          "gold": [],
+          "output": "```json\n[\"2013-01-01\"]\n```",
+          "prediction": [
+            "2013-01-01"
+          ],
+          "correct": false,
+          "source_checked_prediction": []
+        }
+      ]
+    }
+  ]
+}

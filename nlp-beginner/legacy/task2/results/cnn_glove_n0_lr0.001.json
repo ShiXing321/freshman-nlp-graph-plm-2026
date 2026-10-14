@@ -1,0 +1,97 @@
+{
+  "name": "cnn_glove_n0_lr0.001",
+  "config": {
+    "task": "classification",
+    "model": "cnn",
+    "glove": "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt",
+    "dim": 50,
+    "hidden": 64,
+    "batch": 32,
+    "epochs": 8,
+    "lr": 0.001,
+    "max_length": 100,
+    "limit": 0,
+    "seed": 42
+  },
+  "started": "2026-10-14T00:26:28.626180+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.5410874747158436,
+      "dev": {
+        "accuracy": 0.36239782016348776,
+        "macro_f1": 0.2875435638521897
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.4037202538622453,
+      "dev": {
+        "accuracy": 0.36239782016348776,
+        "macro_f1": 0.326760607234927
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.3087321140346455,
+      "dev": {
+        "accuracy": 0.39691189827429607,
+        "macro_f1": 0.33344582538747825
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.237594890237301,
+      "dev": {
+        "accuracy": 0.407811080835604,
+        "macro_f1": 0.36867152924743607
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.1652189278870486,
+      "dev": {
+        "accuracy": 0.4250681198910082,
+        "macro_f1": 0.38553368375993297
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.0961716487613065,
+      "dev": {
+        "accuracy": 0.4087193460490463,
+        "macro_f1": 0.3805937579428257
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.0104276957583338,
+      "dev": {
+        "accuracy": 0.4214350590372389,
+        "macro_f1": 0.37972118124568793
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.9610267143124498,
+      "dev": {
+        "accuracy": 0.41326067211625794,
+        "macro_f1": 0.38456829268017156
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 12.915570899998784,
+  "best_dev_score": 0.4250681198910082,
+  "test": {
+    "accuracy": 0.4461538461538462,
+    "macro_f1": 0.39438316225623504
+  },
+  "counts": {
+    "train": 8544,
+    "dev": 1101,
+    "test": 2210
+  },
+  "glove_coverage": 0.9774460595789062
+}

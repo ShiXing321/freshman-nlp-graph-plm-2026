@@ -1,0 +1,16 @@
+{"command": ["scripts/nlp_diagnostics.py"], "exit_code": 0, "finished": "2026-10-14T12:42:35.580835+08:00"}
+{"command": ["scripts/generation_data_diagnostics.py"], "exit_code": 0, "finished": "2026-10-14T12:42:48.327453+08:00"}
+{"command": ["scripts/source_manifest.py"], "exit_code": 0, "finished": "2026-10-14T12:42:50.596569+08:00"}
+{"command": ["scripts/verify_algorithms.py"], "exit_code": 0, "finished": "2026-10-14T12:42:56.977451+08:00"}
+{"command": ["scripts/verify_plm_math.py"], "exit_code": 0, "finished": "2026-10-14T12:43:07.188467+08:00"}
+{"command": ["scripts/verify_kge_ranking.py"], "exit_code": 0, "finished": "2026-10-14T12:43:09.686041+08:00"}
+{"command": ["scripts/audit_workspace.py"], "exit_code": 0, "finished": "2026-10-14T12:44:01.713336+08:00"}
+{"command": ["scripts/verify_local_tools.py"], "exit_code": 0, "finished": "2026-10-14T12:44:02.000937+08:00"}
+{"command": ["scripts/capture_runs.py"], "exit_code": 1, "finished": "2026-10-14T12:44:50.974246+08:00"}
+{"command": ["scripts/capture_runs.py", "graph2", "graph3", "graph4", "plm-bert", "plm-uie", "plm-reward", "plm-qa", "plm-filling", "plm-sft", "plm-cpt", "plm-ppo", "plm-scratch", "plm-scratch-sft", "plm-zero-shot", "plm-mbti"], "exit_code": 0, "finished": "2026-10-14T12:57:10.655834+08:00", "evidence": "per-task original stdout and capture JSON in 学习报告/运行截图"}
+{"command": ["scripts/capture_tools.py"], "exit_code": 0, "finished": "2026-10-14T12:57:13.804984+08:00"}
+{"command": ["scripts/rewrite_learning_notes.py"], "exit_code": 0, "finished": "2026-10-14T12:57:13.899320+08:00"}
+{"command": ["scripts/submission_reports.py"], "exit_code": 0, "finished": "2026-10-14T12:57:23.651487+08:00"}
+{"command": ["scripts/check_submission.py"], "exit_code": 0, "finished": "2026-10-14T12:57:24.583798+08:00"}
+{"command": ["scripts/final_progress_log.py"], "exit_code": 0, "finished": "2026-10-14T12:57:24.716535+08:00"}
+{"command": ["scripts/prepare_publish_tree.py"], "exit_code": 0, "finished": "2026-10-14T12:57:26.919919+08:00"}

@@ -1,0 +1,5007 @@
+[
+  {
+    "file": "nlp-beginner/legacy/task1/results/binary_n1_softmax_lr0.1_b64_shuffleTrue_kaggle.json",
+    "name": "binary_n1_softmax_lr0.1_b64_shuffleTrue_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "features": "binary",
+      "ngram": 1,
+      "loss": "softmax",
+      "lr": 0.1,
+      "batch": 64,
+      "epochs": 20,
+      "seed": 42,
+      "shuffle": true,
+      "device_used": "cpu",
+      "implementation": "NumPy"
+    },
+    "test": {},
+    "elapsed_seconds": 19.635977800004184
+  },
+  {
+    "file": "nlp-beginner/legacy/task1/results/count_n1_softmax_lr0.1_b64_shuffleTrue_kaggle.json",
+    "name": "count_n1_softmax_lr0.1_b64_shuffleTrue_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "features": "count",
+      "ngram": 1,
+      "loss": "softmax",
+      "lr": 0.1,
+      "batch": 64,
+      "epochs": 20,
+      "seed": 42,
+      "shuffle": true,
+      "device_used": "cpu",
+      "implementation": "NumPy"
+    },
+    "test": {},
+    "elapsed_seconds": 19.19391199999518
+  },
+  {
+    "file": "nlp-beginner/legacy/task1/results/tfidf_n1_logistic_lr0.5_b64_shuffleTrue_kaggle.json",
+    "name": "tfidf_n1_logistic_lr0.5_b64_shuffleTrue_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "features": "tfidf",
+      "ngram": 1,
+      "loss": "logistic",
+      "lr": 0.5,
+      "batch": 64,
+      "epochs": 20,
+      "seed": 42,
+      "shuffle": true,
+      "device_used": "cpu",
+      "implementation": "NumPy"
+    },
+    "test": {},
+    "elapsed_seconds": 22.55682340000203
+  },
+  {
+    "file": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.05_b1_shuffleTrue_kaggle.json",
+    "name": "tfidf_n1_softmax_lr0.05_b1_shuffleTrue_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "features": "tfidf",
+      "ngram": 1,
+      "loss": "softmax",
+      "lr": 0.05,
+      "batch": 1,
+      "epochs": 20,
+      "seed": 42,
+      "shuffle": true,
+      "device_used": "cpu",
+      "implementation": "NumPy"
+    },
+    "test": {},
+    "elapsed_seconds": 1182.3394472
+  },
+  {
+    "file": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.05_b64_shuffleTrue_kaggle.json",
+    "name": "tfidf_n1_softmax_lr0.05_b64_shuffleTrue_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "features": "tfidf",
+      "ngram": 1,
+      "loss": "softmax",
+      "lr": 0.05,
+      "batch": 64,
+      "epochs": 20,
+      "seed": 42,
+      "shuffle": true,
+      "device_used": "cpu",
+      "implementation": "NumPy"
+    },
+    "test": {},
+    "elapsed_seconds": 20.340290899999673
+  },
+  {
+    "file": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.5_b0_shuffleTrue_kaggle.json",
+    "name": "tfidf_n1_softmax_lr0.5_b0_shuffleTrue_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "features": "tfidf",
+      "ngram": 1,
+      "loss": "softmax",
+      "lr": 0.5,
+      "batch": 0,
+      "epochs": 20,
+      "seed": 42,
+      "shuffle": true,
+      "device_used": "cpu",
+      "implementation": "NumPy"
+    },
+    "test": {},
+    "elapsed_seconds": 1.1985357999947155
+  },
+  {
+    "file": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.5_b64_shuffleFalse_kaggle.json",
+    "name": "tfidf_n1_softmax_lr0.5_b64_shuffleFalse_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "features": "tfidf",
+      "ngram": 1,
+      "loss": "softmax",
+      "lr": 0.5,
+      "batch": 64,
+      "epochs": 20,
+      "seed": 42,
+      "shuffle": false,
+      "device_used": "cpu",
+      "implementation": "NumPy"
+    },
+    "test": {},
+    "elapsed_seconds": 15.124961599998642
+  },
+  {
+    "file": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.5_b64_shuffleTrue_kaggle.json",
+    "name": "tfidf_n1_softmax_lr0.5_b64_shuffleTrue_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "features": "tfidf",
+      "ngram": 1,
+      "loss": "softmax",
+      "lr": 0.5,
+      "batch": 64,
+      "epochs": 20,
+      "seed": 42,
+      "shuffle": true,
+      "device_used": "cpu",
+      "implementation": "NumPy"
+    },
+    "test": {},
+    "elapsed_seconds": 22.270229499998095
+  },
+  {
+    "file": "nlp-beginner/legacy/task1/results/tfidf_n2_softmax_lr0.5_b64_shuffleTrue_kaggle.json",
+    "name": "tfidf_n2_softmax_lr0.5_b64_shuffleTrue_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "features": "tfidf",
+      "ngram": 2,
+      "loss": "softmax",
+      "lr": 0.5,
+      "batch": 64,
+      "epochs": 20,
+      "seed": 42,
+      "shuffle": true,
+      "device_used": "cpu",
+      "implementation": "NumPy"
+    },
+    "test": {},
+    "elapsed_seconds": 23.129798900001333
+  },
+  {
+    "file": "nlp-beginner/legacy/task2/results/cnn_glove_n0_lr0.001_kaggle.json",
+    "name": "cnn_glove_n0_lr0.001_kaggle",
+    "config": {
+      "task": "classification",
+      "data_name": "sentiment_kaggle",
+      "eval_limit": 1000,
+      "tag": "",
+      "use_case": false,
+      "model": "cnn",
+      "glove": "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt",
+      "dim": 50,
+      "hidden": 64,
+      "batch": 64,
+      "epochs": 8,
+      "lr": 0.001,
+      "max_length": 100,
+      "limit": 0,
+      "seed": 42
+    },
+    "test": {
+      "accuracy": 0.6321120420157559,
+      "macro_f1": 0.4584130289898015
+    },
+    "elapsed_seconds": 90.12712420000025
+  },
+  {
+    "file": "nlp-beginner/legacy/task2/results/cnn_random_n0_lr0.001_kaggle.json",
+    "name": "cnn_random_n0_lr0.001_kaggle",
+    "config": {
+      "task": "classification",
+      "data_name": "sentiment_kaggle",
+      "eval_limit": 1000,
+      "tag": "",
+      "model": "cnn",
+      "glove": "",
+      "dim": 50,
+      "hidden": 64,
+      "batch": 64,
+      "epochs": 8,
+      "lr": 0.001,
+      "max_length": 100,
+      "limit": 0,
+      "seed": 42
+    },
+    "test": {
+      "accuracy": 0.6049143428785795,
+      "macro_f1": 0.3454566563689191
+    },
+    "elapsed_seconds": 99.60411349999777
+  },
+  {
+    "file": "nlp-beginner/legacy/task2/results/rnn_glove_n0_lr0.001_kaggle.json",
+    "name": "rnn_glove_n0_lr0.001_kaggle",
+    "config": {
+      "task": "classification",
+      "data_name": "sentiment_kaggle",
+      "eval_limit": 1000,
+      "tag": "",
+      "use_case": false,
+      "model": "rnn",
+      "glove": "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt",
+      "dim": 50,
+      "hidden": 64,
+      "batch": 64,
+      "epochs": 8,
+      "lr": 0.001,
+      "max_length": 100,
+      "limit": 0,
+      "seed": 42
+    },
+    "test": {
+      "accuracy": 0.6399899962485932,
+      "macro_f1": 0.47527216201202194
+    },
+    "elapsed_seconds": 239.15148719999706
+  },
+  {
+    "file": "nlp-beginner/legacy/task2/results/rnn_random_n0_lr0.001_kaggle.json",
+    "name": "rnn_random_n0_lr0.001_kaggle",
+    "config": {
+      "task": "classification",
+      "data_name": "sentiment_kaggle",
+      "eval_limit": 1000,
+      "tag": "",
+      "model": "rnn",
+      "glove": "",
+      "dim": 50,
+      "hidden": 64,
+      "batch": 64,
+      "epochs": 8,
+      "lr": 0.001,
+      "max_length": 100,
+      "limit": 0,
+      "seed": 42
+    },
+    "test": {
+      "accuracy": 0.6230461423033637,
+      "macro_f1": 0.48516475956890065
+    },
+    "elapsed_seconds": 254.46030859999883
+  },
+  {
+    "file": "nlp-beginner/legacy/task2/results/softmax_random_n0_lr0.001_kaggle.json",
+    "name": "softmax_random_n0_lr0.001_kaggle",
+    "config": {
+      "task": "classification",
+      "data_name": "sentiment_kaggle",
+      "eval_limit": 1000,
+      "tag": "",
+      "model": "softmax",
+      "glove": "",
+      "dim": 50,
+      "hidden": 64,
+      "batch": 64,
+      "epochs": 8,
+      "lr": 0.001,
+      "max_length": 100,
+      "limit": 0,
+      "seed": 42
+    },
+    "test": {
+      "accuracy": 0.5368263098661998,
+      "macro_f1": 0.21981661831855245
+    },
+    "elapsed_seconds": 63.6613212999946
+  },
+  {
+    "file": "nlp-beginner/legacy/task2/results/torch_bow_logistic_kaggle.json",
+    "name": "torch_bow_logistic_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "loss": "logistic",
+      "batch": 64,
+      "lr": 0.5,
+      "epochs": 20,
+      "seed": 42,
+      "features": "TF-IDF unigram; identical preprocessing and zero initialization to task1",
+      "gradient_equivalence": "NumPy and PyTorch checked at zero weights",
+      "counts": {
+        "train": 124481,
+        "dev": 15585,
+        "test": 15994
+      }
+    },
+    "test": {
+      "accuracy": 0.5559584844316618,
+      "macro_f1": 0.27877092200152376
+    },
+    "elapsed_seconds": 164.62290570000187
+  },
+  {
+    "file": "nlp-beginner/legacy/task2/results/torch_bow_softmax_kaggle.json",
+    "name": "torch_bow_softmax_kaggle",
+    "config": {
+      "data_name": "sentiment_kaggle",
+      "loss": "softmax",
+      "batch": 64,
+      "lr": 0.5,
+      "epochs": 20,
+      "seed": 42,
+      "features": "TF-IDF unigram; identical preprocessing and zero initialization to task1",
+      "gradient_equivalence": "NumPy and PyTorch checked at zero weights",
+      "counts": {
+        "train": 124481,
+        "dev": 15585,
+        "test": 15994
+      }
+    },
+    "test": {
+      "accuracy": 0.5584594222833562,
+      "macro_f1": 0.27082000881513774
+    },
+    "elapsed_seconds": 167.13171819999843
+  },
+  {
+    "file": "nlp-beginner/legacy/task3/results/esim_glove_n100000_lr0.001_expanded.json",
+    "name": "esim_glove_n100000_lr0.001_expanded",
+    "config": {
+      "task": "matching",
+      "data_name": "sentiment",
+      "eval_limit": 0,
+      "tag": "_expanded",
+      "model": "esim",
+      "glove": "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt",
+      "dim": 50,
+      "hidden": 64,
+      "batch": 64,
+      "epochs": 10,
+      "lr": 0.001,
+      "max_length": 100,
+      "limit": 100000,
+      "seed": 42
+    },
+    "test": {
+      "accuracy": 0.8127035830618893,
+      "macro_f1": 0.8121248935239395
+    },
+    "elapsed_seconds": 803.2977654999995
+  },
+  {
+    "file": "nlp-beginner/legacy/task4/results/bilstm-crf_glove_n0_lr0.001_expanded.json",
+    "name": "bilstm-crf_glove_n0_lr0.001_expanded",
+    "config": {
+      "task": "ner",
+      "data_name": "sentiment",
+      "eval_limit": 1000,
+      "tag": "_expanded",
+      "model": "bilstm-crf",
+      "glove": "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt",
+      "dim": 50,
+      "hidden": 64,
+      "batch": 32,
+      "epochs": 20,
+      "lr": 0.001,
+      "max_length": 512,
+      "limit": 0,
+      "seed": 42
+    },
+    "test": {
+      "precision": 0.6092472511981957,
+      "recall": 0.7652266288951841,
+      "f1": 0.6783864385496783
+    },
+    "elapsed_seconds": 692.6578578000044
+  },
+  {
+    "file": "nlp-beginner/legacy/task4/results/bilstm-crf_glove_n0_lr0.001_casing.json",
+    "name": "bilstm-crf_glove_n0_lr0.001_casing",
+    "config": {
+      "task": "ner",
+      "data_name": "sentiment",
+      "eval_limit": 1000,
+      "tag": "_casing",
+      "use_case": true,
+      "model": "bilstm-crf",
+      "glove": "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt",
+      "dim": 50,
+      "hidden": 128,
+      "batch": 32,
+      "epochs": 30,
+      "lr": 0.001,
+      "max_length": 512,
+      "limit": 0,
+      "seed": 42
+    },
+    "test": {
+      "precision": 0.7908353060534326,
+      "recall": 0.8280807365439093,
+      "f1": 0.8090295796574988
+    },
+    "elapsed_seconds": 1001.6361433999991
+  },
+  {
+    "file": "nlp-beginner/legacy/task5/results/gru_lr0.001.json",
+    "name": "gru_lr0.001",
+    "config": {
+      "task": "lm",
+      "model": "gru",
+      "glove": "",
+      "dim": 64,
+      "hidden": 128,
+      "batch": 32,
+      "epochs": 20,
+      "lr": 0.001,
+      "max_length": 64,
+      "limit": 0,
+      "seed": 42
+    },
+    "test": {},
+    "elapsed_seconds": 9.630385799999203
+  },
+  {
+    "file": "nlp-beginner/legacy/task5/results/lstm_lr0.001.json",
+    "name": "lstm_lr0.001",
+    "config": {
+      "task": "lm",
+      "model": "lstm",
+      "glove": "",
+      "dim": 64,
+      "hidden": 128,
+      "batch": 32,
+      "epochs": 20,
+      "lr": 0.001,
+      "max_length": 64,
+      "limit": 0,
+      "seed": 42
+    },
+    "test": {},
+    "elapsed_seconds": 6.555012400000123
+  },
+  {
+    "file": "graph_beginner/task1/results/CiteSeer_gat_full_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gat_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gat",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.691,
+      "macro_f1": 0.6533990526146486
+    },
+    "elapsed_seconds": 2.2851663999972516
+  },
+  {
+    "file": "graph_beginner/task1/results/CiteSeer_gat_sampled_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gat_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gat",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.71,
+      "macro_f1": 0.6723652913827382
+    },
+    "elapsed_seconds": 5.578267699995195
+  },
+  {
+    "file": "graph_beginner/task1/results/CiteSeer_gcn_full_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gcn_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.719,
+      "macro_f1": 0.6835080297563336
+    },
+    "elapsed_seconds": 1.7432920999999624
+  },
+  {
+    "file": "graph_beginner/task1/results/CiteSeer_gcn_sampled_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gcn_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gcn",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.713,
+      "macro_f1": 0.6788413057874444
+    },
+    "elapsed_seconds": 4.780134300002828
+  },
+  {
+    "file": "graph_beginner/task1/results/CiteSeer_gin_full_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gin_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gin",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.542,
+      "macro_f1": 0.5069878681586698
+    },
+    "elapsed_seconds": 2.4645186999987345
+  },
+  {
+    "file": "graph_beginner/task1/results/CiteSeer_gin_sampled_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gin_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gin",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.555,
+      "macro_f1": 0.5210475773997292
+    },
+    "elapsed_seconds": 4.482966499999748
+  },
+  {
+    "file": "graph_beginner/task1/results/CiteSeer_sage_full_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_sage_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "sage",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.7,
+      "macro_f1": 0.6726447763749338
+    },
+    "elapsed_seconds": 2.111433300000499
+  },
+  {
+    "file": "graph_beginner/task1/results/CiteSeer_sage_sampled_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_sage_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "sage",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.679,
+      "macro_f1": 0.638783051442211
+    },
+    "elapsed_seconds": 4.4458305000007385
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gat_full_l2_lr0.01_isolated.json",
+    "name": "Cora_gat_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gat",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.778,
+      "macro_f1": 0.77580239455812
+    },
+    "elapsed_seconds": 1.960224999995262
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gat_sampled_l2_lr0.01_isolated.json",
+    "name": "Cora_gat_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gat",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.797,
+      "macro_f1": 0.7897961462781807
+    },
+    "elapsed_seconds": 4.925362200003292
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.01_isolated.json",
+    "name": "Cora_gcn_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.824,
+      "macro_f1": 0.8113149514651374
+    },
+    "elapsed_seconds": 1.594893100002082
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_sampled_l2_lr0.01_isolated.json",
+    "name": "Cora_gcn_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.798,
+      "macro_f1": 0.7917162668120011
+    },
+    "elapsed_seconds": 3.7037768000009237
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gin_full_l2_lr0.01_isolated.json",
+    "name": "Cora_gin_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gin",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.707,
+      "macro_f1": 0.7074577658997103
+    },
+    "elapsed_seconds": 1.8291556000040146
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gin_sampled_l2_lr0.01_isolated.json",
+    "name": "Cora_gin_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gin",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.702,
+      "macro_f1": 0.6879598818609655
+    },
+    "elapsed_seconds": 4.174641400000837
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_sage_full_l2_lr0.01_isolated.json",
+    "name": "Cora_sage_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "sage",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.793,
+      "macro_f1": 0.7853398699282319
+    },
+    "elapsed_seconds": 1.7064439999958267
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_sage_sampled_l2_lr0.01_isolated.json",
+    "name": "Cora_sage_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "sage",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.798,
+      "macro_f1": 0.7854356672641202
+    },
+    "elapsed_seconds": 3.679244600003585
+  },
+  {
+    "file": "graph_beginner/task1/results/Flickr_gat_full_l2_lr0.01_isolated.json",
+    "name": "Flickr_gat_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gat",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.5046385515170528,
+      "macro_f1": 0.16691043587356238
+    },
+    "elapsed_seconds": 6.3386473999999
+  },
+  {
+    "file": "graph_beginner/task1/results/Flickr_gat_sampled_l2_lr0.01_isolated.json",
+    "name": "Flickr_gat_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gat",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.49424102541119525,
+      "macro_f1": 0.15914411918184687
+    },
+    "elapsed_seconds": 13.854712899999868
+  },
+  {
+    "file": "graph_beginner/task1/results/Flickr_gcn_full_l2_lr0.01_isolated.json",
+    "name": "Flickr_gcn_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.4987675346210729,
+      "macro_f1": 0.16603538492804962
+    },
+    "elapsed_seconds": 3.856916699995054
+  },
+  {
+    "file": "graph_beginner/task1/results/Flickr_gcn_sampled_l2_lr0.01_isolated.json",
+    "name": "Flickr_gcn_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gcn",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.45260610406489493,
+      "macro_f1": 0.11932807327631435
+    },
+    "elapsed_seconds": 13.033032600003935
+  },
+  {
+    "file": "graph_beginner/task1/results/Flickr_gin_full_l2_lr0.01_isolated.json",
+    "name": "Flickr_gin_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gin",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.4234302872764756,
+      "macro_f1": 0.08499192630674636
+    },
+    "elapsed_seconds": 21.9607451999982
+  },
+  {
+    "file": "graph_beginner/task1/results/Flickr_gin_sampled_l2_lr0.01_isolated.json",
+    "name": "Flickr_gin_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gin",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.4234302872764756,
+      "macro_f1": 0.08499192630674636
+    },
+    "elapsed_seconds": 18.970732900001167
+  },
+  {
+    "file": "graph_beginner/task1/results/Flickr_sage_full_l2_lr0.01_isolated.json",
+    "name": "Flickr_sage_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "sage",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.42531259803701876,
+      "macro_f1": 0.09128084790808562
+    },
+    "elapsed_seconds": 13.303198699999484
+  },
+  {
+    "file": "graph_beginner/task1/results/Flickr_sage_sampled_l2_lr0.01_isolated.json",
+    "name": "Flickr_sage_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "sage",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.47985479316990093,
+      "macro_f1": 0.1544857232908777
+    },
+    "elapsed_seconds": 18.662222200000542
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_full_l1_lr0.01_ablation.json",
+    "name": "Cora_gcn_full_l1_lr0.01_ablation",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 1,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_ablation",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.772,
+      "macro_f1": 0.76064651594887
+    },
+    "elapsed_seconds": 1.273543299997982
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.001_ablation.json",
+    "name": "Cora_gcn_full_l2_lr0.001_ablation",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_ablation",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.755,
+      "macro_f1": 0.743451241743869
+    },
+    "elapsed_seconds": 1.4213136000034865
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.01_seed2026.json",
+    "name": "Cora_gcn_full_l2_lr0.01_seed2026",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 2026,
+      "device": "",
+      "tag": "_seed2026",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.815,
+      "macro_f1": 0.8034248832802305
+    },
+    "elapsed_seconds": 1.438736500000232
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.01_seed7.json",
+    "name": "Cora_gcn_full_l2_lr0.01_seed7",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 7,
+      "device": "",
+      "tag": "_seed7",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.816,
+      "macro_f1": 0.8049014376377911
+    },
+    "elapsed_seconds": 1.5030594000054407
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.1_ablation.json",
+    "name": "Cora_gcn_full_l2_lr0.1_ablation",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.1,
+      "seed": 42,
+      "device": "",
+      "tag": "_ablation",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.814,
+      "macro_f1": 0.803195032906993
+    },
+    "elapsed_seconds": 1.454511600000842
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_full_l3_lr0.01_ablation.json",
+    "name": "Cora_gcn_full_l3_lr0.01_ablation",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 3,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_ablation",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "accuracy": 0.802,
+      "macro_f1": 0.78986633321043
+    },
+    "elapsed_seconds": 1.7235241000016686
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_sampled_l2_lr0.01_seed2026.json",
+    "name": "Cora_gcn_sampled_l2_lr0.01_seed2026",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 2026,
+      "device": "",
+      "tag": "_seed2026",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.81,
+      "macro_f1": 0.8005549864776526
+    },
+    "elapsed_seconds": 3.4206989999947837
+  },
+  {
+    "file": "graph_beginner/task1/results/Cora_gcn_sampled_l2_lr0.01_seed7.json",
+    "name": "Cora_gcn_sampled_l2_lr0.01_seed7",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 100,
+      "lr": 0.01,
+      "seed": 7,
+      "device": "",
+      "tag": "_seed7",
+      "nodes": 2708,
+      "edges": 10556,
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "accuracy": 0.81,
+      "macro_f1": 0.7956870843564462
+    },
+    "elapsed_seconds": 4.005922500000452
+  },
+  {
+    "file": "graph_beginner/task2/results/CiteSeer_gat_full_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gat_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gat",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.7295109286318078,
+      "average_precision": 0.7343593265746144
+    },
+    "elapsed_seconds": 1.0733378999939305
+  },
+  {
+    "file": "graph_beginner/task2/results/CiteSeer_gat_sampled_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gat_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gat",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.7094650404540515,
+      "average_precision": 0.7256581862521094
+    },
+    "elapsed_seconds": 2.719887400002335
+  },
+  {
+    "file": "graph_beginner/task2/results/CiteSeer_gcn_full_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gcn_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.7396304794106991,
+      "average_precision": 0.7463522363173098
+    },
+    "elapsed_seconds": 0.8679630999977235
+  },
+  {
+    "file": "graph_beginner/task2/results/CiteSeer_gcn_sampled_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gcn_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gcn",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.7064895544016424,
+      "average_precision": 0.7331147117345309
+    },
+    "elapsed_seconds": 2.690609700002824
+  },
+  {
+    "file": "graph_beginner/task2/results/CiteSeer_gin_full_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gin_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gin",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.7275691341625408,
+      "average_precision": 0.7538690372052969
+    },
+    "elapsed_seconds": 1.1885150000016438
+  },
+  {
+    "file": "graph_beginner/task2/results/CiteSeer_gin_sampled_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_gin_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "gin",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.7334379905808478,
+      "average_precision": 0.7510032305748772
+    },
+    "elapsed_seconds": 2.364976500000921
+  },
+  {
+    "file": "graph_beginner/task2/results/CiteSeer_sage_full_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_sage_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "sage",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.719840598961478,
+      "average_precision": 0.7232878794959674
+    },
+    "elapsed_seconds": 1.0815825000026962
+  },
+  {
+    "file": "graph_beginner/task2/results/CiteSeer_sage_sampled_l2_lr0.01_isolated.json",
+    "name": "CiteSeer_sage_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "CiteSeer",
+      "model": "sage",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 3327,
+      "edges": 9104,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.7025963047941071,
+      "average_precision": 0.7210774712961456
+    },
+    "elapsed_seconds": 2.2697056000033626
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gat_full_l2_lr0.01_isolated.json",
+    "name": "Cora_gat_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gat",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.6981049872357586,
+      "average_precision": 0.6635306301976733
+    },
+    "elapsed_seconds": 1.0547188999989885
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gat_sampled_l2_lr0.01_isolated.json",
+    "name": "Cora_gat_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gat",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.6379924314709663,
+      "average_precision": 0.6180441459853936
+    },
+    "elapsed_seconds": 2.4651069000028656
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gcn_full_l2_lr0.01_isolated.json",
+    "name": "Cora_gcn_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.7165510263602288,
+      "average_precision": 0.710501179187022
+    },
+    "elapsed_seconds": 1.3067477000004146
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gcn_sampled_l2_lr0.01_isolated.json",
+    "name": "Cora_gcn_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.7821977539255893,
+      "average_precision": 0.7700508886012931
+    },
+    "elapsed_seconds": 1.9091451999993296
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gin_full_l2_lr0.01_isolated.json",
+    "name": "Cora_gin_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gin",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.7436133785092662,
+      "average_precision": 0.7473410444112839
+    },
+    "elapsed_seconds": 0.8462494000050356
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gin_sampled_l2_lr0.01_isolated.json",
+    "name": "Cora_gin_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "gin",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.6932513349344144,
+      "average_precision": 0.7052666204373097
+    },
+    "elapsed_seconds": 1.79784859999927
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_sage_full_l2_lr0.01_isolated.json",
+    "name": "Cora_sage_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "sage",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.682838306406605,
+      "average_precision": 0.6488401063757326
+    },
+    "elapsed_seconds": 0.8340631000028225
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_sage_sampled_l2_lr0.01_isolated.json",
+    "name": "Cora_sage_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Cora",
+      "model": "sage",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.608110784253715,
+      "average_precision": 0.609947818471071
+    },
+    "elapsed_seconds": 1.7655303999999887
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gat_full_l2_lr0.01_isolated.json",
+    "name": "Flickr_gat_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gat",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.5400053436993705,
+      "average_precision": 0.48998419468379933
+    },
+    "elapsed_seconds": 4.482677100000728
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gat_sampled_l2_lr0.01_isolated.json",
+    "name": "Flickr_gat_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gat",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.5240968364080159,
+      "average_precision": 0.48706998506661925
+    },
+    "elapsed_seconds": 8.105334100000618
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gcn_full_l2_lr0.01_isolated.json",
+    "name": "Flickr_gcn_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.7896033377591181,
+      "average_precision": 0.8197089506551118
+    },
+    "elapsed_seconds": 2.661437199996726
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gcn_sampled_l2_lr0.01_isolated.json",
+    "name": "Flickr_gcn_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gcn",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.6049218843816929,
+      "average_precision": 0.5897784774341046
+    },
+    "elapsed_seconds": 6.926874500000849
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gin_full_l2_lr0.01_isolated.json",
+    "name": "Flickr_gin_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gin",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.6218137743355282,
+      "average_precision": 0.6478036597629975
+    },
+    "elapsed_seconds": 7.026241400002618
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gin_sampled_l2_lr0.01_isolated.json",
+    "name": "Flickr_gin_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gin",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.6221606277972231,
+      "average_precision": 0.6490375643486092
+    },
+    "elapsed_seconds": 9.415015899998252
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_sage_full_l2_lr0.01_isolated.json",
+    "name": "Flickr_sage_full_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "sage",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.5029391055589112,
+      "average_precision": 0.49990907240325894
+    },
+    "elapsed_seconds": 7.429665299998305
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_sage_sampled_l2_lr0.01_isolated.json",
+    "name": "Flickr_sage_sampled_l2_lr0.01_isolated",
+    "config": {
+      "dataset": "Flickr",
+      "model": "sage",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_isolated",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.5053237831736266,
+      "average_precision": 0.505272245221352
+    },
+    "elapsed_seconds": 9.374128800001927
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gcn_full_l1_lr0.01_ablation.json",
+    "name": "Cora_gcn_full_l1_lr0.01_ablation",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 1,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_ablation",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.7625311004612408,
+      "average_precision": 0.7709025008390519
+    },
+    "elapsed_seconds": 0.7097061999957077
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gcn_full_l2_lr0.001_ablation.json",
+    "name": "Cora_gcn_full_l2_lr0.001_ablation",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_ablation",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.6968771716313384,
+      "average_precision": 0.7193857837467132
+    },
+    "elapsed_seconds": 0.8193166999990353
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gcn_full_l2_lr0.1_ablation.json",
+    "name": "Cora_gcn_full_l2_lr0.1_ablation",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.1,
+      "seed": 42,
+      "device": "",
+      "tag": "_ablation",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.6932513349344144,
+      "average_precision": 0.719625739203809
+    },
+    "elapsed_seconds": 0.8284335999996983
+  },
+  {
+    "file": "graph_beginner/task2/results/Cora_gcn_full_l3_lr0.01_ablation.json",
+    "name": "Cora_gcn_full_l3_lr0.01_ablation",
+    "config": {
+      "dataset": "Cora",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 32,
+      "layers": 3,
+      "epochs": 50,
+      "lr": 0.01,
+      "seed": 42,
+      "device": "",
+      "tag": "_ablation",
+      "nodes": 2708,
+      "edges": 10556,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.6949076257790869,
+      "average_precision": 0.7195759177774621
+    },
+    "elapsed_seconds": 0.9469281000056071
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gat_full_l2_lr0.001_tuned.json",
+    "name": "Flickr_gat_full_l2_lr0.001_tuned",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gat",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_tuned",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.5442931669233358,
+      "average_precision": 0.5112603661647251
+    },
+    "elapsed_seconds": 5.254001799999969
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gat_sampled_l2_lr0.001_tuned.json",
+    "name": "Flickr_gat_sampled_l2_lr0.001_tuned",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gat",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_tuned",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.5494943691591939,
+      "average_precision": 0.5380578769424399
+    },
+    "elapsed_seconds": 9.389433199998166
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gcn_full_l2_lr0.001_tuned.json",
+    "name": "Flickr_gcn_full_l2_lr0.001_tuned",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gcn",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_tuned",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.7880009026587448,
+      "average_precision": 0.8150021783797831
+    },
+    "elapsed_seconds": 3.260888500000874
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gcn_sampled_l2_lr0.001_tuned.json",
+    "name": "Flickr_gcn_sampled_l2_lr0.001_tuned",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gcn",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_tuned",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.7449164305347402,
+      "average_precision": 0.7701411327099099
+    },
+    "elapsed_seconds": 7.754343399996287
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gin_full_l2_lr0.001_tuned.json",
+    "name": "Flickr_gin_full_l2_lr0.001_tuned",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gin",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_tuned",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.6207666247117793,
+      "average_precision": 0.6458131057680794
+    },
+    "elapsed_seconds": 8.174149699996633
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_gin_sampled_l2_lr0.001_tuned.json",
+    "name": "Flickr_gin_sampled_l2_lr0.001_tuned",
+    "config": {
+      "dataset": "Flickr",
+      "model": "gin",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_tuned",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.8039941107331126,
+      "average_precision": 0.8320685259544953
+    },
+    "elapsed_seconds": 9.826643000000331
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_sage_full_l2_lr0.001_tuned.json",
+    "name": "Flickr_sage_full_l2_lr0.001_tuned",
+    "config": {
+      "dataset": "Flickr",
+      "model": "sage",
+      "mode": "full",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_tuned",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": null
+    },
+    "test": {
+      "auc": 0.5118175012243332,
+      "average_precision": 0.5026978988881292
+    },
+    "elapsed_seconds": 7.40925970000535
+  },
+  {
+    "file": "graph_beginner/task2/results/Flickr_sage_sampled_l2_lr0.001_tuned.json",
+    "name": "Flickr_sage_sampled_l2_lr0.001_tuned",
+    "config": {
+      "dataset": "Flickr",
+      "model": "sage",
+      "mode": "sampled",
+      "parts": 4,
+      "hidden": 16,
+      "layers": 2,
+      "epochs": 50,
+      "lr": 0.001,
+      "seed": 42,
+      "device": "",
+      "tag": "_tuned",
+      "nodes": 89250,
+      "edges": 899756,
+      "split": "10% val/10% test; 20% disjoint supervision",
+      "actual_device": "cuda",
+      "sampler": "RandomNodeLoader induced partitions"
+    },
+    "test": {
+      "auc": 0.510029027539415,
+      "average_precision": 0.50190968543293
+    },
+    "elapsed_seconds": 9.186835900000005
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gat_max_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_gat_max_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gat",
+      "pool": "max",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.8028199000000313
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gat_max_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_gat_max_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gat",
+      "pool": "max",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.631578947368421,
+      "macro_f1": 0.4904214559386973
+    },
+    "elapsed_seconds": 0.898128099999667
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gat_mean_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_gat_mean_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gat",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.864500900001076
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gat_mean_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_gat_mean_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gat",
+      "pool": "mean",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 0.8359507000004669
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gat_min_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_gat_min_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gat",
+      "pool": "min",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 2.053447199999937
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gat_min_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_gat_min_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gat",
+      "pool": "min",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.5128205128205128
+    },
+    "elapsed_seconds": 0.8783246999992116
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gcn_max_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_gcn_max_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gcn",
+      "pool": "max",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.578008399999817
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gcn_max_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_gcn_max_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gcn",
+      "pool": "max",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 0.8106509000008373
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gcn_mean_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_gcn_mean_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gcn",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.5174524000012752
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gcn_mean_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_gcn_mean_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gcn",
+      "pool": "mean",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 0.8800241999997525
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gcn_min_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_gcn_min_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gcn",
+      "pool": "min",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.424162499999511
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gcn_min_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_gcn_min_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gcn",
+      "pool": "min",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 0.7880434999988211
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_max_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_gin_max_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "max",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.7368421052631579,
+      "macro_f1": 0.7246376811594203
+    },
+    "elapsed_seconds": 1.8997816999999486
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_max_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_gin_max_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "max",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 0.8716689999982918
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.0001_l2_ablation.json",
+    "name": "MUTAG_gin_mean_batch_n0_lr0.0001_l2_ablation",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.0001,
+      "limit": 0,
+      "seed": 42,
+      "tag": "_ablation",
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "PyG dataset"
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.3227976999987732
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.001_l1_ablation.json",
+    "name": "MUTAG_gin_mean_batch_n0_lr0.001_l1_ablation",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 1,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "tag": "_ablation",
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "PyG dataset"
+    },
+    "test": {
+      "accuracy": 0.7368421052631579,
+      "macro_f1": 0.7076923076923077
+    },
+    "elapsed_seconds": 1.149543100000301
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_gin_mean_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.7368421052631579,
+      "macro_f1": 0.7246376811594203
+    },
+    "elapsed_seconds": 1.5655577999987145
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.001_l3_ablation.json",
+    "name": "MUTAG_gin_mean_batch_n0_lr0.001_l3_ablation",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 3,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "tag": "_ablation",
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "PyG dataset"
+    },
+    "test": {
+      "accuracy": 0.7894736842105263,
+      "macro_f1": 0.7738095238095238
+    },
+    "elapsed_seconds": 1.6603986999980407
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.01_l2_ablation.json",
+    "name": "MUTAG_gin_mean_batch_n0_lr0.01_l2_ablation",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.01,
+      "limit": 0,
+      "seed": 42,
+      "tag": "_ablation",
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "PyG dataset"
+    },
+    "test": {
+      "accuracy": 0.7368421052631579,
+      "macro_f1": 0.7246376811594203
+    },
+    "elapsed_seconds": 1.2662679999993998
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_mean_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_gin_mean_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.2135113000003912
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_min_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_gin_min_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "min",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.7368421052631579,
+      "macro_f1": 0.7246376811594203
+    },
+    "elapsed_seconds": 1.409782599999744
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_gin_min_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_gin_min_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "gin",
+      "pool": "min",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 0.9264382000001206
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_sage_max_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_sage_max_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "sage",
+      "pool": "max",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.7368421052631579,
+      "macro_f1": 0.7246376811594203
+    },
+    "elapsed_seconds": 1.6210852000003797
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_sage_max_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_sage_max_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "sage",
+      "pool": "max",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.056492600000638
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_sage_mean_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_sage_mean_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "sage",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.2739841000002343
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_sage_mean_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_sage_mean_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "sage",
+      "pool": "mean",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 0.7347752999994555
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_sage_min_batch_n0_lr0.001_l2.json",
+    "name": "MUTAG_sage_min_batch_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "sage",
+      "pool": "min",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.6842105263157895,
+      "macro_f1": 0.6761363636363636
+    },
+    "elapsed_seconds": 3.1535172000003513
+  },
+  {
+    "file": "graph_beginner/task3/results/MUTAG_sage_min_full_n0_lr0.001_l2.json",
+    "name": "MUTAG_sage_min_full_n0_lr0.001_l2",
+    "config": {
+      "dataset": "MUTAG",
+      "model": "sage",
+      "pool": "min",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 0,
+      "seed": 42,
+      "problem": "classification",
+      "counts": {
+        "train": 150,
+        "dev": 19,
+        "test": 19
+      }
+    },
+    "test": {
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.36666666666666664
+    },
+    "elapsed_seconds": 1.6926488999997673
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gat_max_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_gat_max_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gat",
+      "pool": "max",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.038016966084484
+    },
+    "elapsed_seconds": 19.23196739999912
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gat_max_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_gat_max_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gat",
+      "pool": "max",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.4168754332386888
+    },
+    "elapsed_seconds": 3.080672999998569
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gat_mean_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_gat_mean_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gat",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.7152227891222573
+    },
+    "elapsed_seconds": 19.57094280000092
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gat_mean_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_gat_mean_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gat",
+      "pool": "mean",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.3665006371424533
+    },
+    "elapsed_seconds": 2.84080670000003
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gat_min_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_gat_min_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gat",
+      "pool": "min",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.061696292279754
+    },
+    "elapsed_seconds": 19.917550199999823
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gat_min_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_gat_min_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gat",
+      "pool": "min",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.3601626600050367
+    },
+    "elapsed_seconds": 2.847067299999253
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gcn_max_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_gcn_max_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gcn",
+      "pool": "max",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.9511906076674349
+    },
+    "elapsed_seconds": 15.637288899999476
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gcn_max_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_gcn_max_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gcn",
+      "pool": "max",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.3907298630909062
+    },
+    "elapsed_seconds": 2.6461190999998507
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gcn_mean_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_gcn_mean_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gcn",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.665540166089777
+    },
+    "elapsed_seconds": 15.215356099999553
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gcn_mean_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_gcn_mean_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gcn",
+      "pool": "mean",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.4270720235803165
+    },
+    "elapsed_seconds": 2.404092499999024
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gcn_min_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_gcn_min_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gcn",
+      "pool": "min",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.9145309691079893
+    },
+    "elapsed_seconds": 14.494193799999266
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gcn_min_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_gcn_min_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gcn",
+      "pool": "min",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.4631512642600573
+    },
+    "elapsed_seconds": 2.4312276000000566
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_max_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_gin_max_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "max",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.02771010311367
+    },
+    "elapsed_seconds": 13.776186700000835
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_max_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_gin_max_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "max",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.315466475718189
+    },
+    "elapsed_seconds": 2.6736131999987265
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.0001_l2_ablation.json",
+    "name": "ZINC_gin_mean_batch_n2000_lr0.0001_l2_ablation",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.0001,
+      "limit": 2000,
+      "seed": 42,
+      "tag": "_ablation",
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.7631899254941381
+    },
+    "elapsed_seconds": 13.888917899996159
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.001_l1_ablation.json",
+    "name": "ZINC_gin_mean_batch_n2000_lr0.001_l1_ablation",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 1,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "tag": "_ablation",
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.6605117115029134
+    },
+    "elapsed_seconds": 11.519255999999586
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_gin_mean_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.6683857999243773
+    },
+    "elapsed_seconds": 12.245101000000432
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.001_l3_ablation.json",
+    "name": "ZINC_gin_mean_batch_n2000_lr0.001_l3_ablation",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 3,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "tag": "_ablation",
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.6675295768291689
+    },
+    "elapsed_seconds": 17.915090199996484
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.01_l2_ablation.json",
+    "name": "ZINC_gin_mean_batch_n2000_lr0.01_l2_ablation",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.01,
+      "limit": 2000,
+      "seed": 42,
+      "tag": "_ablation",
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.6625963974823244
+    },
+    "elapsed_seconds": 14.016106399998534
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_mean_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_gin_mean_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "mean",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.3443177855727262
+    },
+    "elapsed_seconds": 2.337387100000342
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_min_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_gin_min_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "min",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.9962531176884659
+    },
+    "elapsed_seconds": 12.99497270000029
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_gin_min_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_gin_min_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "gin",
+      "pool": "min",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.3455767698632553
+    },
+    "elapsed_seconds": 2.32690459999867
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_sage_max_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_sage_max_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "sage",
+      "pool": "max",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.9068768514920957
+    },
+    "elapsed_seconds": 12.915357500000027
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_sage_max_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_sage_max_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "sage",
+      "pool": "max",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.3243013252657838
+    },
+    "elapsed_seconds": 2.347633699999278
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_sage_mean_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_sage_mean_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "sage",
+      "pool": "mean",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.6499251676970161
+    },
+    "elapsed_seconds": 12.263938699999926
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_sage_mean_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_sage_mean_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "sage",
+      "pool": "mean",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.361441875780467
+    },
+    "elapsed_seconds": 2.462795499999629
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_sage_min_batch_n2000_lr0.001_l2.json",
+    "name": "ZINC_sage_min_batch_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "sage",
+      "pool": "min",
+      "mode": "batch",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 0.9130521285724826
+    },
+    "elapsed_seconds": 12.057616500000222
+  },
+  {
+    "file": "graph_beginner/task3/results/ZINC_sage_min_full_n2000_lr0.001_l2.json",
+    "name": "ZINC_sage_min_full_n2000_lr0.001_l2",
+    "config": {
+      "dataset": "ZINC",
+      "model": "sage",
+      "pool": "min",
+      "mode": "full",
+      "batch": 32,
+      "hidden": 32,
+      "layers": 2,
+      "epochs": 30,
+      "lr": 0.001,
+      "limit": 2000,
+      "seed": 42,
+      "problem": "regression",
+      "counts": {
+        "train": 2000,
+        "dev": 1000,
+        "test": 1000
+      },
+      "bond_features": "available in data; these four baseline encoders use topology and atom IDs only",
+      "data_source": "graphs-datasets/ZINC full split, seeded subset"
+    },
+    "test": {
+      "mae": 1.3626345663317478
+    },
+    "elapsed_seconds": 2.3163846999996167
+  },
+  {
+    "file": "graph_beginner/task4/results/conve_n0_d64_lr0.001_full.json",
+    "name": "conve_n0_d64_lr0.001_full",
+    "config": {
+      "model": "conve",
+      "dim": 64,
+      "batch": 1024,
+      "epochs": 20,
+      "negatives": 8,
+      "margin": 6.0,
+      "lr": 0.001,
+      "limit": 0,
+      "eval_limit": 200,
+      "test_limit": 0,
+      "tag": "_full",
+      "seed": 42,
+      "entities": 14541,
+      "relations": 237,
+      "training_triples": 272115
+    },
+    "test": {
+      "mrr": 0.14389871060848236,
+      "hits@1": 0.06923678517341614,
+      "hits@3": 0.15452457964420319,
+      "hits@10": 0.29370662569999695,
+      "evaluated_triples": 20466,
+      "ranking": "filtered head and tail, average rank for ties"
+    },
+    "elapsed_seconds": 165.63100349999877
+  },
+  {
+    "file": "graph_beginner/task4/results/rotate_n0_d64_lr0.001_full.json",
+    "name": "rotate_n0_d64_lr0.001_full",
+    "config": {
+      "model": "rotate",
+      "dim": 64,
+      "batch": 1024,
+      "epochs": 20,
+      "negatives": 8,
+      "margin": 6.0,
+      "lr": 0.001,
+      "limit": 0,
+      "eval_limit": 200,
+      "test_limit": 0,
+      "tag": "_full",
+      "seed": 42,
+      "entities": 14541,
+      "relations": 237,
+      "training_triples": 272115
+    },
+    "test": {
+      "mrr": 0.24726852774620056,
+      "hits@1": 0.1696716547012329,
+      "hits@3": 0.272720605134964,
+      "hits@10": 0.40073782205581665,
+      "evaluated_triples": 20466,
+      "ranking": "filtered head and tail, average rank for ties"
+    },
+    "elapsed_seconds": 143.7824000000037
+  },
+  {
+    "file": "graph_beginner/task4/results/transe_n0_d64_lr0.001_full.json",
+    "name": "transe_n0_d64_lr0.001_full",
+    "config": {
+      "model": "transe",
+      "dim": 64,
+      "batch": 1024,
+      "epochs": 20,
+      "negatives": 8,
+      "margin": 6.0,
+      "lr": 0.001,
+      "limit": 0,
+      "eval_limit": 200,
+      "test_limit": 0,
+      "tag": "_full",
+      "seed": 42,
+      "entities": 14541,
+      "relations": 237,
+      "training_triples": 272115
+    },
+    "test": {
+      "mrr": 0.2281215339899063,
+      "hits@1": 0.14863675832748413,
+      "hits@3": 0.24824099242687225,
+      "hits@10": 0.38825368881225586,
+      "evaluated_triples": 20466,
+      "ranking": "filtered head and tail, average rank for ties"
+    },
+    "elapsed_seconds": 120.038724799997
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/classification_n0_lr0.0003.json",
+    "name": "classification_n0_lr0.0003",
+    "config": {
+      "task": "classification",
+      "batch": 16,
+      "epochs": 20,
+      "lr": 0.0003,
+      "limit": 0,
+      "seed": 42,
+      "pretrained": "uer/chinese_roberta_L-2_H-128",
+      "counts": {
+        "train": 402,
+        "dev": 31,
+        "test": 32
+      },
+      "labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "test_split": "half of upstream dev, seeded split; stratified if all classes have >=2 examples",
+      "trainable_parameters": 3201034
+    },
+    "test": {
+      "accuracy": 0.71875,
+      "macro_f1": 0.7780257936507936
+    },
+    "elapsed_seconds": 6.983281799999531
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/cpt.json",
+    "name": "cpt",
+    "config": {
+      "task": "cpt",
+      "limit": 400,
+      "epochs": 1,
+      "batch": 1,
+      "accumulate": 8,
+      "length": 192,
+      "lr": 0.0002,
+      "seed": 42,
+      "model": "Qwen2.5-0.5B-Instruct + LoRA",
+      "parameters": 494573440,
+      "trainable_parameters": 540672,
+      "counts": {
+        "train": 200,
+        "dev": 25,
+        "test": 25
+      },
+      "masking": "all nonpadding tokens",
+      "split": "deduplicated document/prompt split, fixed seed, no test-based selection",
+      "truncation": "prefix capped to half context; target truncated to remaining capacity"
+    },
+    "test": {
+      "loss": 3.1278088804057753,
+      "perplexity": 22.823914786631285,
+      "tokens": 3932
+    },
+    "elapsed_seconds": 55.3856708000003
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/dssm_n0_lr0.0003_grouped.json",
+    "name": "dssm_n0_lr0.0003_grouped",
+    "config": {
+      "task": "dssm",
+      "batch": 16,
+      "epochs": 15,
+      "lr": 0.0003,
+      "limit": 0,
+      "seed": 42,
+      "pretrained": "uer/chinese_roberta_L-2_H-128",
+      "counts": {
+        "train": 923,
+        "dev": 177,
+        "test": 175
+      },
+      "labels": [
+        "different",
+        "same"
+      ],
+      "test_split": "grouped half of upstream dev by comment text; train holdout overlaps removed",
+      "trainable_parameters": 3200260
+    },
+    "test": {
+      "accuracy": 0.8228571428571428,
+      "macro_f1": 0.7934828124405193,
+      "auc": 0.9034661483641075,
+      "average_precision": 0.8456114499860823
+    },
+    "elapsed_seconds": 20.997731600000407
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/pet_n0_lr0.0003.json",
+    "name": "pet_n0_lr0.0003",
+    "config": {
+      "task": "pet",
+      "batch": 16,
+      "epochs": 30,
+      "lr": 0.0003,
+      "limit": 0,
+      "seed": 42,
+      "pretrained": "uer/chinese_roberta_L-2_H-128",
+      "counts": {
+        "train": 63,
+        "dev": 295,
+        "test": 295
+      },
+      "labels": [
+        "书籍",
+        "平板",
+        "手机",
+        "水果",
+        "洗浴",
+        "电器",
+        "电脑",
+        "蒙牛",
+        "衣服",
+        "酒店"
+      ],
+      "test_split": "half of upstream dev, seeded split; stratified if all classes have >=2 examples",
+      "trainable_parameters": 3204872
+    },
+    "test": {
+      "accuracy": 0.6169491525423729,
+      "macro_f1": 0.4561126171218771
+    },
+    "elapsed_seconds": 8.569934600000124
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/pointwise_n0_lr0.0003_grouped.json",
+    "name": "pointwise_n0_lr0.0003_grouped",
+    "config": {
+      "task": "pointwise",
+      "batch": 16,
+      "epochs": 15,
+      "lr": 0.0003,
+      "limit": 0,
+      "seed": 42,
+      "pretrained": "uer/chinese_roberta_L-2_H-128",
+      "counts": {
+        "train": 923,
+        "dev": 177,
+        "test": 175
+      },
+      "labels": [
+        "different",
+        "same"
+      ],
+      "test_split": "grouped half of upstream dev by comment text; train holdout overlaps removed",
+      "trainable_parameters": 3200260
+    },
+    "test": {
+      "accuracy": 0.8285714285714286,
+      "macro_f1": 0.7947936210131332,
+      "auc": 0.9039520570132815,
+      "average_precision": 0.8212396157342753
+    },
+    "elapsed_seconds": 11.945476899998539
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/ptuning_n0_lr0.01.json",
+    "name": "ptuning_n0_lr0.01",
+    "config": {
+      "task": "ptuning",
+      "batch": 16,
+      "epochs": 30,
+      "lr": 0.01,
+      "limit": 0,
+      "seed": 42,
+      "pretrained": "uer/chinese_roberta_L-2_H-128",
+      "counts": {
+        "train": 63,
+        "dev": 208,
+        "test": 209
+      },
+      "labels": [
+        "书籍",
+        "平板",
+        "手机",
+        "水果",
+        "洗浴",
+        "电器",
+        "电脑",
+        "蒙牛",
+        "衣服",
+        "酒店"
+      ],
+      "test_split": "half of upstream dev, seeded split; stratified if all classes have >=2 examples",
+      "trainable_parameters": 1024
+    },
+    "test": {
+      "accuracy": 0.3684210526315789,
+      "macro_f1": 0.2388709915574132
+    },
+    "elapsed_seconds": 6.896279399999912
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/qwen_mbti.json",
+    "name": "qwen_mbti",
+    "config": {
+      "task": "mbti",
+      "limit": 400,
+      "epochs": 2,
+      "batch": 1,
+      "accumulate": 8,
+      "length": 192,
+      "lr": 0.0002,
+      "seed": 42,
+      "model": "Qwen2.5-0.5B-Instruct",
+      "meaning": "prompt-conditioned model responses, not a psychological diagnosis"
+    },
+    "test": {},
+    "elapsed_seconds": 7.59389419999934
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/qwen_ppo_v2_expanded.json",
+    "name": "qwen_ppo_v2_expanded",
+    "config": {
+      "steps": 48,
+      "ppo_epochs": 2,
+      "response_length": 32,
+      "beta": 0.05,
+      "clip": 0.2,
+      "lr": 1e-05,
+      "seed": 42,
+      "tag": "_expanded",
+      "heldout_eval": true,
+      "policy": "Qwen2.5-0.5B + LoRA",
+      "reference": "same frozen base with adapters disabled",
+      "sampling": "full categorical policy: temperature=1 top_p=1 top_k=0, no forced minimum length",
+      "reward": "trained Chinese preference BERT checkpoint",
+      "loss": "clipped token policy + clipped value; terminal learned reward - beta * sampled token KL",
+      "algorithm": "GAE gamma=1 lambda=.95; whiten advantages over rollout tokens",
+      "counts": {
+        "train": 192,
+        "dev": 0,
+        "test": 16
+      }
+    },
+    "test": {
+      "reward_mean": 3.364285469055176,
+      "reward_std": 1.5262658596038818,
+      "samples": 16
+    },
+    "elapsed_seconds": 470.6889316000015
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/qwen_zero_shot_prompt_study.json",
+    "name": "qwen_zero_shot_prompt_study",
+    "config": {
+      "seed": 42,
+      "task": "zero-shot prompt study",
+      "model": "Qwen2.5-0.5B-Instruct",
+      "few_shot_examples": 0,
+      "counts": {
+        "train": 0,
+        "dev": 40,
+        "test": 100
+      },
+      "selection": "dev entity-text F1, then balanced exact-set accuracy; fixed test rows from expanded baseline",
+      "maximum_new_tokens": 80
+    },
+    "test": {
+      "exact_set_accuracy": 0.02,
+      "valid_json_rate": 1.0,
+      "precision": 0.043010752688172046,
+      "recall": 0.47058823529411764,
+      "f1": 0.0788177339901478,
+      "positive_samples": 15,
+      "negative_samples": 85,
+      "positive_exact_set_accuracy": 0.13333333333333333,
+      "negative_exact_set_accuracy": 0.0,
+      "balanced_exact_set_accuracy": 0.06666666666666667,
+      "empty_output_rate": 0.0
+    },
+    "elapsed_seconds": 166.9459141999978
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/qwen_zero_shot_v2_expanded.json",
+    "name": "qwen_zero_shot_v2_expanded",
+    "config": {
+      "task": "zero-shot",
+      "limit": 400,
+      "epochs": 2,
+      "batch": 1,
+      "accumulate": 8,
+      "length": 192,
+      "lr": 0.0002,
+      "seed": 42,
+      "eval_size": 100,
+      "tag": "_expanded",
+      "model": "Qwen2.5-0.5B-Instruct; replaces upstream ChatGLM-6B",
+      "few_shot_examples": 0,
+      "category_schema": {
+        "0": "电脑",
+        "1": "水果",
+        "2": "平板",
+        "3": "书籍",
+        "4": "衣服",
+        "5": "酒店",
+        "6": "蒙牛",
+        "7": "洗浴"
+      }
+    },
+    "test": {},
+    "elapsed_seconds": 101.92456869999296
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/reward_n1000.json",
+    "name": "reward_n1000",
+    "config": {
+      "limit": 1000,
+      "epochs": 5,
+      "batch": 16,
+      "lr": 0.0003,
+      "seed": 42,
+      "counts": {
+        "train": 6000,
+        "dev": 1200,
+        "test": 1200
+      },
+      "loss": "-log sigmoid(r(chosen)-r(rejected))"
+    },
+    "test": {
+      "preference_accuracy": 0.8425,
+      "pairs": 1200
+    },
+    "elapsed_seconds": 41.32795189999888
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/sbert_n0_lr0.0003_grouped.json",
+    "name": "sbert_n0_lr0.0003_grouped",
+    "config": {
+      "task": "sbert",
+      "batch": 16,
+      "epochs": 15,
+      "lr": 0.0003,
+      "limit": 0,
+      "seed": 42,
+      "pretrained": "uer/chinese_roberta_L-2_H-128",
+      "counts": {
+        "train": 923,
+        "dev": 177,
+        "test": 175
+      },
+      "labels": [
+        "different",
+        "same"
+      ],
+      "test_split": "grouped half of upstream dev by comment text; train holdout overlaps removed",
+      "trainable_parameters": 3200772
+    },
+    "test": {
+      "accuracy": 0.9142857142857143,
+      "macro_f1": 0.8956220923297149,
+      "auc": 0.9713313896987367,
+      "average_precision": 0.9327927070698083
+    },
+    "elapsed_seconds": 21.319727799998873
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/scratch-sft.json",
+    "name": "scratch-sft",
+    "config": {
+      "task": "scratch-sft",
+      "limit": 400,
+      "epochs": 3,
+      "batch": 8,
+      "accumulate": 1,
+      "length": 192,
+      "lr": 0.0002,
+      "seed": 42,
+      "model": "random GPT2 4-layer/128 hidden, custom byte BPE",
+      "parameters": 1201920,
+      "trainable_parameters": 1201920,
+      "counts": {
+        "train": 400,
+        "dev": 30,
+        "test": 30
+      },
+      "masking": "assistant target only; prompt and padding=-100",
+      "split": "deduplicated document/prompt split, fixed seed, no test-based selection",
+      "truncation": "prefix capped to half context; target truncated to remaining capacity"
+    },
+    "test": {
+      "loss": 5.994294898860805,
+      "perplexity": 401.1337443919844,
+      "tokens": 3330
+    },
+    "elapsed_seconds": 4.325935299999401
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/scratch.json",
+    "name": "scratch",
+    "config": {
+      "task": "scratch",
+      "limit": 1000,
+      "epochs": 5,
+      "batch": 8,
+      "accumulate": 1,
+      "length": 192,
+      "lr": 0.0005,
+      "seed": 42,
+      "model": "random GPT2 4-layer/128 hidden, custom byte BPE",
+      "parameters": 1201920,
+      "trainable_parameters": 1201920,
+      "counts": {
+        "train": 200,
+        "dev": 25,
+        "test": 25
+      },
+      "masking": "all nonpadding tokens",
+      "split": "deduplicated document/prompt split, fixed seed, no test-based selection",
+      "truncation": "prefix capped to half context; target truncated to remaining capacity"
+    },
+    "test": {
+      "loss": 6.7755281348001715,
+      "perplexity": 876.1419619263902,
+      "tokens": 4143
+    },
+    "elapsed_seconds": 2.9915822000002663
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/sft.json",
+    "name": "sft",
+    "config": {
+      "task": "sft",
+      "limit": 400,
+      "epochs": 2,
+      "batch": 1,
+      "accumulate": 8,
+      "length": 192,
+      "lr": 0.0002,
+      "seed": 42,
+      "model": "Qwen2.5-0.5B-Instruct + LoRA",
+      "parameters": 494573440,
+      "trainable_parameters": 540672,
+      "counts": {
+        "train": 400,
+        "dev": 30,
+        "test": 30
+      },
+      "masking": "assistant target only; prompt and padding=-100",
+      "split": "deduplicated document/prompt split, fixed seed, no test-based selection",
+      "truncation": "prefix capped to half context; target truncated to remaining capacity"
+    },
+    "test": {
+      "loss": 0.28174559099592084,
+      "perplexity": 1.3254414728441846,
+      "tokens": 1220
+    },
+    "elapsed_seconds": 202.56612339999992
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/simcse_n10000_lr0.0003.json",
+    "name": "simcse_n10000_lr0.0003",
+    "config": {
+      "task": "simcse",
+      "batch": 16,
+      "epochs": 5,
+      "lr": 0.0003,
+      "limit": 10000,
+      "seed": 42,
+      "pretrained": "uer/chinese_roberta_L-2_H-128",
+      "counts": {
+        "dev": 1000,
+        "test": 1000,
+        "train": 10000
+      },
+      "labels": [
+        "different",
+        "same"
+      ],
+      "test_split": "sentence-connected group split of labeled LCQMC dev; upstream test has no labels",
+      "trainable_parameters": 3200260
+    },
+    "test": {
+      "accuracy": 0.615,
+      "macro_f1": 0.5948524157845498,
+      "auc": 0.646485375064004,
+      "average_precision": 0.6109014023731418
+    },
+    "elapsed_seconds": 58.839988300000186
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/t5_filling_n1000_v2.json",
+    "name": "t5_filling_n1000_v2",
+    "config": {
+      "task": "filling",
+      "limit": 1000,
+      "epochs": 10,
+      "batch": 8,
+      "lr": 0.0005,
+      "source_length": 192,
+      "target_length": 64,
+      "seed": 42,
+      "pretrained": "uer/t5-small-chinese-cluecorpussmall",
+      "counts": {
+        "train": 1000,
+        "dev": 100,
+        "test": 100
+      },
+      "parsing": {
+        "train.tsv": {
+          "valid": 347886,
+          "malformed_filtered": 2250
+        },
+        "dev.tsv": {
+          "valid": 38645,
+          "malformed_filtered": 259
+        }
+      },
+      "labels": "target tokens + SEP, no CLS in labels; decoder_start_token=CLS, padding=-100",
+      "split": "grouped held-out half of upstream dev, overlapping training groups removed"
+    },
+    "test": {
+      "loss": 4.1070704200106025,
+      "exact_match": 0.03,
+      "character_f1": 0.2577044235547044,
+      "examples": [
+        {
+          "input": "\"刘备和诸葛亮[MASK]讲述的鱼水关系吗\"中[MASK]位置的文本是：",
+          "gold": "真的是《三国演义》中",
+          "prediction": "的 一 个 人 ， 是 一 个 人 的 一 个 人 ，"
+        },
+        {
+          "input": "\"焉耆县焉耆镇是全县政治、经济、文化、交通的中心，面积8.1平方公里，辖10个居委会、1个行政村，有各级行政、[MASK]活动点一处），常住人口30475人，暂住人口5530人，商业网点多，人口密度大，流动人口杂，城乡结合部多，社会治安综合治理工作难度较大\"中[MASK]位置的文本是：",
+          "gold": "事业、企业单位137个，有汉、回、维、蒙等十几个民族，宗教活动场所14所（其中清真寺13座，基督教",
+          "prediction": "行 政 、 经 济 、 经 济 、 经 济 、 经 济 、 经 济 、 经 济 、 经 济 、 经 济 、 经 济 、"
+        },
+        {
+          "input": "\"2008年她又参演了由陈嘉上执导的新版电影《画皮[MASK]的是千年狐妖“小唯”\"中[MASK]位置的文本是：",
+          "gold": "》，在剧中饰演",
+          "prediction": "》 ， 作 者 是 陈 嘉 、 陈 嘉 、 陈 嘉 、 陈 嘉 、 陈 嘉 、 陈 嘉 、"
+        },
+        {
+          "input": "\"总导演由担任过《笨女孩》[MASK]\"中[MASK]位置的文本是：",
+          "gold": "的总导演的草川启造担任",
+          "prediction": "的 演 唱 ， 作 者 是 李 伟 、 李 伟 、 李 伟 、"
+        },
+        {
+          "input": "\"成都晚报：治愈系微[MASK]，导演田万良携主演、85岁空巢人体模特王肃中亮相\"中[MASK]位置的文本是：",
+          "gold": "电影《零元招租》在成都举行首映式",
+          "prediction": "小 说 ： 中 国 人 民 出 品 的 一 部 电 视 剧"
+        },
+        {
+          "input": "\"《夜夜夜夜[MASK]希、刘心、王野、武艺、陈翔\"中[MASK]位置的文本是：",
+          "gold": "》是一首中文流行歌曲，原唱是李炜、谭杰",
+          "prediction": "》 是 由 刘 伟 、 刘 伟 、 刘 伟 、 刘 伟 、"
+        },
+        {
+          "input": "\"22岁的林虎从东北人民解放军航空学校毕业，24岁参加抗美援朝，面对美国先进的飞机，他[MASK]一架\"中[MASK]位置的文本是：",
+          "gold": "毫无畏惧，击落击伤各",
+          "prediction": "是 一 个 人 的"
+        },
+        {
+          "input": "\"伊万·纳吉宾 ，出生于1986年，俄罗斯[MASK]体重68kg，所属球队是乌法\"中[MASK]位置的文本是：",
+          "gold": "人，身高176cm，",
+          "prediction": "球 队 ，"
+        },
+        {
+          "input": "\"资料[MASK]风雨人生  演唱者：张德兰  曲：M\"中[MASK]位置的文本是：",
+          "gold": "夜之热力  所属专辑：",
+          "prediction": "： 《"
+        },
+        {
+          "input": "\"邓婕心里很清楚张国立在感情上很是不老实，对此更是高压态势，可是[MASK]拍摄《铁齿铜牙纪晓岚》的过程中和女一号关系暧昧，为此，邓婕还扇了两人耳光，更有人爆料，前几年彪悍的邓婕把张国立和某演员堵在了宾馆里\"中[MASK]位置的文本是：",
+          "gold": "他并没有收敛，据说在",
+          "prediction": "张 国 立 在"
+        }
+      ]
+    },
+    "elapsed_seconds": 178.97147470000164
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/t5_filling_n5000_v2_expanded.json",
+    "name": "t5_filling_n5000_v2_expanded",
+    "config": {
+      "task": "filling",
+      "limit": 5000,
+      "epochs": 8,
+      "batch": 8,
+      "lr": 0.0003,
+      "source_length": 192,
+      "target_length": 64,
+      "seed": 42,
+      "eval_limit": 500,
+      "tag": "_expanded",
+      "pretrained": "uer/t5-small-chinese-cluecorpussmall",
+      "counts": {
+        "train": 5000,
+        "dev": 500,
+        "test": 500
+      },
+      "parsing": {
+        "train.tsv": {
+          "valid": 347886,
+          "malformed_filtered": 2250
+        },
+        "dev.tsv": {
+          "valid": 38645,
+          "malformed_filtered": 259
+        }
+      },
+      "labels": "target tokens + SEP, no CLS in labels; decoder_start_token=CLS, padding=-100",
+      "split": "grouped held-out half of upstream dev, overlapping training groups removed"
+    },
+    "test": {
+      "loss": 3.1252763600488187,
+      "exact_match": 0.036,
+      "character_f1": 0.29130162447921304,
+      "examples": [
+        {
+          "input": "\"吕治国 [MASK]1952年6月出生，湖南石门人\"中[MASK]位置的文本是：",
+          "gold": "男，土家族，",
+          "prediction": "， 男 ，"
+        },
+        {
+          "input": "\"《长江往事》是周[MASK]孙逊等主演的年代剧\"中[MASK]位置的文本是：",
+          "gold": "小兵执导，由韩童生、王雨、王媛可、",
+          "prediction": "杰 、 刘 恺 威 、"
+        },
+        {
+          "input": "\"拍摄背景：《中国造》[MASK]影视部共同拍摄，著名导演马进执导\"中[MASK]位置的文本是：",
+          "gold": "由天津电视台电视剧制作中心和央视",
+          "prediction": "由 中 国 电 视 台 、 中 国"
+        },
+        {
+          "input": "\"从康熙帝对荣妃的态度我们不难看出，荣妃似乎只是他的一个玩物，与[MASK]也是众多命运凄惨的后妃的代表\"中[MASK]位置的文本是：",
+          "gold": "对孝诚仁皇后赫舍里氏更不能同时而语，康熙帝在荣妃身上更多的是为了绵延皇室子嗣，荣妃",
+          "prediction": "荣 妃 的 关 系 也 是 一 个 很 好 的 ， 荣 妃"
+        },
+        {
+          "input": "\"[MASK]》是潇十二郎创作的网络小说，发表于17K小说网\"中[MASK]位置的文本是：",
+          "gold": "《无情剑道",
+          "prediction": "《 小 说 之 爱"
+        },
+        {
+          "input": "\"《[MASK]年浙江大学出版社出版的图书，作者是王英华\"中[MASK]位置的文本是：",
+          "gold": "初中培优训练题库语文（七年级上）》是2010",
+          "prediction": "中 国 人 民 出 版 社 》 是 2011"
+        },
+        {
+          "input": "\"罗添导 男，1955[MASK]兴宁市人\"中[MASK]位置的文本是：",
+          "gold": "年3月生，广东",
+          "prediction": "年 5 月 出 生 ，"
+        },
+        {
+          "input": "\"《[MASK]的一首歌曲，收录于专辑《自选角度-2000》中\"中[MASK]位置的文本是：",
+          "gold": "亲爱是疼》是由歌手谭咏麟",
+          "prediction": "自 己 的 心 》 是 由 张 智 霖 作 词 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲"
+        },
+        {
+          "input": "\"《为江山》是电视剧[MASK]片头曲，由段思思作词，谭旋作曲，雷立编曲，孙楠演唱\"中[MASK]位置的文本是：",
+          "gold": "《大唐荣耀》的",
+          "prediction": "《 为 江 山 》 的"
+        },
+        {
+          "input": "\"01  身高：168cm  国籍：乌克兰  项目：花样滑冰  格鲁什娜[MASK]开始练习滑冰\"中[MASK]位置的文本是：",
+          "gold": "简介  年",
+          "prediction": "身 高 ： 178cm 体 重 ： 178cm 体 重 ： 178cm 体 重 ： 178cm"
+        }
+      ]
+    },
+    "elapsed_seconds": 692.2397452000005
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/t5_qa_n1000_v2.json",
+    "name": "t5_qa_n1000_v2",
+    "config": {
+      "task": "qa",
+      "limit": 1000,
+      "epochs": 10,
+      "batch": 8,
+      "lr": 0.0005,
+      "source_length": 192,
+      "target_length": 64,
+      "seed": 42,
+      "pretrained": "uer/t5-small-chinese-cluecorpussmall",
+      "counts": {
+        "train": 1000,
+        "dev": 100,
+        "test": 100
+      },
+      "parsing": {},
+      "labels": "target tokens + SEP, no CLS in labels; decoder_start_token=CLS, padding=-100",
+      "split": "grouped held-out half of upstream dev, overlapping training groups removed"
+    },
+    "test": {
+      "loss": 2.72848591568486,
+      "exact_match": 0.27,
+      "character_f1": 0.5461920598750768,
+      "examples": [
+        {
+          "input": "问题：联通客服 原文：中国联通介绍: 中国联合网络通信集团有限公司(简称中国联通)于2009年1月6日在原中国网通和原中国联通的基础上合并而成,在国内31个省(自治区、直辖市)和境外多个国家和地区设有分支机构,是中国唯一一家同时在纽约、香港、上海三地上市的电信运营企业。 10010,是中国联通客户服务号码,通过\"10010\"、\"10011\"热线您可以得到多方位的客户服务,同时\"10018\"还可为联通俱乐部会员提供商旅、休闲等内容丰富的通信对信息服务。短信服务使用正确的编号发送至10010:101:当月话费102:可用余额104:历史账单201:信用额度0071:手机音乐0072:手机电视0073:手机邮箱",
+          "gold": "10010",
+          "prediction": "10008"
+        },
+        {
+          "input": "问题：清军入关时间 原文：清军入关又称清兵入关、[1-2] 满清入关、[3-7] 清朝入关、[8-9] 入关战争,[10] 是指公元1644年(明崇祯十七年,清顺治元年)中国东北少数民族政权的军队在明朝将领吴三桂的带引下大举进入山海关内、攻占京师(今中国北京)开始成为统治中国的中央政府的历史事件。",
+          "gold": "公元1644年",
+          "prediction": "明 朝"
+        },
+        {
+          "input": "问题：欧冠决赛2017决赛时间 原文：喜欢看足球的朋友都知道,欧冠比赛即将进入尾声,欧冠全称是欧洲冠军联赛,是欧洲的顶级联赛,是一个十分受到大众喜爱与重视的足球联赛,那么欧冠决赛2017决赛时间 2017年欧冠什么时候决赛,下面就由天气网万年历频道小编来为大家解答解答。|包括三轮资格赛和一轮附加赛,球队每轮都会与对手进行主客场两场比赛。进球数更多的球队获得晋级下一轮的资格,如果打平,则会用客场进球的数量多少,然后是点球大战来决定晋级资格的归属。|10支附加赛的赢家—其中5支来自于冠军途径,另外5只来自于排名途径—将会和22支自动晋级的队伍一起,组成有32支球队参加的小组赛。他们会分成8个小组,每组4支球队,每支球队都会与同小组的其他三个对手分别进行主客两场较量,时间则是在每年的9月至12月,最后将会有两支球队脱颖而出,晋级第一轮淘汰赛。每个小组的第三名则会进入欧洲联赛32强。|从16强到半决赛,每支球队都会与每轮的对手进行主客两场比赛,晋级规则与资格赛和附加赛阶段相同。在16强阶段,各小组的冠军和亚军不会相遇,而且来自同一个国家的球队也不会进行厮杀,不过,在进入四分之一决赛后,这项规定不再有效(但是半决赛仍然为主客制)。|决赛采用一场定胜负。决赛日期为当地时间2017年6月4日星期日,决赛场地为威尔士加的夫千年球场。|2017-06-04 周日 02:45 尤文图斯 VS 皇家马德里 威尔士 加的夫千年球场|欧冠决赛就要来到我们的身边了,是尤文图斯能够获得胜利还是皇家马德里能够夺冠呢,这场比赛也是一个扣人心弦的比赛,希望到时候能够观看到一次激烈的比赛!以上是万年历小编为您整理的“欧冠决赛2017决赛时间 2017年欧冠什么时候决赛”,希望您会喜欢。想要了解更多内容吗?不妨点击》》》2016欧洲冠军联赛|文章由天气网万年历频道(http://wannianli.tianqi.com/)原创,禁止转载",
+          "gold": "当地时间2017年6月4日星期日",
+          "prediction": "2017 年"
+        },
+        {
+          "input": "问题：一带一路什么时候开会 原文：一带一路”国际合作高峰论坛将于5月14日至15日在北京举行 目前,已有近20位各国领导人确认与会,亚洲、欧洲、非洲、拉美等地区均有代表。此外,还将邀请一些国家的部长级代表团、国际组织负责人、外国前政要、知名企业家、专家学者等代表参会,共商合作大计。",
+          "gold": "5月14日至15日",
+          "prediction": "5 月 14 日 至 15 日"
+        },
+        {
+          "input": "问题：蛋白粉什么时候吃最好 原文：什么时候吃：一般是在早餐时吃最好，可以加到任何早餐里面，如加到牛奶里或豆浆里，最好做个高蛋白营养早餐是最好的。 怎么吃：量：正常情况下一天一勺就够了，但如果工作压大或经常加班熬夜和生病时要提高免疫力可多一两勺。活力达蛋白质粉具有增肌功效，若想增肌请根据具体的情况多加分量，最好可有专业的教练根据自身情况推荐。 参考：不同年龄人所需蛋白质的指数 年龄 1~3岁 4~6岁 7~10岁 11~14岁 15~18岁 19岁以上指数 1.80 1.49 1.21 0.990.990.79计算方法为：先找出自己的年龄段指数；再用此指数乘以自己体重（公斤）；所得的答案就是您一天所需要的蛋白质克数。水温：水温不要超过40度水温超过40度，容易破坏蛋白粉的营养。若需在炒菜或汤水中加入蛋白粉，应在起锅冷却后再加入。只有这样蛋白质粉才会保持良好的生物学活性，为您的健康带来真正的益处。冲泡：喝前摇一摇蛋白质粉在冲泡的时候，容易板结“成块”，主要是受热不均造成的。除了控制水温之外，另外两个诀窍是：A，先放蛋白质粉，再倒入温水；B，喝前摇一摇，让蛋白质粉快速溶解，现在很多买蛋白质粉都会送专门的摇摇杯。",
+          "gold": "一般是在早餐时",
+          "prediction": "早 餐"
+        },
+        {
+          "input": "问题：开学第一课哪个台 原文：《开学第一课》是教育部与中央电视台合作的大型公益节目。自2008年起，教育部就和中央电视台密切合作，于每年新学年开学之际推出《开学第一课》。这一节目针对中小学生的特点而设计，靠他们喜欢的方式，使他们在潜移默化中受到陶冶，有利于增强教育的针对性；每年都是针对当年最重要的事情选定节目内容，有利于增进教育的实效性。|2017年《开学第一课》主题为“中华骄傲”，将围绕“中华骄傲”，选取青少年的独特视角，带领大家一起见证中国历史成果。[1]节目于9月1日21：00在中央电视台综合频道（CCTV-1）播出。|2008年，首届《开学第一课》在汶川大地震和北京奥运会的背景下，以《知识守护生命》为主题，对全国孩子们进行应急避险教育和生命意识教育。[2]",
+          "gold": "CCTV-1",
+          "prediction": "教 育 部 与 中 华 电 视 台"
+        },
+        {
+          "input": "问题：中国羽毛球男双排名 原文：世界排名第一羽毛球是一项室内,室外兼顾的运动。依据参与的人数,可以分为单打与双打。羽毛球拍一般由拍头、拍杆、拍柄及拍框与拍杆的接头构成。一支球拍的长度不超过68厘米,其中球拍柄与球拍杆长度不超过41厘米,拍框长度为28厘米,宽为23厘米,随着科学技术的发展,球拍的发展向着重量越来越轻、拍框越来越硬、拍杆弹性越来越好的方向发展。适合东方人发展。",
+          "gold": "第一",
+          "prediction": "24 厘 米"
+        },
+        {
+          "input": "问题：申通投诉电话 原文：支持严厉声讨申通快递公司。我也有一个快件也是这样。不过倒没有被销毁。他们收货前从来不问是什么东西。最后面被罚款了，就要客户来卖单。他们还说以后凡是我的快件都扣压下来，直到我们给他500块才会把我的快件还给我。公司都是一样的，接到客户投诉的时候就以各种理由推脱。真希望人能治他们。 上 媒体 相关信息 请大家指点.谢谢啦. 大家有什么好方法提高做事效率。 为什么这么对中国不友好看到网上中国状元协会 我想问问大...... jonathan 日本救心丸 一线钟情 支架植入术 红树林 爆光他们。 消费者权益保护协会12315，应该还是有用的吧。 不过我没试过，我想应该都是一样的。好比古时候那样&ldquo;官官相护&rdquo;|我前几天刚投诉了其他快递，绝对好用。你先向申通快递投诉，然后你向邮政投诉，邮政一介入，他们会很快给你解决，快递是归邮政管，且有竞争关系。国家邮政投诉网址http://sswz.chinapost.gov.cn/|95543 400-889-5543 这是他们的全国统一服务热线，可以拨打这个投诉|可以打他们公司的电话，找到负责人，还可以通过12315进行投诉，有些服务是做的不好！",
+          "gold": "95543 400-889-5543",
+          "prediction": "一 个"
+        },
+        {
+          "input": "问题：赤舌哪里最多 原文：推荐打第十六章。阴阳师悬赏封印赤舌哪里多http://news.4399.com/yyssy/xsrw/n/m/689162.html|1、海扁：赤舌冲到敌人面伸出长舌想要舔敌人，结果太大力，用舌头狠狠海扁了对方一顿，造成攻击100%的伤害。2、鼓舞：赤舌敲起手中的鼓，激昂战阵士气，提升全体队友5点速度和5%的暴击率，持续2回合。3、疾风：赤舌击鼓召唤雷云，降下数道闪电攻击敌方全体2次，造成攻击60%的伤害。有30%的概率烧焦敌人，清空其行动条。赤舌用的好，过蛇刷本无压力，除非大蛇不改版，免疫击退，不然大蛇?你就看着我动吧!当然黑科技也得看脸。为什么赤舌是最强N卡?技能大家回去看看，有几率清空敌人全部行动天。如果之前的命中公式不改版，呵呵。当然现在也是还能用的。如果N卡能觉醒，那么黑科技就真的黑了。",
+          "gold": "第十六章",
+          "prediction": "第 十 六 章"
+        },
+        {
+          "input": "问题：客货混装扣几分 原文：被查为人货混装，扣三分，罚款200元。根据《道路交通安全法实施条例》第五十四条规定： 载客汽车除车身外部的行李架和内置的行李箱外，不得载货。载客汽车行李架载货，从车顶起高度不得超过0.5米，从地面起高速不得超过4米。根据《道路交通安全法实施条例》第五十五条第二款规定： 机动车载人应当遵循下列规定： 载货汽车车厢不得载客。在城市道路上，货运机动车在留有安全位置的情况下，车厢内可以附载临时作业人员1人至5人；载物高速超过车厢拦板时，货物上不得载人。如果载客汽车违反上述规定载货或者载货汽车违反上述规定载人，则视为客货混装。",
+          "gold": "三分",
+          "prediction": "三 分"
+        }
+      ]
+    },
+    "elapsed_seconds": 211.96427790000052
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/t5_qa_n5000_v2_expanded.json",
+    "name": "t5_qa_n5000_v2_expanded",
+    "config": {
+      "task": "qa",
+      "limit": 5000,
+      "epochs": 8,
+      "batch": 8,
+      "lr": 0.0003,
+      "source_length": 192,
+      "target_length": 64,
+      "seed": 42,
+      "eval_limit": 500,
+      "tag": "_expanded",
+      "pretrained": "uer/t5-small-chinese-cluecorpussmall",
+      "counts": {
+        "train": 5000,
+        "dev": 483,
+        "test": 500
+      },
+      "parsing": {},
+      "labels": "target tokens + SEP, no CLS in labels; decoder_start_token=CLS, padding=-100",
+      "split": "grouped held-out half of upstream dev, overlapping training groups removed"
+    },
+    "test": {
+      "loss": 1.300245828076017,
+      "exact_match": 0.372,
+      "character_f1": 0.6502549386799584,
+      "examples": [
+        {
+          "input": "问题：雅思班价格 原文：报雅思或者托付培训班,一般情况下要900元左右。 雅思和托福考试可以自学: 一、基础知识准备:单词、基本语法、长难句分析; 二、板块训练:听说读写,四个板块; 三、合理备考计划,可以参见中国上别人经验结合自己的自身条件; 四、效果强化跟踪,使用合理的备考软件或者是自测题目随时跟踪自己的学习状态",
+          "gold": "900元",
+          "prediction": "900 元 左 右"
+        },
+        {
+          "input": "问题：合肥新科空调售后电话 原文：欢迎访问】合肥新科空调官方网站全国各点售后服务咨询电话-中心 合肥新科空调售后电话:⑴400--100--8087 〔2〕400-9967-698 (合肥新科空调厂家维修)驻合肥办事处报修受理热线电话:400-1008087",
+          "gold": "⑴400--100--8087 〔2〕400-9967-698",
+          "prediction": "400 - 9967 - 8087"
+        },
+        {
+          "input": "问题：人工智障爱酱是什么 原文：人工智障爱酱,是A.I.Channel里的kizina ai,超可爱,B站上有搜up主AIchannel,他是专门搬运这个的,而且有字幕,不多说了我去舔爱酱了(泥垢kizinaai是A.I.Channel里的kizina ai,超可爱,B站上有搜up主AIchannel,他是专门搬运这个的,而且有字幕,不多说了我去舔爱酱了(泥垢|从左往右:1.《守护甜心》藤咲抚子2.《旋风管家》绫崎飒3.《玛利亚狂热》祇堂鞠也4.《萌菌物语》结城萤5.《笨蛋测验召唤兽》木下秀吉6.《黑执事》夏尔·凡多姆海威7.《南家三姐妹》真8.《黑塔利亚》王耀伪娘大集合",
+          "gold": "kizina ai",
+          "prediction": "kizina ai"
+        },
+        {
+          "input": "问题：为爱所困mic是谁 原文：亲们，我记得小说里小学弟mic是学生会会长fi 的弟弟，不是乐队里fim的弟弟吧？我记错了吗？？？|看小说是音乐社Film的弟弟，可是在电视剧里一点迹象都没有啊！Film对待他就像普通的学弟一样啊！好奇怪……|小学弟晕倒时fim对ohm说了几句很奇怪的话，就像哥哥的口气，我当时就懵了，因为我一直以为学生会长是小学弟哥哥的|可是当时film问no“这个小学弟很水嫩吧？”，如果是弟弟的话当时为啥不问“我弟弟很水嫩吧？” 是吧？|为了搞清楚小学弟mic到底是谁的弟弟，昨天晚上又撸了一遍小说，终于搞清楚了mic是音乐社film的弟弟",
+          "gold": "音乐社Film的弟弟",
+          "prediction": "fim"
+        },
+        {
+          "input": "问题：多少流明算强光手电 原文：; ;目前强光手电关键部件主要是CREE LED提供，按照其标准，74流明以上即算强光手电。; ;; 从上图可以看出，强光手电最高亮度可以达到250流明。|这个没有个固定值，要看你用途，一般500流明以上吧，我刚买了一支tank007这牌子的强光手电筒，有2000流明，超级亮质量也很好。|最高流明是2400。强光手电是以发光二极管作为光源的一种新型照明工具，它具有省电、耐用、亮度强等优点。强光手电的电源多为可充电锂离子电池或镍镉镍氢电池，额定电压3.7V，容量几百到几千毫安时不等，根据常见LED光源的功率，续航能力范围在几十分钟到几小时不等。",
+          "gold": "74流明以上",
+          "prediction": "2400"
+        },
+        {
+          "input": "问题：饥荒冬季boss什么时候来 原文：冬季boss，一般30天+巨鹿来，用冰魔杖，看他要出手时冻他，春节boss，春鸭，最弱的一个boss，但时间久不打他会繁殖，打两-三下躲下，他有个技能会震掉你的武器，立刻按空格减起。夏季boss火蜻蜓，比较难打，有个范围的火焰，小心他烧掉你的家。",
+          "gold": "一般30天",
+          "prediction": "30 天 + 巨 鹿"
+        },
+        {
+          "input": "问题：办理香港商务签证多少钱bestb2b 原文：香港商务签证一年多次签证须知: 工作日:需面试后 15-20个工作日出证 费用17000元 交资料收取订金5000元 面试后收到回执单付清余款 15-20工作日出证 所需资料 1.港澳通行证原件1本 2.2寸蓝底彩照电子版 3.身份证正反面电子版 4.户口本户主页+本人页电子版",
+          "gold": "费用17000元",
+          "prediction": "5000 元"
+        },
+        {
+          "input": "问题：天津哪家医院看泌尿科 原文：尿道炎的症状是有很多的,可能是有尿频、尿痛的情况,也可能有排尿不通畅的情况,也有可能会有排尿灼热疼痛的情况,一旦你出现这些微妙的情况就要小心了,因为很有可能是尿道炎来袭了,我们平时要多喝水,不要乱性,更加不要不干净的去生活,因为尿道炎也是有可能出现传染的,看是什么类型的了,所以要当心了,天津治疗泌尿疾病的医院我们选择天津阳光男科医院。ws|如果您遇到健康方面的问题,可以通过以下方式和天津阳光男科医院取得联系。我院承诺尊重保护患者个人隐私。|\");} else if (id==2) {document.writeln(\"\");} else if (id==17) {document.writeln(\"\");} else if (id==12) {document.writeln(\"\");} else if (id==22) {document.writeln(\"\");} else if (id==27) {document.writeln(\"\");} else {document.writeln(\"\");} //-->",
+          "gold": "天津阳光男科医院",
+          "prediction": "天 津 阳 光 男 科 医 院"
+        },
+        {
+          "input": "问题：4m网线下载速度 原文：您好，首先感谢您对中国电信的支持。电信4M宽带的下载速度在400KB/S上下。1M=1024KB,4M=4096KB.如果您需要办理宽带业务可以登录电信网厅进行申请，目前安徽大部分地区都是有推出4M宽带包年960不限时套餐的;如果您还有其他疑问可以直接到安徽电信网厅提问，会有更加专业的客服为您解答。",
+          "gold": "400KB/S",
+          "prediction": "/ 上 下"
+        },
+        {
+          "input": "问题：toefl送分要多久 原文：经常有些考生会在申请的最后阶段才去考托福，这样的话对于托福送分的周期就非常关注，万一在学校申请的最后阶段还没有送到怎么办?加送的付费成绩单将在考生提交申请后4至7天由ETS寄出。据网络消息，寄到申请校大概需要8—12周。托福英文官方网站给出的信息是，ETS无法控制邮寄速度。ETS推荐申请人，最晚应在截止日期前两三月参加托福考试。",
+          "gold": "8—12周",
+          "prediction": "8 12 周"
+        }
+      ]
+    },
+    "elapsed_seconds": 852.8098159999936
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/uie_base_fill_v1.json",
+    "name": "uie_base_fill_v1",
+    "config": {
+      "augment": "fill",
+      "pretrained_uie": true,
+      "filling_checkpoint": "t5_filling_expanded",
+      "batch": 8,
+      "epochs": 8,
+      "lr": 2e-05,
+      "seed": 42,
+      "pretrained": "Pky/uie-base-zh pretrained encoder and boundary heads",
+      "counts": {
+        "train": 2174,
+        "dev": 122,
+        "test": 110
+      },
+      "original_train_count": 2087,
+      "initialization": "seed reset after mining, before model construction; same initial heads across arms",
+      "negative_mining": "baseline false positives on already labeled training negatives only",
+      "split": "group by original content; upstream empty test replaced by held-out half of dev"
+    },
+    "test": {
+      "precision": 0.8695652173913043,
+      "recall": 0.8695652173913043,
+      "f1": 0.8695652173913043,
+      "gold_spans": 23
+    },
+    "elapsed_seconds": 522.2961612999934
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/uie_base_negative_v1.json",
+    "name": "uie_base_negative_v1",
+    "config": {
+      "augment": "negative",
+      "pretrained_uie": true,
+      "batch": 8,
+      "epochs": 8,
+      "lr": 2e-05,
+      "seed": 42,
+      "pretrained": "Pky/uie-base-zh pretrained encoder and boundary heads",
+      "counts": {
+        "train": 2102,
+        "dev": 122,
+        "test": 110
+      },
+      "original_train_count": 2087,
+      "initialization": "seed reset after mining, before model construction; same initial heads across arms",
+      "negative_mining": "baseline false positives on already labeled training negatives only",
+      "split": "group by original content; upstream empty test replaced by held-out half of dev"
+    },
+    "test": {
+      "precision": 0.9523809523809523,
+      "recall": 0.8695652173913043,
+      "f1": 0.909090909090909,
+      "gold_spans": 23
+    },
+    "elapsed_seconds": 511.92624760000035
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/uie_base_none_v1.json",
+    "name": "uie_base_none_v1",
+    "config": {
+      "augment": "none",
+      "pretrained_uie": true,
+      "batch": 8,
+      "epochs": 8,
+      "lr": 2e-05,
+      "seed": 42,
+      "pretrained": "Pky/uie-base-zh pretrained encoder and boundary heads",
+      "counts": {
+        "train": 2087,
+        "dev": 122,
+        "test": 110
+      },
+      "original_train_count": 2087,
+      "initialization": "seed reset after mining, before model construction; same initial heads across arms",
+      "negative_mining": "baseline false positives on already labeled training negatives only",
+      "split": "group by original content; upstream empty test replaced by held-out half of dev"
+    },
+    "test": {
+      "precision": 0.9523809523809523,
+      "recall": 0.8695652173913043,
+      "f1": 0.909090909090909,
+      "gold_spans": 23
+    },
+    "elapsed_seconds": 502.18175569999585
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/uie_base_swap_v1.json",
+    "name": "uie_base_swap_v1",
+    "config": {
+      "augment": "swap",
+      "pretrained_uie": true,
+      "batch": 8,
+      "epochs": 8,
+      "lr": 2e-05,
+      "seed": 42,
+      "pretrained": "Pky/uie-base-zh pretrained encoder and boundary heads",
+      "counts": {
+        "train": 2227,
+        "dev": 122,
+        "test": 110
+      },
+      "original_train_count": 2087,
+      "initialization": "seed reset after mining, before model construction; same initial heads across arms",
+      "negative_mining": "baseline false positives on already labeled training negatives only",
+      "split": "group by original content; upstream empty test replaced by held-out half of dev"
+    },
+    "test": {
+      "precision": 0.9,
+      "recall": 0.782608695652174,
+      "f1": 0.8372093023255814,
+      "gold_spans": 23
+    },
+    "elapsed_seconds": 540.3669470000023
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/uie_negative_v3.json",
+    "name": "uie_negative_v3",
+    "config": {
+      "augment": "negative",
+      "batch": 16,
+      "epochs": 15,
+      "lr": 0.0003,
+      "seed": 42,
+      "pretrained": "small BERT; not UIE-base pretrained weights",
+      "counts": {
+        "train": 2194,
+        "dev": 122,
+        "test": 110
+      },
+      "original_train_count": 2087,
+      "initialization": "seed reset after mining, before model construction; same initial heads across arms",
+      "negative_mining": "baseline false positives on already labeled training negatives only",
+      "split": "group by original content; upstream empty test replaced by held-out half of dev"
+    },
+    "test": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gold_spans": 23
+    },
+    "elapsed_seconds": 54.93686479999997
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/uie_none_v3.json",
+    "name": "uie_none_v3",
+    "config": {
+      "augment": "none",
+      "batch": 16,
+      "epochs": 15,
+      "lr": 0.0003,
+      "seed": 42,
+      "pretrained": "small BERT; not UIE-base pretrained weights",
+      "counts": {
+        "train": 2087,
+        "dev": 122,
+        "test": 110
+      },
+      "original_train_count": 2087,
+      "initialization": "seed reset after mining, before model construction; same initial heads across arms",
+      "negative_mining": "baseline false positives on already labeled training negatives only",
+      "split": "group by original content; upstream empty test replaced by held-out half of dev"
+    },
+    "test": {
+      "precision": 0.8333333333333334,
+      "recall": 0.21739130434782608,
+      "f1": 0.3448275862068966,
+      "gold_spans": 23
+    },
+    "elapsed_seconds": 52.45409610000024
+  },
+  {
+    "file": "transformers_tasks/local_runs/results/uie_swap_v3.json",
+    "name": "uie_swap_v3",
+    "config": {
+      "augment": "swap",
+      "batch": 16,
+      "epochs": 15,
+      "lr": 0.0003,
+      "seed": 42,
+      "pretrained": "small BERT; not UIE-base pretrained weights",
+      "counts": {
+        "train": 2427,
+        "dev": 122,
+        "test": 110
+      },
+      "original_train_count": 2087,
+      "initialization": "seed reset after mining, before model construction; same initial heads across arms",
+      "negative_mining": "baseline false positives on already labeled training negatives only",
+      "split": "group by original content; upstream empty test replaced by held-out half of dev"
+    },
+    "test": {
+      "precision": 0.16666666666666666,
+      "recall": 0.13043478260869565,
+      "f1": 0.14634146341463414,
+      "gold_spans": 23
+    },
+    "elapsed_seconds": 65.53479519999928
+  }
+]

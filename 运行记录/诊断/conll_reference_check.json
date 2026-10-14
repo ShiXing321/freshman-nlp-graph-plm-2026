@@ -1,0 +1,39 @@
+{
+  "source": "https://github.com/synalp/NER/blob/master/corpus/CoNLL-2003/eng.testb",
+  "reference_sha256": "0df8a5e436b16b6a41726b7ff252e50ccfab3fde6863af22753c91639e0fc646",
+  "actual_sentences": 3453,
+  "reference_sentences": 3453,
+  "conversion": "IOB1 to IOB2 at entity starts",
+  "mismatching_sentences": [],
+  "first_sentence": {
+    "tokens": [
+      "SOCCER",
+      "-",
+      "JAPAN",
+      "GET",
+      "LUCKY",
+      "WIN",
+      ",",
+      "CHINA",
+      "IN",
+      "SURPRISE",
+      "DEFEAT",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-LOC",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PER",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  "status": "passed"
+}

@@ -1,0 +1,114 @@
+NLP task1 original Kaggle data PASS
+NLP task2 original Kaggle data PASS
+NLP task3 expanded experiment PASS
+SNLI full held-out evaluation PASS
+NLP task4 expanded experiment PASS
+CoNLL complete sentence coverage PASS
+NER casing study PASS
+Graph task1 model/dataset/mode grid PASS
+Graph task1 learning-rate/layer studies PASS
+Graph task2 model/dataset/mode grid PASS
+Graph task2 learning-rate/layer studies PASS
+Graph graph-level full pooling grid PASS
+Graph graph-level parameter studies PASS
+KGE full training and test PASS
+PLM classification PASS
+PLM pointwise PASS
+PLM dssm PASS
+PLM sbert PASS
+PLM simcse PASS
+PLM pet PASS
+PLM ptuning PASS
+PLM reward PASS
+PLM qwen_ppo PASS
+PLM qwen_mbti PASS
+PLM sft PASS
+PLM cpt PASS
+PLM scratch PASS
+PLM scratch-sft PASS
+UIE pretrained and augmentation grid PASS
+T5 expanded QA and filling PASS
+Zero-shot expanded evaluation PASS
+Zero-shot prompt validation study PASS
+Zero-shot source-text output check PASS
+PPO held-out before/after evaluation PASS
+Actual Mask Then Fill generation PASS
+Mask filling quality and offsets PASS
+Actual SwapSPO augmentation PASS
+Held-out diagnostics task2_classes.json PASS
+Held-out diagnostics task3_classes.json PASS
+Held-out diagnostics task4_entities.json PASS
+ESIM attention on held-out example PASS
+Link saved-model CPU/CUDA comparison PASS
+Kaggle group split has no overlap PASS
+Report sections 学习报告/总报告.md PASS
+Portable links 学习报告/总报告.md PASS
+Portable links 学习报告/PLM任务.md PASS
+Report sections nlp-beginner/legacy/task1/README.md PASS
+Portable links nlp-beginner/legacy/task1/README.md PASS
+Report sections nlp-beginner/legacy/task2/README.md PASS
+Portable links nlp-beginner/legacy/task2/README.md PASS
+Report sections nlp-beginner/legacy/task3/README.md PASS
+Portable links nlp-beginner/legacy/task3/README.md PASS
+Report sections nlp-beginner/legacy/task4/README.md PASS
+Portable links nlp-beginner/legacy/task4/README.md PASS
+Report sections nlp-beginner/legacy/task5/README.md PASS
+Portable links nlp-beginner/legacy/task5/README.md PASS
+Report sections graph_beginner/task1/README.md PASS
+Portable links graph_beginner/task1/README.md PASS
+Report sections graph_beginner/task2/README.md PASS
+Portable links graph_beginner/task2/README.md PASS
+Report sections graph_beginner/task3/README.md PASS
+Portable links graph_beginner/task3/README.md PASS
+Report sections graph_beginner/task4/README.md PASS
+Portable links graph_beginner/task4/README.md PASS
+Report sections 学习报告/PLM_Prompt.md PASS
+Portable links 学习报告/PLM_Prompt.md PASS
+Report sections 学习报告/PLM_RLHF.md PASS
+Portable links 学习报告/PLM_RLHF.md PASS
+Report sections 学习报告/PLM_T5生成.md PASS
+Portable links 学习报告/PLM_T5生成.md PASS
+Report sections 学习报告/PLM_信息抽取.md PASS
+Portable links 学习报告/PLM_信息抽取.md PASS
+Report sections 学习报告/PLM_分类.md PASS
+Portable links 学习报告/PLM_分类.md PASS
+Report sections 学习报告/PLM_大模型应用.md PASS
+Portable links 学习报告/PLM_大模型应用.md PASS
+Report sections 学习报告/PLM_大模型训练.md PASS
+Portable links 学习报告/PLM_大模型训练.md PASS
+Report sections 学习报告/PLM_工具.md PASS
+Portable links 学习报告/PLM_工具.md PASS
+Report sections 学习报告/PLM_文本分类.md PASS
+Portable links 学习报告/PLM_文本分类.md PASS
+Report sections 学习报告/PLM_文本匹配.md PASS
+Portable links 学习报告/PLM_文本匹配.md PASS
+Report links exist PASS
+Raw screenshot nlp1 PASS
+Raw screenshot nlp2 PASS
+Raw screenshot nlp3 PASS
+Raw screenshot nlp4 PASS
+Raw screenshot nlp5 PASS
+Raw screenshot graph1 PASS
+Raw screenshot graph2 PASS
+Raw screenshot graph3 PASS
+Raw screenshot graph4 PASS
+Raw screenshot plm-bert PASS
+Raw screenshot plm-uie PASS
+Raw screenshot plm-reward PASS
+Raw screenshot plm-qa PASS
+Raw screenshot plm-filling PASS
+Raw screenshot plm-sft PASS
+Raw screenshot plm-cpt PASS
+Raw screenshot plm-ppo PASS
+Raw screenshot plm-scratch PASS
+Raw screenshot plm-scratch-sft PASS
+Raw screenshot plm-zero-shot PASS
+Raw screenshot plm-mbti PASS
+Raw screenshot plm-tools PASS
+运行记录/核查/audit.json PASS
+运行记录/核查/generation_reload_checks.json PASS
+运行记录/local_tools_checks.json PASS
+运行记录/核查/kge_ranking.json PASS
+运行记录/独立环境核查.json PASS
+Data and model provenance manifest PASS
+passed

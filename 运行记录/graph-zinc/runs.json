@@ -1,0 +1,482 @@
+[
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gcn",
+      "--pool",
+      "mean",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:09:13.585670+08:00",
+    "log": "运行记录\\graph-zinc\\000.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gcn",
+      "--pool",
+      "mean",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:09:27.352596+08:00",
+    "log": "运行记录\\graph-zinc\\001.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gcn",
+      "--pool",
+      "max",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:09:53.335887+08:00",
+    "log": "运行记录\\graph-zinc\\002.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gcn",
+      "--pool",
+      "max",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:10:06.684793+08:00",
+    "log": "运行记录\\graph-zinc\\003.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gcn",
+      "--pool",
+      "min",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:10:32.942961+08:00",
+    "log": "运行记录\\graph-zinc\\004.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gcn",
+      "--pool",
+      "min",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:10:45.154947+08:00",
+    "log": "运行记录\\graph-zinc\\005.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gat",
+      "--pool",
+      "mean",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:11:09.694655+08:00",
+    "log": "运行记录\\graph-zinc\\006.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gat",
+      "--pool",
+      "mean",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:11:23.189297+08:00",
+    "log": "运行记录\\graph-zinc\\007.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gat",
+      "--pool",
+      "max",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:11:53.663380+08:00",
+    "log": "运行记录\\graph-zinc\\008.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gat",
+      "--pool",
+      "max",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:12:07.347985+08:00",
+    "log": "运行记录\\graph-zinc\\009.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gat",
+      "--pool",
+      "min",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:12:37.280277+08:00",
+    "log": "运行记录\\graph-zinc\\010.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gat",
+      "--pool",
+      "min",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:12:50.696888+08:00",
+    "log": "运行记录\\graph-zinc\\011.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "sage",
+      "--pool",
+      "mean",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:13:21.110559+08:00",
+    "log": "运行记录\\graph-zinc\\012.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "sage",
+      "--pool",
+      "mean",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:13:34.172821+08:00",
+    "log": "运行记录\\graph-zinc\\013.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "sage",
+      "--pool",
+      "max",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:13:55.469165+08:00",
+    "log": "运行记录\\graph-zinc\\014.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "sage",
+      "--pool",
+      "max",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:14:08.227178+08:00",
+    "log": "运行记录\\graph-zinc\\015.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "sage",
+      "--pool",
+      "min",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:14:30.934935+08:00",
+    "log": "运行记录\\graph-zinc\\016.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "sage",
+      "--pool",
+      "min",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:14:43.707501+08:00",
+    "log": "运行记录\\graph-zinc\\017.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gin",
+      "--pool",
+      "mean",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:15:06.257111+08:00",
+    "log": "运行记录\\graph-zinc\\018.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gin",
+      "--pool",
+      "mean",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:15:19.129021+08:00",
+    "log": "运行记录\\graph-zinc\\019.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gin",
+      "--pool",
+      "max",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:15:41.790963+08:00",
+    "log": "运行记录\\graph-zinc\\020.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gin",
+      "--pool",
+      "max",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:15:54.975755+08:00",
+    "log": "运行记录\\graph-zinc\\021.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gin",
+      "--pool",
+      "min",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:16:18.376219+08:00",
+    "log": "运行记录\\graph-zinc\\022.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "ZINC",
+      "--model",
+      "gin",
+      "--pool",
+      "min",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "2000"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:16:31.580386+08:00",
+    "log": "运行记录\\graph-zinc\\023.txt"
+  }
+]

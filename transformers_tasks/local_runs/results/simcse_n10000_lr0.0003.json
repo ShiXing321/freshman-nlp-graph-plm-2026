@@ -1,0 +1,87 @@
+{
+  "name": "simcse_n10000_lr0.0003",
+  "config": {
+    "task": "simcse",
+    "batch": 16,
+    "epochs": 5,
+    "lr": 0.0003,
+    "limit": 10000,
+    "seed": 42,
+    "pretrained": "uer/chinese_roberta_L-2_H-128",
+    "counts": {
+      "dev": 1000,
+      "test": 1000,
+      "train": 10000
+    },
+    "labels": [
+      "different",
+      "same"
+    ],
+    "test_split": "sentence-connected group split of labeled LCQMC dev; upstream test has no labels",
+    "trainable_parameters": 3200260
+  },
+  "started": "2026-10-13T23:49:29.084359+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 0.0027387391565105645,
+      "dev": {
+        "accuracy": 0.634,
+        "macro_f1": 0.6100143207855975,
+        "auc": 0.7132336764123508,
+        "average_precision": 0.7085583834127671
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 0.0003871250344833243,
+      "dev": {
+        "accuracy": 0.637,
+        "macro_f1": 0.6082278624458886,
+        "auc": 0.7145337232140357,
+        "average_precision": 0.707294472445021
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0002165886617236538,
+      "dev": {
+        "accuracy": 0.627,
+        "macro_f1": 0.5853302516589569,
+        "auc": 0.6991251685060662,
+        "average_precision": 0.686412846145161
+      }
+    },
+    {
+      "epoch": 4,
+      "loss": 0.00040077769660711054,
+      "dev": {
+        "accuracy": 0.617,
+        "macro_f1": 0.577146478447167,
+        "auc": 0.660787788360381,
+        "average_precision": 0.6293528998048694
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 0.00022627533189370296,
+      "dev": {
+        "accuracy": 0.636,
+        "macro_f1": 0.6171306678335066,
+        "auc": 0.6870167326023737,
+        "average_precision": 0.6518109578014454
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 58.839988300000186,
+  "best_dev_macro_f1": 0.6171306678335066,
+  "test": {
+    "accuracy": 0.615,
+    "macro_f1": 0.5948524157845498,
+    "auc": 0.646485375064004,
+    "average_precision": 0.6109014023731418
+  },
+  "threshold": 0.5800000000000001
+}

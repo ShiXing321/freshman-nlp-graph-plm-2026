@@ -1,0 +1,115 @@
+{
+  "name": "t5_filling_n1000",
+  "config": {
+    "task": "filling",
+    "limit": 1000,
+    "epochs": 3,
+    "batch": 4,
+    "lr": 0.0001,
+    "source_length": 192,
+    "target_length": 64,
+    "seed": 42,
+    "pretrained": "uer/t5-small-chinese-cluecorpussmall",
+    "counts": {
+      "train": 1000,
+      "dev": 100,
+      "test": 100
+    },
+    "parsing": {
+      "train.tsv": {
+        "valid": 347886,
+        "malformed_filtered": 2250
+      },
+      "dev.tsv": {
+        "valid": 38645,
+        "malformed_filtered": 259
+      }
+    },
+    "split": "grouped held-out half of upstream dev, overlapping training groups removed"
+  },
+  "started": "2026-10-14T00:24:46.878837+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 8.10355514717102,
+      "dev": {
+        "loss": 7.366910909178826
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 7.315617603302002,
+      "dev": {
+        "loss": 6.978493178867096
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 6.988893808364868,
+      "dev": {
+        "loss": 6.66450854358555
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 93.73536989999957,
+  "best_dev_loss": 6.66450854358555,
+  "test": {
+    "loss": 6.679061352495362,
+    "exact_match": 0.0,
+    "character_f1": 0.049913700276238177,
+    "examples": [
+      {
+        "input": "\"刘备和诸葛亮[MASK]讲述的鱼水关系吗\"中[MASK]位置的文本是：",
+        "gold": "真的是《三国演义》中",
+        "prediction": "extra0 ，"
+      },
+      {
+        "input": "\"焉耆县焉耆镇是全县政治、经济、文化、交通的中心，面积8.1平方公里，辖10个居委会、1个行政村，有各级行政、[MASK]活动点一处），常住人口30475人，暂住人口5530人，商业网点多，人口密度大，流动人口杂，城乡结合部多，社会治安综合治理工作难度较大\"中[MASK]位置的文本是：",
+        "gold": "事业、企业单位137个，有汉、回、维、蒙等十几个民族，宗教活动场所14所（其中清真寺13座，基督教",
+        "prediction": "extra0 ，"
+      },
+      {
+        "input": "\"2008年她又参演了由陈嘉上执导的新版电影《画皮[MASK]的是千年狐妖“小唯”\"中[MASK]位置的文本是：",
+        "gold": "》，在剧中饰演",
+        "prediction": "extra0 ，"
+      },
+      {
+        "input": "\"总导演由担任过《笨女孩》[MASK]\"中[MASK]位置的文本是：",
+        "gold": "的总导演的草川启造担任",
+        "prediction": "extra0"
+      },
+      {
+        "input": "\"成都晚报：治愈系微[MASK]，导演田万良携主演、85岁空巢人体模特王肃中亮相\"中[MASK]位置的文本是：",
+        "gold": "电影《零元招租》在成都举行首映式",
+        "prediction": "extra0 ，"
+      },
+      {
+        "input": "\"《夜夜夜夜[MASK]希、刘心、王野、武艺、陈翔\"中[MASK]位置的文本是：",
+        "gold": "》是一首中文流行歌曲，原唱是李炜、谭杰",
+        "prediction": "extra0 ，"
+      },
+      {
+        "input": "\"22岁的林虎从东北人民解放军航空学校毕业，24岁参加抗美援朝，面对美国先进的飞机，他[MASK]一架\"中[MASK]位置的文本是：",
+        "gold": "毫无畏惧，击落击伤各",
+        "prediction": "extra0 ，"
+      },
+      {
+        "input": "\"伊万·纳吉宾 ，出生于1986年，俄罗斯[MASK]体重68kg，所属球队是乌法\"中[MASK]位置的文本是：",
+        "gold": "人，身高176cm，",
+        "prediction": "extra0"
+      },
+      {
+        "input": "\"资料[MASK]风雨人生  演唱者：张德兰  曲：M\"中[MASK]位置的文本是：",
+        "gold": "夜之热力  所属专辑：",
+        "prediction": "extra0 ，"
+      },
+      {
+        "input": "\"邓婕心里很清楚张国立在感情上很是不老实，对此更是高压态势，可是[MASK]拍摄《铁齿铜牙纪晓岚》的过程中和女一号关系暧昧，为此，邓婕还扇了两人耳光，更有人爆料，前几年彪悍的邓婕把张国立和某演员堵在了宾馆里\"中[MASK]位置的文本是：",
+        "gold": "他并没有收敛，据说在",
+        "prediction": "extra0 ，"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+train.tsv {'valid': 347886, 'malformed_filtered': 2250}
+dev.tsv {'valid': 38645, 'malformed_filtered': 259}
+{"epoch": 1, "loss": 8.10355514717102, "dev": {"loss": 7.366910909178826}}
+{"epoch": 2, "loss": 7.315617603302002, "dev": {"loss": 6.978493178867096}}
+{"epoch": 3, "loss": 6.988893808364868, "dev": {"loss": 6.66450854358555}}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\t5_filling_n1000.json

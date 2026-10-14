@@ -1,0 +1,134 @@
+{
+  "t5": [
+    {
+      "name": "t5_qa_n1000_v2",
+      "source_length": 192,
+      "target_length": 64,
+      "splits": {
+        "train": {
+          "examples": 1000,
+          "source_token_mean": 278.11,
+          "source_token_p95": 681.2499999999998,
+          "source_token_max": 992,
+          "source_truncated": 575,
+          "target_truncated": 0
+        },
+        "dev": {
+          "examples": 100,
+          "source_token_mean": 275.32,
+          "source_token_p95": 654.5,
+          "source_token_max": 920,
+          "source_truncated": 54,
+          "target_truncated": 0
+        },
+        "test": {
+          "examples": 100,
+          "source_token_mean": 309.74,
+          "source_token_p95": 658.4499999999999,
+          "source_token_max": 755,
+          "source_truncated": 66,
+          "target_truncated": 0
+        }
+      }
+    },
+    {
+      "name": "t5_qa_n5000_v2_expanded",
+      "source_length": 192,
+      "target_length": 64,
+      "splits": {
+        "train": {
+          "examples": 5000,
+          "source_token_mean": 276.457,
+          "source_token_p95": 669.0500000000002,
+          "source_token_max": 1445,
+          "source_truncated": 2842,
+          "target_truncated": 2
+        },
+        "dev": {
+          "examples": 483,
+          "source_token_mean": 300.2215320910973,
+          "source_token_p95": 734.6999999999999,
+          "source_token_max": 1000,
+          "source_truncated": 306,
+          "target_truncated": 0
+        },
+        "test": {
+          "examples": 500,
+          "source_token_mean": 285.872,
+          "source_token_p95": 664.1499999999999,
+          "source_token_max": 930,
+          "source_truncated": 282,
+          "target_truncated": 0
+        }
+      }
+    },
+    {
+      "name": "t5_filling_n1000_v2",
+      "source_length": 192,
+      "target_length": 64,
+      "splits": {
+        "train": {
+          "examples": 1000,
+          "source_token_mean": 52.6,
+          "source_token_p95": 102.0,
+          "source_token_max": 223,
+          "source_truncated": 2,
+          "target_truncated": 8
+        },
+        "dev": {
+          "examples": 100,
+          "source_token_mean": 51.25,
+          "source_token_p95": 91.0,
+          "source_token_max": 138,
+          "source_truncated": 0,
+          "target_truncated": 0
+        },
+        "test": {
+          "examples": 100,
+          "source_token_mean": 51.11,
+          "source_token_p95": 84.14999999999993,
+          "source_token_max": 129,
+          "source_truncated": 0,
+          "target_truncated": 1
+        }
+      }
+    },
+    {
+      "name": "t5_filling_n5000_v2_expanded",
+      "source_length": 192,
+      "target_length": 64,
+      "splits": {
+        "train": {
+          "examples": 5000,
+          "source_token_mean": 51.012,
+          "source_token_p95": 96.0,
+          "source_token_max": 223,
+          "source_truncated": 3,
+          "target_truncated": 30
+        },
+        "dev": {
+          "examples": 500,
+          "source_token_mean": 49.66,
+          "source_token_p95": 94.04999999999995,
+          "source_token_max": 193,
+          "source_truncated": 1,
+          "target_truncated": 2
+        },
+        "test": {
+          "examples": 500,
+          "source_token_mean": 49.516,
+          "source_token_p95": 95.0,
+          "source_token_max": 140,
+          "source_truncated": 0,
+          "target_truncated": 3
+        }
+      }
+    }
+  ],
+  "baseline_mask_filling": {
+    "attempts": 146,
+    "source_truncated": 0,
+    "main_mask_missing": 0,
+    "instruction_or_main_mask_missing": 0
+  }
+}

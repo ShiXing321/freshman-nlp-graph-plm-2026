@@ -1,0 +1,9 @@
+{"epoch": 1, "train_loss": 1.6382015215770136, "dev": {"accuracy": 0.28610354223433243, "macro_f1": 0.2009544085815583}}
+{"epoch": 2, "train_loss": 1.5562503069974063, "dev": {"accuracy": 0.3260672116257947, "macro_f1": 0.22975552506103067}}
+{"epoch": 3, "train_loss": 1.514933241887039, "dev": {"accuracy": 0.33242506811989103, "macro_f1": 0.26098532334633745}}
+{"epoch": 4, "train_loss": 1.4803872447781794, "dev": {"accuracy": 0.3460490463215259, "macro_f1": 0.2617641243759997}}
+{"epoch": 5, "train_loss": 1.430818670697873, "dev": {"accuracy": 0.368755676657584, "macro_f1": 0.28637020391995366}}
+{"epoch": 6, "train_loss": 1.3977970058998366, "dev": {"accuracy": 0.36693914623069934, "macro_f1": 0.29242279626855344}}
+{"epoch": 7, "train_loss": 1.3581905606087674, "dev": {"accuracy": 0.368755676657584, "macro_f1": 0.31051196379408635}}
+{"epoch": 8, "train_loss": 1.312361475680205, "dev": {"accuracy": 0.3887375113533152, "macro_f1": 0.31495780958124286}}
+C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\task2\results\cnn_random_n0_lr0.001.json

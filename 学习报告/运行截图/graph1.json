@@ -1,0 +1,17 @@
+{
+  "task": "graph1",
+  "started": "2026-10-14T12:44:29.466568+08:00",
+  "finished": "2026-10-14T12:44:40.628280+08:00",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-u",
+    "scripts/demo_saved.py",
+    "graph1"
+  ],
+  "exit_code": 0,
+  "output_sha256": "098fecd2821f2c45e369de18665978d033f7749b235ecc3a36821933026a45e6",
+  "capture": "Playwright screenshot of actual local execution page, no image editing",
+  "screenshot_sha256": "10a2b6c22e5414944d553e7cbfa32089ce0b04ac79705f6f7ae5f2e077adcbce"
+}

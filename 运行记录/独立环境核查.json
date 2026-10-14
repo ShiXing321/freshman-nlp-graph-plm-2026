@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "python": ".venv-reproduce\\Scripts\\python.exe",
+  "include_system_site_packages": false,
+  "checks": [
+    {
+      "name": "dependencies",
+      "command": [
+        "-m",
+        "pip",
+        "check"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "numpy-crf",
+      "command": [
+        "scripts/verify_algorithms.py"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "ppo-math",
+      "command": [
+        "scripts/verify_plm_math.py"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "kge-ranking",
+      "command": [
+        "scripts/verify_kge_ranking.py"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "numpy-saved-inference",
+      "command": [
+        "scripts/demo_saved.py",
+        "nlp1"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "graph-saved-inference",
+      "command": [
+        "scripts/demo_saved.py",
+        "graph1"
+      ],
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "qwen-saved-inference",
+      "command": [
+        "transformers_tasks/local_runs/infer_saved.py",
+        "sft",
+        "--text",
+        "请用一句话解释梯度下降。",
+        "--output",
+        "C:\\Users\\86157\\Documents\\ChatGPT\\新生任务\\运行记录\\独立环境\\sft.json"
+      ],
+      "passed": true,
+      "exit_code": 0
+    }
+  ]
+}

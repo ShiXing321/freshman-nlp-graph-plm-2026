@@ -1,0 +1,136 @@
+{
+  "checkpoint": "nlp-beginner/legacy/task3/checkpoints/esim_glove_n100000_lr0.001_expanded.pt",
+  "test_examples": 9824,
+  "classification_report": {
+    "0": {
+      "precision": 0.8207227555053642,
+      "recall": 0.8631235154394299,
+      "f1-score": 0.8413892908827786,
+      "support": 3368.0
+    },
+    "1": {
+      "precision": 0.7667493796526055,
+      "recall": 0.7679403541472507,
+      "f1-score": 0.7673444047803818,
+      "support": 3219.0
+    },
+    "2": {
+      "precision": 0.8518639633747548,
+      "recall": 0.8047574915044795,
+      "f1-score": 0.8276409849086577,
+      "support": 3237.0
+    },
+    "accuracy": 0.8127035830618893,
+    "macro avg": {
+      "precision": 0.8131120328442415,
+      "recall": 0.8119404536970535,
+      "f1-score": 0.8121248935239395,
+      "support": 9824.0
+    },
+    "weighted avg": {
+      "precision": 0.8132984673338645,
+      "recall": 0.8127035830618893,
+      "f1-score": 0.8125971741480632,
+      "support": 9824.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2907,
+      334,
+      127
+    ],
+    [
+      421,
+      2472,
+      326
+    ],
+    [
+      214,
+      418,
+      2605
+    ]
+  ],
+  "errors": [
+    {
+      "input": {
+        "premise": "This church choir sings to the masses as they sing joyous songs from the book at a church.",
+        "hypothesis": "The church has cracks in the ceiling.",
+        "label": 1
+      },
+      "prediction": 2
+    },
+    {
+      "input": {
+        "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+        "hypothesis": "The woman is very happy.",
+        "label": 0
+      },
+      "prediction": 1
+    },
+    {
+      "input": {
+        "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+        "hypothesis": "The woman has been shot.",
+        "label": 2
+      },
+      "prediction": 0
+    },
+    {
+      "input": {
+        "premise": "A statue at a museum that no seems to be looking at.",
+        "hypothesis": "The statue is offensive and people are mad that it is on display.",
+        "label": 1
+      },
+      "prediction": 2
+    },
+    {
+      "input": {
+        "premise": "A statue at a museum that no seems to be looking at.",
+        "hypothesis": "Tons of people are gathered around the statue.",
+        "label": 2
+      },
+      "prediction": 1
+    },
+    {
+      "input": {
+        "premise": "A land rover is being driven across a river.",
+        "hypothesis": "A Land Rover is splashing water as it crosses a river.",
+        "label": 0
+      },
+      "prediction": 1
+    },
+    {
+      "input": {
+        "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+        "hypothesis": "A doctor is studying",
+        "label": 1
+      },
+      "prediction": 0
+    },
+    {
+      "input": {
+        "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+        "hypothesis": "A man watches his daughter leap",
+        "label": 1
+      },
+      "prediction": 2
+    },
+    {
+      "input": {
+        "premise": "3 young man in hoods standing in the middle of a quiet street facing the camera.",
+        "hypothesis": "Three hood wearing people pose for a picture.",
+        "label": 0
+      },
+      "prediction": 1
+    },
+    {
+      "input": {
+        "premise": "Male in a blue jacket decides to lay in the grass.",
+        "hypothesis": "The guy wearing a blue jacket is laying on the green grass",
+        "label": 0
+      },
+      "prediction": 1
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "name": "gru_lr0.001",
+  "config": {
+    "task": "lm",
+    "model": "gru",
+    "glove": "",
+    "dim": 64,
+    "hidden": 128,
+    "batch": 32,
+    "epochs": 20,
+    "lr": 0.001,
+    "max_length": 64,
+    "limit": 0,
+    "seed": 42
+  },
+  "started": "2026-10-13T23:02:29.911122+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 7.707923559042124,
+      "dev_loss": 7.64973783493042,
+      "dev_perplexity": 2100.094945705991
+    },
+    {
+      "epoch": 2,
+      "train_loss": 7.567188409658579,
+      "dev_loss": 7.528206825256348,
+      "dev_perplexity": 1859.7676234183632
+    },
+    {
+      "epoch": 3,
+      "train_loss": 7.318766814011794,
+      "dev_loss": 7.168986797332764,
+      "dev_perplexity": 1298.5282637572004
+    },
+    {
+      "epoch": 4,
+      "train_loss": 6.719822810246394,
+      "dev_loss": 6.79755163192749,
+      "dev_perplexity": 895.6517198882337
+    },
+    {
+      "epoch": 5,
+      "train_loss": 6.368289433992826,
+      "dev_loss": 6.795105934143066,
+      "dev_perplexity": 893.4639029213662
+    },
+    {
+      "epoch": 6,
+      "train_loss": 6.286387150104229,
+      "dev_loss": 6.83397102355957,
+      "dev_perplexity": 928.8720713378511
+    },
+    {
+      "epoch": 7,
+      "train_loss": 6.237135593707745,
+      "dev_loss": 6.813761234283447,
+      "dev_perplexity": 910.2881832650355
+    },
+    {
+      "epoch": 8,
+      "train_loss": 6.1796417603125935,
+      "dev_loss": 6.797146797180176,
+      "dev_perplexity": 895.2892023353331
+    },
+    {
+      "epoch": 9,
+      "train_loss": 6.132960539597732,
+      "dev_loss": 6.7854180335998535,
+      "dev_perplexity": 884.8499066329862
+    },
+    {
+      "epoch": 10,
+      "train_loss": 6.08580783697275,
+      "dev_loss": 6.769669055938721,
+      "dev_perplexity": 871.0235862034408
+    },
+    {
+      "epoch": 11,
+      "train_loss": 6.037473972027119,
+      "dev_loss": 6.7499213218688965,
+      "dev_perplexity": 853.991569422212
+    },
+    {
+      "epoch": 12,
+      "train_loss": 5.988988582904522,
+      "dev_loss": 6.730936527252197,
+      "dev_perplexity": 837.9316444213863
+    },
+    {
+      "epoch": 13,
+      "train_loss": 5.942174581380991,
+      "dev_loss": 6.717616558074951,
+      "dev_perplexity": 826.844425378518
+    },
+    {
+      "epoch": 14,
+      "train_loss": 5.895716667175293,
+      "dev_loss": 6.705021858215332,
+      "dev_perplexity": 816.4958732600579
+    },
+    {
+      "epoch": 15,
+      "train_loss": 5.8496413964491625,
+      "dev_loss": 6.693443298339844,
+      "dev_perplexity": 807.0965472412666
+    },
+    {
+      "epoch": 16,
+      "train_loss": 5.801080520336445,
+      "dev_loss": 6.679116249084473,
+      "dev_perplexity": 795.6156751488801
+    },
+    {
+      "epoch": 17,
+      "train_loss": 5.750624546637902,
+      "dev_loss": 6.674101829528809,
+      "dev_perplexity": 791.6361102911886
+    },
+    {
+      "epoch": 18,
+      "train_loss": 5.6998084141657905,
+      "dev_loss": 6.654386043548584,
+      "dev_perplexity": 776.1812352920375
+    },
+    {
+      "epoch": 19,
+      "train_loss": 5.6472075168903055,
+      "dev_loss": 6.648547649383545,
+      "dev_perplexity": 771.6627863747581
+    },
+    {
+      "epoch": 20,
+      "train_loss": 5.597146217639629,
+      "dev_loss": 6.642699241638184,
+      "dev_perplexity": 767.1629589967151
+    }
+  ],
+  "device": "cpu",
+  "elapsed_seconds": 9.630385799999203,
+  "test_loss": 6.463330268859863,
+  "test_perplexity": 641.1928494572783,
+  "generated": {
+    "0.7": "春风菲里原。\n\n须深路，日李。\n故驴，仙，落即客子香。\n\n子人子失，寒薄杯秣，前莫愿心。\n\n\n巴王亦夕，飘夜马龙无所，\n满食江与，\n寒台雄，碧芽皇合。\n\n卧兹长，一",
+    "1.0": "春风命时身与教枝冷老。\n槔悄臣人云，吴名骢东。 楚竹愧抚沙云，不悲滋虎真。青口屠复出间。右如未为知，鲜速势兴不。事日郢莫口省苔。高叶予莫有参汝，弟之陂深林，人面然壑"
+  },
+  "character_counts": {
+    "train": 13317,
+    "dev": 1665,
+    "test": 1665
+  },
+  "unseen_test_characters": 130
+}

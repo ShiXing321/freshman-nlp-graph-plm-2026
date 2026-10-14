@@ -1,0 +1,91 @@
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 1, "loss": 0.6565003927548726, "train_seconds": 0.33938539999871864, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 2, "loss": 0.6464981587727865, "train_seconds": 0.03136780000022554, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 3, "loss": 0.6343182611465454, "train_seconds": 0.03130369999962568, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 4, "loss": 0.6238025919596354, "train_seconds": 0.038471199999548844, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 5, "loss": 0.6160278407732646, "train_seconds": 0.032942499999990105, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 6, "loss": 0.6119928979873657, "train_seconds": 0.032574699998804135, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 7, "loss": 0.6065524049599965, "train_seconds": 0.03488370000013674, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 8, "loss": 0.6078342914581298, "train_seconds": 0.035504700001183664, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 9, "loss": 0.6055614272753398, "train_seconds": 0.03576500000053784, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 10, "loss": 0.6045207571983338, "train_seconds": 0.031943199999659555, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 11, "loss": 0.6019578425089518, "train_seconds": 0.03350999999929627, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 12, "loss": 0.6020307350158691, "train_seconds": 0.030580399999962538, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 13, "loss": 0.6034402203559875, "train_seconds": 0.03744420000111859, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 14, "loss": 0.5986374306678772, "train_seconds": 0.03466599999956088, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 15, "loss": 0.5998222247759502, "train_seconds": 0.03460759999870788, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 16, "loss": 0.6012665152549743, "train_seconds": 0.03584499999851687, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 17, "loss": 0.5972807224591573, "train_seconds": 0.03679139999985637, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 18, "loss": 0.5930071536699931, "train_seconds": 0.03608649999841873, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 19, "loss": 0.5985714944203695, "train_seconds": 0.04223600000113947, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 20, "loss": 0.5938327511151632, "train_seconds": 0.03555249999953958, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 21, "loss": 0.5943447327613831, "train_seconds": 0.036966099998608115, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 22, "loss": 0.5900524779160817, "train_seconds": 0.0329768999999942, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 23, "loss": 0.5880890130996704, "train_seconds": 0.034589799999594106, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 24, "loss": 0.5837404791514079, "train_seconds": 0.03100839999933669, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 25, "loss": 0.5848437341054281, "train_seconds": 0.029869599999074126, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 26, "loss": 0.5841048765182495, "train_seconds": 0.027077699998699245, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 27, "loss": 0.5822464807828267, "train_seconds": 0.029654400001163594, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 28, "loss": 0.5746693380673726, "train_seconds": 0.03207250000014028, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 29, "loss": 0.5677226630846659, "train_seconds": 0.028708800000458723, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\.venv\Lib\site-packages\torch_geometric\warnings.py:11: UserWarning: The usage of `scatter(reduce='max')` can be accelerated via the 'torch-scatter' package, but it was not found
+  warnings.warn(message)
+{"epoch": 30, "loss": 0.5717061901092529, "train_seconds": 0.029539900000600028, "dev": {"accuracy": 0.5263157894736842, "macro_f1": 0.3448275862068966}}
+C:\Users\86157\Documents\ChatGPT\新生任务\graph_beginner\task3\results\MUTAG_gcn_max_batch_n0_lr0.001_l2.json

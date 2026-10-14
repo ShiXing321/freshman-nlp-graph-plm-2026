@@ -1,0 +1,77 @@
+{
+  "name": "reward_n1000",
+  "config": {
+    "limit": 1000,
+    "epochs": 5,
+    "batch": 16,
+    "lr": 0.0003,
+    "seed": 42,
+    "counts": {
+      "train": 6000,
+      "dev": 1200,
+      "test": 1200
+    },
+    "loss": "-log sigmoid(r(chosen)-r(rejected))"
+  },
+  "started": "2026-10-13T23:40:39.741669+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 0.43213714881738025,
+      "dev": {
+        "preference_accuracy": 0.82,
+        "pairs": 1200
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 0.30169133221109706,
+      "dev": {
+        "preference_accuracy": 0.835,
+        "pairs": 1200
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.23771274232367676,
+      "dev": {
+        "preference_accuracy": 0.83,
+        "pairs": 1200
+      }
+    },
+    {
+      "epoch": 4,
+      "loss": 0.18201564892629782,
+      "dev": {
+        "preference_accuracy": 0.8266666666666667,
+        "pairs": 1200
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 0.15252309020981192,
+      "dev": {
+        "preference_accuracy": 0.8283333333333334,
+        "pairs": 1200
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 41.32795189999888,
+  "best_dev_preference_accuracy": 0.835,
+  "test": {
+    "preference_accuracy": 0.8425,
+    "pairs": 1200
+  },
+  "examples": [
+    {
+      "text": "买过很多箱这个苹果了，一如既往的好，汁多味甜。",
+      "score": 3.7856624126434326
+    },
+    {
+      "text": "一台充电很慢，信号不好，退了又买一台竟然是次品。",
+      "score": -3.2595787048339844
+    }
+  ]
+}

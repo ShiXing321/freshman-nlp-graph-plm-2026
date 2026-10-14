@@ -1,0 +1,42 @@
+[
+  {
+    "model": "gcn",
+    "logit_min": -0.04189226031303406,
+    "logit_max": 492.6086730957031,
+    "unique_logits": 89814,
+    "unique_probabilities": 57662,
+    "raw_auc": 0.7864188000450743,
+    "probability_auc": 0.7862111455163312,
+    "raw_ap": 0.8173593341324117
+  },
+  {
+    "model": "gat",
+    "logit_min": 0.021292561665177345,
+    "logit_max": 7.251303195953369,
+    "unique_logits": 24239,
+    "unique_probabilities": 21032,
+    "raw_auc": 0.54000665161544,
+    "probability_auc": 0.5400054516629751,
+    "raw_ap": 0.48998305872983705
+  },
+  {
+    "model": "sage",
+    "logit_min": -2.040196180343628,
+    "logit_max": 46.75947189331055,
+    "unique_logits": 89645,
+    "unique_probabilities": 77344,
+    "raw_auc": 0.5029391230999087,
+    "probability_auc": 0.5029391008648414,
+    "raw_ap": 0.4999090892070381
+  },
+  {
+    "model": "gin",
+    "logit_min": 0.3755025863647461,
+    "logit_max": 11408.2734375,
+    "unique_logits": 80832,
+    "unique_probabilities": 55486,
+    "raw_auc": 0.5917592930200064,
+    "probability_auc": 0.5869728417414455,
+    "raw_ap": 0.6187346558162918
+  }
+]

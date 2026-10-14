@@ -1,0 +1,290 @@
+[
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gcn",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:16:55.725209+08:00",
+    "log": "运行记录\\graph-flickr\\000.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gcn",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:17:09.100065+08:00",
+    "log": "运行记录\\graph-flickr\\001.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gat",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:17:28.952198+08:00",
+    "log": "运行记录\\graph-flickr\\002.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gat",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:17:44.918247+08:00",
+    "log": "运行记录\\graph-flickr\\003.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "sage",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:18:07.754380+08:00",
+    "log": "运行记录\\graph-flickr\\004.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "sage",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:18:30.977829+08:00",
+    "log": "运行记录\\graph-flickr\\005.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gin",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:19:00.209527+08:00",
+    "log": "运行记录\\graph-flickr\\006.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gin",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:19:33.629485+08:00",
+    "log": "运行记录\\graph-flickr\\007.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gcn",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:20:04.210154+08:00",
+    "log": "运行记录\\graph-flickr\\008.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gcn",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:20:18.122824+08:00",
+    "log": "运行记录\\graph-flickr\\009.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gat",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:20:35.928914+08:00",
+    "log": "运行记录\\graph-flickr\\010.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gat",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:20:50.006951+08:00",
+    "log": "运行记录\\graph-flickr\\011.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "sage",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:21:07.478772+08:00",
+    "log": "运行记录\\graph-flickr\\012.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "sage",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:21:25.166595+08:00",
+    "log": "运行记录\\graph-flickr\\013.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gin",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:21:46.153171+08:00",
+    "log": "运行记录\\graph-flickr\\014.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Flickr",
+      "--model",
+      "gin",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "16"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-14T00:22:03.019478+08:00",
+    "log": "运行记录\\graph-flickr\\015.txt"
+  }
+]

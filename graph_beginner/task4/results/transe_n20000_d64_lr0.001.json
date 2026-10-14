@@ -1,0 +1,93 @@
+{
+  "name": "transe_n20000_d64_lr0.001",
+  "config": {
+    "model": "transe",
+    "dim": 64,
+    "batch": 256,
+    "epochs": 5,
+    "negatives": 4,
+    "margin": 6.0,
+    "lr": 0.001,
+    "limit": 20000,
+    "eval_limit": 50,
+    "seed": 42,
+    "entities": 14541,
+    "relations": 237,
+    "training_triples": 20000
+  },
+  "started": "2026-10-13T23:35:10.601057+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 1.6798591899871826,
+      "dev": {
+        "mrr": 0.028952209278941154,
+        "hits@1": 0.0,
+        "hits@3": 0.03999999910593033,
+        "hits@10": 0.07999999821186066,
+        "evaluated_triples": 50,
+        "ranking": "filtered head and tail, optimistic ties"
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 0.7446078931808472,
+      "dev": {
+        "mrr": 0.05532433092594147,
+        "hits@1": 0.0,
+        "hits@3": 0.09000000357627869,
+        "hits@10": 0.11999999731779099,
+        "evaluated_triples": 50,
+        "ranking": "filtered head and tail, optimistic ties"
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.39788906445503236,
+      "dev": {
+        "mrr": 0.06687350571155548,
+        "hits@1": 0.009999999776482582,
+        "hits@3": 0.09000000357627869,
+        "hits@10": 0.17000000178813934,
+        "evaluated_triples": 50,
+        "ranking": "filtered head and tail, optimistic ties"
+      }
+    },
+    {
+      "epoch": 4,
+      "loss": 0.25944980444908144,
+      "dev": {
+        "mrr": 0.07538726180791855,
+        "hits@1": 0.019999999552965164,
+        "hits@3": 0.10000000149011612,
+        "hits@10": 0.18000000715255737,
+        "evaluated_triples": 50,
+        "ranking": "filtered head and tail, optimistic ties"
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 0.20022535951137543,
+      "dev": {
+        "mrr": 0.08017301559448242,
+        "hits@1": 0.029999999329447746,
+        "hits@3": 0.09000000357627869,
+        "hits@10": 0.17000000178813934,
+        "evaluated_triples": 50,
+        "ranking": "filtered head and tail, optimistic ties"
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 11.027218100000027,
+  "best_dev_mrr": 0.08017301559448242,
+  "test": {
+    "mrr": 0.04536356404423714,
+    "hits@1": 0.0,
+    "hits@3": 0.05999999865889549,
+    "hits@10": 0.11999999731779099,
+    "evaluated_triples": 50,
+    "ranking": "filtered head and tail, optimistic ties"
+  }
+}

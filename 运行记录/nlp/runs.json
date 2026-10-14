@@ -1,0 +1,412 @@
+[
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "count",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.1",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:12:49.623150+08:00",
+    "log": "运行记录\\nlp\\000.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "binary",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.1",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:12:57.135592+08:00",
+    "log": "运行记录\\nlp\\001.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.5",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:13:06.140286+08:00",
+    "log": "运行记录\\nlp\\002.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "2",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.5",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:13:13.566977+08:00",
+    "log": "运行记录\\nlp\\003.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "logistic",
+      "--lr",
+      "0.5",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:13:24.518277+08:00",
+    "log": "运行记录\\nlp\\004.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.05",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:13:31.235348+08:00",
+    "log": "运行记录\\nlp\\005.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.5",
+      "--batch",
+      "0",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:13:37.677494+08:00",
+    "log": "运行记录\\nlp\\006.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.05",
+      "--batch",
+      "1",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:13:44.313398+08:00",
+    "log": "运行记录\\nlp\\007.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.5",
+      "--batch",
+      "64",
+      "--epochs",
+      "20",
+      "--no-shuffle"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:14:55.665400+08:00",
+    "log": "运行记录\\nlp\\008.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_torch.py",
+      "classification",
+      "--model",
+      "softmax",
+      "--epochs",
+      "8"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:15:02.175707+08:00",
+    "log": "运行记录\\nlp\\009.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_torch.py",
+      "classification",
+      "--model",
+      "cnn",
+      "--epochs",
+      "8"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:15:18.175159+08:00",
+    "log": "运行记录\\nlp\\010.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_torch.py",
+      "classification",
+      "--model",
+      "rnn",
+      "--epochs",
+      "8"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:15:39.819020+08:00",
+    "log": "运行记录\\nlp\\011.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_torch.py",
+      "matching",
+      "--model",
+      "esim",
+      "--limit",
+      "20000",
+      "--epochs",
+      "5"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:16:30.183017+08:00",
+    "log": "运行记录\\nlp\\012.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "count",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.1",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:17.631228+08:00",
+    "log": "运行记录\\nlp\\000.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "binary",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.1",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:24.230752+08:00",
+    "log": "运行记录\\nlp\\001.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.5",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:29.702746+08:00",
+    "log": "运行记录\\nlp\\002.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "2",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.5",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:35.880821+08:00",
+    "log": "运行记录\\nlp\\003.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "logistic",
+      "--lr",
+      "0.5",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:42.317197+08:00",
+    "log": "运行记录\\nlp\\004.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.05",
+      "--batch",
+      "64",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:49.220392+08:00",
+    "log": "运行记录\\nlp\\005.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.5",
+      "--batch",
+      "0",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:56.100693+08:00",
+    "log": "运行记录\\nlp\\006.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_numpy.py",
+      "--features",
+      "tfidf",
+      "--ngram",
+      "1",
+      "--loss",
+      "softmax",
+      "--lr",
+      "0.05",
+      "--batch",
+      "1",
+      "--epochs",
+      "20"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:20:01.251806+08:00",
+    "log": "运行记录\\nlp\\007.txt"
+  },
+  {
+    "command": [
+      "nlp-beginner/legacy/train_torch.py",
+      "matching",
+      "--model",
+      "esim",
+      "--limit",
+      "20000",
+      "--epochs",
+      "5"
+    ],
+    "exit_code": 1,
+    "started": "2026-10-13T23:20:52.930214+08:00",
+    "log": "运行记录\\nlp\\012.txt"
+  }
+]

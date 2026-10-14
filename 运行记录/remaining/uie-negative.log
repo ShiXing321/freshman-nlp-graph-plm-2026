@@ -1,0 +1,20 @@
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+{"epoch": 1, "loss": 0.1535434142882539, "dev": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "gold_spans": 24}, "threshold": 0.3}
+{"epoch": 2, "loss": 0.11221186859820144, "dev": {"precision": 0.01098901098901099, "recall": 0.08333333333333333, "f1": 0.01941747572815534, "gold_spans": 24}, "threshold": 0.3}
+{"epoch": 3, "loss": 0.09467034021081741, "dev": {"precision": 0.06666666666666667, "recall": 0.041666666666666664, "f1": 0.05128205128205127, "gold_spans": 24}, "threshold": 0.5}
+{"epoch": 4, "loss": 0.08240749642300464, "dev": {"precision": 0.07692307692307693, "recall": 0.041666666666666664, "f1": 0.05405405405405406, "gold_spans": 24}, "threshold": 0.5}
+{"epoch": 5, "loss": 0.07545274346659372, "dev": {"precision": 0.5, "recall": 0.08333333333333333, "f1": 0.14285714285714285, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 6, "loss": 0.06580410162012416, "dev": {"precision": 0.13333333333333333, "recall": 0.08333333333333333, "f1": 0.10256410256410255, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 7, "loss": 0.05903872414071829, "dev": {"precision": 0.1, "recall": 0.041666666666666664, "f1": 0.058823529411764705, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 8, "loss": 0.05354713517731037, "dev": {"precision": 0.125, "recall": 0.08333333333333333, "f1": 0.1, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 9, "loss": 0.05077104932232102, "dev": {"precision": 0.044444444444444446, "recall": 0.08333333333333333, "f1": 0.05797101449275363, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 10, "loss": 0.04655202315846898, "dev": {"precision": 0.15789473684210525, "recall": 0.125, "f1": 0.13953488372093023, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 11, "loss": 0.04208139811494747, "dev": {"precision": 0.05, "recall": 0.08333333333333333, "f1": 0.0625, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 12, "loss": 0.03737983012821529, "dev": {"precision": 0.07894736842105263, "recall": 0.125, "f1": 0.0967741935483871, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 13, "loss": 0.03733507229512729, "dev": {"precision": 0.0975609756097561, "recall": 0.16666666666666666, "f1": 0.12307692307692307, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 14, "loss": 0.03271289277703348, "dev": {"precision": 0.08108108108108109, "recall": 0.125, "f1": 0.09836065573770492, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 15, "loss": 0.030720538741364777, "dev": {"precision": 0.04838709677419355, "recall": 0.125, "f1": 0.06976744186046512, "gold_spans": 24}, "threshold": 0.7}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\uie_negative_v2.json

@@ -1,0 +1,17 @@
+{
+  "task": "plm-zero-shot",
+  "started": "2026-10-14T12:53:19.022158+08:00",
+  "finished": "2026-10-14T12:53:31.506202+08:00",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-u",
+    "scripts/demo_saved.py",
+    "plm-zero-shot"
+  ],
+  "exit_code": 0,
+  "output_sha256": "76ec0a05a785db58f4c3c274660379bfe7e6a87746a8a3e8b555fe1d62068fa6",
+  "capture": "Playwright screenshot of actual local execution page, no image editing",
+  "screenshot_sha256": "cb3a1ad04a986d60c202518d193e4a53d54dbfdf434cd909168d38d245a349e2"
+}

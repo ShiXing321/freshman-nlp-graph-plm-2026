@@ -1,0 +1,4 @@
+softmax finite-difference gradient: PASS
+logistic finite-difference gradient: PASS
+CRF partition, Viterbi, padded sequences, and gradients: PASS
+NER casing, padded batching and feature gradients: PASS

@@ -1,0 +1,6 @@
+{"epoch": 1, "loss": 0.6758963471412659, "dev": {"mrr": 0.019041139632463455, "hits@1": 0.009999999776482582, "hits@3": 0.009999999776482582, "hits@10": 0.03999999910593033, "evaluated_triples": 50, "ranking": "filtered head and tail, optimistic ties"}}
+{"epoch": 2, "loss": 0.6287086889266967, "dev": {"mrr": 0.00222312961705029, "hits@1": 0.0, "hits@3": 0.0, "hits@10": 0.0, "evaluated_triples": 50, "ranking": "filtered head and tail, optimistic ties"}}
+{"epoch": 3, "loss": 0.5728927703857422, "dev": {"mrr": 0.0020126053132116795, "hits@1": 0.0, "hits@3": 0.0, "hits@10": 0.0, "evaluated_triples": 50, "ranking": "filtered head and tail, optimistic ties"}}
+{"epoch": 4, "loss": 0.49116147828102114, "dev": {"mrr": 0.00577441556379199, "hits@1": 0.0, "hits@3": 0.0, "hits@10": 0.009999999776482582, "evaluated_triples": 50, "ranking": "filtered head and tail, optimistic ties"}}
+{"epoch": 5, "loss": 0.3755692551612854, "dev": {"mrr": 0.008344815112650394, "hits@1": 0.0, "hits@3": 0.0, "hits@10": 0.019999999552965164, "evaluated_triples": 50, "ranking": "filtered head and tail, optimistic ties"}}
+C:\Users\86157\Documents\ChatGPT\新生任务\graph_beginner\task4\results\conve_n20000_d64_lr0.001.json

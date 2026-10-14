@@ -1,0 +1,17 @@
+{
+  "task": "plm-cpt",
+  "started": "2026-10-14T12:52:16.785687+08:00",
+  "finished": "2026-10-14T12:52:34.213395+08:00",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-u",
+    "scripts/demo_saved.py",
+    "plm-cpt"
+  ],
+  "exit_code": 0,
+  "output_sha256": "801339e72674a70477f266147b9368a675d1c593c00bb49a49ba376fa4ab455e",
+  "capture": "Playwright screenshot of actual local execution page, no image editing",
+  "screenshot_sha256": "c10eec6b54100d3681be671f281d595e4b7a5ea22727fe2e3ae04ef7d83119d0"
+}

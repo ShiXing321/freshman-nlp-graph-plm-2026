@@ -1,0 +1,650 @@
+[
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gcn",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:12:39.270298+08:00",
+    "log": "运行记录\\graph-small\\000.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gcn",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:12:55.549092+08:00",
+    "log": "运行记录\\graph-small\\001.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gat",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:13:13.793740+08:00",
+    "log": "运行记录\\graph-small\\002.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gat",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:13:29.236523+08:00",
+    "log": "运行记录\\graph-small\\003.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "sage",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:13:44.089998+08:00",
+    "log": "运行记录\\graph-small\\004.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "sage",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:13:57.789321+08:00",
+    "log": "运行记录\\graph-small\\005.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gin",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:14:12.888504+08:00",
+    "log": "运行记录\\graph-small\\006.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gin",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:14:32.118415+08:00",
+    "log": "运行记录\\graph-small\\007.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gcn",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:14:51.459306+08:00",
+    "log": "运行记录\\graph-small\\008.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gcn",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:15:02.853869+08:00",
+    "log": "运行记录\\graph-small\\009.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gat",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:15:17.137539+08:00",
+    "log": "运行记录\\graph-small\\010.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gat",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:15:28.997697+08:00",
+    "log": "运行记录\\graph-small\\011.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "sage",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:15:44.238643+08:00",
+    "log": "运行记录\\graph-small\\012.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "sage",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:15:57.069509+08:00",
+    "log": "运行记录\\graph-small\\013.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gin",
+      "--mode",
+      "full",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:16:13.409746+08:00",
+    "log": "运行记录\\graph-small\\014.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gin",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "100",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:16:27.128463+08:00",
+    "log": "运行记录\\graph-small\\015.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gcn",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:16:42.239242+08:00",
+    "log": "运行记录\\graph-small\\016.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gcn",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:16:52.649142+08:00",
+    "log": "运行记录\\graph-small\\017.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gat",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:17:03.229402+08:00",
+    "log": "运行记录\\graph-small\\018.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gat",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:17:13.685986+08:00",
+    "log": "运行记录\\graph-small\\019.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "sage",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:17:25.737000+08:00",
+    "log": "运行记录\\graph-small\\020.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "sage",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:17:36.075522+08:00",
+    "log": "运行记录\\graph-small\\021.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gin",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:17:47.361759+08:00",
+    "log": "运行记录\\graph-small\\022.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gin",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:17:57.838627+08:00",
+    "log": "运行记录\\graph-small\\023.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gcn",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:18:09.145868+08:00",
+    "log": "运行记录\\graph-small\\024.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gcn",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:18:20.026909+08:00",
+    "log": "运行记录\\graph-small\\025.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gat",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:18:31.086922+08:00",
+    "log": "运行记录\\graph-small\\026.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gat",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:18:41.875060+08:00",
+    "log": "运行记录\\graph-small\\027.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "sage",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:18:54.100998+08:00",
+    "log": "运行记录\\graph-small\\028.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "sage",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:04.838544+08:00",
+    "log": "运行记录\\graph-small\\029.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gin",
+      "--mode",
+      "full",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:19.201120+08:00",
+    "log": "运行记录\\graph-small\\030.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task2/code/train.py",
+      "--dataset",
+      "CiteSeer",
+      "--model",
+      "gin",
+      "--mode",
+      "sampled",
+      "--epochs",
+      "50",
+      "--hidden",
+      "32"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:29.367207+08:00",
+    "log": "运行记录\\graph-small\\031.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gcn",
+      "--layers",
+      "1",
+      "--lr",
+      "0.01",
+      "--epochs",
+      "100"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:41.351712+08:00",
+    "log": "运行记录\\graph-small\\032.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gcn",
+      "--layers",
+      "3",
+      "--lr",
+      "0.01",
+      "--epochs",
+      "100"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:19:52.372325+08:00",
+    "log": "运行记录\\graph-small\\033.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gcn",
+      "--layers",
+      "2",
+      "--lr",
+      "0.001",
+      "--epochs",
+      "100"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:20:02.810107+08:00",
+    "log": "运行记录\\graph-small\\034.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task1/code/train.py",
+      "--dataset",
+      "Cora",
+      "--model",
+      "gcn",
+      "--layers",
+      "2",
+      "--lr",
+      "0.1",
+      "--epochs",
+      "100"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:20:12.866565+08:00",
+    "log": "运行记录\\graph-small\\035.txt"
+  }
+]

@@ -1,0 +1,33 @@
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+{"epoch": 1, "loss": 0.6443926711704981, "dev": {"accuracy": 0.7102272727272727, "macro_f1": 0.480765893445942, "auc": 0.7834023623255101, "average_precision": 0.5659527924768835}}
+{"epoch": 2, "loss": 0.546001067657512, "dev": {"accuracy": 0.7159090909090909, "macro_f1": 0.6694214876033058, "auc": 0.7999693204479215, "average_precision": 0.5837556438860804}}
+{"epoch": 3, "loss": 0.44811344492215893, "dev": {"accuracy": 0.75, "macro_f1": 0.7240199572344975, "auc": 0.860254640282252, "average_precision": 0.7394614512470441}}
+{"epoch": 4, "loss": 0.3380440781912075, "dev": {"accuracy": 0.7954545454545454, "macro_f1": 0.777496839443742, "auc": 0.889246816996472, "average_precision": 0.7666280807736569}}
+{"epoch": 5, "loss": 0.24348732684602717, "dev": {"accuracy": 0.8295454545454546, "macro_f1": 0.8118317890235209, "auc": 0.9320447921460346, "average_precision": 0.8650963072919157}}
+{"epoch": 6, "loss": 0.16973436542283157, "dev": {"accuracy": 0.8238636363636364, "macro_f1": 0.7918748807934388, "auc": 0.9070409572020249, "average_precision": 0.8170117923559892}}
+{"epoch": 7, "loss": 0.11258937885837463, "dev": {"accuracy": 0.8863636363636364, "macro_f1": 0.8650099708544255, "auc": 0.9294370302193588, "average_precision": 0.8700269803401851}}
+{"epoch": 8, "loss": 0.08084703689665086, "dev": {"accuracy": 0.875, "macro_f1": 0.8403430644895267, "auc": 0.9259088817303268, "average_precision": 0.8817522699362745}}
+{"epoch": 9, "loss": 0.054216676943593396, "dev": {"accuracy": 0.9090909090909091, "macro_f1": 0.890818858560794, "auc": 0.9529068875594416, "average_precision": 0.9234578403130078}}
+{"epoch": 10, "loss": 0.03132852952208931, "dev": {"accuracy": 0.8863636363636364, "macro_f1": 0.8619607843137256, "auc": 0.9432428286547017, "average_precision": 0.8916128864468998}}
+{"epoch": 11, "loss": 0.01846667773262845, "dev": {"accuracy": 0.9034090909090909, "macro_f1": 0.8819770423257465, "auc": 0.9498389323515877, "average_precision": 0.921860498940303}}
+{"epoch": 12, "loss": 0.016177278954459036, "dev": {"accuracy": 0.9147727272727273, "macro_f1": 0.8958620961697763, "auc": 0.9602699800582912, "average_precision": 0.9304929517454805}}
+{"epoch": 13, "loss": 0.011468740535308712, "dev": {"accuracy": 0.8977272727272727, "macro_f1": 0.8742857142857143, "auc": 0.9588894002147569, "average_precision": 0.9269936289815044}}
+{"epoch": 14, "loss": 0.007226510639357929, "dev": {"accuracy": 0.9147727272727273, "macro_f1": 0.8970639840917066, "auc": 0.9573554226108298, "average_precision": 0.9248862745826205}}
+{"epoch": 15, "loss": 0.00525280209091711, "dev": {"accuracy": 0.8977272727272727, "macro_f1": 0.875764705882353, "auc": 0.9561282405276883, "average_precision": 0.9253196997212242}}
+{"epoch": 16, "loss": 0.004525701772928125, "dev": {"accuracy": 0.9204545454545454, "macro_f1": 0.9044665012406948, "auc": 0.9601165822978985, "average_precision": 0.9298354668562925}}
+{"epoch": 17, "loss": 0.0033832167493197604, "dev": {"accuracy": 0.9204545454545454, "macro_f1": 0.9044665012406948, "auc": 0.9619573554226107, "average_precision": 0.933888322805027}}
+{"epoch": 18, "loss": 0.0028006072487341055, "dev": {"accuracy": 0.9090909090909091, "macro_f1": 0.8882539682539683, "auc": 0.9544408651633687, "average_precision": 0.9243762460312838}}
+{"epoch": 19, "loss": 0.0024907902588932607, "dev": {"accuracy": 0.9090909090909091, "macro_f1": 0.8895686274509804, "auc": 0.9565884338088664, "average_precision": 0.9298214134065648}}
+{"epoch": 20, "loss": 0.0020557304509771124, "dev": {"accuracy": 0.9147727272727273, "macro_f1": 0.8958620961697763, "auc": 0.9556680472465102, "average_precision": 0.9272770236399215}}
+{"epoch": 21, "loss": 0.0017555544054728982, "dev": {"accuracy": 0.9147727272727273, "macro_f1": 0.8970639840917066, "auc": 0.9604233778186838, "average_precision": 0.9355975334799506}}
+{"epoch": 22, "loss": 0.0024909626769218777, "dev": {"accuracy": 0.9147727272727273, "macro_f1": 0.898207056101793, "auc": 0.9576622181316155, "average_precision": 0.9273515761311688}}
+{"epoch": 23, "loss": 0.002834105987393399, "dev": {"accuracy": 0.8920454545454546, "macro_f1": 0.8680919884817166, "auc": 0.9501457278723731, "average_precision": 0.9188361637239302}}
+{"epoch": 24, "loss": 0.0017794005554885818, "dev": {"accuracy": 0.9204545454545454, "macro_f1": 0.9044665012406948, "auc": 0.95735542261083, "average_precision": 0.9300118713811351}}
+{"epoch": 25, "loss": 0.0013851041779202587, "dev": {"accuracy": 0.9090909090909091, "macro_f1": 0.8882539682539683, "auc": 0.9593495934959351, "average_precision": 0.930668014363594}}
+{"epoch": 26, "loss": 0.001088121216291388, "dev": {"accuracy": 0.9147727272727273, "macro_f1": 0.8958620961697763, "auc": 0.9595029912563277, "average_precision": 0.9327356850144106}}
+{"epoch": 27, "loss": 0.0009467620849695141, "dev": {"accuracy": 0.9204545454545454, "macro_f1": 0.9044665012406948, "auc": 0.9610369688602547, "average_precision": 0.9348202302965594}}
+{"epoch": 28, "loss": 0.0008343831114602131, "dev": {"accuracy": 0.9261363636363636, "macro_f1": 0.9117794486215538, "auc": 0.9616505599018254, "average_precision": 0.9353063405615626}}
+{"epoch": 29, "loss": 0.0008067058627357462, "dev": {"accuracy": 0.9204545454545454, "macro_f1": 0.9033725490196078, "auc": 0.9619573554226108, "average_precision": 0.9363906471398226}}
+{"epoch": 30, "loss": 0.0007444642830596185, "dev": {"accuracy": 0.9261363636363636, "macro_f1": 0.9097471500138061, "auc": 0.9605767755790766, "average_precision": 0.9363522251006753}}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\sbert_n0_lr0.0003.json

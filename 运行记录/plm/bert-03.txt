@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\bert_tasks.py", line 230, in <module>
+    main(p.parse_args())
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\bert_tasks.py", line 185, in main
+    rows, labels = load_rows(args.task, args.seed)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\bert_tasks.py", line 45, in load_rows
+    raw = {s: [parse(l) for l in (folder / f"{s}.txt").read_text(encoding="utf-8").splitlines() if l] for s in ["train", "dev"]}
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\bert_tasks.py", line 45, in <dictcomp>
+    raw = {s: [parse(l) for l in (folder / f"{s}.txt").read_text(encoding="utf-8").splitlines() if l] for s in ["train", "dev"]}
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\bert_tasks.py", line 45, in <listcomp>
+    raw = {s: [parse(l) for l in (folder / f"{s}.txt").read_text(encoding="utf-8").splitlines() if l] for s in ["train", "dev"]}
+               ^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\bert_tasks.py", line 44, in parse
+    return {"text": text, "label": mapping[label]}
+                                   ~~~~~~~^^^^^^^
+KeyError: '电器'

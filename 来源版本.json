@@ -1,0 +1,63 @@
+{
+  "nlp": {
+    "repository": "https://github.com/FudanNLP/nlp-beginner",
+    "commit": "12f567cbca44a7d105eacdf4091aa7b9acbb05ef",
+    "scope": "legacy 原版五项任务"
+  },
+  "graph": {
+    "repository": "https://github.com/Maxioo/graph_beginner",
+    "commit": "127ab37a75c914daf9db633bb765a3934868cf11",
+    "scope": "四项任务"
+  },
+  "plm": {
+    "repository": "https://github.com/HarderThenHarder/transformers_tasks",
+    "commit": "5464a2c16b73d1c8382f40fe48682830a87dfe65",
+    "upstream_blob_files_verified": 300,
+    "scope": "全部入口的小资源实现，6B/7B采用明确注明的小模型替代"
+  },
+  "kge_reference": {
+    "repository": "https://github.com/Maxioo/kge_framework",
+    "commit": "7348b9d203373e3157b633f690f4651c50b048a9",
+    "scope": "知识图谱补全的参考框架代码"
+  },
+  "models": {
+    "bert-small-zh": {
+      "repository": "uer/chinese_roberta_L-2_H-128",
+      "revision": "151f4204cbb5784c4126a89a94ef0bb044273ac0",
+      "original_assets_verified": [
+        "config.json",
+        "pytorch_model.bin",
+        "vocab.txt"
+      ]
+    },
+    "t5-small-zh": {
+      "repository": "uer/t5-small-chinese-cluecorpussmall",
+      "revision": "17b148003055516673e35e99aa367e4a5f3fdd5c",
+      "original_assets_verified": [
+        "config.json",
+        "pytorch_model.bin",
+        "vocab.txt"
+      ]
+    },
+    "qwen05": {
+      "repository": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "original_assets_verified": [
+        "config.json",
+        "merges.txt",
+        "model.safetensors",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.json"
+      ]
+    },
+    "uie-base-zh": {
+      "repository": "Pky/uie-base-zh",
+      "revision": "4eaf7f9973752170b5c9d0ab49208eb72b72c091",
+      "original_assets_verified": [
+        "pytorch_model.bin",
+        "vocab.txt"
+      ]
+    }
+  }
+}

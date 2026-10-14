@@ -1,0 +1,103 @@
+{
+  "name": "sft",
+  "config": {
+    "task": "sft",
+    "limit": 400,
+    "epochs": 2,
+    "batch": 1,
+    "accumulate": 8,
+    "length": 192,
+    "lr": 0.0002,
+    "seed": 42,
+    "model": "Qwen2.5-0.5B-Instruct + LoRA",
+    "parameters": 494573440,
+    "trainable_parameters": 540672,
+    "counts": {
+      "train": 400,
+      "dev": 30,
+      "test": 30
+    },
+    "masking": "assistant target only; prompt and padding=-100",
+    "split": "deduplicated document/prompt split, fixed seed, no test-based selection",
+    "truncation": "prefix capped to half context; target truncated to remaining capacity"
+  },
+  "started": "2026-10-13T23:59:10.840990+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 1.0513539813598618,
+      "dev": {
+        "loss": 0.44578158500577075,
+        "perplexity": 1.561710328327901,
+        "tokens": 991
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 0.28911285381851487,
+      "dev": {
+        "loss": 0.3105543819444083,
+        "perplexity": 1.3641811819538159,
+        "tokens": 991
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 202.56612339999992,
+  "baseline_dev": {
+    "loss": 1.3477540481704033,
+    "perplexity": 3.848771660494306,
+    "tokens": 991
+  },
+  "best_dev_loss": 0.3105543819444083,
+  "test": {
+    "loss": 0.28174559099592084,
+    "perplexity": 1.3254414728441846,
+    "tokens": 1220
+  },
+  "examples_before": [
+    {
+      "input": "Instruction: 你现在是一个很厉害的阅读理解器，严格按照人类指令进行回答。\nInput: 下面句子可能是一条关于什么的评论，用列表形式回答：\n\n差差差差差差差差\nAnswer: ",
+      "gold": "[\"衣服\"]",
+      "output": "差差差差差差差差"
+    },
+    {
+      "input": "Instruction: 你现在是一个很厉害的阅读理解器，严格按照人类指令进行回答。\nInput: 下面句子可能是一条关于什么的评论，用列表形式回答：\n\n房间很宽敞，大床实在是很大，两个大人带个小孩睡着一点儿也不挤，打扫也很干净。站在海景房的阳台上任海风拂面真是很惬意。早餐内容也很丰富，不过性价比不高。但除此之外，就不能要求更多。送餐的食物实在是有失水准，晚上的露天烧烤除了暴贵之外，没留下其它印象。\nAnswer: ",
+      "gold": "[\"酒店\"]",
+      "output": "1. 房间很宽敞，大床实在是很大，两个大人带个小孩睡着一点儿也不挤，打扫也很干净。\n2. 站在海景房的阳台上"
+    },
+    {
+      "input": "Instruction: 你现在是一个很厉害的阅读理解器，严格按照人类指令进行回答。\nInput: 找到句子中的三元组信息并输出成json给我:\n\n史称大禹、禹神、帝禹、夏禹、禹王，为夏后氏首领、夏朝开国君王，是一位贤圣（道德与才智极高）帝王。\nAnswer: ",
+      "gold": "```json\n[{\"predicate\": \"朝代\", \"object_type\": \"Text\", \"subject_type\": \"历史人物\", \"object\": \"夏朝\", \"subject\": \"夏后氏\"}]\n```",
+      "output": "```json\n{\n    \"三元组\": [\n        [\"大禹\", \"禹神\", \"帝禹\"],\n        [\"夏禹\", \"禹王\"]\n    ]\n}\n```"
+    }
+  ],
+  "examples": [
+    {
+      "input": "Instruction: 你现在是一个很厉害的阅读理解器，严格按照人类指令进行回答。\nInput: 下面句子可能是一条关于什么的评论，用列表形式回答：\n\n差差差差差差差差\nAnswer: ",
+      "gold": "[\"衣服\"]",
+      "output": "[\"衣服\"]"
+    },
+    {
+      "input": "Instruction: 你现在是一个很厉害的阅读理解器，严格按照人类指令进行回答。\nInput: 下面句子可能是一条关于什么的评论，用列表形式回答：\n\n房间很宽敞，大床实在是很大，两个大人带个小孩睡着一点儿也不挤，打扫也很干净。站在海景房的阳台上任海风拂面真是很惬意。早餐内容也很丰富，不过性价比不高。但除此之外，就不能要求更多。送餐的食物实在是有失水准，晚上的露天烧烤除了暴贵之外，没留下其它印象。\nAnswer: ",
+      "gold": "[\"酒店\"]",
+      "output": "[\"酒店\"]"
+    },
+    {
+      "input": "Instruction: 你现在是一个很厉害的阅读理解器，严格按照人类指令进行回答。\nInput: 找到句子中的三元组信息并输出成json给我:\n\n史称大禹、禹神、帝禹、夏禹、禹王，为夏后氏首领、夏朝开国君王，是一位贤圣（道德与才智极高）帝王。\nAnswer: ",
+      "gold": "```json\n[{\"predicate\": \"朝代\", \"object_type\": \"Text\", \"subject_type\": \"历史人物\", \"object\": \"夏朝\", \"subject\": \"夏后氏\"}]\n```",
+      "output": "```json\n[{\"predicate\": \"部落\", \"object_type\": \"部落\", \"subject_type\": \"部落\", \"object\": \"夏部落\", \"subject\": \"夏禹\"}, {\"predicate"
+    },
+    {
+      "input": "Instruction: 你现在是一个很厉害的阅读理解器，严格按照人类指令进行回答。\nInput: 下面这句中包含了哪些三元组，用json列表的形式回答，不要输出除json外的其他答案。\n\n再说以前上节目的时候，贾乃亮都说了，如果出轨，会互相给对方五次机会，贾乃亮那么爱李小璐不会因为这件事离婚的。\nAnswer: ",
+      "gold": "```json\n[{\"predicate\": \"丈夫\", \"object_type\": \"人物\", \"subject_type\": \"人物\", \"object\": \"贾乃亮\", \"subject\": \"李小璐\"}, {\"predicate\": \"妻子\", \"object_type\": \"人物\", \"subject_type\": \"人物\", \"object\": \"李小璐\", \"subject\": \"贾乃亮\"}]\n```",
+      "output": "```json\n[{\"predicate\": \"演员\", \"object_type\": \"人物\", \"subject_type\": \"影视作品\", \"object\": \"贾乃亮\", \"subject\": \"上新起来"
+    },
+    {
+      "input": "Instruction: 你现在是一个很厉害的阅读理解器，严格按照人类指令进行回答。\nInput: 下面描述中包含了哪些SPO？\n返回json回答:\n\n个人信息王勤耕 博士，教授，博士生导师  出生年月：1969年5月  性别：男  籍贯：江苏 宿迁人物生平1987-1991，在南京大学大气科学系攻读大气环境学，获学士学位。\nAnswer: ",
+      "gold": "```json\n[{\"predicate\": \"出生地\", \"object_type\": \"地点\", \"subject_type\": \"人物\", \"object\": \"江苏\", \"subject\": \"王勤耕\"}, {\"predicate\": \"毕业院校\", \"object_type\": \"学校\", \"subject_type\": \"人物\", \"object\": \"南京大学\", \"subject\": \"王勤耕\"}]\n```",
+      "output": "```json\n[{\"predicate\": \"出生日期\", \"object_type\": \"Date\", \"subject_type\": \"人物\", \"object\": \"1969年5月\", \"subject\":"
+    }
+  ]
+}

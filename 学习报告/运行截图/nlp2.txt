@@ -1,0 +1,16 @@
+{
+  "checkpoint": "nlp-beginner/legacy/task2/checkpoints/rnn_glove_n0_lr0.001_kaggle.pt",
+  "test_examples": 128,
+  "metrics": {
+    "accuracy": 0.6484375,
+    "macro_f1": 0.31477111845210004
+  }
+}
+{
+  "input": {
+    "text": "This quiet , introspective and entertaining independent is worth seeking .",
+    "label": 4,
+    "sentence_id": "2"
+  },
+  "prediction": 3
+}

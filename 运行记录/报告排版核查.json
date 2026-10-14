@@ -1,0 +1,278 @@
+{
+  "status": "passed",
+  "method": "Markdown table parsing and browser loading of original local report images",
+  "reports": [
+    {
+      "report": "README.md",
+      "tables": 1,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/Graph任务1.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/Graph任务2.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/Graph任务3.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/Graph任务4.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/NLP任务1.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/NLP任务2.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/NLP任务3.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/NLP任务4.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/NLP任务5.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_Prompt.md",
+      "tables": 1,
+      "images": 2,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_RLHF.md",
+      "tables": 1,
+      "images": 3,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_T5生成.md",
+      "tables": 2,
+      "images": 6,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_信息抽取.md",
+      "tables": 2,
+      "images": 2,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_分类.md",
+      "tables": 1,
+      "images": 2,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_大模型应用.md",
+      "tables": 6,
+      "images": 2,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_大模型训练.md",
+      "tables": 1,
+      "images": 8,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_工具.md",
+      "tables": 0,
+      "images": 1,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_文本分类.md",
+      "tables": 1,
+      "images": 2,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM_文本匹配.md",
+      "tables": 1,
+      "images": 2,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/PLM任务.md",
+      "tables": 6,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/实验环境.md",
+      "tables": 3,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/工具上手.md",
+      "tables": 0,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/总报告.md",
+      "tables": 1,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "学习报告/本人练习与核查.md",
+      "tables": 1,
+      "images": 0,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "nlp-beginner/legacy/task1/README.md",
+      "tables": 1,
+      "images": 3,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "nlp-beginner/legacy/task2/README.md",
+      "tables": 2,
+      "images": 3,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "nlp-beginner/legacy/task3/README.md",
+      "tables": 2,
+      "images": 3,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "nlp-beginner/legacy/task4/README.md",
+      "tables": 2,
+      "images": 2,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "nlp-beginner/legacy/task5/README.md",
+      "tables": 1,
+      "images": 2,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "graph_beginner/task1/README.md",
+      "tables": 4,
+      "images": 5,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "graph_beginner/task2/README.md",
+      "tables": 4,
+      "images": 5,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "graph_beginner/task3/README.md",
+      "tables": 4,
+      "images": 4,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    },
+    {
+      "report": "graph_beginner/task4/README.md",
+      "tables": 2,
+      "images": 3,
+      "orphan_table_rows": [],
+      "failed_images": [],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{
+  "task": "cpt",
+  "input": "请用一句话解释梯度下降。",
+  "output": "梯度下降是一种优化算法，用于在低维空间中最小化损失函数。它通过迭代地调整模型参数来逼近最优解。",
+  "checkpoint": "C:\\Users\\86157\\Documents\\ChatGPT\\新生任务\\transformers_tasks\\local_runs\\checkpoints\\cpt"
+}

@@ -1,0 +1,11 @@
+{"epoch": 1, "train_loss": 0.7523139726638794, "dev": {"accuracy": 0.7761633814265393, "macro_f1": 0.7766027721602656}}
+{"epoch": 2, "train_loss": 0.5477947784614563, "dev": {"accuracy": 0.7946555578134525, "macro_f1": 0.7956565116275911}}
+{"epoch": 3, "train_loss": 0.46657077116012574, "dev": {"accuracy": 0.8158910790489737, "macro_f1": 0.8154497266169392}}
+{"epoch": 4, "train_loss": 0.40541122831344606, "dev": {"accuracy": 0.8130461288356026, "macro_f1": 0.8132667666551816}}
+{"epoch": 5, "train_loss": 0.35425423050880434, "dev": {"accuracy": 0.8127413127413128, "macro_f1": 0.8129551802900039}}
+{"epoch": 6, "train_loss": 0.31203059890270235, "dev": {"accuracy": 0.8067465962202804, "macro_f1": 0.8042062853976772}}
+{"epoch": 7, "train_loss": 0.27426468396663667, "dev": {"accuracy": 0.8118268644584434, "macro_f1": 0.8108014361271465}}
+{"epoch": 8, "train_loss": 0.24347233892202377, "dev": {"accuracy": 0.8068482015850437, "macro_f1": 0.8061536822489015}}
+{"epoch": 9, "train_loss": 0.2168772672533989, "dev": {"accuracy": 0.8015647226173542, "macro_f1": 0.801978712890691}}
+{"epoch": 10, "train_loss": 0.19361754447937013, "dev": {"accuracy": 0.8017679333468807, "macro_f1": 0.8017977434493831}}
+C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\task3\results\esim_glove_n100000_lr0.001_expanded.json

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\seq2seq_tasks.py", line 141, in <module>
+    main(p.parse_args())
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\seq2seq_tasks.py", line 71, in main
+    rows = load_data(args.task, args.seed, args.limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\seq2seq_tasks.py", line 38, in load_data
+    train, dev = parse(folder / "train.tsv"), parse(folder / "dev.tsv")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\seq2seq_tasks.py", line 35, in parse
+    source, target = l.split("\t", 1)
+    ^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)

@@ -1,0 +1,5 @@
+`loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+{"epoch": 1, "loss": 6.7705656433105466, "dev": {"loss": 6.518554415646753, "perplexity": 677.5981517190373, "tokens": 3487}}
+{"epoch": 2, "loss": 6.355406723022461, "dev": {"loss": 6.251495722613979, "perplexity": 518.7882078990895, "tokens": 3487}}
+{"epoch": 3, "loss": 6.089452047348022, "dev": {"loss": 6.08962608730687, "perplexity": 441.25638893119697, "tokens": 3487}}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\scratch-sft.json

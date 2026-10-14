@@ -1,0 +1,36 @@
+{
+  "checkpoint": "graph_beginner/task2/checkpoints/Cora_gcn_full_l2_lr0.01_isolated.pt",
+  "dataset": "Cora",
+  "model": "gcn",
+  "test": {
+    "auc": 0.7165510263602288,
+    "average_precision": 0.710502299993756
+  }
+}
+{
+  "checkpoint": "graph_beginner/task2/checkpoints/Cora_gat_full_l2_lr0.01_isolated.pt",
+  "dataset": "Cora",
+  "model": "gat",
+  "test": {
+    "auc": 0.6981049872357586,
+    "average_precision": 0.6635331489077537
+  }
+}
+{
+  "checkpoint": "graph_beginner/task2/checkpoints/Cora_sage_full_l2_lr0.01_isolated.pt",
+  "dataset": "Cora",
+  "model": "sage",
+  "test": {
+    "auc": 0.682838306406605,
+    "average_precision": 0.6488401063757326
+  }
+}
+{
+  "checkpoint": "graph_beginner/task2/checkpoints/Cora_gin_full_l2_lr0.01_isolated.pt",
+  "dataset": "Cora",
+  "model": "gin",
+  "test": {
+    "auc": 0.7436133785092662,
+    "average_precision": 0.7473394142281164
+  }
+}

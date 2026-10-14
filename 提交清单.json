@@ -1,0 +1,5307 @@
+{
+  "files": [
+    {
+      "path": "common/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "common/experiment.py",
+      "bytes": 2141,
+      "sha256": "01430f8822cfa68aabd4ca4f94bbbe7701898fe6c167bd4cbee748cb8d3b08ad"
+    },
+    {
+      "path": "graph_beginner/models.py",
+      "bytes": 2235,
+      "sha256": "936c00c074d28b4356a7ecbff289ae92cec61fc7ebb6c1e51e0597cd7ea48ece"
+    },
+    {
+      "path": "graph_beginner/prepare_data.py",
+      "bytes": 3397,
+      "sha256": "5733159dd6ddb400e8a2fc74ccc8b3894afa61ef9e08b82df600da3bf9eb9888"
+    },
+    {
+      "path": "graph_beginner/README.md",
+      "bytes": 2538,
+      "sha256": "68e1bbe8819e9b5b21df01a42e2b919f204b0e6ac96101d7b8f4a7be74a82459"
+    },
+    {
+      "path": "graph_beginner/requirements.txt",
+      "bytes": 28,
+      "sha256": "468b4e1b78bed7dd45386107ca4de3bf818dfe1e0431c102fb802d93e7c25fd4"
+    },
+    {
+      "path": "graph_beginner/task1/code/train.py",
+      "bytes": 4201,
+      "sha256": "62d41b40659d6c42cb7cc42634534ab7e075570041acc7bb59f3730bde59aa0e"
+    },
+    {
+      "path": "graph_beginner/task1/curves_CiteSeer.png",
+      "bytes": 290806,
+      "sha256": "2f1e566ae2957bcee780523a72255f2204fa34da35b9276adb4a38da87f019e6"
+    },
+    {
+      "path": "graph_beginner/task1/curves_Cora.png",
+      "bytes": 240202,
+      "sha256": "e02ac763414af6ec8e8bd05589bbadde29f7d4ab5d7b4e01f36953bf9d66b3ad"
+    },
+    {
+      "path": "graph_beginner/task1/curves_Flickr.png",
+      "bytes": 135520,
+      "sha256": "7084ff0c3e32dc28e06abba7b7a92fc460d98b0aec5978d88ed07e5b99f4744e"
+    },
+    {
+      "path": "graph_beginner/task1/data/README.md",
+      "bytes": 523,
+      "sha256": "ac035a989c5ebcf7df53232784181c52218c6d795614e628730f49987c9304d3"
+    },
+    {
+      "path": "graph_beginner/task1/metric_comparison.png",
+      "bytes": 26117,
+      "sha256": "76b2667467c33240efd39673100fceab3dce3b371fc1ec3a05de5ec075427b08"
+    },
+    {
+      "path": "graph_beginner/task1/README.md",
+      "bytes": 12471,
+      "sha256": "009566cdbf5710156d0c4e5f698970bd44c497b0754d1f2d5bf7723c44ddd107"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gat_full_l2_lr0.01.json",
+      "bytes": 21519,
+      "sha256": "7d1dd40784b8037e15188c2dc43252cb71bbed78e9604ab2da09ce3149bc18f8"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gat_full_l2_lr0.01_isolated.json",
+      "bytes": 21553,
+      "sha256": "969c4a9ea6278a63ad38cd7b4f4b2a35b2636e8f2edf1836d0877e5db76a2310"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gat_sampled_l2_lr0.01.json",
+      "bytes": 21485,
+      "sha256": "10e38e35dc18166f649f764f890579329a0fb1703b0b4cd8ddab0608a7acb74e"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gat_sampled_l2_lr0.01_isolated.json",
+      "bytes": 21536,
+      "sha256": "2ae7f491f490a31921b85aa08f54841ff5713bf518fafe2195d076c99a36495a"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gcn_full_l2_lr0.01.json",
+      "bytes": 21525,
+      "sha256": "9c38009f5a527c6e74f4c6af10498713703c66e7a33c58754ccf63dec2117c6a"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gcn_full_l2_lr0.01_isolated.json",
+      "bytes": 21568,
+      "sha256": "e7d84c24e36bf323c9cd3a0d4a1b5737a9f88ec5c3004e82c1d515e74433f3b7"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gcn_sampled_l2_lr0.01.json",
+      "bytes": 21543,
+      "sha256": "7a5b53d58a36b2f2d504805f1c7a73831a7a0795d93421e598d8a6f047c87026"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gcn_sampled_l2_lr0.01_isolated.json",
+      "bytes": 21578,
+      "sha256": "d5e472b1408518bc8b00da97c8e7a243ff4671ef467c0b84e59589120c1f8a98"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gin_full_l2_lr0.01.json",
+      "bytes": 21624,
+      "sha256": "443664dcd056b3a67de7903d7b5c6b83ce32f836755a0a429ef1f98b02e39499"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gin_full_l2_lr0.01_isolated.json",
+      "bytes": 21676,
+      "sha256": "dea29ac3f5186eaeea72ca89e0c913f7ddc3788a0056dae224c03470eab9d423"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gin_sampled_l2_lr0.01.json",
+      "bytes": 21610,
+      "sha256": "67a80bd7b5fd5f6fb6d9407c5916f4619f768f420a65634ad3747945c78791f0"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_gin_sampled_l2_lr0.01_isolated.json",
+      "bytes": 21659,
+      "sha256": "10d8a6b8c65ff231045edf2110397473c786d724d0a8d305fd6c51eca2e16239"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_sage_full_l2_lr0.01.json",
+      "bytes": 21586,
+      "sha256": "914bc8834e67b430a3483af39be5675a637f0cebdd6b88218f5fe4828e45780f"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_sage_full_l2_lr0.01_isolated.json",
+      "bytes": 21634,
+      "sha256": "70d0dd4fdee88be35b8aa5191fdaa3f2950e7f64023c2908468a569c6fadb4c3"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_sage_sampled_l2_lr0.01.json",
+      "bytes": 21563,
+      "sha256": "0c591bb2910cba8767e0a1ed03435f1d4dbe71c5635b21c78ae36c1558b2ae6a"
+    },
+    {
+      "path": "graph_beginner/task1/results/CiteSeer_sage_sampled_l2_lr0.01_isolated.json",
+      "bytes": 21624,
+      "sha256": "d1ae6dd5fada7cd50a5043d1edefc8db74ad2aae399b0b608f4ec7c672458814"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gat_full_l2_lr0.01.json",
+      "bytes": 21532,
+      "sha256": "fc66cccf60d0ea8c1590a4b3d20159d3990a1492a29e1145960985641a44056c"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gat_full_l2_lr0.01_isolated.json",
+      "bytes": 21561,
+      "sha256": "5e038d37c6f17eb16fa56c3aa44f0ff5909d344057b9a635943a945094cab20f"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gat_sampled_l2_lr0.01.json",
+      "bytes": 21484,
+      "sha256": "7247cda04335104994f5b9a9d1425f15049b85cad74b624126728300f0656e2c"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gat_sampled_l2_lr0.01_isolated.json",
+      "bytes": 21522,
+      "sha256": "35de5256a6dace081d558b257529458ca828f6267e380bc6919ad4d2bc058b71"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l1_lr0.01.json",
+      "bytes": 21549,
+      "sha256": "6ec0bee6f450f3c8804ce1348c16d245e541704d631967845d6081604a4440d1"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l1_lr0.01_ablation.json",
+      "bytes": 21571,
+      "sha256": "22a6063b8b00cd2a5e67a480c6c78cc8fa01232762857c30cb9efa1baacfc1e0"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.001.json",
+      "bytes": 21538,
+      "sha256": "38ba5b648ffe55e776080f7c88942683551e796018bf5ad3020ee186f25eca52"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.001_ablation.json",
+      "bytes": 21570,
+      "sha256": "09aa46c8c5264fa9f793e8301f27c4f2482a346cab13533441ca3c3d0d1c1c3a"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.01.json",
+      "bytes": 21552,
+      "sha256": "5b6d18260e4d5dca0f9553f929f95527521e344f27023c0a4374be3cbfb514df"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.01_isolated.json",
+      "bytes": 21586,
+      "sha256": "27f0a2222aa7cc085f4baf34d81f652027d17d0ff237fd74bc2e3000c6596530"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.01_seed2026.json",
+      "bytes": 21581,
+      "sha256": "18866631c0fd21b95bc0138497958c72354c15307363a3db5831483b47fd55b5"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.01_seed7.json",
+      "bytes": 21585,
+      "sha256": "9074660cad91d9712470ded4394a9f071de06f99e7b89761e666fece8161029f"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.1.json",
+      "bytes": 21609,
+      "sha256": "b71de01b56dae3413fa518c8c54585c2e1291dfc1e5394c5191f64ed8b5f5f99"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l2_lr0.1_ablation.json",
+      "bytes": 21655,
+      "sha256": "71a65408ffa79d701888ed50ea31caee4a3f02daac932994b10a241d18dcd0e4"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l3_lr0.01.json",
+      "bytes": 21589,
+      "sha256": "0d07e1bae8831f6f01b0e8f55e3fe2b505a7c104a9b48fc66f53a44bc0c5c93a"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_full_l3_lr0.01_ablation.json",
+      "bytes": 21621,
+      "sha256": "e27a9023fbd2b55a1b705178fe8fc791e3d619d386d32753f386ab5757ca1101"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_sampled_l2_lr0.01.json",
+      "bytes": 21560,
+      "sha256": "d54deebf9c67987b8752a43aa6919248c380281de54eaca542b4f8b44e812b68"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_sampled_l2_lr0.01_isolated.json",
+      "bytes": 21627,
+      "sha256": "cb3a52de754427dc5f35482ef0ee1ebdcceed27605126d51c18c429f695e040e"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_sampled_l2_lr0.01_seed2026.json",
+      "bytes": 21627,
+      "sha256": "f62ca0868314c7577463a0a914bcfaab23a43ca72d382757ee43c414d46aa78f"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gcn_sampled_l2_lr0.01_seed7.json",
+      "bytes": 21600,
+      "sha256": "b66426d8d02c7a00b16735b00790f986d55668e7b4d47a14acb2980700b6f0af"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gin_full_l2_lr0.01.json",
+      "bytes": 21661,
+      "sha256": "d49aca1357c124fe6e2a6122cfee7eabe028afaec09a24efe7df2e107f51b670"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gin_full_l2_lr0.01_isolated.json",
+      "bytes": 21690,
+      "sha256": "60c63581f1883c455fbbc93935f2ac48b0314be92d7b84d0e673e932ad656c2b"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gin_sampled_l2_lr0.01.json",
+      "bytes": 21634,
+      "sha256": "da2489edc506e5cc4fc210901c8776babbe34f89c863f38248943ef350ade5fe"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_gin_sampled_l2_lr0.01_isolated.json",
+      "bytes": 21665,
+      "sha256": "096d96444854f2fa052494cf762056f2d6375d63060680357da7b605ee8e6644"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_sage_full_l2_lr0.01.json",
+      "bytes": 21599,
+      "sha256": "b708678d4ff5df24e7291b787d28a03778179a69b53994ffc112b9562a58700b"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_sage_full_l2_lr0.01_isolated.json",
+      "bytes": 21642,
+      "sha256": "7c4ddd73ae91e01fc799ced45e015546ad375eae820b74840b2dee0437421b73"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_sage_sampled_l2_lr0.01.json",
+      "bytes": 21626,
+      "sha256": "b38f441ed9f19060a047e22c5d4a14327d1970d62dd039513eb399a4dc0d9917"
+    },
+    {
+      "path": "graph_beginner/task1/results/Cora_sage_sampled_l2_lr0.01_isolated.json",
+      "bytes": 21649,
+      "sha256": "2f3370be504e0c99eab332c02c7ddd8a432ac95200e4904be1a0831ca8ec2ef0"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gat_full_l2_lr0.01.json",
+      "bytes": 22912,
+      "sha256": "32749d0afc51e7f6aed469944f5e616c6a975497cbd9c4fc26dcd4b62febc3b6"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gat_full_l2_lr0.01_isolated.json",
+      "bytes": 22916,
+      "sha256": "6919ba19361e7eee4281be5d512fe46edf4cb993b65f076cfe6fdf0b86b47caa"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gat_sampled_l2_lr0.01.json",
+      "bytes": 22926,
+      "sha256": "95f97e7306be81b1eb4662954d814c4b6ceb0be1905c7da0504dacfa2f745894"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gat_sampled_l2_lr0.01_isolated.json",
+      "bytes": 22960,
+      "sha256": "6fe12e0c8932f602f69114f8293cb5e16f445371a3bf820969197f7751724817"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gcn_full_l2_lr0.01.json",
+      "bytes": 22993,
+      "sha256": "d596f0870cedca5c05aa65877b8f615f112534d2537f8051e69710968d545296"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gcn_full_l2_lr0.01_isolated.json",
+      "bytes": 23017,
+      "sha256": "280ce435fb270ff76ad116b23d8b62b49d66a1905b642a3952413bdd99dc1b51"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gcn_sampled_l2_lr0.01.json",
+      "bytes": 22947,
+      "sha256": "d087111e528f8f3bdec7cab7102ecfe098fa1b59b31a7cd6dc9de26b6635786b"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gcn_sampled_l2_lr0.01_isolated.json",
+      "bytes": 22989,
+      "sha256": "92df971b6a883f84d81d20ebbcbd858005d834131dbd42f5eae4e00d2331c768"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gin_full_l2_lr0.01.json",
+      "bytes": 22924,
+      "sha256": "a04054f0e8a29ddeb13809e3db05ba5a0e2891ac843f7de5995d9212a79bba5c"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gin_full_l2_lr0.01_isolated.json",
+      "bytes": 22941,
+      "sha256": "6a4453900b6fedb93da76eefb847d7f970b3691da934c2e581b557bfea863b50"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gin_sampled_l2_lr0.01.json",
+      "bytes": 22916,
+      "sha256": "1ef6246cbb4636edf0d4abad8be6be1842db3cf13836e30f5e473d58812178fa"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_gin_sampled_l2_lr0.01_isolated.json",
+      "bytes": 22953,
+      "sha256": "f897d2217c4a04d8b2e633f6895c05214796e9857d454105730a943e6be528ce"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_sage_full_l2_lr0.01.json",
+      "bytes": 22906,
+      "sha256": "8648ec6b14fa875a230e739b007996dd5272c466a632814ee3e22b9a2a547565"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_sage_full_l2_lr0.01_isolated.json",
+      "bytes": 22935,
+      "sha256": "c0b0b3326c7e2acb77780ada27d7777eb1248a713dd7e393de7e469b4dd7a3ed"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_sage_sampled_l2_lr0.01.json",
+      "bytes": 22924,
+      "sha256": "1ea61bc4f31e74c7e5ea2e93f5efd0b59b4cb97eb2c96da553d5f2b86a288efe"
+    },
+    {
+      "path": "graph_beginner/task1/results/Flickr_sage_sampled_l2_lr0.01_isolated.json",
+      "bytes": 22955,
+      "sha256": "ee41e25039fe0072a9c171f74eab80764d9c5938dd505e202396590ce45cccde"
+    },
+    {
+      "path": "graph_beginner/task1/training_curves.png",
+      "bytes": 140690,
+      "sha256": "2f98251f8d8643b398c19ddf88a692ffea0d5bd7b16414024b9ab009f50393d5"
+    },
+    {
+      "path": "graph_beginner/task2/code/train.py",
+      "bytes": 5234,
+      "sha256": "ad68e1c7e518fd6c2e4c8a008b42333e9be4a09e92d800961b3772c42485913d"
+    },
+    {
+      "path": "graph_beginner/task2/curves_CiteSeer.png",
+      "bytes": 261575,
+      "sha256": "6ef873c5bf6dabbec9fdf74be825464cecc1c6e1ed32ce32a24d73c8ea7bf664"
+    },
+    {
+      "path": "graph_beginner/task2/curves_Cora.png",
+      "bytes": 199310,
+      "sha256": "21dbee50e3ec6e91e439af8da5ad661c010cc57cc1ccba55f23767bdf158d71e"
+    },
+    {
+      "path": "graph_beginner/task2/curves_Flickr.png",
+      "bytes": 107980,
+      "sha256": "06bb329e8872e8b187c68f2a1b08d2207a900d3995041b4ecabed877f9f9db64"
+    },
+    {
+      "path": "graph_beginner/task2/data/README.md",
+      "bytes": 390,
+      "sha256": "82a061b2210e2860601150d3ec3bdf70672855bb1c0d7217450940c678ba6a0f"
+    },
+    {
+      "path": "graph_beginner/task2/metric_comparison.png",
+      "bytes": 26272,
+      "sha256": "018ae27a911df1a256fb39671d041343ab55f3b402791a8301ba3578f5c72805"
+    },
+    {
+      "path": "graph_beginner/task2/README.md",
+      "bytes": 14174,
+      "sha256": "d5d1cc96b3218c08d98092d74afbb4bdea44510e8ba180225a5a25c896727057"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gat_full_l2_lr0.01.json",
+      "bytes": 13672,
+      "sha256": "8e535d8b97bca39bf25e72ebdb069fb152e320b6ecb1f6a8f2ba55f826346386"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gat_full_l2_lr0.01_isolated.json",
+      "bytes": 13756,
+      "sha256": "74cca9925708331c6e62b84bf8ed33fcd6606a7609fd061dd785340b1888ffe3"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gat_sampled_l2_lr0.01.json",
+      "bytes": 13566,
+      "sha256": "edcf635802ac423177a555621dd0e27265c887a4f99552ddfd0784dca103cafc"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gat_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13700,
+      "sha256": "b2e6152ac1ae0407f71a63728102d958263c31c9a5ccdec03d5a0e70e6098c3a"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gcn_full_l2_lr0.01.json",
+      "bytes": 13678,
+      "sha256": "e08fafa38430a82cf1bb82d46407be5da177c69a50502fdb08f960821544b944"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gcn_full_l2_lr0.01_isolated.json",
+      "bytes": 13772,
+      "sha256": "254ddd49ead7bffd67a4e23a6dbf71025b003c29422251362cb04842c13b0df4"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gcn_sampled_l2_lr0.01.json",
+      "bytes": 13593,
+      "sha256": "e77c568ce1d867c8f4d4e60943dd4fb7abf98928be7060fb346e736fe80d2112"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gcn_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13711,
+      "sha256": "3a0005a24cded24ac13c428dcd364d67e6271fb2c77c6fa3872abc1b3df963a0"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gin_full_l2_lr0.01.json",
+      "bytes": 13665,
+      "sha256": "4ae2a74a5516240af7a24ae23ff92cbed5b6b053c085f2af5e5611ca282fd11b"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gin_full_l2_lr0.01_isolated.json",
+      "bytes": 13756,
+      "sha256": "9ce6f0adc4b003c861b3a6c46da1fb303de0c704054ec1c8e5c8db820f5201be"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gin_sampled_l2_lr0.01.json",
+      "bytes": 13585,
+      "sha256": "712b24f0ec470597d5162e587ac73781e5e13cc78e93ea746d95dab0335e8b0c"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_gin_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13715,
+      "sha256": "5128e6b4cf3c8a904d1230ce0ccb9afb1c91d21a35200fc3c414a12afbdc68cd"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_sage_full_l2_lr0.01.json",
+      "bytes": 13668,
+      "sha256": "7287a52bc11378e3fd86821913d647c5f255786a47f30b4d66553466d2b66a50"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_sage_full_l2_lr0.01_isolated.json",
+      "bytes": 13767,
+      "sha256": "3a84c8636606ced186dd8b1f221d62b175c833d2695991e534514c3b167b8486"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_sage_sampled_l2_lr0.01.json",
+      "bytes": 13579,
+      "sha256": "f2453825473283c8b2c4566565661a6d65ec0e00a8d5599b8004ef7526ff10e8"
+    },
+    {
+      "path": "graph_beginner/task2/results/CiteSeer_sage_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13726,
+      "sha256": "71daf43c41e3f42dd0121870cd4197376aebf183dacdebce3794bad61c6ea840"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gat_full_l2_lr0.01.json",
+      "bytes": 13645,
+      "sha256": "ab336a188428e083c2f07318bf0f84d5f7b86566d19ed3aa9f53fd90c093991d"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gat_full_l2_lr0.01_isolated.json",
+      "bytes": 13742,
+      "sha256": "239c1654e8d66b69ec541d4a74f4bd16f350ec7e07eb49dab2a85aa16d026bc7"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gat_sampled_l2_lr0.01.json",
+      "bytes": 13567,
+      "sha256": "613ea61594c0dec9b1476659f965f79437553d0bd3f474b9aa86bd5489beb0f9"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gat_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13693,
+      "sha256": "7d8c4ad641306dc043cf014364eec7b59f3ca38f0ba1c67e0658a9d5e7af1560"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gcn_full_l1_lr0.01_ablation.json",
+      "bytes": 13755,
+      "sha256": "2638d41650edb35ebdb56d20c8d27aa934b639329b44030519d3696cfc2a3e2b"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gcn_full_l2_lr0.001_ablation.json",
+      "bytes": 13740,
+      "sha256": "3a15b12e782ad9c95c4cd0bd9b675a9b31835d648746bec3a48c0bf04f1f31be"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gcn_full_l2_lr0.01.json",
+      "bytes": 13649,
+      "sha256": "a46152c39f5965f935ba6cd19a8b0537e22857b542264b6e4f98095584a9e529"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gcn_full_l2_lr0.01_isolated.json",
+      "bytes": 13741,
+      "sha256": "8d2c11bb3f977710f9bc454e29e700c6b1b3871e295070fda498a3ed6192c4bb"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gcn_full_l2_lr0.1_ablation.json",
+      "bytes": 12306,
+      "sha256": "974c24bf5bb24716b9cdc9581599788f830dbe010d9989a43ca954501b30eab9"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gcn_full_l3_lr0.01_ablation.json",
+      "bytes": 13742,
+      "sha256": "540330c30ef520b049c9006d459d6908693290839b5698b1aba91a5d1aad3d3e"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gcn_sampled_l2_lr0.01.json",
+      "bytes": 13589,
+      "sha256": "b267ef24e4908482328012eb5441f5984b6b398ba6821c660c948c5cfb71bb6b"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gcn_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13708,
+      "sha256": "bb6da4d7b72c6b6e860db983a5791c01d3567ddfae1dc5e5c14897b3ac09d358"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gin_full_l2_lr0.01.json",
+      "bytes": 13677,
+      "sha256": "c348ea82408675c4bc56bb3b1b49a0b8ad8c03ff96f2e108bbcb5a99c22e4e5d"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gin_full_l2_lr0.01_isolated.json",
+      "bytes": 13752,
+      "sha256": "680f6f0404046510fb874986e4289db7614fb48ad6566c4eb4b618d18669295d"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gin_sampled_l2_lr0.01.json",
+      "bytes": 13568,
+      "sha256": "ac0ae2b0a20e58367de52c1c6c7582484bd1373f699fc23f901bf894f028b98d"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_gin_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13695,
+      "sha256": "e0722562862ca4a18bf3f5a0d63ea046c5a128dda804db81e378a0983c976968"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_sage_full_l2_lr0.01.json",
+      "bytes": 13672,
+      "sha256": "8f5ca82e5572e66a90ac257efb9ade817b29f4e7ebc4027770647164fb5438ca"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_sage_full_l2_lr0.01_isolated.json",
+      "bytes": 13769,
+      "sha256": "3da72dd5363ea3459d306a916add012d501030c6e37c27cc06d2d537a409ff3b"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_sage_sampled_l2_lr0.01.json",
+      "bytes": 13592,
+      "sha256": "e4700a2113159894ef3052f64aad012ed33c1c76662bfb450a05826f23f7eda7"
+    },
+    {
+      "path": "graph_beginner/task2/results/Cora_sage_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13709,
+      "sha256": "3a3c528fd390e94f6ff852c3cf98897035aea834612de38927e52fa3a0674a55"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gat_full_l2_lr0.001_tuned.json",
+      "bytes": 13789,
+      "sha256": "e377eee362fa6fce00a1bc4f4512b3ff91c31da0ad02f6186dcdada167c2c877"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gat_full_l2_lr0.01.json",
+      "bytes": 13723,
+      "sha256": "568e6e17224c5b5a5a79d97164238f53995bd3689d6fe60515f11af5b2ae5e98"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gat_full_l2_lr0.01_isolated.json",
+      "bytes": 13827,
+      "sha256": "1455d2f35a2dc24964c0d1760c76e56eb32dc1c57a18a520a0c7e8db9d6ffef5"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gat_sampled_l2_lr0.001_tuned.json",
+      "bytes": 13790,
+      "sha256": "52faec135931bfb16310ecbc1cc44b9f089fcc666d0721a59aead0fbebb93822"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gat_sampled_l2_lr0.01.json",
+      "bytes": 13653,
+      "sha256": "ce5b8908ac380e117f3f7d3224bfaf2c4997fc96435fb54da73fde1b7cce6a6a"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gat_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13779,
+      "sha256": "eab3e11ddc2edb38253aa02bdd76f21a746ae8ac1aaa905b145051eb44ffdfc3"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gcn_full_l2_lr0.001_tuned.json",
+      "bytes": 13827,
+      "sha256": "1f9af5e6b7f4fa84e6c6646fa4ea729b9496da4fc00ef60c261c47c3431bd397"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gcn_full_l2_lr0.01.json",
+      "bytes": 13710,
+      "sha256": "1e553a9711a04c8b5b2fab744d25f2b684c6efb45f1a21a73ece3576223248ec"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gcn_full_l2_lr0.01_isolated.json",
+      "bytes": 13835,
+      "sha256": "2ecca3d58a926d6bb75eeb281ea66af65321801333e69f20a9b1557b4254159c"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gcn_sampled_l2_lr0.001_tuned.json",
+      "bytes": 13819,
+      "sha256": "cb99605aceebc3cf878f3aece672f981a9b5eebbb1f2264ba4738850275a965d"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gcn_sampled_l2_lr0.01.json",
+      "bytes": 13644,
+      "sha256": "1afbc7d5ed4ed85061570d5b12eda5c87f24ae4b36084409134a00c980fc6dea"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gcn_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13769,
+      "sha256": "2937f6e608f40536b58bfa15b0cfef23a0b9c793a5a5339805817cb364fa5393"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gin_full_l2_lr0.001_tuned.json",
+      "bytes": 13779,
+      "sha256": "fd4e6dc0a4bbe38cae0f2e58153c926c34d354268dbe988060671fe626249a8b"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gin_full_l2_lr0.01.json",
+      "bytes": 12499,
+      "sha256": "3b45217de45b8a63a5675079e704438d1e69395c9d8c8164366a659f5d239461"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gin_full_l2_lr0.01_isolated.json",
+      "bytes": 12573,
+      "sha256": "64d07bc0c37edd45a4c578b945953192323b7c20f361ea76f41b8a7c7395b13e"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gin_sampled_l2_lr0.001_tuned.json",
+      "bytes": 13770,
+      "sha256": "b7c2c0e2a69f5b8f35681ab370ae274c7631536a002400329dd5584d91e9ebc5"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gin_sampled_l2_lr0.01.json",
+      "bytes": 13662,
+      "sha256": "8698229a09b26c547e43a521b52902115a411fb7af78e6898177dd7fdbe5718a"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_gin_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13779,
+      "sha256": "0de33a5aaac3f232f1a4af7eb5dbe74bbf5987cc19844c8d0ce9cb8065c1a9ab"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_sage_full_l2_lr0.001_tuned.json",
+      "bytes": 13831,
+      "sha256": "f2835e94b431335ad6e1d326239e1a72c0d64603d0181160b369cb40c2c8fc9b"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_sage_full_l2_lr0.01.json",
+      "bytes": 12405,
+      "sha256": "059235d44dcf150f51fd159e10229012c92124e30acfc6b15b0dbb0ee22fd678"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_sage_full_l2_lr0.01_isolated.json",
+      "bytes": 12494,
+      "sha256": "f72d89342e2304522697f7aaa23f60ecac39ff59f9dc0e54b3d19088078aa3c6"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_sage_sampled_l2_lr0.001_tuned.json",
+      "bytes": 13808,
+      "sha256": "a16019fca904a35b028c89ce797eaddf001bf9d9e54a63bd6cb36d6922746b04"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_sage_sampled_l2_lr0.01.json",
+      "bytes": 13655,
+      "sha256": "f2d91b2d11bf63feebdab698f5bfb5c8c0da08e26195068385cf7f9f70be3771"
+    },
+    {
+      "path": "graph_beginner/task2/results/Flickr_sage_sampled_l2_lr0.01_isolated.json",
+      "bytes": 13781,
+      "sha256": "ba3aa186530279122acb18068ab68e7ba032d555fb4a30c097f9ec3a280bfc71"
+    },
+    {
+      "path": "graph_beginner/task2/training_curves.png",
+      "bytes": 132025,
+      "sha256": "5ae19b2f6d7b5f8858433c92f9a03ad959f5bfa1c81f9781a5800a07eb383762"
+    },
+    {
+      "path": "graph_beginner/task3/code/train.py",
+      "bytes": 6288,
+      "sha256": "f2808f15feec363a3abacc40f35040aad41c243363be746f64372a5f2a44faf4"
+    },
+    {
+      "path": "graph_beginner/task3/curves_MUTAG.png",
+      "bytes": 159074,
+      "sha256": "699d82231b6753aff492e91551e9b34749ebaacbc0ed0b9aa4b3fc6f80656cf8"
+    },
+    {
+      "path": "graph_beginner/task3/curves_ZINC.png",
+      "bytes": 231313,
+      "sha256": "3ca90cef055d9d4525bfb67f969c636501b4102992e133eebb61e63dba7f99c2"
+    },
+    {
+      "path": "graph_beginner/task3/data/README.md",
+      "bytes": 438,
+      "sha256": "8f5c6b0169a34413b3ce9389689b0cc393c2a1632dd265746d4b78d2405b7efc"
+    },
+    {
+      "path": "graph_beginner/task3/metric_comparison.png",
+      "bytes": 98105,
+      "sha256": "2a6a9773a8a7daed345d13eaa4247f1b02b60fb60ef6bb3986f6c34633081bfb"
+    },
+    {
+      "path": "graph_beginner/task3/README.md",
+      "bytes": 16293,
+      "sha256": "20d08b5b13e0a6cc673dd4d9d8eb10a051a46fd993944a443d3fc12bad38b21f"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gat_max_batch_n0_lr0.001_l2.json",
+      "bytes": 7363,
+      "sha256": "149f19732f8a17fd2989d3815eeb8d69aea6480265e4c458c821c5d9218791a4"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gat_max_full_n0_lr0.001_l2.json",
+      "bytes": 7382,
+      "sha256": "05f20bf023b01d17ffec07b3bcb08067a4d14b9695b0af12ca832083bf113651"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gat_mean_batch_n0_lr0.001_l2.json",
+      "bytes": 7357,
+      "sha256": "7c8c0be7dd6e323d768e16bdf39b99cb0202689901b07f5d91843aab5ce99cfd"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gat_mean_full_n0_lr0.001_l2.json",
+      "bytes": 7391,
+      "sha256": "6e7b3a63f872a836a817cae6fec63910173a3d7ee85f29a4b8ebde801fbf670d"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gat_min_batch_n0_lr0.001_l2.json",
+      "bytes": 7355,
+      "sha256": "1bf0429450522307f79859d433cf66f85e7dfed81bef6920eaa9738eb46e733b"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gat_min_full_n0_lr0.001_l2.json",
+      "bytes": 7391,
+      "sha256": "460f0b5314daa5018f006d19c8ed94450fded7e94476ce4bf9b6bbe357db87a0"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gcn_max_batch_n0_lr0.001_l2.json",
+      "bytes": 7365,
+      "sha256": "c962128e5fc95f65377d5df8aad2906f42a61766aefccb1af2c944df7b63faba"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gcn_max_full_n0_lr0.001_l2.json",
+      "bytes": 7373,
+      "sha256": "413bcd5e022dd341ea5733c4449850276efcea7c63555a7519e0e1a77a94f0ca"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gcn_mean_batch_n0_lr0.001_l2.json",
+      "bytes": 7356,
+      "sha256": "02046215c1076f949875b5cbd406bbac4bc1c82f17cbc03f2c6d05346488717d"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gcn_mean_full_n0_lr0.001_l2.json",
+      "bytes": 7376,
+      "sha256": "96ce9e81c96ce7f7b4602a701a4ee03012d6c5820bfbb4ce17171017ee531893"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gcn_min_batch_n0_lr0.001_l2.json",
+      "bytes": 7369,
+      "sha256": "ae203610d134a158b25473afebd045052dba463bd79bee7a29445772d1982626"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gcn_min_full_n0_lr0.001_l2.json",
+      "bytes": 7375,
+      "sha256": "65cada16e8d1b358180315dc2aaa2e49ec774ed9d207e181f0b4413cd2ebe417"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_max_batch_n0_lr0.001_l2.json",
+      "bytes": 7362,
+      "sha256": "d695b09fb8254d8c8774abd10b53df68ab968bc3d8b0b675d8edbdd8e7724576"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_max_full_n0_lr0.001_l2.json",
+      "bytes": 7370,
+      "sha256": "19d57f7e2c9b9c23d43dc5e9a1c57f2cd1e3a63132bd5b269a1400ac1441e012"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.0001_l2_ablation.json",
+      "bytes": 7541,
+      "sha256": "8c85b6cf7fc4dea1efef2e21d425714bf647f23e278cb04df772b1efe7f15083"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.001_l1_ablation.json",
+      "bytes": 7545,
+      "sha256": "545276c527cf9d70669c89dac3a3ab45c38089e4e91e4a0bd8190a1c6c016058"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.001_l2.json",
+      "bytes": 7365,
+      "sha256": "273bd1e39ee1c86d99315d27ae594aa5e01419aba8c296de4d43ef7aad564048"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.001_l3_ablation.json",
+      "bytes": 7534,
+      "sha256": "373ec3b02b5fc405a41511f8649328475e174d901afe101ce03b879fcb8e18fe"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_mean_batch_n0_lr0.01_l2_ablation.json",
+      "bytes": 7536,
+      "sha256": "3686093d2ceb5d25d4664b1a01956c61330686de035af77f9220ec4e4ed42867"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_mean_full_n0_lr0.001_l2.json",
+      "bytes": 7374,
+      "sha256": "4ffcbc1888d6e0de8d0302379679e5f07310d1d350079b02cb9d843093850f67"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_min_batch_n0_lr0.001_l2.json",
+      "bytes": 7362,
+      "sha256": "927955d7861ce05bc6e1bd44e5e3f153b681de6e5135b0ab448d13ab61d20789"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_gin_min_full_n0_lr0.001_l2.json",
+      "bytes": 7373,
+      "sha256": "3d4cbde332ce237db00b78de9250df5a20b9915e5c8bba08f1d0522a92385aa5"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_sage_max_batch_n0_lr0.001_l2.json",
+      "bytes": 7363,
+      "sha256": "e2d5c04a781a46d6d2cdad66331bf257923a0664e8674a0856526c4c2741fabe"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_sage_max_full_n0_lr0.001_l2.json",
+      "bytes": 7365,
+      "sha256": "2196998a24fa44d09bb0d5d3d52f54fc23555213a41644d986ea522436e2485b"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_sage_mean_batch_n0_lr0.001_l2.json",
+      "bytes": 7377,
+      "sha256": "f1f9376a9b4b4e6f44566193d3f4323769bc807a6b94f0bc6d317a4b8eb06af6"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_sage_mean_full_n0_lr0.001_l2.json",
+      "bytes": 7377,
+      "sha256": "26363872181b64d8563ce3fce33e43268a34e11d77ebc8d4a770f62904cad662"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_sage_min_batch_n0_lr0.001_l2.json",
+      "bytes": 7354,
+      "sha256": "50a338baef119f885eb8079662814a81b33c782133b2e26b2c3707326dc332e1"
+    },
+    {
+      "path": "graph_beginner/task3/results/MUTAG_sage_min_full_n0_lr0.001_l2.json",
+      "bytes": 7370,
+      "sha256": "01adda224a1156412825bbb5bb01b9819a46a4644079d05e11aabcbf25d989b9"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gat_max_batch_n2000_lr0.001_l2.json",
+      "bytes": 6073,
+      "sha256": "a2960cea6dac2b90128d3bfe57640459f7653cb1bc98253ad1c60d541861db08"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gat_max_full_n2000_lr0.001_l2.json",
+      "bytes": 6095,
+      "sha256": "a2cee96e3205a4152fe88952d2e949fe821fc6810f44f77070c3bd70a6644f09"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gat_mean_batch_n2000_lr0.001_l2.json",
+      "bytes": 6080,
+      "sha256": "64da1f44d2ee197187cb960b70e6275c43a779e72a0b91099b7ac6c3fa98596e"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gat_mean_full_n2000_lr0.001_l2.json",
+      "bytes": 6106,
+      "sha256": "f73a2772e6102f05e3668151758e282f1c005e48d7f4dc5f06b28ff64f12a5fe"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gat_min_batch_n2000_lr0.001_l2.json",
+      "bytes": 6073,
+      "sha256": "46ec403df8db64a2cdd2b130d916932e0ceffad6eee1e874d3617b35ecf01e48"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gat_min_full_n2000_lr0.001_l2.json",
+      "bytes": 6099,
+      "sha256": "d748c3a753027f09e9287f61fd26b43bf0feb0297fc502d9d30c3c660118b666"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gcn_max_batch_n2000_lr0.001_l2.json",
+      "bytes": 6078,
+      "sha256": "9cd42452e297eac7babd7d3331f12118949009bae8d80cd362ca9c287881879c"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gcn_max_full_n2000_lr0.001_l2.json",
+      "bytes": 6103,
+      "sha256": "28d19d70fbf880604732f4e5714acf3c4b17ce12c0db2da683d8801bb9a333c4"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gcn_mean_batch_n2000_lr0.001_l2.json",
+      "bytes": 6097,
+      "sha256": "e411c990b83ceb1b6e413bb68c8362438733bfab5dab59bec91c0ce75e361a67"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gcn_mean_full_n2000_lr0.001_l2.json",
+      "bytes": 6096,
+      "sha256": "241547d4726f9c114e02645dfe1da6010f6f22bf0487761cd6235d58f4353858"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gcn_min_batch_n2000_lr0.001_l2.json",
+      "bytes": 6089,
+      "sha256": "a74e719364241257217ce698a8a09a24e3715118a82c2fc9a1ca1c77c357b45d"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gcn_min_full_n2000_lr0.001_l2.json",
+      "bytes": 6099,
+      "sha256": "6a538236211e67a30c022df02fb179d4a08725b5fe107b7511a0b55e304a84fc"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_max_batch_n2000_lr0.001_l2.json",
+      "bytes": 6077,
+      "sha256": "b4f874911ed963df5131cf4a925854171997a1c8fd67e2a8dfc6ab1daafd1ace"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_max_full_n2000_lr0.001_l2.json",
+      "bytes": 6097,
+      "sha256": "e6afd6703885bb4c536809ad1da0a19f8313e895849d62b394acec2a97c9ede3"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.0001_l2_ablation.json",
+      "bytes": 6127,
+      "sha256": "131b3947884533b0ffb44d7bc61c4a45574dbe3a89c691f81626ebc6a0f04bda"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.001_l1_ablation.json",
+      "bytes": 6119,
+      "sha256": "8a83915bdc7219920b9c4ed347db9e9d3e314127564b71118850ba54d857face"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.001_l2.json",
+      "bytes": 6077,
+      "sha256": "4e30b9d436860175e176816101f93dde8b4477c29d4fb1acfc38fe93f5672f88"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.001_l3_ablation.json",
+      "bytes": 6115,
+      "sha256": "f598ab54bf724aa3e7f872fd00c83eb471bd02a0e2d4108118415ab5b299eca5"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_mean_batch_n2000_lr0.01_l2_ablation.json",
+      "bytes": 6115,
+      "sha256": "84c29ae52078c9ae61e52c103215fca7d5a61991fe6ebbb15c39d36a8030386a"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_mean_full_n2000_lr0.001_l2.json",
+      "bytes": 6099,
+      "sha256": "44d0a02b5f919f519239a9874d029db7c15cc0c11b700979a0201dec3972bfc1"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_min_batch_n2000_lr0.001_l2.json",
+      "bytes": 6081,
+      "sha256": "447b190e689dcda456b7bc87abc85fda2d8289db2aab649dd4fe238ec2ab1dc8"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_gin_min_full_n2000_lr0.001_l2.json",
+      "bytes": 6098,
+      "sha256": "fa6e840c1534797f0eef5b381433ba4d2ee683832e13d960d7808ccba16fdea7"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_sage_max_batch_n2000_lr0.001_l2.json",
+      "bytes": 6093,
+      "sha256": "7c2de84cc1d147f2257c9024b318eb5c8742d3329440ef1324eadcad9cae2e7d"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_sage_max_full_n2000_lr0.001_l2.json",
+      "bytes": 6101,
+      "sha256": "0cfeb83ee59ba2e2045645f6afe451acce9b5815bc3fdd388dbea2655d7bc176"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_sage_mean_batch_n2000_lr0.001_l2.json",
+      "bytes": 6087,
+      "sha256": "8cb84fe96a039bcfbd954a0cd862d16546d93e6285081d49d62525dec707aa68"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_sage_mean_full_n2000_lr0.001_l2.json",
+      "bytes": 6100,
+      "sha256": "50e88d4b10de7c06ff35b8bf0548e2de970bf03d7eab65dfbd7f53b658be051a"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_sage_min_batch_n2000_lr0.001_l2.json",
+      "bytes": 6082,
+      "sha256": "6b4bd107574eca457ed13ba93e0b3fb0feffffca28ae94bd287e9fb58c9bc5dd"
+    },
+    {
+      "path": "graph_beginner/task3/results/ZINC_sage_min_full_n2000_lr0.001_l2.json",
+      "bytes": 6103,
+      "sha256": "832055121e56cbd4cfde215668bfb95aa0944d074a062fa7ff64fee0296faeba"
+    },
+    {
+      "path": "graph_beginner/task3/training_curves.png",
+      "bytes": 176992,
+      "sha256": "2cc77bc59c0919448d0acfb9c5f9a7ccdfa7686c8c931a3297cb46ab2c039c3e"
+    },
+    {
+      "path": "graph_beginner/task4/code/models.py",
+      "bytes": 2459,
+      "sha256": "17827c862cbec92b3511e585a9c272e45938d3c0f5f05e205743696a9791701f"
+    },
+    {
+      "path": "graph_beginner/task4/code/train.py",
+      "bytes": 8260,
+      "sha256": "63295990516dd17aa06a4d6521fa356bb9e4e63b6525a6e8c2cf07771e033b59"
+    },
+    {
+      "path": "graph_beginner/task4/data/README.md",
+      "bytes": 550,
+      "sha256": "b584efdbb5ea8ee3ae47dc6fe5a7c5a99839c56a1b7e7f8b4a44bb613b962e03"
+    },
+    {
+      "path": "graph_beginner/task4/metric_comparison.png",
+      "bytes": 25005,
+      "sha256": "ddcefdfcaf06d623b9a953050956fe8ebc37cc6676487e3d74234d4693d99480"
+    },
+    {
+      "path": "graph_beginner/task4/README.md",
+      "bytes": 4607,
+      "sha256": "873661ce4124abc61c6e1f47e2d4983631784c0b1158f623c4c3db042ac30032"
+    },
+    {
+      "path": "graph_beginner/task4/results/conve_n0_d64_lr0.001_full.json",
+      "bytes": 7950,
+      "sha256": "69982b93dc36b433625b0699d6172c9892ccae42ed871c4d0a6e81f0bdf82511"
+    },
+    {
+      "path": "graph_beginner/task4/results/conve_n20000_d64_lr0.001.json",
+      "bytes": 2344,
+      "sha256": "a8cea6b881f7cde1ab081c8ad946a2946a4d4367bfffcb72bbb5454554f35680"
+    },
+    {
+      "path": "graph_beginner/task4/results/rotate_n0_d64_lr0.001_full.json",
+      "bytes": 7923,
+      "sha256": "5fa9a76c2d1e508f31ac3d78d04d9aa6313cdcff89c67cafb74896043c1b68b8"
+    },
+    {
+      "path": "graph_beginner/task4/results/rotate_n20000_d64_lr0.001.json",
+      "bytes": 2497,
+      "sha256": "f9cd78d39d69ff0147f72c6bdd2e49d4f08c989b9a529d5dcedd89d37de8eb14"
+    },
+    {
+      "path": "graph_beginner/task4/results/transe_n0_d64_lr0.001_full.json",
+      "bytes": 7890,
+      "sha256": "22420f0fdc3fedc1b5ca4e9fe8decb79a67021eda14c6672aff63f8703911b5c"
+    },
+    {
+      "path": "graph_beginner/task4/results/transe_n20000_d64_lr0.001.json",
+      "bytes": 2486,
+      "sha256": "98b6e87f0ee5166d29454f3cee69eaf54ce8ecdb2a576842f9bf20c45f2c53ce"
+    },
+    {
+      "path": "graph_beginner/task4/training_curves.png",
+      "bytes": 86368,
+      "sha256": "3b3009d2d9c15b9a6cfcd9853319942c9a48358373ed1fb7f8f3c5038cac5cb1"
+    },
+    {
+      "path": "kge_framework/.gitignore",
+      "bytes": 78,
+      "sha256": "08cddef7e1b8732ad012bab1b8e728c6ed3d5d839d5d1d01f3e04e6cf0b9b693"
+    },
+    {
+      "path": "kge_framework/code/args.py",
+      "bytes": 2959,
+      "sha256": "5b508991d95d311a991fdd698956f4532a9a543aeb79fd7662078ac1a07b7d3f"
+    },
+    {
+      "path": "kge_framework/code/dataloader.py",
+      "bytes": 7864,
+      "sha256": "478d8564e62fd37d94baa9ce06fb8143c57587a112cf3b29bcb2c1b4c6d2fdb8"
+    },
+    {
+      "path": "kge_framework/code/main.py",
+      "bytes": 9757,
+      "sha256": "9baaed42b88cb1a521f32f2ed4f438c630be4bd52d244462cb0663c7a30a9f76"
+    },
+    {
+      "path": "kge_framework/code/model.py",
+      "bytes": 7911,
+      "sha256": "db1d033aadd584ee072ea5492754d4c6f96e74a80f25adcab3b91fceea63f9f8"
+    },
+    {
+      "path": "kge_framework/code/utils.py",
+      "bytes": 8945,
+      "sha256": "bfd6e78a9b2d86525023522ffdbf333d3bf0a29c32ef7e64640dc421be05d5da"
+    },
+    {
+      "path": "kge_framework/run.sh",
+      "bytes": 281,
+      "sha256": "8821343e35940a78896facd02ab3d188b531b97b08223ffc2475d6faad372f62"
+    },
+    {
+      "path": "nlp-beginner/legacy/CRF.png",
+      "bytes": 106949,
+      "sha256": "039e3ca9215ee7be556fe7ebd181c5d2dad56f8fc3544b3f97ae5fcc05f37fb6"
+    },
+    {
+      "path": "nlp-beginner/legacy/models.py",
+      "bytes": 6647,
+      "sha256": "bd80ea7cc1cf1447b0640054679397e5172a050a09b9284ff37946b2ee3c9ab3"
+    },
+    {
+      "path": "nlp-beginner/legacy/prepare_data.py",
+      "bytes": 6466,
+      "sha256": "4726e2ded1eca55a7f80bb5b8146bfecf0ed1b01a2ba98654f95c50abd069fa0"
+    },
+    {
+      "path": "nlp-beginner/legacy/README.md",
+      "bytes": 3815,
+      "sha256": "2d2c0cd00f2baadc881a6e33d277f745f813b654daff2ca81a2e82c5b56b5b39"
+    },
+    {
+      "path": "nlp-beginner/legacy/requirements.txt",
+      "bytes": 31,
+      "sha256": "8c14b04541e1d76b5dc35cf09ce49f63b65740f8a59561aa6c04dea3c0bf5ab3"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/metric_comparison.png",
+      "bytes": 49478,
+      "sha256": "c8b4dfad4b09c67e4a151da023de84c020254476d2344e572b692214c290717b"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/README.md",
+      "bytes": 5679,
+      "sha256": "f5bca710071fb6695fda3da67ea9a37667199c32abbdde36111b467077572903"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/binary_n1_softmax_lr0.1_b64_shuffleTrue.json",
+      "bytes": 2982,
+      "sha256": "1abaecf5759bf5c28c8dd0e7625b56a5865da8ca5cf52016fa2651bea2821d29"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/binary_n1_softmax_lr0.1_b64_shuffleTrue_kaggle.json",
+      "bytes": 3074,
+      "sha256": "ce968b39688f93ce67a095ea5efc443482759508f56a8d4917d1407bdb95d9ff"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/count_n1_softmax_lr0.1_b64_shuffleTrue.json",
+      "bytes": 2978,
+      "sha256": "395f8c8d9fa904d63b5775fb447f8c8be0dbabbd601ad91eb967be2461c50c67"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/count_n1_softmax_lr0.1_b64_shuffleTrue_kaggle.json",
+      "bytes": 3073,
+      "sha256": "3afb226490d58427acf6e5c244ca752640ad7615273983202618b938f4374ca9"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_logistic_lr0.5_b64_shuffleTrue.json",
+      "bytes": 2980,
+      "sha256": "f795c153883d500ff437591537ecd3e8903397038b81e9d13c9e44912214dc74"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_logistic_lr0.5_b64_shuffleTrue_kaggle.json",
+      "bytes": 3080,
+      "sha256": "850b5ee93f7cf77f1255e6b1403bd8101ca6375f0840c9f9c80511e62c12f6f2"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.05_b1_shuffleTrue.json",
+      "bytes": 2972,
+      "sha256": "d83ecbf50ff45ef46db06c3c29adaae3351f8821a513e26fa04f032a051d09bf"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.05_b1_shuffleTrue_kaggle.json",
+      "bytes": 3072,
+      "sha256": "ef18b8f1b3f725eb1f3673824c104a9691c111eb6f08e8f6685547c7c860ae9c"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.05_b64_shuffleTrue.json",
+      "bytes": 2978,
+      "sha256": "e109cbc33dcd220858ed4656b3e73e46064470951fbcfcb87399183a4541fa1e"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.05_b64_shuffleTrue_kaggle.json",
+      "bytes": 3080,
+      "sha256": "ae43658976e850cad785d44e48c443740bbb448f17cfce6c4fce03751f169072"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.5_b0_shuffleTrue.json",
+      "bytes": 2981,
+      "sha256": "df0361c5dd29aa254fe42b9acc4508d32a6c4bb552165bc665b4fd12c4db5496"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.5_b0_shuffleTrue_kaggle.json",
+      "bytes": 3076,
+      "sha256": "e79a56ec56541430f75e66c8a6e0d6df59b4a2177aa03735e25845257037d426"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.5_b64_shuffleFalse.json",
+      "bytes": 2978,
+      "sha256": "e1159d8d95bed655b24e0d5cca9bd8111674a74e9853328516fda0db5b514e0a"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.5_b64_shuffleFalse_kaggle.json",
+      "bytes": 3076,
+      "sha256": "81c21e7a2488bd89dfdc2a7365225423f0a927604d8918cb9aec28b54d4c5e4c"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.5_b64_shuffleTrue.json",
+      "bytes": 2983,
+      "sha256": "374179e32b5bd1114ed085f24928eac840080944f9a0a42d370e5907151e893c"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n1_softmax_lr0.5_b64_shuffleTrue_kaggle.json",
+      "bytes": 3073,
+      "sha256": "85bd52bed9c880b1140d9ee9fd87f9be83ffd3a35f7884acbc1e0dce5cd43837"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n2_softmax_lr0.5_b64_shuffleTrue.json",
+      "bytes": 2981,
+      "sha256": "de1af7ad4d8d29fde30a1b520a9bcda425dfbd27e16fadae2588f44fd66e3cc9"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/results/tfidf_n2_softmax_lr0.5_b64_shuffleTrue_kaggle.json",
+      "bytes": 3078,
+      "sha256": "001ee5892b2818b02f8d458beff0e777388823fdd852179ea6a81af6c050a9a8"
+    },
+    {
+      "path": "nlp-beginner/legacy/task1/training_curves.png",
+      "bytes": 191025,
+      "sha256": "ed9cedc1da2002763e27865ec9a2880dc2c919a2c9854bc504ffb2b5dce295db"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/metric_comparison.png",
+      "bytes": 52945,
+      "sha256": "e1e77931b3db33aa6bb5065becf2be59dc9e0302befd700788105dde4d4b3029"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/README.md",
+      "bytes": 6049,
+      "sha256": "75d55e7a0916e99bf2c43c8fe7d8218f970e909d82e666c3a2cbfd1f599fa10c"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/cnn_glove_n0_lr0.001.json",
+      "bytes": 2191,
+      "sha256": "ffe2200866f35870f9ee3a8476cb28be356b88d9951be7e73ab561d0fc64ccc1"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/cnn_glove_n0_lr0.001_kaggle.json",
+      "bytes": 2300,
+      "sha256": "729ac84cdb42f6304471ce70df9990ae2befa1ed4ca9e70e8479b0b38378055d"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/cnn_random_n0_lr0.001.json",
+      "bytes": 2126,
+      "sha256": "ad42c38bb5ea75d4759264088e22acbcdb2accf651e306e42d1f68b544a78fce"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/cnn_random_n0_lr0.001_kaggle.json",
+      "bytes": 2210,
+      "sha256": "0189adcd9c39d0ed9a9c287f3255939fe859b71d51abd8e4cd8f80c634add6e6"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/rnn_glove_n0_lr0.001.json",
+      "bytes": 2188,
+      "sha256": "bc16bf3a767b6511b8272fbbda3defaf0f199e388e3243873ac39d1c8883ce9d"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/rnn_glove_n0_lr0.001_kaggle.json",
+      "bytes": 2301,
+      "sha256": "9f80e76fca69a53638a537461e391610c0dd2dec6d41c882b7816c474d72be46"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/rnn_random_n0_lr0.001.json",
+      "bytes": 2125,
+      "sha256": "64a4bff423c3d1f6461668b7c766941de178ec398b80294b1d9a4a748b265fa6"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/rnn_random_n0_lr0.001_kaggle.json",
+      "bytes": 2214,
+      "sha256": "4a32d7c525795e37427f42c1d994e0e6153aa2bd58774551c6bc42432b319032"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/softmax_random_n0_lr0.001.json",
+      "bytes": 2140,
+      "sha256": "41bce79df6225741817f10fcc7ef251ca1111ab2c408ea09c38668df956ba3d9"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/softmax_random_n0_lr0.001_kaggle.json",
+      "bytes": 2219,
+      "sha256": "952d87258456e03510562da2c10ef94310d44093d350d578e7ec1213f2b025a4"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/torch_bow_logistic.json",
+      "bytes": 4342,
+      "sha256": "8a59dbceeb60f91086a04cbd047a7dfb860d182db0c60f4437d3a956eb98c267"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/torch_bow_logistic_kaggle.json",
+      "bytes": 4387,
+      "sha256": "fc9da966b807b8eaf5e00bbdb8133551e7392e30f09d405be192525b98e73b88"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/torch_bow_softmax.json",
+      "bytes": 4351,
+      "sha256": "742da8a6f2ae0777dc08f02f0d07ce48b7d3037e0110d5db8e823cea94466130"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/results/torch_bow_softmax_kaggle.json",
+      "bytes": 4384,
+      "sha256": "f05888ed063ea34a298f1f620a05bb5a3ed49c243ed6823c3b54793d686488ed"
+    },
+    {
+      "path": "nlp-beginner/legacy/task2/training_curves.png",
+      "bytes": 142122,
+      "sha256": "2e50e0338f1bccce86d36ad9007f042cabd7a71c9779e8b187f59d94647ad7de"
+    },
+    {
+      "path": "nlp-beginner/legacy/task3/attention_example.png",
+      "bytes": 52164,
+      "sha256": "87c1147d35ed5a6ac7f02ac8d38fcb6eb704ba9cf1eda76b86374e25d64d717a"
+    },
+    {
+      "path": "nlp-beginner/legacy/task3/README.md",
+      "bytes": 4129,
+      "sha256": "bdd5094725d1983ed6169651f1e965204248380ff03c60ed793f71541cde1fef"
+    },
+    {
+      "path": "nlp-beginner/legacy/task3/results/esim_glove_n100000_lr0.001_expanded.json",
+      "bytes": 2648,
+      "sha256": "8751b6ab9c4c40fb8892b842d2026af5e7b4f86c3c9ebabbccb9391a0ed91f93"
+    },
+    {
+      "path": "nlp-beginner/legacy/task3/results/esim_random_n20000_lr0.001.json",
+      "bytes": 1489,
+      "sha256": "ffa785ae23793485d57754a03344a259ca2e5b72761bbb93d7bf11c2808a8071"
+    },
+    {
+      "path": "nlp-beginner/legacy/task3/training_curves.png",
+      "bytes": 74852,
+      "sha256": "780e5075bc7a7696e70a4f5e18b588cfd83b4ecac937b6629bf874acee9c8b14"
+    },
+    {
+      "path": "nlp-beginner/legacy/task4/README.md",
+      "bytes": 4988,
+      "sha256": "4c51150c574aeabcc53764e38685162d5af0343c45b1abda59e9d9299317b835"
+    },
+    {
+      "path": "nlp-beginner/legacy/task4/results/bilstm-crf_glove_n0_lr0.001_casing.json",
+      "bytes": 7386,
+      "sha256": "1bc1fe26347b3706ae2da2245ff6b17dcd38f9cfec78d13d4745c48ec5aa114d"
+    },
+    {
+      "path": "nlp-beginner/legacy/task4/results/bilstm-crf_glove_n0_lr0.001_expanded.json",
+      "bytes": 5177,
+      "sha256": "b75a53aca58295af2585d0ab37a798dac7c7210a2eb41a01f638243139811d75"
+    },
+    {
+      "path": "nlp-beginner/legacy/task4/results/bilstm-crf_random_n0_lr0.001.json",
+      "bytes": 2419,
+      "sha256": "3d7153ffdf12f469a7e78f978bac2958c061d81dab4b53f208694c98cf4d0a2c"
+    },
+    {
+      "path": "nlp-beginner/legacy/task4/training_curves.png",
+      "bytes": 67630,
+      "sha256": "e44e119562a45a221ca62423421d41d2220081b31aa48c5a9240ad35bcb72fd0"
+    },
+    {
+      "path": "nlp-beginner/legacy/task5/README.md",
+      "bytes": 3921,
+      "sha256": "4858686e67ff393bd1161c2ba87379e8bcf8d5bb1c9c0f579d136e90a267f031"
+    },
+    {
+      "path": "nlp-beginner/legacy/task5/results/gru_lr0.001.json",
+      "bytes": 4255,
+      "sha256": "13662bf551cae5c8e670a3d451367a7e1a14e98f2b38b87f2ce9496f28069fa7"
+    },
+    {
+      "path": "nlp-beginner/legacy/task5/results/lstm_lr0.001.json",
+      "bytes": 4253,
+      "sha256": "34238a59acec645dca14ec0069ee43b0cd38992c0bf1416a97ce9e2ccf9d5b9d"
+    },
+    {
+      "path": "nlp-beginner/legacy/task5/training_curves.png",
+      "bytes": 79946,
+      "sha256": "83b6869761211c4811af4440ffa51a302b25f4104c23f7442bbd7073c732ff68"
+    },
+    {
+      "path": "nlp-beginner/legacy/train_numpy.py",
+      "bytes": 4330,
+      "sha256": "7ca29ed7b0126276634827b47324cf3e82f7cc5c38acd38bbc6d7af58aa7853a"
+    },
+    {
+      "path": "nlp-beginner/legacy/train_torch.py",
+      "bytes": 11880,
+      "sha256": "882e219727df3ead52102c310c301c9b9a600da6a690b906aaef2330106dd24f"
+    },
+    {
+      "path": "nlp-beginner/legacy/train_torch_bow.py",
+      "bytes": 4821,
+      "sha256": "1f061d5077eba143a2dc7578ced85ae1023314976b5f09ad4fc534f5f218d8b2"
+    },
+    {
+      "path": "nlp-beginner/legacy/文本分类.md",
+      "bytes": 10621,
+      "sha256": "9c92a8a927bb92707686d99890ce2b3ab9d91be152ec0b1afe327b916dc6dcaa"
+    },
+    {
+      "path": "nlp-beginner/LICENSE",
+      "bytes": 1144,
+      "sha256": "5e5da4a1e361a1b11e0080cb29aea149589014fd9c96fb579b1b6e9934e4b7aa"
+    },
+    {
+      "path": "nlp-beginner/poetryFromTang.txt",
+      "bytes": 49003,
+      "sha256": "40b51d054f00694087dc10fe598d5ad7a8fafa30db65018a4683dc439e6016b0"
+    },
+    {
+      "path": "plm-tree.json",
+      "bytes": 128886,
+      "sha256": "60538a39bdf05256ebe8f193136bd92c4c0c7ed36284b8dc1f676485101dbcd6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3994,
+      "sha256": "fbc4cc2a55034ac1334c0189efcaf8b71eb1f4b60756275655d1593381e8ff82"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 463,
+      "sha256": "83f3fb9f904897412eb05aa36e2f45dde393e2e423b860e004c0a53f1fcdb243"
+    },
+    {
+      "path": "scripts/audit_workspace.py",
+      "bytes": 13940,
+      "sha256": "edaa2716dd09de379e353821d19751f5319ee1a774ad0b379da06cfa88d979d1"
+    },
+    {
+      "path": "scripts/build_reports.py",
+      "bytes": 37689,
+      "sha256": "31c4f0aee034e0b6131e63ba6765dcfa925e273413c62efb631142d6d052f859"
+    },
+    {
+      "path": "scripts/capture_runs.py",
+      "bytes": 4189,
+      "sha256": "c20d8ec5bff2cbca98656667dc83c1bbae2d6ca30c4df8069ac3e799cf4e69e1"
+    },
+    {
+      "path": "scripts/capture_tools.py",
+      "bytes": 1577,
+      "sha256": "d2f4f4d4846ddbfc00dbe6c63ea61e96d21d8e9437d0c2e7eb86993a73ea6dd5"
+    },
+    {
+      "path": "scripts/check_completion.py",
+      "bytes": 175,
+      "sha256": "e8c67c9dfbe5a7844d79a05b7602ae949607b7a14be1b24f28f6ee502905546a"
+    },
+    {
+      "path": "scripts/check_conll_reference.py",
+      "bytes": 2118,
+      "sha256": "8d66f5f1c09e99299812430350bddb68b1d6940bcacba967e8b2e1930c06b003"
+    },
+    {
+      "path": "scripts/check_sentiment_source.py",
+      "bytes": 1133,
+      "sha256": "1760a0f712c7d0af27938b59611f818afbceb5f2a637302c002c8884ed13eba8"
+    },
+    {
+      "path": "scripts/check_submission.py",
+      "bytes": 9546,
+      "sha256": "7de68cfdf35fa206d336136dbecf50c5c77939b402dd6d7f2a1b7896b7be9bdd"
+    },
+    {
+      "path": "scripts/convert_uie_checkpoint.py",
+      "bytes": 4094,
+      "sha256": "6ba0b5deebbe74e31293d77873e0374a97d00ea9efe6e765e95198eb2f62cf53"
+    },
+    {
+      "path": "scripts/demo_saved.py",
+      "bytes": 14334,
+      "sha256": "4af59bb7a7f700230c4d85af1d75a83eb7da10e484a34f906fc87dfbde64044f"
+    },
+    {
+      "path": "scripts/download_cuda.py",
+      "bytes": 1811,
+      "sha256": "95abbd73747897dfc07635fdb81e1700fd99dc6bb9e53366ee28043f7eab9726"
+    },
+    {
+      "path": "scripts/download_datasets.py",
+      "bytes": 1208,
+      "sha256": "04769afa5bec78d6d16020fcd671ed7cf66ca6adfc26519c81054883320e5d20"
+    },
+    {
+      "path": "scripts/download_glove50.py",
+      "bytes": 2700,
+      "sha256": "26b03f4d8f1138901481ed3ae2b3178c326b60326b9b43cd4c681e79af80c0da"
+    },
+    {
+      "path": "scripts/download_model.py",
+      "bytes": 4715,
+      "sha256": "331882e80e62025fdcb4d47cf479d63065c8253ac723a7c64e30081c6cdc525a"
+    },
+    {
+      "path": "scripts/final_progress_log.py",
+      "bytes": 2894,
+      "sha256": "9c6aad3d5e88744bb7f416c3b24fd2a99f648391415dac37dac5d558b3b92131"
+    },
+    {
+      "path": "scripts/generation_data_diagnostics.py",
+      "bytes": 2655,
+      "sha256": "85d132c9405c5c905414c366d0c840a2fbd7be1e86844d079867dcbdac5327fa"
+    },
+    {
+      "path": "scripts/nlp_diagnostics.py",
+      "bytes": 5899,
+      "sha256": "703a2ee24e17d09168a9e685935cd697c9090278ea47cdaf6adb7b376a1ba5c7"
+    },
+    {
+      "path": "scripts/pin_model_sources.py",
+      "bytes": 3286,
+      "sha256": "d160f9d3177046f7457c4796d1e190c17980b962351740901a773a4db122afdf"
+    },
+    {
+      "path": "scripts/plm_submission_reports.py",
+      "bytes": 28621,
+      "sha256": "886608bb69199e2d9498de08de17cb8132c0191b7bdb85f224037bb8d2b8cb16"
+    },
+    {
+      "path": "scripts/plot_comparisons.py",
+      "bytes": 5203,
+      "sha256": "b76eebfc9a528b369f64b5867d26fad22a2e54b9baaa44cf42af3b1f78800971"
+    },
+    {
+      "path": "scripts/prepare_submission_data.py",
+      "bytes": 4319,
+      "sha256": "db22e23fe71f71e8541b1e1137d879469d48d59153f0ea76d0994bb45ed12f8c"
+    },
+    {
+      "path": "scripts/quality_extra_runs.py",
+      "bytes": 3176,
+      "sha256": "85610eb253ea18e4bbf803546d12c501e235bfd9395b0a05dd4f193b8e912f0b"
+    },
+    {
+      "path": "scripts/quality_followup_runs.py",
+      "bytes": 4445,
+      "sha256": "e00aa30637aeabb8560bde56a7ab7baaf2fd8f0ab413cf0464fc333b53fb9245"
+    },
+    {
+      "path": "scripts/quality_runs.py",
+      "bytes": 4436,
+      "sha256": "46c5c37fd57601dafc7d1887054b792321c3c886922171e6eb6dfe368fcb8594"
+    },
+    {
+      "path": "scripts/run_matrix.py",
+      "bytes": 4374,
+      "sha256": "890b8d3a08ab093f35809cf838c028da12dc4dc9ad3f4c20122fdd348d49bce1"
+    },
+    {
+      "path": "scripts/run_plm_baselines.py",
+      "bytes": 2596,
+      "sha256": "be095241c6d928231a6675186137c71c2a81c56085a393e6d4cfcc924bb60fde"
+    },
+    {
+      "path": "scripts/run_resume.py",
+      "bytes": 3981,
+      "sha256": "11286ab7e817e42c08721c0fe55be2e476cfe3637fd993d123af3b5f1e094e74"
+    },
+    {
+      "path": "scripts/source_manifest.py",
+      "bytes": 3776,
+      "sha256": "30a44fe8d0ac663537ecd3afa50a338b7aa22fa6a71f3a1b55df32e14e90d637"
+    },
+    {
+      "path": "scripts/submission_reports.py",
+      "bytes": 38339,
+      "sha256": "cac345fe52da1eb00539cdad7c2503fc2dcff76c827c974e4c89fa1857bcf3f3"
+    },
+    {
+      "path": "scripts/verify_algorithms.py",
+      "bytes": 3128,
+      "sha256": "060e30b2f47402c5a41f2e2a10d935c3125636f34064df61483b19fab598fbb1"
+    },
+    {
+      "path": "scripts/verify_kge_ranking.py",
+      "bytes": 2040,
+      "sha256": "162bf75a13c47f068f03f63e26d3efe96e8b515cf88e2a856c4c44646984db7b"
+    },
+    {
+      "path": "scripts/verify_link_reload.py",
+      "bytes": 3084,
+      "sha256": "3a34c448fab593446f1b6581e25fd5ed9a2a18e5aae4310042ed42c05e3d9902"
+    },
+    {
+      "path": "scripts/verify_local_tools.py",
+      "bytes": 1728,
+      "sha256": "30d8d792b7f4a1f8dc2ecd28a1cee24bc37e2aeaaf13761e0e51185520d666cc"
+    },
+    {
+      "path": "scripts/verify_plm_math.py",
+      "bytes": 1614,
+      "sha256": "03904d1f36c3abaa22a44e1acdd4c213af47d1d2fee38284f492427ec153ba71"
+    },
+    {
+      "path": "scripts/verify_reproduce_env.py",
+      "bytes": 2062,
+      "sha256": "6bcfea2d568f62caa9459aa7c943d4f3e8a03abad3805649b079b0e7f2aec766"
+    },
+    {
+      "path": "scripts/zero_shot_output_diagnostics.py",
+      "bytes": 2297,
+      "sha256": "23b976837d83e0a6a3c67c7b4080571a922270ba3e10d869cec28a907192ad0f"
+    },
+    {
+      "path": "scripts/zero_shot_prompt_study.py",
+      "bytes": 5474,
+      "sha256": "505b59974c8839d782cdc97af278821fb9f17bd12811092a79696dd94438fa8d"
+    },
+    {
+      "path": "setup.ps1",
+      "bytes": 1559,
+      "sha256": "aaeb1e2592b291415fcaa01489ce0d143fdee236a9fde5a40da72e71ae12c0b6"
+    },
+    {
+      "path": "transformers_tasks/.gitignore",
+      "bytes": 60,
+      "sha256": "9135ed8137455da2188fedc3891a05e2047bdbc9613c8855b77989d1b08e7940"
+    },
+    {
+      "path": "transformers_tasks/answer_generation/assets/T5-Base-Chinese.png",
+      "bytes": 176326,
+      "sha256": "95db024b4c2c5923316af1555115fde90afbe7a2a41bb5b6cda618e5c42d9011"
+    },
+    {
+      "path": "transformers_tasks/answer_generation/bleu_metrics.py",
+      "bytes": 9083,
+      "sha256": "ccffdd511846d06bd8e16d254ecc2122cf59cb6832157f2254b21e799f628733"
+    },
+    {
+      "path": "transformers_tasks/answer_generation/inference.py",
+      "bytes": 3575,
+      "sha256": "369ecfd38f3f0c88167d95eec1815762f4da86db9cc99ff9d0f62cff7ff88a62"
+    },
+    {
+      "path": "transformers_tasks/answer_generation/iTrainingLogger.py",
+      "bytes": 7544,
+      "sha256": "4a0dec0d142e9afbbf9d086abbd99cdfff35833490b71c3767c5ac847134bcad"
+    },
+    {
+      "path": "transformers_tasks/answer_generation/readme.md",
+      "bytes": 4859,
+      "sha256": "4b9d64698ab784dbb229853ec6633b0dfbb5656e41148baddc35e50d93c336a6"
+    },
+    {
+      "path": "transformers_tasks/answer_generation/train.py",
+      "bytes": 10365,
+      "sha256": "32e37ccc20651c03753750a25207e2484f3034390f39e557847f123ad51e02ef"
+    },
+    {
+      "path": "transformers_tasks/answer_generation/train.sh",
+      "bytes": 498,
+      "sha256": "2d190236773dee902a3b227a88cb9075b50d4a1254cc5c47668cebdf9d271e43"
+    },
+    {
+      "path": "transformers_tasks/answer_generation/utils.py",
+      "bytes": 6718,
+      "sha256": "e188f634027b0fa7468b0ca3a9a3b0afff4f1bbe34021cafbdf4c5ee0c8c9e36"
+    },
+    {
+      "path": "transformers_tasks/assets/icon.png",
+      "bytes": 21512,
+      "sha256": "7475376c2abc2c3a881ceb3d1b96ba69a1ceafda4ae3a33da95222472c75b515"
+    },
+    {
+      "path": "transformers_tasks/data_augment/filling_model/assets/T5-Base-Chinese.png",
+      "bytes": 173305,
+      "sha256": "05deaf47abd87ba5d8e3f8f5028070f7ebe83058f40b8505930c058a9f112bb4"
+    },
+    {
+      "path": "transformers_tasks/data_augment/filling_model/bleu_metrics.py",
+      "bytes": 9083,
+      "sha256": "ccffdd511846d06bd8e16d254ecc2122cf59cb6832157f2254b21e799f628733"
+    },
+    {
+      "path": "transformers_tasks/data_augment/filling_model/inference.py",
+      "bytes": 3263,
+      "sha256": "cac893e75efa89a8f1b3464a39c964c9465be2ee4aa28cd2b99d1e4d3111ca6f"
+    },
+    {
+      "path": "transformers_tasks/data_augment/filling_model/iTrainingLogger.py",
+      "bytes": 7544,
+      "sha256": "4a0dec0d142e9afbbf9d086abbd99cdfff35833490b71c3767c5ac847134bcad"
+    },
+    {
+      "path": "transformers_tasks/data_augment/filling_model/parse_data.py",
+      "bytes": 4636,
+      "sha256": "9a0cbd5758dbaa3b69576f8b0faf1296a05cff5e46c19e174ce3bc4ab562420b"
+    },
+    {
+      "path": "transformers_tasks/data_augment/filling_model/readme.md",
+      "bytes": 3777,
+      "sha256": "e8fb5609fdd44b95039c8ebfe88f72648431c070c5f65e3e6c714d247ab6f680"
+    },
+    {
+      "path": "transformers_tasks/data_augment/filling_model/train.py",
+      "bytes": 11078,
+      "sha256": "e8cfafb3ade6636f22b75a39de802aae5a21492c37e9ff7be62edd6d86da8766"
+    },
+    {
+      "path": "transformers_tasks/data_augment/filling_model/train.sh",
+      "bytes": 456,
+      "sha256": "b5d68373b3d52620985dda55dca721aaf3a54e3c1be080a51f408b09853bf053"
+    },
+    {
+      "path": "transformers_tasks/data_augment/filling_model/utils.py",
+      "bytes": 6708,
+      "sha256": "3ccc109e6220520cf306b9f47070b68bacb93f9243b7b85b1c7ec8761ee8976d"
+    },
+    {
+      "path": "transformers_tasks/dataset_tools/generate_dataset.py",
+      "bytes": 4111,
+      "sha256": "8ac359ea1025b89ebe0022cf424c23d95700a4d4be53c1e78a24b296bdd6c17a"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/assets/ChatGLM Fine-Tune.png",
+      "bytes": 92734,
+      "sha256": "5f2f939dbe700834a622af7777bec0ea5cb98c2c5cfffd2d1c8938ce09828e80"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/assets/label1.png",
+      "bytes": 493060,
+      "sha256": "fb5351dc7ca8bbb174b63539186f80a073da6bf614c881b293c877316baa79a0"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/assets/label2.png",
+      "bytes": 518888,
+      "sha256": "b63ab835cbd76d7f8eef229f940d0d5a60df263f1caa535e9ba5aaa50ed9a842"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/assets/playground.png",
+      "bytes": 227951,
+      "sha256": "8456f03829feef9fde6cc9aea1a001f4a97a4880f33e7afe5b56c831043d227a"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/inference.py",
+      "bytes": 6209,
+      "sha256": "c5343cf33a0b8fe2e673dd3c4454a30e391de04f2ee00cd0bfb15e970ba66783"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/iTrainingLogger.py",
+      "bytes": 7544,
+      "sha256": "4a0dec0d142e9afbbf9d086abbd99cdfff35833490b71c3767c5ac847134bcad"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/playground_local.py",
+      "bytes": 12288,
+      "sha256": "5789857bda4298c1e7dda96f2685b226f404be71e99c94805c49fd5d1de0751f"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/readme.md",
+      "bytes": 7840,
+      "sha256": "1b84dbac5d4365b92c04255eed5089bddf365ad1787bb8f41f0244307b87164a"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/requirements.txt",
+      "bytes": 128,
+      "sha256": "cd6345d0047a2b59b10bf2b16ece35e5def39dafe17c5ca18f3f64f27e9ad880"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/train.py",
+      "bytes": 14458,
+      "sha256": "d277025f7caafa1b841e3a88e1e919d9f8c7b4ec890d44cc1bdcc6deac5fa069"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/train.sh",
+      "bytes": 1022,
+      "sha256": "467cca2795af76370d9e67f6f463add5ac9be7b541fa85d1aa07442e180442d1"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/train_multi_gpu.py",
+      "bytes": 14181,
+      "sha256": "d711447ec1502ee0a01e701fbf065f75b1eea7f81e4513a85b931874e5068bc4"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/train_multi_gpu.sh",
+      "bytes": 1213,
+      "sha256": "fe8f390b1b870ece9f3b8705932133de2abeb5c4bc01fc4ed1472233f5fc8238"
+    },
+    {
+      "path": "transformers_tasks/LLM/chatglm_finetune/utils.py",
+      "bytes": 6355,
+      "sha256": "8449b016dc0f12010e2ee15a22c266e6e287e89482df24ea57f6d3020532dd4b"
+    },
+    {
+      "path": "transformers_tasks/LLM/llms_mbti/assets/mbti_visualization.png",
+      "bytes": 435033,
+      "sha256": "621e8d94e7e79ea056436c7090bb7a6a674b5ec0ee032c1f5ce182bc3bf53c9c"
+    },
+    {
+      "path": "transformers_tasks/LLM/llms_mbti/get_llms_mbti.py",
+      "bytes": 7086,
+      "sha256": "86bc7734e02f4a5d7f917fc2f043930bac30a6d4c664d6410ec1a4cb51cecee6"
+    },
+    {
+      "path": "transformers_tasks/LLM/llms_mbti/llms_mbti.json",
+      "bytes": 1743,
+      "sha256": "a494f853dea258c61f88981aa37b2607aeda8e3da7991e60fc7489d1ee2a6004"
+    },
+    {
+      "path": "transformers_tasks/LLM/llms_mbti/mbti_questions.json",
+      "bytes": 15360,
+      "sha256": "6fbac7338c80daecd107eab5e6d6f2293412998ca038c8596f6449d956a172d8"
+    },
+    {
+      "path": "transformers_tasks/LLM/llms_mbti/readme.md",
+      "bytes": 2008,
+      "sha256": "752f591c456e94b091eb115f88ccdb1eac3d85ca3c03758d9ab60109d902a3f6"
+    },
+    {
+      "path": "transformers_tasks/LLM/llms_mbti/requirements.txt",
+      "bytes": 39,
+      "sha256": "cbd3fba01f0b4538b85545644a9578beb8e722e90e6ced07fb2a3fc2209eb44b"
+    },
+    {
+      "path": "transformers_tasks/LLM/llms_mbti/web.py",
+      "bytes": 19051,
+      "sha256": "84bc6451eab986c5c3d3b760407b6c25ca015568cf5a2630201f6e89540aae81"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/configs/accelerate_configs/ds_stage1.yaml",
+      "bytes": 420,
+      "sha256": "8d4166bfcb7a7a0d482bae179857e42690a25db51b1dc1a221ef616f17f062d8"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/configs/accelerate_configs/ds_stage2.yaml",
+      "bytes": 420,
+      "sha256": "a09930b149c0ecc0d75615089de85051d09d74049143e0bd1f2f1bb2eca40b82"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/configs/accelerate_configs/ds_stage3.yaml",
+      "bytes": 419,
+      "sha256": "ca465e93afcae462f5fdd15362fb4dacfc52167b514adfafa2015a3066deb624"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/configs/accelerate_configs/ds_stage3_offload.yaml",
+      "bytes": 417,
+      "sha256": "2356c11907549c9b91e7f75eb3094d1b1062f349340918b2a4761141854a169e"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/configs/pretrain_configs/llama.yaml",
+      "bytes": 1441,
+      "sha256": "9446196d08bcf0b5d890abe68c9a7bd768cf4f24c1783831bc1d631d25e72ebf"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/configs/reward_model_configs/llama.yaml",
+      "bytes": 958,
+      "sha256": "031ae1cbc47529e6ea32d47d02b2f52968b69acf4f79625d83528e6dae147b24"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/configs/sample_policy/pretrain/MNBVC.json",
+      "bytes": 74,
+      "sha256": "d88cee135068ff59475266c7826d2f42e4bf6e5df7bb588c8e4ac83d431da1b7"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/configs/sft_configs/llama.yaml",
+      "bytes": 1100,
+      "sha256": "eda42eade637d689e43516ba1b7645f99385cb8114e0f627259e21e278c6c5ad"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/data/compress_data.py",
+      "bytes": 4549,
+      "sha256": "83ae5952090499060ba62cd3f479fb95edff91a202e83b1a0c950a0d541806b7"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/dataset/dataset.py",
+      "bytes": 31102,
+      "sha256": "bcf3e1036b09bb67549212f7863ca763baa8bbd45e844f7039b8762b62abd50b"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/dataset/reward_model_dataset.py",
+      "bytes": 6251,
+      "sha256": "8d1ec62faf35682082f5597815dfb34ebaa577cd59495c856993aa11151c00c1"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/eval_data/knowledge/knowledge_and_reasoning.jsonl",
+      "bytes": 115474,
+      "sha256": "ef9cc9e3b3d67ad01bbabf351e900f01696eb6c486b20d6a0b7d8802dd0a427c"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/eval_data/pretrain/generation_test.jsonl",
+      "bytes": 768,
+      "sha256": "5590df0648d6400b345df5a8b82bfb493f2c213bbeca5bebd9d4d6da42550463"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/eval_data/reward_model/sentiment_comments_test.jsonl",
+      "bytes": 42619,
+      "sha256": "0c85798c84c60f524c400cf954255340a9c33a340192e6e3d78d4ceca0263552"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/eval_data/sft/share_gpt_test.jsonl",
+      "bytes": 146,
+      "sha256": "866e6e9cad8be1e073c4d904e918ced5e037c4da8c5ebd62865f85f939d52ded"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/iTrainingLogger.py",
+      "bytes": 7537,
+      "sha256": "0901c06784fddf10d455a3f7f9c8a43896fe8f40f298ebf965597d1f6f393dd0"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/readme.md",
+      "bytes": 10905,
+      "sha256": "73d41aa0fadf2ae85e7584d3286b9f3adb4d3682902198c6d9ec84845efa8644"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/requirements.txt",
+      "bytes": 329,
+      "sha256": "9a27cd5b87e10e3c09966c618070410cb0df1e87133fa53552e12ea3883518f9"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/solver/evaluator.py",
+      "bytes": 13650,
+      "sha256": "2d36107926abf114b1c1bf62575b1d17415ed1b916a80b82d8c506e66ef45595"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/solver/reward_model_trainer.py",
+      "bytes": 16683,
+      "sha256": "8ef8b6c3ef1896aa8f49fadee4f728a61f5ca10a64cafaed4c7aed65792cd2f9"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/solver/trainer.py",
+      "bytes": 18999,
+      "sha256": "6c83de3902118378d6fa93f272de661d003b460b4fd0e41ad03260ade4e5fe77"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/train_llms.py",
+      "bytes": 8990,
+      "sha256": "606a3586fa4c8f765d8cd8b7805a5c0a9fbcde56a84b1651ea54422432b3f551"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/train_llms.sh",
+      "bytes": 224,
+      "sha256": "bdf355d8945c02fad952fc918a0dde9c1433954796ed8474aa069ee7917777a2"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/train_multi_node_llms.sh",
+      "bytes": 766,
+      "sha256": "1d4dea3746ea8c39dacd41b01877a3352ae77c9bfa5e08781467ff5eb0d57c63"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/train_reward_model.py",
+      "bytes": 4472,
+      "sha256": "db95c9b9dc98860aa9f16fc58f8476c3b10b57d968da70b731d5c64ed9b3cd30"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/train_reward_model.sh",
+      "bytes": 188,
+      "sha256": "6747c145904838b28caac8a5e30d4a290b5061a278699b89bfccd2c9f190f9c7"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/utils/extend_model_token_embedding.ipynb",
+      "bytes": 12223,
+      "sha256": "92fd4deded16d52601aae361b363e6fba235334e308036f9f028cfadd91b93da"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/utils/extend_model_token_embeddings.py",
+      "bytes": 8155,
+      "sha256": "4de77c7c1e738ccc1b12f7f646e2d4039df48f6be00f0d13d15189eccab9485e"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/utils/merge_tokenizer.py",
+      "bytes": 2109,
+      "sha256": "628f90ba52a2971c26add7fba63bcf54d3c6e6f17267eedf8bd38a3249cc8962"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/utils/model_freeze.py",
+      "bytes": 2280,
+      "sha256": "fcb3dc1da2ffaa508fea15b95042eaf848f54f38ffcd81188c43ef5937374446"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/utils/sampler_viewer/web.py",
+      "bytes": 8038,
+      "sha256": "5fc8ed27e8a024a1eb798091e5cb489a7cf4919e5f44d2b42d5b0b940f9299b2"
+    },
+    {
+      "path": "transformers_tasks/LLM/LLMsTrainer/utils/train_tokenizer.py",
+      "bytes": 2257,
+      "sha256": "939cdea891a6f97cb6fa60c6319b4152f7e0d077891aa350dc796edc826e9624"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/assets/llm_cls_res.png",
+      "bytes": 274773,
+      "sha256": "b5e949b7cd9dd22e3854291f227d25ae6d035ef53f42224eaba66f0e2e981ba6"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/assets/llm_information_extraction_res.png",
+      "bytes": 183484,
+      "sha256": "0dafa51a6c99f38db85af1db7afeeb084dfe4430777d4d1b16cea9190a5569b0"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/assets/llm_text_matching_res.png",
+      "bytes": 68740,
+      "sha256": "ca374d310500209c4938bd5e8c5750c4f91993677cda21c29c9a5148e31c79d8"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/assets/playground.png",
+      "bytes": 279514,
+      "sha256": "0362b27b47920f24b015914c13087f726734f3768c3641ebf19b4c1362f263eb"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/llm_classification.py",
+      "bytes": 7756,
+      "sha256": "a622815019eb8b1f2815b0ccc3b12ab84338bce165c400550e4d755f41c2ec9c"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/llm_information_extraction.py",
+      "bytes": 9711,
+      "sha256": "874ea9019cf2fe866b02ddd2f04b7a632fa26cd98f515f24208047ad2a50b302"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/llm_text_matching.py",
+      "bytes": 4872,
+      "sha256": "0d41436d7340417b9e925c46b48e11b78d4f6e8cde3d2368ff580367b649c437"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/playground.py",
+      "bytes": 4364,
+      "sha256": "da389496364a93f6df9630274fdaffa811ea62670b96842b96784042ea9cb0aa"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/readme.md",
+      "bytes": 15906,
+      "sha256": "f190f456a7149bd43b05bd5fcf6054bedbcd16593792cd0498b18965679670d0"
+    },
+    {
+      "path": "transformers_tasks/LLM/zero-shot/requirements.txt",
+      "bytes": 81,
+      "sha256": "e7f63b245f9e63b084879d4cce9b9b34e08180453aa604fa1fa21ece3118dc2b"
+    },
+    {
+      "path": "transformers_tasks/local_runs/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "transformers_tasks/local_runs/bert_tasks.py",
+      "bytes": 14853,
+      "sha256": "3aa2425e289ac6a8b15cfc262c29c2e6d0ed5ed69d3ab845d94dfc46d4fe6917"
+    },
+    {
+      "path": "transformers_tasks/local_runs/infer_saved.py",
+      "bytes": 2229,
+      "sha256": "7bf5568fbe823f51cf3b6fd4d3be17d6e27c466d674e4819ba119ffd4cc1e2b7"
+    },
+    {
+      "path": "transformers_tasks/local_runs/llm_tasks.py",
+      "bytes": 15198,
+      "sha256": "fc2b06f72747501c3b991a60e6308dcb3e3e2e99ea2c3f1d05344c6343739474"
+    },
+    {
+      "path": "transformers_tasks/local_runs/local_tools.py",
+      "bytes": 7369,
+      "sha256": "b642cd93b037e7227fbd3417d51e48df2eac49cfee4d8a8feac8d8d4cbb9b7fb"
+    },
+    {
+      "path": "transformers_tasks/local_runs/ppo_task.py",
+      "bytes": 9230,
+      "sha256": "c02085c9ca9f32bb5b80408cc5d6e723143a0ea7d527a8b1dfdbcfcecdb20066"
+    },
+    {
+      "path": "transformers_tasks/local_runs/README.md",
+      "bytes": 260,
+      "sha256": "3b26ceabe3182553a2c8b834d3d1f6be47595199014f7ab79b5edf8bc2ed525f"
+    },
+    {
+      "path": "transformers_tasks/local_runs/requirements.txt",
+      "bytes": 31,
+      "sha256": "8c14b04541e1d76b5dc35cf09ce49f63b65740f8a59561aa6c04dea3c0bf5ab3"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/classification_n0_lr0.0003.json",
+      "bytes": 4418,
+      "sha256": "1e969b68b3040baa4066fad51e1279b3adc3257db8e6885e7fcc66eaaefe7cb2"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/cpt.json",
+      "bytes": 1835,
+      "sha256": "644fe48a889d10e56ae90e872cc178972e97e70670c77a8f9091faabd037fa83"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/dssm_n0_lr0.0003.json",
+      "bytes": 8735,
+      "sha256": "0ca3ae359df0d554ce913d9f4986c4859e645f87b512417e78706c146aad8e10"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/dssm_n0_lr0.0003_grouped.json",
+      "bytes": 4826,
+      "sha256": "fda6f689c86a7a4a261f034fd321a9446d085aeb32171fb004df6bf0c702c137"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/pet_n0_lr0.0003.json",
+      "bytes": 6270,
+      "sha256": "a018fab66ba8621b81b491868e14bc582b2c2764cb5c3a586bf300698cda15dd"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/pointwise_n0_lr0.0003.json",
+      "bytes": 8743,
+      "sha256": "f93dd995fdebf370b0a68f1346f2a8c449442860c2dc41e915a922f953189d8a"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/pointwise_n0_lr0.0003_grouped.json",
+      "bytes": 4814,
+      "sha256": "af97e3412ac3f2bb0c7223fad918b1365c9e13fdbff3e69fb0f598f20d687f90"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/ptuning_n0_lr0.01.json",
+      "bytes": 6250,
+      "sha256": "837e3820b42c1a57c522f66525f228ef1e92f3fe7955f8f96a1aee6d7ef5601f"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/qwen_mbti.json",
+      "bytes": 18710,
+      "sha256": "211b42b12f441e5b37c9921e8c817c60b54972086a78448ed13e849f0fd08e5d"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/qwen_ppo.json",
+      "bytes": 22083,
+      "sha256": "7195379ddfa4dd2c08569fac66cfd4951879359389e4ccfba5adf7fd310ea121"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/qwen_ppo_v2.json",
+      "bytes": 22068,
+      "sha256": "c80c746a25c3d88525efc28fa8002fc78c61123064bb0892f30fa934e03810b9"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/qwen_ppo_v2_expanded.json",
+      "bytes": 96225,
+      "sha256": "1c5f8963c8eca8841822aebce2a69cf01abc175c948b21c742a4aaa4f4e5bf1e"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/qwen_zero_shot.json",
+      "bytes": 20821,
+      "sha256": "fcf7e2c24a7930a984f44f47684b2fcd39a2f86a3ab1c5693290a6d501c6c7dd"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/qwen_zero_shot_prompt_study.json",
+      "bytes": 119181,
+      "sha256": "6484389d5abbdb68cd006899ad9cb6a0f88a08e52e19b9cc5ed4b9dbe66f0c6d"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/qwen_zero_shot_v2.json",
+      "bytes": 21246,
+      "sha256": "6d2ef1fccc29b9ad0dcb56fa25077ce374c75963acdde72a7b38b4389af84ab4"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/qwen_zero_shot_v2_expanded.json",
+      "bytes": 82844,
+      "sha256": "9f5f688a215407aa50d0bdc1a3546253661645d40b113aae1b632d05d8877167"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/reward_n1000.json",
+      "bytes": 1666,
+      "sha256": "cb0042cb609ffe65af39693401eac93778f01a56f7a3f66bd99673f8348b0eee"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/sbert_n0_lr0.0003.json",
+      "bytes": 8765,
+      "sha256": "03571b0b2b77c760ec30f02505d0fe14e6512444753011a171aaa66b13d45976"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/sbert_n0_lr0.0003_grouped.json",
+      "bytes": 4826,
+      "sha256": "dfc8e4673bd74ffe817710a515ee5041891d08ed562756596952578556131725"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/scratch-sft.json",
+      "bytes": 6875,
+      "sha256": "d7342bb6a33af29cd8583e647e822167e7afe487b025adb6785bcf71d944db08"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/scratch.json",
+      "bytes": 2519,
+      "sha256": "e741f85e99fe15f96edb2a427366bfdf56bb304824dc3c74c3b6f5416ed3cc68"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/sft.json",
+      "bytes": 6883,
+      "sha256": "cdceaae737150e8eee81d5a6e022c4884c395cb2cea24348c92663cc2e73a118"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/simcse_n10000_lr0.0003.json",
+      "bytes": 2164,
+      "sha256": "be608467d90467d65ac8edeafb7969b41f0e73de6520432130b1ab2f8b40352b"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/t5_filling_n1000.json",
+      "bytes": 4391,
+      "sha256": "72b5326711259ae2ff985b022de839c049a8d869c2f796620e42880c1d6d761a"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/t5_filling_n1000_v2.json",
+      "bytes": 5796,
+      "sha256": "ac610c94a146a5f71b276ff9803b4d1d858ac7791af8f27ee8cf44c414451727"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/t5_filling_n5000_v2_expanded.json",
+      "bytes": 5095,
+      "sha256": "5725522e9c842b52d30ff2b99b239ed005d97f92c1ddfb7b97ae2b4cbe24e9ef"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/t5_qa_n1000.json",
+      "bytes": 11889,
+      "sha256": "903ed23ef821eff9e060545955ff0c83a3a647f4b5de53c10f86234d669f1115"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/t5_qa_n1000_v2.json",
+      "bytes": 12977,
+      "sha256": "812c41cf4b69c0cef0676c5ea92ca6e31cd13343e53309564f0f0207ddd9f5b2"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/t5_qa_n5000_v2_expanded.json",
+      "bytes": 8688,
+      "sha256": "baa80ae1997f4c11d798a978fa6e752810ed303ad2256d477e1ae90f078c662a"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_base_fill_v1.json",
+      "bytes": 4776,
+      "sha256": "f7f7250778615416ce714cfb6cfa174db6170957a7e9dda43c2066f2fdf88937"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_base_negative_v1.json",
+      "bytes": 4753,
+      "sha256": "b0413fd530b08552922f0f87fcf7cc71aa1aeb451e4dcad23341e338661d644f"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_base_none_v1.json",
+      "bytes": 4673,
+      "sha256": "b51dff4e5baa0dca11f16110c3c9b0f3cc0b708c704901672834a779f25a4491"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_base_swap_v1.json",
+      "bytes": 4675,
+      "sha256": "57b73f80bea8fa1154cfcb443707c026768ef74a877b1739f1d5936721cde9c8"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_negative.json",
+      "bytes": 5997,
+      "sha256": "8509ae42d28add56ce02a68235d6bec1a38f47d4ab8f6c3177c298310927ac4c"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_negative_v2.json",
+      "bytes": 6044,
+      "sha256": "bcc4b80b7eb5777b5e53dcb2a4f243ec4a1b1b6bfaf682ba44e1c82c10129867"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_negative_v3.json",
+      "bytes": 6254,
+      "sha256": "8b7e0c8f7e31c61f75aa6940f5ef742d46588d9619f539aeee2f6f39c368f448"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_none.json",
+      "bytes": 6087,
+      "sha256": "f9e84080b13efd619718efe2d780b3e2d3539e6746342d8f130b5526faf9dfac"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_none_v3.json",
+      "bytes": 6294,
+      "sha256": "581e00e23bc061f58512e021f1443ee40e62724cb99cedeff87ece17a1cd66e6"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_swap.json",
+      "bytes": 6121,
+      "sha256": "2ecec2fc21f3da1531635989d5fe009558f49e9fe68194357d16793a13833542"
+    },
+    {
+      "path": "transformers_tasks/local_runs/results/uie_swap_v3.json",
+      "bytes": 6331,
+      "sha256": "99190f5803137582621ad9d8b38e48e3cfc8da6f4425cbd2fed041c40149130c"
+    },
+    {
+      "path": "transformers_tasks/local_runs/reward_task.py",
+      "bytes": 4621,
+      "sha256": "5fdcdad36ba6595e6a46a4df7e4710d2161f0fa6f1880d44a42222f11b490db5"
+    },
+    {
+      "path": "transformers_tasks/local_runs/run_bert_matrix.py",
+      "bytes": 861,
+      "sha256": "52bf51a8f73b251da46a19a01a02276792338a979151a3cdcb06cf927071e4f6"
+    },
+    {
+      "path": "transformers_tasks/local_runs/seq2seq_tasks.py",
+      "bytes": 7432,
+      "sha256": "cd1e2a5c37d7c9593c5f7576c0bc86c9f9cdd14c26db19a971d80b2ef69df323"
+    },
+    {
+      "path": "transformers_tasks/local_runs/span_task.py",
+      "bytes": 18447,
+      "sha256": "9c86294f517108d784535d3fc6fb6b5d71dc2b122bd44d0359fed0826c1efaa2"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/assets/train_log.png",
+      "bytes": 119348,
+      "sha256": "c505ca6d9259050728f5a713a0fcf6c354ff04d74a3c9c1e14217ae77a21ffd7"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/class_metrics.py",
+      "bytes": 6846,
+      "sha256": "893dd8c0dca71bff4f0168d3b80419f183b0a5fd6081652543aeafbaade6218e"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/inference.py",
+      "bytes": 4378,
+      "sha256": "916288aa36cb86b746759d2150c9f3459e8011d7b943b224831256947f7107ff"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/iTrainingLogger.py",
+      "bytes": 7544,
+      "sha256": "4a0dec0d142e9afbbf9d086abbd99cdfff35833490b71c3767c5ac847134bcad"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/p_tuning.py",
+      "bytes": 14721,
+      "sha256": "661b2671b0bb4d0bbee61f1e9779631c3bc7938d898f40e1aa7f0b6c70578a33"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/RDropLoss.py",
+      "bytes": 5513,
+      "sha256": "1f8f5bfbe12503be2bb5a7ab13f82274846eaec45156dd18d2dbde2ac12d0231"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/readme.md",
+      "bytes": 4684,
+      "sha256": "32aa188d3196ba58bf3532c85e62a618897652cb9bff34c996e112433e6e5dc9"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/train.sh",
+      "bytes": 529,
+      "sha256": "a51485f04936bc2ce56743960b97e67a3b7faf4dfaa5b7eb5bd16e7098f5a2f7"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/utils.py",
+      "bytes": 12727,
+      "sha256": "4b01c9e8ed7d43baec5f7359a88a90e4c069dc9195fee8fb245149813192c61c"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/p-tuning/verbalizer.py",
+      "bytes": 9939,
+      "sha256": "0020e8285d8d8841d68e30478804e2aac6208d4daebd1ca6b8deaff947632b20"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/assets/train_log.png",
+      "bytes": 169211,
+      "sha256": "562fdb6a90cef95834687999d9cd04d9b192f6b68c0296254fcb83c76a7a8c9a"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/class_metrics.py",
+      "bytes": 6846,
+      "sha256": "893dd8c0dca71bff4f0168d3b80419f183b0a5fd6081652543aeafbaade6218e"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/inference.py",
+      "bytes": 4662,
+      "sha256": "dd3aae4ed75f88a0499cb9873c761eef96175055595edde3f47f839e6917a7fb"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/iTrainingLogger.py",
+      "bytes": 7546,
+      "sha256": "d46df235e55144bde2d1b83b66ecae5bc5b004958f6f702ae958a9e694a187ea"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/pet.py",
+      "bytes": 12861,
+      "sha256": "4f39b5ebb95c7923ade09d2fff80566b506fefabc18c94fa4a8ce88a2137f22b"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/RDropLoss.py",
+      "bytes": 5490,
+      "sha256": "688945ef551e7f8ac2da1d1118e31949fb3c0ca19897261055af3013236b62cd"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/readme.md",
+      "bytes": 6151,
+      "sha256": "15f2bc0baa383d17bae9367f44697c93ad23ec4014055bd4dc8d5414e37b4f16"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/Template.py",
+      "bytes": 7175,
+      "sha256": "f4f489a4392a5172c50b224b71eacee067b438c41a856da01c811ae448996f48"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/train.sh",
+      "bytes": 577,
+      "sha256": "c30035b1b62c0cd54496ab6ec3fcb4a7b7d61fed3ed07aa92093d9f03d97ecf0"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/utils.py",
+      "bytes": 9951,
+      "sha256": "d207555c8b5970f6c9616ec3ba802fc38407d9665a3be3fbcf36b2d642be4cbb"
+    },
+    {
+      "path": "transformers_tasks/prompt_tasks/PET/verbalizer.py",
+      "bytes": 9939,
+      "sha256": "0020e8285d8d8841d68e30478804e2aac6208d4daebd1ca6b8deaff947632b20"
+    },
+    {
+      "path": "transformers_tasks/readme.md",
+      "bytes": 5314,
+      "sha256": "ead544114ae566be2f24955bae7eb8388958470a9334bec35ba1382201a0c841"
+    },
+    {
+      "path": "transformers_tasks/requirements.txt",
+      "bytes": 126,
+      "sha256": "1be823fb3e8e1c3663105106bd6cd9af1665e4d5926b063c8617bac9786122da"
+    },
+    {
+      "path": "transformers_tasks/RLHF/assets/ERNIE Reward Model.png",
+      "bytes": 73653,
+      "sha256": "94b967ef1164ae67d3cd7f573c5493daa15d38f653d3afbe4560eaf7421a8c6b"
+    },
+    {
+      "path": "transformers_tasks/RLHF/assets/PPO-Sentiment-Zh.png",
+      "bytes": 421865,
+      "sha256": "8e1a2169b21dd5c29c59f455c375c456b53070a591fd50163e49ed3f936ddbb1"
+    },
+    {
+      "path": "transformers_tasks/RLHF/assets/rank_list_dataset.png",
+      "bytes": 238259,
+      "sha256": "703bb402b1e03927c9d8ad9a6e6bbc3bb4a9a929f97dd55652834433149d06b6"
+    },
+    {
+      "path": "transformers_tasks/RLHF/assets/rank_list_labler.png",
+      "bytes": 503825,
+      "sha256": "170a305e3e4d2f6af8d853c7791d913b73d0bce95a3fbe4ecd27beb8858306db"
+    },
+    {
+      "path": "transformers_tasks/RLHF/assets/sentiment-analysis.png",
+      "bytes": 71204,
+      "sha256": "a249303e011be07019a1e8f5c05c5d9dccfc90a3de20789f7ced79ac7ccb4ae8"
+    },
+    {
+      "path": "transformers_tasks/RLHF/assets/terminal.png",
+      "bytes": 263612,
+      "sha256": "36fda41cbf75a3628005ae1b2d6c4998e0acc547c4ca8dfa15ddcb4bcdb95bf0"
+    },
+    {
+      "path": "transformers_tasks/RLHF/inference_ppo_gpt.py",
+      "bytes": 3480,
+      "sha256": "abcbc2c62e884703273cb4fe2e156dca8df567649b4020aa2d07cf34d2c39e34"
+    },
+    {
+      "path": "transformers_tasks/RLHF/inference_reward_model.py",
+      "bytes": 2831,
+      "sha256": "82ef6afc3b6a3acc4d1418519fd4a1cf31fefc26b8a2c839b9fae3915340cdc2"
+    },
+    {
+      "path": "transformers_tasks/RLHF/iTrainingLogger.py",
+      "bytes": 7544,
+      "sha256": "4a0dec0d142e9afbbf9d086abbd99cdfff35833490b71c3767c5ac847134bcad"
+    },
+    {
+      "path": "transformers_tasks/RLHF/model.py",
+      "bytes": 6016,
+      "sha256": "3f1a3750ad26402a919a0be2a6e5037008fe4ddbb045a749ac24aa35f5c68145"
+    },
+    {
+      "path": "transformers_tasks/RLHF/ppo_sentiment_example.py",
+      "bytes": 7599,
+      "sha256": "49bc4196c66c003ae9c93da9372e0ba29d341fbba8541440a8bb5e5b96cb0e05"
+    },
+    {
+      "path": "transformers_tasks/RLHF/ranklist_labeler.py",
+      "bytes": 9579,
+      "sha256": "f560c449d13d6b435b8d6c64825c32355435a0147d323dd7f6513c838cfc5ae4"
+    },
+    {
+      "path": "transformers_tasks/RLHF/readme.md",
+      "bytes": 10377,
+      "sha256": "005dcae8ce915a39ef7465be231b09241e7662e19211050a99105a5927889888"
+    },
+    {
+      "path": "transformers_tasks/RLHF/start_ranklist_labler.sh",
+      "bytes": 52,
+      "sha256": "e8c3ff2d419607c1a2689d7224be340f7029dd4d914e2fb28207e179b20277d9"
+    },
+    {
+      "path": "transformers_tasks/RLHF/terminal_main.py",
+      "bytes": 7244,
+      "sha256": "b2cb2191d3539e1bf13c4d861b1bba6fe78533c2eec2df8d9d73f553c3ae7dd7"
+    },
+    {
+      "path": "transformers_tasks/RLHF/train_reward_model.py",
+      "bytes": 11027,
+      "sha256": "5c72fe28687e17afffb819baf5dc476c16d0388311a8cf2e2ca6781e9842efaf"
+    },
+    {
+      "path": "transformers_tasks/RLHF/train_reward_model.sh",
+      "bytes": 546,
+      "sha256": "b9886bd356d43930bc5a094733efdeeea250b4a5427808629a18a380e87fe06b"
+    },
+    {
+      "path": "transformers_tasks/RLHF/trl/__init__.py",
+      "bytes": 22,
+      "sha256": "ae739b3e3b817044ada923b44ba82c752fe8b7c2133908d58fff8fd4b5146298"
+    },
+    {
+      "path": "transformers_tasks/RLHF/trl/core.py",
+      "bytes": 4028,
+      "sha256": "f5678fe03c2b09e79d53d58d39f1fc0a469dc2bde7aa0cef5e68c77cbc7e6f86"
+    },
+    {
+      "path": "transformers_tasks/RLHF/trl/gpt2.py",
+      "bytes": 6789,
+      "sha256": "ce6123987e85a52d502fd2f554aa62e7df5ddfce733815cbf922a5ecc47db698"
+    },
+    {
+      "path": "transformers_tasks/RLHF/trl/ppo.py",
+      "bytes": 14756,
+      "sha256": "ca4206b7e61d12ab38071e2e0a7c57f6117306b3dff658fd6b9f6238e379fc4a"
+    },
+    {
+      "path": "transformers_tasks/RLHF/utils.py",
+      "bytes": 5493,
+      "sha256": "2a2570477ae9a4becae4147ecbe708942e1ac389cb9058b547afb12ae1613b5b"
+    },
+    {
+      "path": "transformers_tasks/text_classification/class_metrics.py",
+      "bytes": 6712,
+      "sha256": "43411581b1b7a8d221017bfe3d5d816377d3120243b8bc3d5fef16d3c53c27b2"
+    },
+    {
+      "path": "transformers_tasks/text_classification/data/comment_classify/label_mapping.txt",
+      "bytes": 71,
+      "sha256": "29d0d7611bb8f0444451ff47ebbca10e63692482638efa8e8801fd3717625da2"
+    },
+    {
+      "path": "transformers_tasks/text_classification/FocalLoss.py",
+      "bytes": 4108,
+      "sha256": "dc1099f1e850f44cbdac17fd2543d42ab314f946fab4bbfab8a88269fdecf396"
+    },
+    {
+      "path": "transformers_tasks/text_classification/inference.py",
+      "bytes": 4286,
+      "sha256": "309cb380c999782e830c66c78b45f3fd71aa83402ebd1dbd41f0f2cd70738b69"
+    },
+    {
+      "path": "transformers_tasks/text_classification/iTrainingLogger.py",
+      "bytes": 7544,
+      "sha256": "4a0dec0d142e9afbbf9d086abbd99cdfff35833490b71c3767c5ac847134bcad"
+    },
+    {
+      "path": "transformers_tasks/text_classification/train.py",
+      "bytes": 13430,
+      "sha256": "869ec25f8dfc94d74a9a0ee0ae1a1850ef6f0b79e01fd2a013573760f1fbbce5"
+    },
+    {
+      "path": "transformers_tasks/text_classification/train.sh",
+      "bytes": 438,
+      "sha256": "e79aacba3a7990084bdb09ebc0ef909f663209f74d5ff8a4c04abb7df635e781"
+    },
+    {
+      "path": "transformers_tasks/text_classification/utils.py",
+      "bytes": 4090,
+      "sha256": "9a5a4b482a35ff1b72a94d175f39665191f17962a2ca2fd8396561b36f181646"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/assets/dssm_train_log.png",
+      "bytes": 180208,
+      "sha256": "c68ab65e0a3d0325999c2e94f779b6c1e27240fae6b81ec0b4caf616aae75de0"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/assets/pointwise_train_log.png",
+      "bytes": 222146,
+      "sha256": "25e552a25da224d7fa598d1c66eb253501c61499f598f2c91343dd45fe149b47"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/assets/sentence_transformer_train_log.png",
+      "bytes": 184949,
+      "sha256": "1a1e96913e587a4ec5e6595926fdedfaf4c2fb83d8de5f68895f471681b5f7c1"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/get_embedding.py",
+      "bytes": 5289,
+      "sha256": "ad1fbf80700a315c1fef707a31380adbdafaed1fefda278cd4ea50622257839f"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/inference_dssm.py",
+      "bytes": 4057,
+      "sha256": "bb7822d21452263804e9f6f00861f1eaa0c15d6aec248ee9f43264a5916c277d"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/inference_pointwise.py",
+      "bytes": 3578,
+      "sha256": "b818ad792e34ee5c878c93217fb38ce1a33d53411a01ac319f6ed9ce3ea8604d"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/inference_sentence_transformer.py",
+      "bytes": 4374,
+      "sha256": "5619d1f30bfd53467851c1269e5d5303437c0de35947cd396f5227f5321370c3"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/iTrainingLogger.py",
+      "bytes": 7548,
+      "sha256": "30c52d2b4c1dff48d2f36afc158779e2e9fb0943c1c6c420f2e8336e6205b24e"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/model.py",
+      "bytes": 16665,
+      "sha256": "f7465f02ba02544168339971257d12c090eb404084b75aefc29b701989c7cea4"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/readme.md",
+      "bytes": 11619,
+      "sha256": "639e03ef15a3b6fb898dc655cead90f17c9354ff65943dca7f9cd9ef15dbc30c"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/train_dssm.py",
+      "bytes": 10509,
+      "sha256": "d5500b9d1f827a8c2a4e678f10b19419112d90f3ce396f5aaf194ae2466f7ae6"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/train_dssm.sh",
+      "bytes": 441,
+      "sha256": "7b50d65a77b8fc098c7559177bc75b6ccf9dd2a0499e19ca78b4407ce3d83193"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/train_pointwise.py",
+      "bytes": 10039,
+      "sha256": "23fc5a8cd6d73fbcedb7fc8667c4a6c00f56138bd2cda9ba3bc096cde895b3a9"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/train_pointwise.sh",
+      "bytes": 446,
+      "sha256": "1f05c4cccdafcc132b68744ffbfb9b1351a7746e4dcfe4a8cfc6cb2c2bc72a0c"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/train_sentence_transformer.py",
+      "bytes": 10526,
+      "sha256": "cc454ef68e9cb1e4c06eb720acc7e5c2247bf02ad246ec193664687f095464a6"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/train_sentence_transformer.sh",
+      "bytes": 477,
+      "sha256": "d0618754a94d873ef8f37f9a97df03814b69424d3c9851ef2f83765a197c553b"
+    },
+    {
+      "path": "transformers_tasks/text_matching/supervised/utils.py",
+      "bytes": 7126,
+      "sha256": "c925dfdb7eee0c0173472f238acb89c426411ffee0a5411d1fa10bfc6497476f"
+    },
+    {
+      "path": "transformers_tasks/text_matching/unsupervised/simcse/assets/ERNIE-ESimCSE.png",
+      "bytes": 225648,
+      "sha256": "ca1c63f442e184947a671b5d7ac7406d8eea24e2ee9ce6e8da55d727454f5d92"
+    },
+    {
+      "path": "transformers_tasks/text_matching/unsupervised/simcse/inference.py",
+      "bytes": 4400,
+      "sha256": "72ecb6015b85b27889a5d9c38868c8baeb5f8b9f694a28c6c842a2910aaf1c18"
+    },
+    {
+      "path": "transformers_tasks/text_matching/unsupervised/simcse/iTrainingLogger.py",
+      "bytes": 7544,
+      "sha256": "4a0dec0d142e9afbbf9d086abbd99cdfff35833490b71c3767c5ac847134bcad"
+    },
+    {
+      "path": "transformers_tasks/text_matching/unsupervised/simcse/model.py",
+      "bytes": 8036,
+      "sha256": "95f8736be029f7ea99c487dc6d743e3a26f937d3796adc080b0811968147ac78"
+    },
+    {
+      "path": "transformers_tasks/text_matching/unsupervised/simcse/readme.md",
+      "bytes": 4296,
+      "sha256": "7a067113de584f029ffdc36867ad5bc3ec42c248d282003eb94240259fd3f1ac"
+    },
+    {
+      "path": "transformers_tasks/text_matching/unsupervised/simcse/train.py",
+      "bytes": 12374,
+      "sha256": "63af5c944cf71dce8c415c77e31709bb37b7060d9798f60188de4a383a0a5d9a"
+    },
+    {
+      "path": "transformers_tasks/text_matching/unsupervised/simcse/train.sh",
+      "bytes": 437,
+      "sha256": "c0afde9687ee8a942495108a2fb222aefbf86d67ce063c3eda8679b3a1e393ea"
+    },
+    {
+      "path": "transformers_tasks/text_matching/unsupervised/simcse/utils.py",
+      "bytes": 8157,
+      "sha256": "5bc23606dfb2a95454620295461cd6439b1997d74daf4c885f2b3804e98abd43"
+    },
+    {
+      "path": "transformers_tasks/tools/tokenizer_viewer/assets/preview.png",
+      "bytes": 301693,
+      "sha256": "b97d41099ff585bd5d282e74ba192f7e60c592149350755dc1eebdc8e2d1c683"
+    },
+    {
+      "path": "transformers_tasks/tools/tokenizer_viewer/readme.md",
+      "bytes": 559,
+      "sha256": "4b09d916219848d778c92f2e50c93226fd24c7e51c874beac5694cf31f5be874"
+    },
+    {
+      "path": "transformers_tasks/tools/tokenizer_viewer/start.sh",
+      "bytes": 42,
+      "sha256": "b3701771906ca31d5b4951b3b91044b56dfac5712a91d56b27160c0c581f829f"
+    },
+    {
+      "path": "transformers_tasks/tools/tokenizer_viewer/web_ui.py",
+      "bytes": 14614,
+      "sha256": "f39a2bebe2bceb4bf5ae9ed27db6f3c05b9f9d2a37ff26daa6a523d5307b3d78"
+    },
+    {
+      "path": "transformers_tasks/UIE/assets/auto_neg_1.png",
+      "bytes": 161905,
+      "sha256": "5defbfd3e919bd77ce63685a7b665235abf7fca99909a275aa79d6f5e557e72c"
+    },
+    {
+      "path": "transformers_tasks/UIE/assets/auto_neg_2.png",
+      "bytes": 661964,
+      "sha256": "ae62d9f0b06b872f9e756590648ce96732d61c0a6ce3f0389a96399377ccc232"
+    },
+    {
+      "path": "transformers_tasks/UIE/assets/mask_then_fill.png",
+      "bytes": 901919,
+      "sha256": "65c6551526a783fce8366fac801eb9a32d203898ca3e1834a91155a15dc90d22"
+    },
+    {
+      "path": "transformers_tasks/UIE/assets/swap_spo.png",
+      "bytes": 653093,
+      "sha256": "2495e97ecad6a001f037e29ed75175c0ec731a9d819ba388b508689645fea81b"
+    },
+    {
+      "path": "transformers_tasks/UIE/assets/UIE Base No Aug.png",
+      "bytes": 167088,
+      "sha256": "a8e403ea343e1c6a2a8e6cf6a309d253eaeb17b81f82d622b05e8b6f350c8680"
+    },
+    {
+      "path": "transformers_tasks/UIE/assets/web_da_1.png",
+      "bytes": 183267,
+      "sha256": "25d3e082240ce380b66ad4f45bea47fc517219419303f8050813ec902bd32bc3"
+    },
+    {
+      "path": "transformers_tasks/UIE/Augmenter.py",
+      "bytes": 34300,
+      "sha256": "0b11322ceddcc99ce779df6f01eb74a75ab37f66cc3f37727cf564edf39a2f2e"
+    },
+    {
+      "path": "transformers_tasks/UIE/doccano.py",
+      "bytes": 8077,
+      "sha256": "568629fad785e465787929dfdb021bbe58b07e494dc5cfda4cdcd266644f2af7"
+    },
+    {
+      "path": "transformers_tasks/UIE/inference.py",
+      "bytes": 11506,
+      "sha256": "f384a17277e284b7161655bc3bdf81d5d18a210b51832da1a43d037cadb5acf2"
+    },
+    {
+      "path": "transformers_tasks/UIE/iTrainingLogger.py",
+      "bytes": 7548,
+      "sha256": "30c52d2b4c1dff48d2f36afc158779e2e9fb0943c1c6c420f2e8336e6205b24e"
+    },
+    {
+      "path": "transformers_tasks/UIE/metrics.py",
+      "bytes": 8467,
+      "sha256": "b0c9157f20601343d0afc2abce8c5208bd10a2901d855cf511db79904ccb8803"
+    },
+    {
+      "path": "transformers_tasks/UIE/model.py",
+      "bytes": 14684,
+      "sha256": "e784f1fb8feb794bc5e9738c48f24a393abef1468c65e1455680adda5d2ff48b"
+    },
+    {
+      "path": "transformers_tasks/UIE/readme.md",
+      "bytes": 10057,
+      "sha256": "8bed862481f9a99ea002d9c8f824fecdafd1f5b23ec99b068c88b56ed5a7f056"
+    },
+    {
+      "path": "transformers_tasks/UIE/train.py",
+      "bytes": 17041,
+      "sha256": "8cf7874cb7aa190613df4ba040275f26cb1b4cbc98ff0188f27d583e19e2f910"
+    },
+    {
+      "path": "transformers_tasks/UIE/train.sh",
+      "bytes": 400,
+      "sha256": "2ca6d5ec9fdfa44889b8a03d3849ac3a79ed919114f5d02de08bf686851ee803"
+    },
+    {
+      "path": "transformers_tasks/UIE/utils.py",
+      "bytes": 24242,
+      "sha256": "1af0f58add1b87fd802cdda836001a419c16652009377abac8812fa90c047b76"
+    },
+    {
+      "path": "transformers_tasks/UIE/web_da.py",
+      "bytes": 20372,
+      "sha256": "9d301ad916bc02289ad174e7b1dddc5da843cb6ca456705223882f2e94ecdd86"
+    },
+    {
+      "path": "transformers_tasks/utils/class_metrics.py",
+      "bytes": 6846,
+      "sha256": "893dd8c0dca71bff4f0168d3b80419f183b0a5fd6081652543aeafbaade6218e"
+    },
+    {
+      "path": "transformers_tasks/utils/span_metrics.py",
+      "bytes": 8968,
+      "sha256": "6e3678ffd86b83173be94697826cd8f0f7dbf3ec7d61f50267e1e54578977f30"
+    },
+    {
+      "path": "zinc-hf-tree.json",
+      "bytes": 1976,
+      "sha256": "fab5c2d2375793d3f8edb9813ec77bd2a741e658d59b3f6f3e23838cd189e83b"
+    },
+    {
+      "path": "学习报告/cpt_curves.png",
+      "bytes": 40570,
+      "sha256": "d57419655d5471e3129302e2dcf703cfe35856846b2f2359df8fe61a4f6332d6"
+    },
+    {
+      "path": "学习报告/Graph任务1.md",
+      "bytes": 132,
+      "sha256": "f3dfada01d0676d6dba87cb9963dcc3d6c0038bdc2d824df1bd3f11a6567bc0b"
+    },
+    {
+      "path": "学习报告/Graph任务2.md",
+      "bytes": 132,
+      "sha256": "e3360a49e529c325e556edd3f82520b47475309014d684bc55bb8c0be7c9d525"
+    },
+    {
+      "path": "学习报告/Graph任务3.md",
+      "bytes": 141,
+      "sha256": "2fdf78e53d3ac70657a7ced5c0c19b06655bb881ee1ae37be2df3288426bbb8d"
+    },
+    {
+      "path": "学习报告/Graph任务4.md",
+      "bytes": 138,
+      "sha256": "252ba54cf528434e1a672b5e6108d7648233ac806b271476669ebeaf50a8b5fd"
+    },
+    {
+      "path": "学习报告/NLP任务1.md",
+      "bytes": 140,
+      "sha256": "17065ebaf3cd844b5411d7e7c73eff0124ee4edacfa06a912eb387a29684d7a2"
+    },
+    {
+      "path": "学习报告/NLP任务2.md",
+      "bytes": 148,
+      "sha256": "05a299e201dbc973506077a7083cbcb181176be19148b0eb3bd2c3dcdb4a4b28"
+    },
+    {
+      "path": "学习报告/NLP任务3.md",
+      "bytes": 145,
+      "sha256": "936728983ffe9fbe8956ae90c8189c7207c846b301de399aa6d0b4fcc34f1f73"
+    },
+    {
+      "path": "学习报告/NLP任务4.md",
+      "bytes": 145,
+      "sha256": "1c921d5512e46cdac31593b5893020070b4d34bef46eb0161827b05f47ec0d7c"
+    },
+    {
+      "path": "学习报告/NLP任务5.md",
+      "bytes": 147,
+      "sha256": "aeca4d6f96b9056058cafde69577fc3ccfc18a57e552c2c47e9da914875af9c3"
+    },
+    {
+      "path": "学习报告/PLM_Prompt.md",
+      "bytes": 2281,
+      "sha256": "c57629025fff78fe8b21c61fa01403d7884f0cd6cbce25eed57e5da8b017641c"
+    },
+    {
+      "path": "学习报告/PLM_Prompt_curves.png",
+      "bytes": 86422,
+      "sha256": "00eb8fb475f5d2b1c3385de747b0263d577f03ecddc2c0aac6994744fecbf549"
+    },
+    {
+      "path": "学习报告/PLM_RLHF.md",
+      "bytes": 3771,
+      "sha256": "9af2ee2ce8b72de2b4d5282c2c8e42abff5ee24d71281c61822fe619e4162d3e"
+    },
+    {
+      "path": "学习报告/PLM_T5生成.md",
+      "bytes": 6445,
+      "sha256": "6d958862c1919e5059d7ac1474042d552d24310a596151f6c4cac6a76ccdbebd"
+    },
+    {
+      "path": "学习报告/PLM_信息抽取.md",
+      "bytes": 7914,
+      "sha256": "f14a741e644f939e08ad2e51a703ad12cdbe83d308abbd48fb6a790c159f0cef"
+    },
+    {
+      "path": "学习报告/PLM_信息抽取_curves.png",
+      "bytes": 141014,
+      "sha256": "d793d4c36cf707bc11f0e135f0397d9adfaaeef51d948d95f200bd33022c85be"
+    },
+    {
+      "path": "学习报告/PLM_分类.md",
+      "bytes": 1705,
+      "sha256": "deba2c04f4925d4e7d41673f43c6b16abf8852c0553839754f15d8d32f56f9ca"
+    },
+    {
+      "path": "学习报告/PLM_大模型应用.md",
+      "bytes": 7109,
+      "sha256": "3ff1514365715cf9a5b2a633b8134954c47dffc220828c8aecd464548967a6c5"
+    },
+    {
+      "path": "学习报告/PLM_大模型训练.md",
+      "bytes": 4913,
+      "sha256": "0464086281b12f3d2c25be0bd3a0549e8d5f05074cae2419c03bbf49d6232835"
+    },
+    {
+      "path": "学习报告/PLM_工具.md",
+      "bytes": 1139,
+      "sha256": "c7d90e93d3ada96c35ff3a30af4b70b866dcbd1f0e83f0a7d17699fe8bfda97e"
+    },
+    {
+      "path": "学习报告/PLM_文本分类.md",
+      "bytes": 1705,
+      "sha256": "deba2c04f4925d4e7d41673f43c6b16abf8852c0553839754f15d8d32f56f9ca"
+    },
+    {
+      "path": "学习报告/PLM_文本分类_curves.png",
+      "bytes": 67789,
+      "sha256": "c190d483a68a9547e26b09f5df07d2689c57272b87e0c45b5c85d4743c678b4f"
+    },
+    {
+      "path": "学习报告/PLM_文本匹配.md",
+      "bytes": 3130,
+      "sha256": "602e54b9f65bd549b3aedb2bbfb910c9a1d19eb227c5f8202f089fc37bab9d27"
+    },
+    {
+      "path": "学习报告/PLM_文本匹配_curves.png",
+      "bytes": 121821,
+      "sha256": "dd05567b8603d545bb99f302f2bc7fd9b0295d0e7d74a5625993f2dbc6878f2d"
+    },
+    {
+      "path": "学习报告/PLM任务.md",
+      "bytes": 10656,
+      "sha256": "373867740ec3736092f875191e1e6f4e7ffd1367eca668f17ce933eb83c8692f"
+    },
+    {
+      "path": "学习报告/qwen_ppo_v2_curves.png",
+      "bytes": 76276,
+      "sha256": "d72363487ec07c393d911fa13fd9da54e6e93c891aa545e568ae4effbe69b389"
+    },
+    {
+      "path": "学习报告/qwen_ppo_v2_expanded_curves.png",
+      "bytes": 109174,
+      "sha256": "dd791af7f33f572f3aa9ed18d6c84fcb762b60985dccfbc41b5b28a0df9411a3"
+    },
+    {
+      "path": "学习报告/scratch-sft_curves.png",
+      "bytes": 69176,
+      "sha256": "928a3a85ffa13a9826e510fb8084d9f376c2273faf9b3777500d025b3ff62c2b"
+    },
+    {
+      "path": "学习报告/scratch_curves.png",
+      "bytes": 63193,
+      "sha256": "73fd612d74ae85dcce0d00c0874525235ce3c356f67514013b9a851d2c75b373"
+    },
+    {
+      "path": "学习报告/sft_curves.png",
+      "bytes": 71253,
+      "sha256": "2aa946f938946183d949d04f317ff06af281c0c2f24f367aef03a4cc8917df5f"
+    },
+    {
+      "path": "学习报告/t5_filling_n1000_v2_curves.png",
+      "bytes": 65815,
+      "sha256": "0e5e4c3f515a76d0b5e301fb20f26a01f49e1b63e8d059d72a712ca58871e771"
+    },
+    {
+      "path": "学习报告/t5_filling_n5000_v2_expanded_curves.png",
+      "bytes": 64882,
+      "sha256": "98147e051c639e0cca1525606a36143f4ea797334b30d5b556c4db3c6b8b2d1a"
+    },
+    {
+      "path": "学习报告/t5_qa_n1000_v2_curves.png",
+      "bytes": 64261,
+      "sha256": "b2ce2e6dbb93e2adc1a589ebfa4fce6595e4846160c471f0f5c07dce71656be4"
+    },
+    {
+      "path": "学习报告/t5_qa_n5000_v2_expanded_curves.png",
+      "bytes": 59685,
+      "sha256": "1d8d12a94eda7e8631b1181c4996cbcb77b6f83a0a7618124e786d55b86ae5f8"
+    },
+    {
+      "path": "学习报告/实验环境.md",
+      "bytes": 2556,
+      "sha256": "9357b114f0770f62ed5f46255a2d30ecc401c1b39559e4c349ab3c0c1e797c9b"
+    },
+    {
+      "path": "学习报告/实验索引.json",
+      "bytes": 117076,
+      "sha256": "8b0e9b14316f86a036b210f992e0cfd9630e86c068602e6417072317e8edb2da"
+    },
+    {
+      "path": "学习报告/工具上手.md",
+      "bytes": 3278,
+      "sha256": "031246a0e84f1b25688a00952695d94f81b77445878d6668a7e0b8ff3e931ccc"
+    },
+    {
+      "path": "学习报告/总报告.md",
+      "bytes": 2841,
+      "sha256": "07cbb0d8d28075a67dcba6bf807707060c3207ea35b6b5de2d15924a9bf209dc"
+    },
+    {
+      "path": "学习报告/本人练习与核查.md",
+      "bytes": 4083,
+      "sha256": "a0723d2028678caade3925a1a20677cef9ac920a6c4f63805438414c82ecc2ad"
+    },
+    {
+      "path": "学习报告/正式实验索引.json",
+      "bytes": 154542,
+      "sha256": "20972f475c2fdf71905be785465f94cbd5f573a6353e0e294c683c0ddb35e5e4"
+    },
+    {
+      "path": "学习报告/环境包快照.json",
+      "bytes": 11388,
+      "sha256": "e200b33e8fc0976246d41a9e6b1f6c7a45a3e2aeaad057911f79f206deb51b7c"
+    },
+    {
+      "path": "学习报告/运行截图/graph1.json",
+      "bytes": 528,
+      "sha256": "64e5d132fe5c1ac1546629d9b7f24f3464790ed834e626c2ca43dbac67828d01"
+    },
+    {
+      "path": "学习报告/运行截图/graph1.png",
+      "bytes": 20223,
+      "sha256": "10a2b6c22e5414944d553e7cbfa32089ce0b04ac79705f6f7ae5f2e077adcbce"
+    },
+    {
+      "path": "学习报告/运行截图/graph1.txt",
+      "bytes": 856,
+      "sha256": "b52a94f3eb68e375aae0fe7a30aa165fea6c8406eecdf6fc137ea9478bd74631"
+    },
+    {
+      "path": "学习报告/运行截图/graph2.json",
+      "bytes": 528,
+      "sha256": "d9022b2e10e53851c675a603fe5b0b262c726d065b995acad1748deaf7fc439d"
+    },
+    {
+      "path": "学习报告/运行截图/graph2.png",
+      "bytes": 21400,
+      "sha256": "76dc310c3890cc46ad570e7fb4ddc9fc26124c20fe7aae9a02e3eaacb085ddff"
+    },
+    {
+      "path": "学习报告/运行截图/graph2.txt",
+      "bytes": 924,
+      "sha256": "e26fec270d8514237c796e4aed274e4ae81e7c7b92ec730698c2c42bd8081dbf"
+    },
+    {
+      "path": "学习报告/运行截图/graph3.json",
+      "bytes": 528,
+      "sha256": "46506ad67d9ac69e939ae179f77e569b4926b9f5861e9fc6206fedb0add6831b"
+    },
+    {
+      "path": "学习报告/运行截图/graph3.png",
+      "bytes": 35640,
+      "sha256": "f77a2b50dbdf0de766178e5708c575f1a2b63cab5fa002523867dd143753df8f"
+    },
+    {
+      "path": "学习报告/运行截图/graph3.txt",
+      "bytes": 1288,
+      "sha256": "a6405912ad71442beec10d58596ba15991939bbbd2f8c93a353209fce73d9216"
+    },
+    {
+      "path": "学习报告/运行截图/graph4.json",
+      "bytes": 528,
+      "sha256": "02830c51fe9ecd50e842b1389f23eed279313d47589ee772cad89f73b1da8183"
+    },
+    {
+      "path": "学习报告/运行截图/graph4.png",
+      "bytes": 19205,
+      "sha256": "ad5a0ff7dc128fdce8321ac3a32a912766e17e5f8ae1f05431b09dc61119c25a"
+    },
+    {
+      "path": "学习报告/运行截图/graph4.txt",
+      "bytes": 840,
+      "sha256": "71c91e58bb06029efc01cee3c374b443de17ac3565255d8c1f65e56261c5b368"
+    },
+    {
+      "path": "学习报告/运行截图/nlp1.json",
+      "bytes": 524,
+      "sha256": "fb0aa0cbf36df9030171c2e660fd63b42c2cf62c659c2e1c19e84314734459ef"
+    },
+    {
+      "path": "学习报告/运行截图/nlp1.png",
+      "bytes": 36788,
+      "sha256": "2880f3598cb876a65af3c1d2966aca710c4a2f765c79652839529544b2035cc2"
+    },
+    {
+      "path": "学习报告/运行截图/nlp1.txt",
+      "bytes": 702,
+      "sha256": "3d0edbb1f15e1a69f9bbd164c9dd02f2c1df015a64305e9b70cb30c221d5edd4"
+    },
+    {
+      "path": "学习报告/运行截图/nlp2.json",
+      "bytes": 524,
+      "sha256": "3c7fd812c1e54e8e05bb31e62792e6a3de1b22f1c52d3f4973e28ebafcdce92f"
+    },
+    {
+      "path": "学习报告/运行截图/nlp2.png",
+      "bytes": 23809,
+      "sha256": "1293b1c44a34df70e2430d8e6af0cff4b7fcc77fca6e0dcb81b1b0b99bbb17f1"
+    },
+    {
+      "path": "学习报告/运行截图/nlp2.txt",
+      "bytes": 383,
+      "sha256": "51c7a850f27c26f778c1f7000d10f3e801afd0f8ddd5ca82a51b44c165e4df92"
+    },
+    {
+      "path": "学习报告/运行截图/nlp3.json",
+      "bytes": 524,
+      "sha256": "bf2dad713d6592055da483067ac5ea0fd4b6156d60775663e277a1b4027e07da"
+    },
+    {
+      "path": "学习报告/运行截图/nlp3.png",
+      "bytes": 25692,
+      "sha256": "46a7a36967315b12c31d679bea8ff667ed486c2113feed8aef5a645c5e0ac4b4"
+    },
+    {
+      "path": "学习报告/运行截图/nlp3.txt",
+      "bytes": 444,
+      "sha256": "b877500c304e04e7a6ef122ebab95fbb29690b5a1dc3758e51d3d0e6c768fd55"
+    },
+    {
+      "path": "学习报告/运行截图/nlp4.json",
+      "bytes": 524,
+      "sha256": "cb8de844eef41be23939e5d0a5ea0b8859401fd6817aacef3b9c6aac96c87460"
+    },
+    {
+      "path": "学习报告/运行截图/nlp4.png",
+      "bytes": 19551,
+      "sha256": "c9041b5372bee5722abc26a9bd158dbf448eca5e7ee236e29cfc5ba4bd32c822"
+    },
+    {
+      "path": "学习报告/运行截图/nlp4.txt",
+      "bytes": 771,
+      "sha256": "8ec51d0a9d622a26472811daa12503730537c7ee7885aac8363196bd0b9611b9"
+    },
+    {
+      "path": "学习报告/运行截图/nlp5.json",
+      "bytes": 524,
+      "sha256": "830cf367f2a980a727d1165db34bc91228b5bfc1426d05eb2acdbded7d43f4d8"
+    },
+    {
+      "path": "学习报告/运行截图/nlp5.png",
+      "bytes": 23456,
+      "sha256": "09fd63aa4718b66cb1eba29ceba704df3733d845638e33ac146af6f35bb53bb9"
+    },
+    {
+      "path": "学习报告/运行截图/nlp5.txt",
+      "bytes": 352,
+      "sha256": "efcce0a7bf917c47f2212dab9e0fc2aca435bb4e33fe55d8de90d5ab2f95c8fb"
+    },
+    {
+      "path": "学习报告/运行截图/plm-bert.json",
+      "bytes": 532,
+      "sha256": "e97b467beb8c784f0c1dbaf18462023ef3513a8d10c901da49aec52b0ad9ac9b"
+    },
+    {
+      "path": "学习报告/运行截图/plm-bert.png",
+      "bytes": 33564,
+      "sha256": "60fcd9c6a308a19d8d756505e1ec04c809be1ec48de73f75b3c23481e29df3a4"
+    },
+    {
+      "path": "学习报告/运行截图/plm-bert.txt",
+      "bytes": 1482,
+      "sha256": "ce06156fa880d0a4939566cd0ea9d8f60948262b290fcd71f17c81c4fa105d4e"
+    },
+    {
+      "path": "学习报告/运行截图/plm-cpt.json",
+      "bytes": 530,
+      "sha256": "e74b4a8de2fe09f40a0dc19b4c418190c15c93dc5cfd09c1c4baa2a24ef5e4c9"
+    },
+    {
+      "path": "学习报告/运行截图/plm-cpt.png",
+      "bytes": 29761,
+      "sha256": "c10eec6b54100d3681be671f281d595e4b7a5ea22727fe2e3ae04ef7d83119d0"
+    },
+    {
+      "path": "学习报告/运行截图/plm-cpt.txt",
+      "bytes": 507,
+      "sha256": "2453f4e69c34cb02bd19668a221a9b2d1d5fbd1aa5404f2a2b05cbb2e299b56c"
+    },
+    {
+      "path": "学习报告/运行截图/plm-filling.json",
+      "bytes": 538,
+      "sha256": "88c069c8f933ac3eb914028fec013f03589daf0b4dd8aba674899eea8b4a6744"
+    },
+    {
+      "path": "学习报告/运行截图/plm-filling.png",
+      "bytes": 21017,
+      "sha256": "1086a23e1cae79ea3f5b90b71b050e62663f646cec4208d7688dc42ee87b62c8"
+    },
+    {
+      "path": "学习报告/运行截图/plm-filling.txt",
+      "bytes": 300,
+      "sha256": "2533a95060f13bf639472566c4e169f1341054d7dd2218eb1ef4d7a7c06318c2"
+    },
+    {
+      "path": "学习报告/运行截图/plm-mbti.json",
+      "bytes": 532,
+      "sha256": "76ba088781c0642a63f53aca532b61a4c532149856b5d1fa5bc00e7776c6cc16"
+    },
+    {
+      "path": "学习报告/运行截图/plm-mbti.png",
+      "bytes": 23604,
+      "sha256": "1aeebfeccac5a6bcda7f6973eb98dc60f1ba64c8de31e3fa5c44abe522023327"
+    },
+    {
+      "path": "学习报告/运行截图/plm-mbti.txt",
+      "bytes": 369,
+      "sha256": "636087317c7dc7a0b3359631c1e8b5db5537f3fd319855ba5c6a75cc2297b105"
+    },
+    {
+      "path": "学习报告/运行截图/plm-ppo.json",
+      "bytes": 530,
+      "sha256": "0c535cb314038837b01eb8aa5fda95ab2537186f9777f3c61e46c75878c01746"
+    },
+    {
+      "path": "学习报告/运行截图/plm-ppo.png",
+      "bytes": 33137,
+      "sha256": "a9adea221af85f888225359d90a343f357d3a0b4ccf86f5ff4095dc5e1866939"
+    },
+    {
+      "path": "学习报告/运行截图/plm-ppo.txt",
+      "bytes": 585,
+      "sha256": "827860408704601f707636e893e5f27bf93d26ccc659327939907b1fb744e43a"
+    },
+    {
+      "path": "学习报告/运行截图/plm-qa.json",
+      "bytes": 528,
+      "sha256": "dcf38b2899a9d5c69d6fcfc69e3bc31dc72bc4d57e6e665a7d280ce5194ad94a"
+    },
+    {
+      "path": "学习报告/运行截图/plm-qa.png",
+      "bytes": 19501,
+      "sha256": "9ade768d381e3432ebdf665274863c6cf9fe646ace4c68eab6e145addc5d3b76"
+    },
+    {
+      "path": "学习报告/运行截图/plm-qa.txt",
+      "bytes": 270,
+      "sha256": "c9832a7451242e8a6624b732ec27d3113850d2d63950063aaa2d392ed1f11216"
+    },
+    {
+      "path": "学习报告/运行截图/plm-reward.json",
+      "bytes": 536,
+      "sha256": "5297463621157e2e321150d6cb5e0bb4c866527e1973a0974ed4b0e7cbb42579"
+    },
+    {
+      "path": "学习报告/运行截图/plm-reward.png",
+      "bytes": 29303,
+      "sha256": "995abe860533fdd22d74da9a0cd34c1a0b8a485527a05cf3b1063d0b1aed1e6c"
+    },
+    {
+      "path": "学习报告/运行截图/plm-reward.txt",
+      "bytes": 487,
+      "sha256": "70846bcaa5131b21132252a9d0bf315dad311ade6d76dfcd2b9c4e310e81676b"
+    },
+    {
+      "path": "学习报告/运行截图/plm-scratch-sft.json",
+      "bytes": 546,
+      "sha256": "2c3db986868c5b7e0a454df1d0142d5e7d355f32c6fa52752d61a00e7e717737"
+    },
+    {
+      "path": "学习报告/运行截图/plm-scratch-sft.png",
+      "bytes": 17911,
+      "sha256": "97f93b6d81d81921ca520b7cede8ddc8416a0a671eb56f9f58a4ac140ee20004"
+    },
+    {
+      "path": "学习报告/运行截图/plm-scratch-sft.txt",
+      "bytes": 229,
+      "sha256": "7ae8add9e9a1214bf77464e16e931d351671bbb89d6e4d0919a562c90ed15e29"
+    },
+    {
+      "path": "学习报告/运行截图/plm-scratch.json",
+      "bytes": 538,
+      "sha256": "4d8c038454f9770d9c1b368b8b93f8481f501ca8c04e08f9dd53460e32e51a33"
+    },
+    {
+      "path": "学习报告/运行截图/plm-scratch.png",
+      "bytes": 19815,
+      "sha256": "30f62dba9437c63a393640aeb2d73ac101c7f7527269e90dfe1089c58062bbe6"
+    },
+    {
+      "path": "学习报告/运行截图/plm-scratch.txt",
+      "bytes": 362,
+      "sha256": "b835e5ffd04b1635435e581bb11d48b4ee01916ef20101fecbfb03f03a8156be"
+    },
+    {
+      "path": "学习报告/运行截图/plm-sft.json",
+      "bytes": 530,
+      "sha256": "161ce3f09c6421fd19e33688b4f50000e304d1ed4458598acc0f47e4b371b599"
+    },
+    {
+      "path": "学习报告/运行截图/plm-sft.png",
+      "bytes": 27818,
+      "sha256": "be5c6286348a5ebe8ccca5b055f0e67fc4ef696e2ba04b3b4e5023e892b8a6e4"
+    },
+    {
+      "path": "学习报告/运行截图/plm-sft.txt",
+      "bytes": 453,
+      "sha256": "3bd073df70c46f2dc4e1a4d35c81a5132517d76ae79f0839e86b7384b9edefec"
+    },
+    {
+      "path": "学习报告/运行截图/plm-tools.json",
+      "bytes": 448,
+      "sha256": "a3635e40f0454905f529a0c59141aa26ddf9ebc68698983a9d9c4967baa445ec"
+    },
+    {
+      "path": "学习报告/运行截图/plm-tools.png",
+      "bytes": 47955,
+      "sha256": "a59a99d75b3bfbca18fa04aee20a927761c94a08c8702ebef13774e1436c1f34"
+    },
+    {
+      "path": "学习报告/运行截图/plm-tools.txt",
+      "bytes": 1184,
+      "sha256": "b582133868b2958ff5e1f5fd400856c030147946f41dfad33a51158d92316dd3"
+    },
+    {
+      "path": "学习报告/运行截图/plm-uie.json",
+      "bytes": 530,
+      "sha256": "dd8c74faf32c3aa22aef40bfc020d729f6adeee503c9d154254ed05d58be4c9d"
+    },
+    {
+      "path": "学习报告/运行截图/plm-uie.png",
+      "bytes": 38121,
+      "sha256": "fd00265b7bcac9abc732f5a11d47f03eaa3676f5f814eb8d4c520115d7f8e7fe"
+    },
+    {
+      "path": "学习报告/运行截图/plm-uie.txt",
+      "bytes": 1834,
+      "sha256": "ac18a8da4e1b64f6630ec077f25abc523ab9297649a94b0384f7aea1674791a7"
+    },
+    {
+      "path": "学习报告/运行截图/plm-zero-shot.json",
+      "bytes": 542,
+      "sha256": "5fe1441b4d471177cabb0802ad8b5c96869c4d3a51c7127243f0f04620ddbf46"
+    },
+    {
+      "path": "学习报告/运行截图/plm-zero-shot.png",
+      "bytes": 54232,
+      "sha256": "cb3a1ad04a986d60c202518d193e4a53d54dbfdf434cd909168d38d245a349e2"
+    },
+    {
+      "path": "学习报告/运行截图/plm-zero-shot.txt",
+      "bytes": 1155,
+      "sha256": "da881bd4a1702049424c40ffb50eabb96264b83d24d18bd8729673eb8e9c6d15"
+    },
+    {
+      "path": "来源版本.json",
+      "bytes": 1990,
+      "sha256": "6e274ac11d33f2132170fd816d568f9363708b351c80030246f14b50966820be"
+    },
+    {
+      "path": "运行记录/additional/bow-logistic.log",
+      "bytes": 2546,
+      "sha256": "261c38302d3284e339fceb067db346f4e77731f0eadc0d006caca5e6902501ba"
+    },
+    {
+      "path": "运行记录/additional/bow-softmax.log",
+      "bytes": 2556,
+      "sha256": "d3662df779fbbe0923d7d0e5b58bca93b300d2a086ae42d15eb8b24617923cd5"
+    },
+    {
+      "path": "运行记录/additional/dssm-grouped.log",
+      "bytes": 3206,
+      "sha256": "95bf01d81880e800b7d3a46f54832cb844140917a313468e8536d737bdb823a6"
+    },
+    {
+      "path": "运行记录/additional/filling.log",
+      "bytes": 446,
+      "sha256": "aeb978d70d0e7837ba2d6e7a15a07509b5a034914ae7aa8db3c034a65886d27c"
+    },
+    {
+      "path": "运行记录/additional/glove-cnn.log",
+      "bytes": 1081,
+      "sha256": "b58ea1ddaf051a58beb130e15c362371953784de4f71e37bf6c81aeb010aa03e"
+    },
+    {
+      "path": "运行记录/additional/glove-rnn.log",
+      "bytes": 1078,
+      "sha256": "12d6eed692cd78a70ff9a38b4802e16c67f90c29717be9ca436dec3905e86f0e"
+    },
+    {
+      "path": "运行记录/additional/pointwise-grouped.log",
+      "bytes": 3189,
+      "sha256": "e8af05c178bd3084c66a199af29f5a96d4f1ad05e68e8231f7e3408f9e048278"
+    },
+    {
+      "path": "运行记录/additional/ppo-categorical.log",
+      "bytes": 2062,
+      "sha256": "61f5c7becfd60601673c412b3b307a00ba59bc22f9c943bd6752ac6029cf0e36"
+    },
+    {
+      "path": "运行记录/additional/sbert-grouped.log",
+      "bytes": 3205,
+      "sha256": "d80ed4fa9b796bb9348dae33071ae07f51c20d82e3232ac831d8825b90a2e56d"
+    },
+    {
+      "path": "运行记录/additional/t5-filling-v2.log",
+      "bytes": 990,
+      "sha256": "7e61624a7e4c0391d94cf26a125965fbc67a1c64ba3f22470acbbea979ab90cf"
+    },
+    {
+      "path": "运行记录/additional/t5-qa-v2.log",
+      "bytes": 884,
+      "sha256": "37454dc32e88c717f2925218d8ccddfee658d530484a68ed15cd32030aad4cdf"
+    },
+    {
+      "path": "运行记录/additional/uie-negative-v3.log",
+      "bytes": 3391,
+      "sha256": "59e51b37467e2835e62fda6ff9d9f2391cb013bad57612de7c208567a74d77ab"
+    },
+    {
+      "path": "运行记录/additional/uie-none-v3.log",
+      "bytes": 3059,
+      "sha256": "547c675fbe60723ee41302117db14aef22acab9c864acfde0e15e9f478d0bed8"
+    },
+    {
+      "path": "运行记录/additional/uie-swap-v3.log",
+      "bytes": 3015,
+      "sha256": "278dafa32f234ee4a149df929ff99aba0fb68f03eec49c8b55a905103f83a34c"
+    },
+    {
+      "path": "运行记录/additional/zero-shot-semantic.log",
+      "bytes": 465,
+      "sha256": "90409567c8b8856ddc8407f86c355415a1e5d7ff54a8a281b7aad4cae2d7a480"
+    },
+    {
+      "path": "运行记录/final-submission/algorithm-check.txt",
+      "bytes": 205,
+      "sha256": "4e8bbcf8a2b5663eb9dacccf63fa1cc257df21862b5b73d901751a165e416b60"
+    },
+    {
+      "path": "运行记录/final-submission/final-progress-log.txt",
+      "bytes": 85,
+      "sha256": "8b6ea726ca6c8c18449a60a6479fd4650d69205a0e3ad4e94f036e8515a98a8f"
+    },
+    {
+      "path": "运行记录/final-submission/generation-lengths.txt",
+      "bytes": 363,
+      "sha256": "9966f65384d32677cec4df7145fa6fce437d5376a18b4d811a1d4f24b9b38192"
+    },
+    {
+      "path": "运行记录/final-submission/history.jsonl",
+      "bytes": 2049,
+      "sha256": "0750a53affe4872461b2f22d0b32cefe3fd07be5f476410cde0877fec3bdbd52"
+    },
+    {
+      "path": "运行记录/final-submission/kge-ranking.txt",
+      "bytes": 266,
+      "sha256": "e4350a0bbebafc63a2ec278af924bfdcd514d48060e1ab4887af002e6024f3a0"
+    },
+    {
+      "path": "运行记录/final-submission/learning-notes.txt",
+      "bytes": 24,
+      "sha256": "2b2d893b300ebe6f0b54b322bf5fa1b8d099d64a94e417af433016617a67eafb"
+    },
+    {
+      "path": "运行记录/final-submission/local-tool-check.txt",
+      "bytes": 55,
+      "sha256": "49d1339960a320942a7bb85a1b8514a50400d07f662099b5fb9dbea85661a52d"
+    },
+    {
+      "path": "运行记录/final-submission/nlp-diagnostics.txt",
+      "bytes": 91,
+      "sha256": "e0e4533e995de1df59a2cf708ac8ba573f817f8548777c8f649350ee66a1c28d"
+    },
+    {
+      "path": "运行记录/final-submission/ppo-math.txt",
+      "bytes": 203,
+      "sha256": "070442ad9289b82c14352b61ba501c36a5dc8f5ab7fc434225768e03b045dbaa"
+    },
+    {
+      "path": "运行记录/final-submission/publish-tree.txt",
+      "bytes": 105,
+      "sha256": "37bdd4ed8079077dfcf2db4a94b94190dcb87abf6ed0a3e55d8f7ca08abedc22"
+    },
+    {
+      "path": "运行记录/final-submission/raw-screenshots.txt",
+      "bytes": 472,
+      "sha256": "6986c8f7fb38ba61af5967dc3bfd0ab1d136153040f6f1eb07c8707cfda54a04"
+    },
+    {
+      "path": "运行记录/final-submission/reports.txt",
+      "bytes": 398,
+      "sha256": "78fd5da7a788c27a01bcbeefc76115d0f6e09113933f5e22111752ba9daaed69"
+    },
+    {
+      "path": "运行记录/final-submission/source-manifest.txt",
+      "bytes": 20,
+      "sha256": "dcab636830c7dde690fb28ff9988eb3d629368d08080bfd820f435f8513ddac0"
+    },
+    {
+      "path": "运行记录/final-submission/state.json",
+      "bytes": 185,
+      "sha256": "a23d62d8bd26cc22709deccbff3179fc46d0ff3baaf2540848efc3f315db6d09"
+    },
+    {
+      "path": "运行记录/final-submission/submission-audit.txt",
+      "bytes": 4519,
+      "sha256": "405c115643e444631b67f232181dc60013797cc2fa810c8885a469a26dbb5545"
+    },
+    {
+      "path": "运行记录/final-submission/tool-screenshot.txt",
+      "bytes": 27,
+      "sha256": "183926843b227f7e48a29cadb6e41e3718e9203377c4db4292e3531effa5ff12"
+    },
+    {
+      "path": "运行记录/final-submission/workspace-audit.txt",
+      "bytes": 4088,
+      "sha256": "5a2da1e2b6a95ada27eb552d1822e98aed532296884f9c9523088647c4900513"
+    },
+    {
+      "path": "运行记录/graph-flickr/000.txt",
+      "bytes": 15678,
+      "sha256": "7b660ba309f76a92689e4d006cee5555dd88481a5774ddb62e37e269abe29719"
+    },
+    {
+      "path": "运行记录/graph-flickr/001.txt",
+      "bytes": 15597,
+      "sha256": "23638db30277dd35ff3d526f9e02d3be402ea7ce99e66ddbef4338d96433cf47"
+    },
+    {
+      "path": "运行记录/graph-flickr/002.txt",
+      "bytes": 15599,
+      "sha256": "991fc0ae34c13eb35dcfed87237383c2c8349f97ca2bca4e36c44da133627ce5"
+    },
+    {
+      "path": "运行记录/graph-flickr/003.txt",
+      "bytes": 15571,
+      "sha256": "5d3bc09bced4c43fe429b76b0184a4bb810e8591f448c881822b8e2d73ad15dd"
+    },
+    {
+      "path": "运行记录/graph-flickr/004.txt",
+      "bytes": 15585,
+      "sha256": "577c8ba17ccd0a5c8d271dc6312d6da50d3b3c004d3e6ea21c79d22df4b9f684"
+    },
+    {
+      "path": "运行记录/graph-flickr/005.txt",
+      "bytes": 15571,
+      "sha256": "910d1fe81a393d4986516bc2125ac8411cb816fb00bad0667ff6ca48202a4790"
+    },
+    {
+      "path": "运行记录/graph-flickr/006.txt",
+      "bytes": 15606,
+      "sha256": "6088ae95e454fafe97e7d5bd3dfbb5f34999517db1702d776571f97a0273e2a6"
+    },
+    {
+      "path": "运行记录/graph-flickr/007.txt",
+      "bytes": 15563,
+      "sha256": "d4657f774b7ec92cc81289bd5d2c3c0c03c325a00cb11951e7d9cac2e1003b66"
+    },
+    {
+      "path": "运行记录/graph-flickr/008.txt",
+      "bytes": 9393,
+      "sha256": "5a110259596f5c9804089bf02f5d808583bfc9f3a84fb3a42cf91b26f17fbf9f"
+    },
+    {
+      "path": "运行记录/graph-flickr/009.txt",
+      "bytes": 9326,
+      "sha256": "1d1505798cd6c3ed8a1aab5959d4ba6ba49108ed851bce55cf43903e3748c716"
+    },
+    {
+      "path": "运行记录/graph-flickr/010.txt",
+      "bytes": 9408,
+      "sha256": "c6e8663d66c30ef81b99a0b2cefb3fb81f6acdce5a0bf435bc71db80d2f0f4c0"
+    },
+    {
+      "path": "运行记录/graph-flickr/011.txt",
+      "bytes": 9335,
+      "sha256": "7d077485c29f79d43a0e68de284bf56d675c886af4ea441e70a6926e51bd3d49"
+    },
+    {
+      "path": "运行记录/graph-flickr/012.txt",
+      "bytes": 8089,
+      "sha256": "e35b10bc3844e0e00200047332dbc52800ffbd05d294167855d68d07001deb2f"
+    },
+    {
+      "path": "运行记录/graph-flickr/013.txt",
+      "bytes": 9338,
+      "sha256": "c1bc7d0a2027a67fa0865c04d6c6f14004fcd210662cea8fa381ae84a959f9d2"
+    },
+    {
+      "path": "运行记录/graph-flickr/014.txt",
+      "bytes": 8183,
+      "sha256": "6bca8c6941237f2ab9dbc2545ea438a230504002c99ddc5e89da6f3ece852b97"
+    },
+    {
+      "path": "运行记录/graph-flickr/015.txt",
+      "bytes": 9345,
+      "sha256": "7cce44e886dbb1c235873f939c015cc9c550e65d57fdb0c2199e5cd202d69e13"
+    },
+    {
+      "path": "运行记录/graph-flickr/all-complete.json",
+      "bytes": 35,
+      "sha256": "d9991da1c8b22af3287b203ff98b7677da5b8f9f5ba8051567789a6e0abef3c6"
+    },
+    {
+      "path": "运行记录/graph-flickr/runs.json",
+      "bytes": 5943,
+      "sha256": "2ce78b9d10ce181518adcdffd0d7a0a7569162e737c1792ffd81c3f63253ee72"
+    },
+    {
+      "path": "运行记录/graph-small/000.txt",
+      "bytes": 14266,
+      "sha256": "c260cbc43f7c4d51806c8f8bb35aebb5f60c0e5e2869575cbe65e617f7d67d3f"
+    },
+    {
+      "path": "运行记录/graph-small/001.txt",
+      "bytes": 14239,
+      "sha256": "a74d1b3e521b3762091ccb85ab94ad269ce5d3dd5b5156949094d6b166ebafd6"
+    },
+    {
+      "path": "运行记录/graph-small/002.txt",
+      "bytes": 14249,
+      "sha256": "4554b1380be1287cc7248a82196af58dd6858a10f85ae2c3a93901541069cc0a"
+    },
+    {
+      "path": "运行记录/graph-small/003.txt",
+      "bytes": 14163,
+      "sha256": "a822f0878a2b03db42341628b412bfa07cec7411536c9bfeb08590c420f333f8"
+    },
+    {
+      "path": "运行记录/graph-small/004.txt",
+      "bytes": 14312,
+      "sha256": "8d5d826263b6406100f1ea1f48bd9bb6ea4f82ccf53fb2b0c2dc818b653b9e0f"
+    },
+    {
+      "path": "运行记录/graph-small/005.txt",
+      "bytes": 14304,
+      "sha256": "67b4c47dbea45b8d91c4b43f46a6e5b94a00f57b8d655b02155e9a48b5e47a4d"
+    },
+    {
+      "path": "运行记录/graph-small/006.txt",
+      "bytes": 14376,
+      "sha256": "c3c8f972a0115bcbcd86fc2700efb92b8795009859e77146b1aa94a26499fe69"
+    },
+    {
+      "path": "运行记录/graph-small/007.txt",
+      "bytes": 14319,
+      "sha256": "4c47b44f05243072687b7120689e6189e6ed3305ff96d5a8047c1985cb3dfab9"
+    },
+    {
+      "path": "运行记录/graph-small/008.txt",
+      "bytes": 14237,
+      "sha256": "319b7d4f8aa0c851f3b1e7a625b0686a825c69160c2d802122a8df4433004302"
+    },
+    {
+      "path": "运行记录/graph-small/009.txt",
+      "bytes": 14220,
+      "sha256": "bd3e7778e7fb30074f6f8134cbaf553978939d369e0b412f1855ee2941f45ff0"
+    },
+    {
+      "path": "运行记录/graph-small/010.txt",
+      "bytes": 14231,
+      "sha256": "fd74929f27f5b0241038cd71e4ef392eb487d43478a34735ac302e9cdc43044e"
+    },
+    {
+      "path": "运行记录/graph-small/011.txt",
+      "bytes": 14168,
+      "sha256": "0032ab69882f8ef3d6c620fdc76bfc221e380676588055027de366fe28f370e6"
+    },
+    {
+      "path": "运行记录/graph-small/012.txt",
+      "bytes": 14297,
+      "sha256": "78f38858b926eaba8c356cc471770e3a9e73b0727c6c7cad730220c78fce1dfe"
+    },
+    {
+      "path": "运行记录/graph-small/013.txt",
+      "bytes": 14240,
+      "sha256": "d8ebe806e13d39d6f72c414390a027bdaec43a8c45804c961fcca5600fec62f2"
+    },
+    {
+      "path": "运行记录/graph-small/014.txt",
+      "bytes": 14335,
+      "sha256": "7a1d6dcbccd0c10aef2a8eba281cdd10388f9753e59e9e2d65c6a29a12560f76"
+    },
+    {
+      "path": "运行记录/graph-small/015.txt",
+      "bytes": 14288,
+      "sha256": "a3657f319316d5d74da5d2676601e46b1c8824a08716625bcb3e76a15892171d"
+    },
+    {
+      "path": "运行记录/graph-small/016.txt",
+      "bytes": 9336,
+      "sha256": "6a036e314f02112350baae66e6441fd07910c42f933fe60f3655ea6445812675"
+    },
+    {
+      "path": "运行记录/graph-small/017.txt",
+      "bytes": 9274,
+      "sha256": "8cf6c45c5c9655879fc1be560dfffcf42382d29d0ae259f1679c30d1de66e0db"
+    },
+    {
+      "path": "运行记录/graph-small/018.txt",
+      "bytes": 9333,
+      "sha256": "ade9115a484bf3202e9b8b70104312229713cefe285d11dcb7332b5ab3728a28"
+    },
+    {
+      "path": "运行记录/graph-small/019.txt",
+      "bytes": 9252,
+      "sha256": "72ac19f39a687c49c0bca68832da78ecadfee2e71378e00c90c128439b7c7aa6"
+    },
+    {
+      "path": "运行记录/graph-small/020.txt",
+      "bytes": 9357,
+      "sha256": "5add0128b1bf969bf7bc7b56b23131681f89947e32cd6811c33136b8a3c22d2d"
+    },
+    {
+      "path": "运行记录/graph-small/021.txt",
+      "bytes": 9276,
+      "sha256": "e4e9bba03644b52721bb76146368096bc07ff232a2c2c1e264b39af487a0cd89"
+    },
+    {
+      "path": "运行记录/graph-small/022.txt",
+      "bytes": 9364,
+      "sha256": "23c08eed32784ec45569cfc801c0eb56246c7a80f98aed947f1bd9d118d769e5"
+    },
+    {
+      "path": "运行记录/graph-small/023.txt",
+      "bytes": 9253,
+      "sha256": "4fa9487ffdba8fa08d047079a1c8e75dfd100e773ce7189bdd63beb9c9b4cb36"
+    },
+    {
+      "path": "运行记录/graph-small/024.txt",
+      "bytes": 9362,
+      "sha256": "a7eb61a62ec59dba085ca4a79faffdcc629106a800f4a57fc7b44485d0eab2cf"
+    },
+    {
+      "path": "运行记录/graph-small/025.txt",
+      "bytes": 9274,
+      "sha256": "57252c05d271e13f2a100bc87f7347eb60588cef47b1f9e2e1f89db1b1f95a9c"
+    },
+    {
+      "path": "运行记录/graph-small/026.txt",
+      "bytes": 9357,
+      "sha256": "dc2757ad56ebad64ae4ea9d6786cd56d5c1f2033866adc1772602848f2264726"
+    },
+    {
+      "path": "运行记录/graph-small/027.txt",
+      "bytes": 9250,
+      "sha256": "109d2dfb8eb4068c0b528b48c42b1b3bb712d7a4eab71d08ef867ef2f34c43e1"
+    },
+    {
+      "path": "运行记录/graph-small/028.txt",
+      "bytes": 9352,
+      "sha256": "916cd7a1c86b812154f32f5c9820fee7bfb4afad082e61a812ca3d6a9446cd74"
+    },
+    {
+      "path": "运行记录/graph-small/029.txt",
+      "bytes": 9259,
+      "sha256": "be70b772094047b473579ce2b6e8e7bfbdf7a4a85092098cc8feef216cfb2d38"
+    },
+    {
+      "path": "运行记录/graph-small/030.txt",
+      "bytes": 9351,
+      "sha256": "47bb25659a693434750b877e609b09c1c3ecb55a41b44feade72562816fe9d9a"
+    },
+    {
+      "path": "运行记录/graph-small/031.txt",
+      "bytes": 9267,
+      "sha256": "b9d35332cbfdfc52022a82b9ccef5b30c69cd6ad5e94c936149652fcf2c0da6c"
+    },
+    {
+      "path": "运行记录/graph-small/032.txt",
+      "bytes": 14266,
+      "sha256": "0d70d3cfa286ac270789023fb605698b2c84e4fcffd56717a5bca977816b5a51"
+    },
+    {
+      "path": "运行记录/graph-small/033.txt",
+      "bytes": 14305,
+      "sha256": "de5a19ca925d13b15c2ff32a848a58bceb213dd32729af4f48ff1fdf8372a310"
+    },
+    {
+      "path": "运行记录/graph-small/034.txt",
+      "bytes": 14253,
+      "sha256": "e5a7a9876c48f8897609d7e6bde6040813f927a13b68ed32efdacbb1d5688f89"
+    },
+    {
+      "path": "运行记录/graph-small/035.txt",
+      "bytes": 14325,
+      "sha256": "8a0378ac836904a78aa267a20e4bddcde0c4fbfbfc80dd5ce9d13a65c01f564e"
+    },
+    {
+      "path": "运行记录/graph-small/runs.json",
+      "bytes": 13307,
+      "sha256": "089ad2880058daf51e2913307571653c343a02a35d568dc78d3a7d1e693b74d8"
+    },
+    {
+      "path": "运行记录/graph-tu/000.txt",
+      "bytes": 4747,
+      "sha256": "457f902329cba092a60346dd24a42769608a94cdfc56c7dcb809525803600a4f"
+    },
+    {
+      "path": "运行记录/graph-tu/001.txt",
+      "bytes": 4726,
+      "sha256": "43e83fe89f74c5c349776fc93243411bc89b2b96b97c39de1fc731ac0710bd1f"
+    },
+    {
+      "path": "运行记录/graph-tu/002.txt",
+      "bytes": 12305,
+      "sha256": "4c03e35a29783f4d9bbb76c308402747002d689094a11ffa27d9ef9f75dd143f"
+    },
+    {
+      "path": "运行记录/graph-tu/003.txt",
+      "bytes": 12298,
+      "sha256": "6fc3ce054461a5a73ed92b0a04e190af1ba225bef02f3f5164e309f2f964384e"
+    },
+    {
+      "path": "运行记录/graph-tu/004.txt",
+      "bytes": 12307,
+      "sha256": "689e132fb83bb23433ea8cff6e0f5174978c377419e220074da947ed46f0f261"
+    },
+    {
+      "path": "运行记录/graph-tu/005.txt",
+      "bytes": 12301,
+      "sha256": "f6fd2775df9b9201ce355fc4091a8128eaf3ad1665f673cd1fec6e699f3f4e6f"
+    },
+    {
+      "path": "运行记录/graph-tu/006.txt",
+      "bytes": 4763,
+      "sha256": "d3183d4cfdc16a5e0cdb550b444873345a3478efb79797298ced0544383d6a8a"
+    },
+    {
+      "path": "运行记录/graph-tu/007.txt",
+      "bytes": 4728,
+      "sha256": "8ef81440663659c053bfc304eb8fe620477071189aa9e1f283f509e882af8578"
+    },
+    {
+      "path": "运行记录/graph-tu/008.txt",
+      "bytes": 12317,
+      "sha256": "8b17661036d509360bdb90b01eb25e5d30afc80ac1a05e7c1f83e200083ff546"
+    },
+    {
+      "path": "运行记录/graph-tu/009.txt",
+      "bytes": 12295,
+      "sha256": "7a32b77695b7ae7c6280004c959128ebc92114e29f7308beeeb36b524387b893"
+    },
+    {
+      "path": "运行记录/graph-tu/010.txt",
+      "bytes": 12324,
+      "sha256": "138381688410fa7c5bed3198df2a3829b435a9dd2446bb509d8f68cbcd001512"
+    },
+    {
+      "path": "运行记录/graph-tu/011.txt",
+      "bytes": 12287,
+      "sha256": "aa19d7e2fe9e1423dab3b6da7897af9cc55a25e94bd35421ce02c908d69f730a"
+    },
+    {
+      "path": "运行记录/graph-tu/012.txt",
+      "bytes": 4746,
+      "sha256": "1095769ead8fd6412782c81a7fa49bc6350b35c53c1dc42a4eac8b5bfde91115"
+    },
+    {
+      "path": "运行记录/graph-tu/013.txt",
+      "bytes": 4746,
+      "sha256": "de2aa694fe5308c71647c832d605cc5a07c937039eef94dcf0ba7fbe2fb537fe"
+    },
+    {
+      "path": "运行记录/graph-tu/014.txt",
+      "bytes": 12297,
+      "sha256": "22711d3f8a8f14f5f5726a24ec217500e93e10bcba3da7471cb93422fe2e9b2a"
+    },
+    {
+      "path": "运行记录/graph-tu/015.txt",
+      "bytes": 12295,
+      "sha256": "d54ca86c4df08695fa96fe98d3a72480bea5b2a210e4617402eda0f3edf5941d"
+    },
+    {
+      "path": "运行记录/graph-tu/016.txt",
+      "bytes": 12301,
+      "sha256": "cb47c80349cf9c9f6a1ea70b734ae8e4c64a00c138c6d4b0a04b1cacdc3ca264"
+    },
+    {
+      "path": "运行记录/graph-tu/017.txt",
+      "bytes": 12286,
+      "sha256": "3827ff8622be593a16ade8b81ea4870c4e02e7c2f72433cf5678308a8b3d1292"
+    },
+    {
+      "path": "运行记录/graph-tu/018.txt",
+      "bytes": 4746,
+      "sha256": "55b0e9d05cff883e44a3e0c7f414b7e97ead11e22765888da84fd75b60b3cd13"
+    },
+    {
+      "path": "运行记录/graph-tu/019.txt",
+      "bytes": 4736,
+      "sha256": "95911301c34190a923510df2ef1e18500e2d4998a0d8837cb1caf7dba2cad9f5"
+    },
+    {
+      "path": "运行记录/graph-tu/020.txt",
+      "bytes": 12302,
+      "sha256": "8c35ff60ab908298b9f5d6743e0dae40bf9baadd831a1d47bc61f7a93e43fc02"
+    },
+    {
+      "path": "运行记录/graph-tu/021.txt",
+      "bytes": 12294,
+      "sha256": "273dd77cb9ba339a7c6ebcb8120e4b188b66a81c888f209567ac1c2f9681a361"
+    },
+    {
+      "path": "运行记录/graph-tu/022.txt",
+      "bytes": 12305,
+      "sha256": "811d11b944cce89bc04d8e3c4a03acf49b57a61390ab73b19d9c15cdb09d16a5"
+    },
+    {
+      "path": "运行记录/graph-tu/023.txt",
+      "bytes": 12295,
+      "sha256": "3a6c682a0aecf63185fd34852f53c03699d10a7b8ec9c87ba2eb0f4cb93fd870"
+    },
+    {
+      "path": "运行记录/graph-tu/runs.json",
+      "bytes": 9461,
+      "sha256": "ce4377b667243a64c69280bee48e1d967fcc52a09fdbd406f9c6af0fba80357e"
+    },
+    {
+      "path": "运行记录/graph-zinc/000.txt",
+      "bytes": 3604,
+      "sha256": "3251d383a254967835cb6d3d9a9c17142d5d7a80809de9c730af9e2a8f128782"
+    },
+    {
+      "path": "运行记录/graph-zinc/001.txt",
+      "bytes": 3604,
+      "sha256": "5f1598d9cbab60a4814a5ec8a1f921d2213ab3acfee63771bfd0b1e48e76d5b8"
+    },
+    {
+      "path": "运行记录/graph-zinc/002.txt",
+      "bytes": 3863,
+      "sha256": "d1633f141651dc5f5049ef4c3abddaa8341d0162ab1b40ee4ddb671db4395808"
+    },
+    {
+      "path": "运行记录/graph-zinc/003.txt",
+      "bytes": 3837,
+      "sha256": "d5d3465d704b50e38d818b49d81ab0406ec33541bb9b32849e7cd635d4fb181c"
+    },
+    {
+      "path": "运行记录/graph-zinc/004.txt",
+      "bytes": 3860,
+      "sha256": "b04cd7ee9755695d6feff3cb34b22d4563862b60d3e4664f817480a1e02a25e7"
+    },
+    {
+      "path": "运行记录/graph-zinc/005.txt",
+      "bytes": 3848,
+      "sha256": "529893db68f8c6b2d8b7543e57d5c23cf242a3715a9443d44ea3929f6860de06"
+    },
+    {
+      "path": "运行记录/graph-zinc/006.txt",
+      "bytes": 3615,
+      "sha256": "be227da8864321ca1de099b664cdddb7cea1eb22ffccd6d406779d8e261acac3"
+    },
+    {
+      "path": "运行记录/graph-zinc/007.txt",
+      "bytes": 3587,
+      "sha256": "737f33ca4aae0ff07926299d54a41b59e3336ff50805401787a4bfb39f05b292"
+    },
+    {
+      "path": "运行记录/graph-zinc/008.txt",
+      "bytes": 3857,
+      "sha256": "0c74ea0eb19c84028cde49bb70f6ac041fa2b1e7033f005961af76944674f65b"
+    },
+    {
+      "path": "运行记录/graph-zinc/009.txt",
+      "bytes": 3834,
+      "sha256": "597cbc9acd5e49344693b6bf66a8310de49051cd92cf8b5cdeedca4ebd4e47e4"
+    },
+    {
+      "path": "运行记录/graph-zinc/010.txt",
+      "bytes": 3862,
+      "sha256": "853d92c733126bfe36b0792460dc838eb365d58e95e4b0d30b938b38069ef141"
+    },
+    {
+      "path": "运行记录/graph-zinc/011.txt",
+      "bytes": 3833,
+      "sha256": "445c01fb942df8ae34ffd7094e354e2e0a7a4c08bd8515397734ee8c34fd9a98"
+    },
+    {
+      "path": "运行记录/graph-zinc/012.txt",
+      "bytes": 3608,
+      "sha256": "0331a9b4071a2f1ce7ccc687efbea56f1a5da0f657a3423db8d279ce6cc6fbeb"
+    },
+    {
+      "path": "运行记录/graph-zinc/013.txt",
+      "bytes": 3593,
+      "sha256": "ecd04adbfe12e8a64eaae3b0c70ac4dc4596a6c48e1fd64cd91fd9e876a78bcc"
+    },
+    {
+      "path": "运行记录/graph-zinc/014.txt",
+      "bytes": 3861,
+      "sha256": "985e441674982de208d91351a9ddeac25aee99da69dc5200bae81f11c151f89c"
+    },
+    {
+      "path": "运行记录/graph-zinc/015.txt",
+      "bytes": 3852,
+      "sha256": "3ab989ef780fa91f6a00198e2c7d36abe8182e6a655a88f32c64c29be834fbc4"
+    },
+    {
+      "path": "运行记录/graph-zinc/016.txt",
+      "bytes": 3862,
+      "sha256": "e7113c792f8dc8b93c30b4291e2f2e20995060fc71d9e8a2ffa912ff8675cd39"
+    },
+    {
+      "path": "运行记录/graph-zinc/017.txt",
+      "bytes": 3841,
+      "sha256": "7c692b11141df1d347387df5ad640f55f2a1902fff61cac4ed8e268d5c97c0f1"
+    },
+    {
+      "path": "运行记录/graph-zinc/018.txt",
+      "bytes": 3608,
+      "sha256": "b69c265df6d30889c3a9b309906dfcdd7bb073f21aac6f8dbc4a6152ea4a080e"
+    },
+    {
+      "path": "运行记录/graph-zinc/019.txt",
+      "bytes": 3584,
+      "sha256": "9cb45eca58b935b66262653bb58be8919b06677ba87814eedd6fca153e87ed4f"
+    },
+    {
+      "path": "运行记录/graph-zinc/020.txt",
+      "bytes": 3858,
+      "sha256": "cc2f9eb8af3356f8eb72ea6a12598633c686ed9c73056e12a4b687001321261f"
+    },
+    {
+      "path": "运行记录/graph-zinc/021.txt",
+      "bytes": 3838,
+      "sha256": "e97c51848cbd0554b4d304ae142dfede012c4b891949e9ac4c5804a4a3a43f05"
+    },
+    {
+      "path": "运行记录/graph-zinc/022.txt",
+      "bytes": 3861,
+      "sha256": "068b09e98656c2c20d675658471cd5b012f0ce91977946f1606cb776ce392002"
+    },
+    {
+      "path": "运行记录/graph-zinc/023.txt",
+      "bytes": 3841,
+      "sha256": "ff9e26d19149710cfa1c6ba13240460ced389d2397b565e31c874fba9e768474"
+    },
+    {
+      "path": "运行记录/graph-zinc/all-complete.json",
+      "bytes": 35,
+      "sha256": "23d7bde1e1f5fa1de86ef401d5e7de934327d8cf9269c7318b60406310353265"
+    },
+    {
+      "path": "运行记录/graph-zinc/runs.json",
+      "bytes": 9557,
+      "sha256": "6dd6fc6cebee5840f0b6dde293629739971fc56e262ed0eb5e1027ba42b1d9fb"
+    },
+    {
+      "path": "运行记录/kge/000.txt",
+      "bytes": 62440,
+      "sha256": "1e9fe92079a87c054cadaa265ddd7404c443d098711fe4bbb0151663187e8c83"
+    },
+    {
+      "path": "运行记录/kge/001.txt",
+      "bytes": 1334,
+      "sha256": "edd79a21c97a56a70f75065527a18a3b5e080ff78c3cf01934c58868d6bf260d"
+    },
+    {
+      "path": "运行记录/kge/002.txt",
+      "bytes": 1215,
+      "sha256": "588437a37962c3ebe553be1453d475677ddaccc3406d0fedb05461ebbe2f4a47"
+    },
+    {
+      "path": "运行记录/kge/runs.json",
+      "bytes": 995,
+      "sha256": "4f894bfa094265874f39f1623a5d0793227ad01b746bd491e80d063a8961c4d9"
+    },
+    {
+      "path": "运行记录/local_tools_checks.json",
+      "bytes": 4555,
+      "sha256": "700c38edbc00a306028aff0ba27b63f457f586222ade309423d4d2a984212801"
+    },
+    {
+      "path": "运行记录/nlp/000.txt",
+      "bytes": 1819,
+      "sha256": "842ebb739ed4cb2a99cf456cc90695d31111917ac93f6413c37f0d144855399c"
+    },
+    {
+      "path": "运行记录/nlp/001.txt",
+      "bytes": 1822,
+      "sha256": "78ee7b1076856ec1149009a9c5ff44ff9072d87323167523e70ac4a833732c84"
+    },
+    {
+      "path": "运行记录/nlp/002.txt",
+      "bytes": 1824,
+      "sha256": "90827f4221bab29430c4424ec9de13ffdafdebb90792cd29a3ef97af52117467"
+    },
+    {
+      "path": "运行记录/nlp/003.txt",
+      "bytes": 1823,
+      "sha256": "e2d3c49d423a8b0f9f1731da78d9c67ad7f2ada00b05759af7f142745cbb37c8"
+    },
+    {
+      "path": "运行记录/nlp/004.txt",
+      "bytes": 1819,
+      "sha256": "baddbe6173eb5fd6e43a367af7de4961509ddb83d70a4ffd9ab26f60934fac71"
+    },
+    {
+      "path": "运行记录/nlp/005.txt",
+      "bytes": 1817,
+      "sha256": "e9b89ed5f91bcd7439454fea8ee4d77ed6145048d41eda6621587885dc97280f"
+    },
+    {
+      "path": "运行记录/nlp/006.txt",
+      "bytes": 1834,
+      "sha256": "8e5995845804d6ce61e7484165dbc51663644e3376d183e01c8db6056a0621ca"
+    },
+    {
+      "path": "运行记录/nlp/007.txt",
+      "bytes": 1814,
+      "sha256": "4530ef8f24e99a734e102c7bb439ee32958fc4ccf1f34fdd9524f925cf1141ee"
+    },
+    {
+      "path": "运行记录/nlp/008.txt",
+      "bytes": 1818,
+      "sha256": "45c8111ce241f2b06810a58e59872d9c610f94e11b4f8f6b0b62bfd7111e1b29"
+    },
+    {
+      "path": "运行记录/nlp/009.txt",
+      "bytes": 1091,
+      "sha256": "e0ea5ca505da16d263cac812da9dfbdfbd425e5b9b42106e4cb239cd8c1525fa"
+    },
+    {
+      "path": "运行记录/nlp/010.txt",
+      "bytes": 1080,
+      "sha256": "d37328427dbb3a04878476949c93fccff79f6cb563f37b913617b5dc5ad7b530"
+    },
+    {
+      "path": "运行记录/nlp/011.txt",
+      "bytes": 1080,
+      "sha256": "ef9765834f55833b1a120d5cd32234fc2f53b21244d76f22eecdff03de11706c"
+    },
+    {
+      "path": "运行记录/nlp/012.txt",
+      "bytes": 1430,
+      "sha256": "532c90c639a36c688da970bfefe64d8a131fefe209dce537d9ed431d991914c4"
+    },
+    {
+      "path": "运行记录/nlp/runs.json",
+      "bytes": 8120,
+      "sha256": "54333c8e574f6de6fe42600611ab4a763c8c1165efedb409afc24f9ff899b9a8"
+    },
+    {
+      "path": "运行记录/plm/bert-00.txt",
+      "bytes": 5946,
+      "sha256": "344714a0e207ffd5cf4cff795ba7239cb488df1b7b96fe207ea6891a40f3d4c6"
+    },
+    {
+      "path": "运行记录/plm/bert-01.txt",
+      "bytes": 5945,
+      "sha256": "b65ca5af938b00a722e270bff31dea59208dad025858f17f6da2bc22ae98fb56"
+    },
+    {
+      "path": "运行记录/plm/bert-02.txt",
+      "bytes": 5972,
+      "sha256": "f062242c2770de19fc19705b008445accae73b29526919bc544fc298016f20bb"
+    },
+    {
+      "path": "运行记录/plm/bert-03.txt",
+      "bytes": 1669,
+      "sha256": "767a867af8fad355bc6884593c9a3e52f9c29f73e1d53e09277510a27186d443"
+    },
+    {
+      "path": "运行记录/plm/bert-04.txt",
+      "bytes": 1669,
+      "sha256": "767a867af8fad355bc6884593c9a3e52f9c29f73e1d53e09277510a27186d443"
+    },
+    {
+      "path": "运行记录/plm/bert-05.txt",
+      "bytes": 3056,
+      "sha256": "4d22d76908f48997055c64204d84eb6b6fae36f4badadccce17f2dd548dcf570"
+    },
+    {
+      "path": "运行记录/plm/bert-06.txt",
+      "bytes": 2950,
+      "sha256": "0114f238788cab6bec46000f5a1bd19390c46fd8dc645401a63befa33f67129d"
+    },
+    {
+      "path": "运行记录/plm/bert-07.txt",
+      "bytes": 3009,
+      "sha256": "78c7f94f3b3f0ebd6178fe539101fb615419f2058603b873487b0ad11dbe4f46"
+    },
+    {
+      "path": "运行记录/ppo_math_checks.json",
+      "bytes": 235,
+      "sha256": "f0715c5e3d6327f8654228ffe27fe529f2ec18893a00eedadd23946601ff327d"
+    },
+    {
+      "path": "运行记录/quality/000.txt",
+      "bytes": 1815,
+      "sha256": "2074fd38fca74365830ca5baf18b04df0f478028e94306f9e837434d13f3bcde"
+    },
+    {
+      "path": "运行记录/quality/001.txt",
+      "bytes": 1814,
+      "sha256": "ff4f960774b234c79bbae088964aac6d19afd32dec8e2d4b5b55c8a2c34ac6f7"
+    },
+    {
+      "path": "运行记录/quality/002.txt",
+      "bytes": 1813,
+      "sha256": "75ff225ecd3d2ef1cb11dbf71d1ac73e34009c282f66f366b1c287660d6aad58"
+    },
+    {
+      "path": "运行记录/quality/003.txt",
+      "bytes": 1818,
+      "sha256": "faa51b4f8de5e787bf39296848fe0dcc86735d36f659aa2a5642a158e758a3f2"
+    },
+    {
+      "path": "运行记录/quality/004.txt",
+      "bytes": 1820,
+      "sha256": "155aa5b29a94b546455a8cbb1a89615b9ffe92bce719724dd6717e6e376ae894"
+    },
+    {
+      "path": "运行记录/quality/005.txt",
+      "bytes": 1819,
+      "sha256": "59e16e29d73cb7aaebf3b940ece11bccfaffcab6dba7029fcfe3552dde6e7fc8"
+    },
+    {
+      "path": "运行记录/quality/006.txt",
+      "bytes": 1817,
+      "sha256": "91a1c4d6faf55ecc886170c007933398045a18f4838d5c046f07426469bb48a2"
+    },
+    {
+      "path": "运行记录/quality/007.txt",
+      "bytes": 1818,
+      "sha256": "e54bcbfac9d1ea0f8ad25b24750ffeb725bd9eb561dd37eae38fc0ec0864739b"
+    },
+    {
+      "path": "运行记录/quality/008.txt",
+      "bytes": 1815,
+      "sha256": "f1cbd8b141fb4bb380d2258447c56d5abc6763648eb159ac9a0a97a19b30aad1"
+    },
+    {
+      "path": "运行记录/quality/009.txt",
+      "bytes": 2547,
+      "sha256": "2d9eadc8e7e22514bbf90c6b8759cf7603c1b97f48f624c54972736ce7bd3c13"
+    },
+    {
+      "path": "运行记录/quality/010.txt",
+      "bytes": 2549,
+      "sha256": "f3c8da62a461caf8339bfb002be4773c5d4b19b3246b1f3f418e4a0d8f60d8b5"
+    },
+    {
+      "path": "运行记录/quality/011.txt",
+      "bytes": 1089,
+      "sha256": "5225e87fa3aac239bf63c13f68bacf10da19247b60c54f5606bfa5be6c1a478a"
+    },
+    {
+      "path": "运行记录/quality/012.txt",
+      "bytes": 1084,
+      "sha256": "c368ff5cd0adab97204fc61a3735c8c8d755305702a28bb48165c63c3bfed68f"
+    },
+    {
+      "path": "运行记录/quality/013.txt",
+      "bytes": 1087,
+      "sha256": "714b4d2de4771f89fda9d085b60726815fce96c7d357ee9ac852286430522e5e"
+    },
+    {
+      "path": "运行记录/quality/014.txt",
+      "bytes": 1086,
+      "sha256": "5ad2332f4d76b787a4fc5360802636b3efb6a8c8f7c9ea752d01429a851ecc74"
+    },
+    {
+      "path": "运行记录/quality/015.txt",
+      "bytes": 1083,
+      "sha256": "ac5efb1cf4d3e3f114d7c713b9b06a47a38dc13be3dab650c8835f9096e07008"
+    },
+    {
+      "path": "运行记录/quality/016.txt",
+      "bytes": 1339,
+      "sha256": "a0d0f966edc243972cd48907e4a26862ce5f61350a3ec7718090690b1f10f69a"
+    },
+    {
+      "path": "运行记录/quality/017.txt",
+      "bytes": 3061,
+      "sha256": "94d4184936a93b05d064500ef7a6302e4d31b7fa753842910a58ad74851e1981"
+    },
+    {
+      "path": "运行记录/quality/018.txt",
+      "bytes": 14276,
+      "sha256": "fa43ea25f81efcbe8f8c76b2a3d650dba83e51b789d8b45e823f876cc3620198"
+    },
+    {
+      "path": "运行记录/quality/019.txt",
+      "bytes": 14281,
+      "sha256": "a45370bffa99758f7892a6b4b9f1cd0ce88990333e3c569bcd3cf8d202ed8dcf"
+    },
+    {
+      "path": "运行记录/quality/020.txt",
+      "bytes": 14253,
+      "sha256": "dedcbff2b415411f8fe11c6937f87063d962cd7f4461188c844156db8c02ee07"
+    },
+    {
+      "path": "运行记录/quality/021.txt",
+      "bytes": 14177,
+      "sha256": "42486418c2a16a6f930bedd64fa11c74da06c26cf0c367ead5e901e7f828652f"
+    },
+    {
+      "path": "运行记录/quality/022.txt",
+      "bytes": 14330,
+      "sha256": "053f563463c76f1e37f51da2f9f798916c409b6ac000d4f7d2533e8687893394"
+    },
+    {
+      "path": "运行记录/quality/023.txt",
+      "bytes": 14304,
+      "sha256": "f3db07a0fb0410aa4bc9a3f764d7ff560a3de6373f2ec4254723ac66264a1a9d"
+    },
+    {
+      "path": "运行记录/quality/024.txt",
+      "bytes": 14379,
+      "sha256": "9cbde808f8ab26c42ba737ab7120ffe9e796a489b68c13d34a5d0f42c5e3fd00"
+    },
+    {
+      "path": "运行记录/quality/025.txt",
+      "bytes": 14326,
+      "sha256": "9c29aaeaf1cf56e2bda19a3aa53ca7faa498022c02346e0d8cfe9d0923c357af"
+    },
+    {
+      "path": "运行记录/quality/026.txt",
+      "bytes": 14254,
+      "sha256": "384c05ebcd2b52c7a966228a91e35496fd0dbf6dc025fa2162581093571f1294"
+    },
+    {
+      "path": "运行记录/quality/027.txt",
+      "bytes": 14229,
+      "sha256": "9b396b0864469f024408e8e99c868da68e53c980cae31200fb97b5c95032d1b5"
+    },
+    {
+      "path": "运行记录/quality/028.txt",
+      "bytes": 14239,
+      "sha256": "33b57a5376ce1e7d46916235e82551a5080b27e80eeb39f91a745c9da6d4e9b6"
+    },
+    {
+      "path": "运行记录/quality/029.txt",
+      "bytes": 14191,
+      "sha256": "4f87f0d097c027b33c1a356224f5a27f74b7d9ce629810a8121a423b5728cae3"
+    },
+    {
+      "path": "运行记录/quality/030.txt",
+      "bytes": 14321,
+      "sha256": "001470fe980c83b461a82cd500fe3e76c6b4013bd4b2fa0e243296a89a4940b0"
+    },
+    {
+      "path": "运行记录/quality/031.txt",
+      "bytes": 14274,
+      "sha256": "ed5a8d2db0159198bf1e28d48dabb458b5aeb0f5ad0545580c5397f9a47f76b9"
+    },
+    {
+      "path": "运行记录/quality/032.txt",
+      "bytes": 14363,
+      "sha256": "49a6eddc6237fab3719dc8ad04dc4dd6481a11f1e95c71949135116d56fdb3d1"
+    },
+    {
+      "path": "运行记录/quality/033.txt",
+      "bytes": 14310,
+      "sha256": "5eaea0ca810f7ab23a0e3c0db188e94cfb26a8517b8ee3c71163e6f9c82a3d6d"
+    },
+    {
+      "path": "运行记录/quality/034.txt",
+      "bytes": 15678,
+      "sha256": "297571058ccc59bf2f596802ac2e27e8339e0b4f663cdb5b27bb8474ada4a62a"
+    },
+    {
+      "path": "运行记录/quality/035.txt",
+      "bytes": 15612,
+      "sha256": "783a61b244dcaa0f8a164edbb92746c5f96fa483ff29fec1d97e3dad715fe468"
+    },
+    {
+      "path": "运行记录/quality/036.txt",
+      "bytes": 15578,
+      "sha256": "a518c321767e9bb4b21212eb07f3e97a0e3df776fa5b3631253803df8d29e221"
+    },
+    {
+      "path": "运行记录/quality/037.txt",
+      "bytes": 15579,
+      "sha256": "ef8d79656887b68e5199e0cc577349294293e21794a294710738437e01dc33a2"
+    },
+    {
+      "path": "运行记录/quality/038.txt",
+      "bytes": 15589,
+      "sha256": "1ea264c81923115cf16849129d29af378f71e4f6fbe6cba07d66559eb19ee434"
+    },
+    {
+      "path": "运行记录/quality/039.txt",
+      "bytes": 15575,
+      "sha256": "7df37ed250fb5b11e5ca9f655729046a480f3fd4a9055682c28cb2128d83d1a2"
+    },
+    {
+      "path": "运行记录/quality/040.txt",
+      "bytes": 15600,
+      "sha256": "03729ffc41f949c26d3d8778fb783bce1d50b05b9ac945c25c939b70cf736b7f"
+    },
+    {
+      "path": "运行记录/quality/041.txt",
+      "bytes": 15574,
+      "sha256": "847a0b158be605a6abc66d6b606bbfd3938d06872adba89ce15aad7f92fe3762"
+    },
+    {
+      "path": "运行记录/quality/042.txt",
+      "bytes": 9347,
+      "sha256": "a3770cc4c00f29997d536282e339b1880de167c8f336360ed4985fb41e977734"
+    },
+    {
+      "path": "运行记录/quality/043.txt",
+      "bytes": 9276,
+      "sha256": "3985c0f498914b78eb185f683ecda81028b1144633c7b51a61e55cb156079869"
+    },
+    {
+      "path": "运行记录/quality/044.txt",
+      "bytes": 9338,
+      "sha256": "b781c33f8f3a5ca625c973f017c2499820e6499f8901d512087a40306f8d67e4"
+    },
+    {
+      "path": "运行记录/quality/045.txt",
+      "bytes": 9256,
+      "sha256": "8ea0950eeadd98d176a03b5402425041d9a777be272703efb4722b6c9c3ba0f7"
+    },
+    {
+      "path": "运行记录/quality/046.txt",
+      "bytes": 9369,
+      "sha256": "2d8a09fc06914b9ab7be53ced0fc30c57a1bed0eae2fcd0d303d960fa4b01a61"
+    },
+    {
+      "path": "运行记录/quality/047.txt",
+      "bytes": 9289,
+      "sha256": "bab24ac398e884fa382dd2cac6f98a9ca0eb3cd7e080cbb056c7119c15c244a7"
+    },
+    {
+      "path": "运行记录/quality/048.txt",
+      "bytes": 9353,
+      "sha256": "763e7c7cf2357cc61dbe9aa6fe18846d54cbd5c6827cef845aaf454d2b63efaf"
+    },
+    {
+      "path": "运行记录/quality/049.txt",
+      "bytes": 9268,
+      "sha256": "41c355f836bf984fee008ce48f4cee10e7bbc4dda01703df7c50ba2bd63009b4"
+    },
+    {
+      "path": "运行记录/quality/050.txt",
+      "bytes": 9367,
+      "sha256": "db1025dc7c3297543af31f745e0f057f1fdf075f4816707c8e88f5025519dc81"
+    },
+    {
+      "path": "运行记录/quality/051.txt",
+      "bytes": 9286,
+      "sha256": "0b5987ab93aee77d2a06a66a231bbb1147756898abe5d24e934d2a0cdd833ddc"
+    },
+    {
+      "path": "运行记录/quality/052.txt",
+      "bytes": 9352,
+      "sha256": "1f159ec627e9a110b3b1b4d1d17fea77a21e275182fd927943b4f3da6396ce06"
+    },
+    {
+      "path": "运行记录/quality/053.txt",
+      "bytes": 9257,
+      "sha256": "316789acb2614d09a396a4c228dbb4d8cd566f8c8f3da8bc42c0e9cd05cdd7f4"
+    },
+    {
+      "path": "运行记录/quality/054.txt",
+      "bytes": 9355,
+      "sha256": "4511ed78337dd841c17dcd13822e1628f894345dbae7c164f2a419bd46e7c813"
+    },
+    {
+      "path": "运行记录/quality/055.txt",
+      "bytes": 9277,
+      "sha256": "9bbce61d55444e235b3f1d89a87b100daade995d49fc75744f1a791201b436c8"
+    },
+    {
+      "path": "运行记录/quality/056.txt",
+      "bytes": 9359,
+      "sha256": "99adc21d67174432d7a370520486cbf9252e380ac861a202b675090c65ca687a"
+    },
+    {
+      "path": "运行记录/quality/057.txt",
+      "bytes": 9277,
+      "sha256": "ed9904b446afee98febe63938bf24708698702f4073ba922fc946d870d0ecca7"
+    },
+    {
+      "path": "运行记录/quality/058.txt",
+      "bytes": 9410,
+      "sha256": "2658fca60a6e64e800115ee661e74b7c14579d718e995a7c0385c4de89c01d1a"
+    },
+    {
+      "path": "运行记录/quality/059.txt",
+      "bytes": 9343,
+      "sha256": "b12dff94e38ff0017456b2255973c20733bc3c4c3029f7e3e334dec15b0e5db3"
+    },
+    {
+      "path": "运行记录/quality/060.txt",
+      "bytes": 9426,
+      "sha256": "04ac5b85afb8ad5af0b3d78878c33bd8eac3507d3944770bfba6c884c547f140"
+    },
+    {
+      "path": "运行记录/quality/061.txt",
+      "bytes": 9352,
+      "sha256": "4409542f1855246a50230957749971ce961b328f97eefd202677eb2d65045308"
+    },
+    {
+      "path": "运行记录/quality/062.txt",
+      "bytes": 8097,
+      "sha256": "2602c94a9ad57aa7950f824bd02222d8e56b89ad027418199b26d7296332487d"
+    },
+    {
+      "path": "运行记录/quality/063.txt",
+      "bytes": 9345,
+      "sha256": "4081d7a4fbe36909be220f6bb4c8c022602cfa846f891321ac7c38e1d52e5296"
+    },
+    {
+      "path": "运行记录/quality/064.txt",
+      "bytes": 8195,
+      "sha256": "8308266a3687f1b78b50140011be3be842537b9655181823279c27a2788df9f1"
+    },
+    {
+      "path": "运行记录/quality/065.txt",
+      "bytes": 9343,
+      "sha256": "5dceee3495deef43e3fd047d2ad04bb538382ac3204c44310400ed0fd11aa09e"
+    },
+    {
+      "path": "运行记录/quality/066.txt",
+      "bytes": 14280,
+      "sha256": "81ea789c137f4394085ee0cd407dabfb616ebd4352d82862b0f51ae7645ca1db"
+    },
+    {
+      "path": "运行记录/quality/067.txt",
+      "bytes": 14261,
+      "sha256": "69998ea4dbbeb38823511a510feb3384cc986b358265e97dd37dd8d0cd2a7816"
+    },
+    {
+      "path": "运行记录/quality/068.txt",
+      "bytes": 14271,
+      "sha256": "23299106ae3eea72e17aa10b597f5dfa152c6aad1696da1e4d83d9d91a852c9c"
+    },
+    {
+      "path": "运行记录/quality/069.txt",
+      "bytes": 14283,
+      "sha256": "441894fa6e8043d7f5a9c2d2c2761475c9ed5fde7983c2427cc7bb0b5ce306d5"
+    },
+    {
+      "path": "运行记录/quality/070.txt",
+      "bytes": 5241,
+      "sha256": "6af31aee6c87a0441d9d67072c89213374c38d7d3573fe1ee6845c4427f3cd41"
+    },
+    {
+      "path": "运行记录/quality/071.txt",
+      "bytes": 5276,
+      "sha256": "8d104b5bb174c5e207b5d7a92df65c4e8cf982a9da3eaa0fe7ad7d716bd527a1"
+    },
+    {
+      "path": "运行记录/quality/072.txt",
+      "bytes": 5332,
+      "sha256": "af80192482d3a2178cdf1ca7085a2f9fd3f4c0b2e1e5a965bbab1365fde96461"
+    },
+    {
+      "path": "运行记录/quality/history.jsonl",
+      "bytes": 22414,
+      "sha256": "fa6c2b1552facf53fb0f151a4a0e1b7812420d20bea0b9d606140cd6d655cb01"
+    },
+    {
+      "path": "运行记录/quality/mask_fill_samples.json",
+      "bytes": 121657,
+      "sha256": "5e179d3d172689850591b148b6efa515556df6d37be2871dd737bbedd1d8ca36"
+    },
+    {
+      "path": "运行记录/quality/state.json",
+      "bytes": 48,
+      "sha256": "2cd04f8763a0371653a5643ff13c1b433f0e69f01e58658b383050817c4d1eac"
+    },
+    {
+      "path": "运行记录/quality/swap_spo_samples.json",
+      "bytes": 49335,
+      "sha256": "acb7a9b4f16af6050b06d1e57ff3cd8ca2f0735c9fca89d9013e15fae2670a26"
+    },
+    {
+      "path": "运行记录/quality-extra/000.txt",
+      "bytes": 14264,
+      "sha256": "53db2573cf15b236c802c8f869afc04f377484b2b6314d1f522cae5f28a5ac79"
+    },
+    {
+      "path": "运行记录/quality-extra/001.txt",
+      "bytes": 14312,
+      "sha256": "35af667161a410c91699b246c7333cb24f111dda28bd5a105b00c4445cf7a3ce"
+    },
+    {
+      "path": "运行记录/quality-extra/002.txt",
+      "bytes": 14259,
+      "sha256": "8dbada75328c6e2d87391ca7cb65c73ca090f4afcc6f0f0a16625590c55c1322"
+    },
+    {
+      "path": "运行记录/quality-extra/003.txt",
+      "bytes": 14347,
+      "sha256": "db10ac364d6d7b40b63dc1c14d10b3cf6a925a1743d15dd937292cdd88bd0f66"
+    },
+    {
+      "path": "运行记录/quality-extra/004.txt",
+      "bytes": 9359,
+      "sha256": "aa2e1b94df97ddff3b7c3219f97bf2cb68c5a2a393a90b2057532bc1429ff954"
+    },
+    {
+      "path": "运行记录/quality-extra/005.txt",
+      "bytes": 9347,
+      "sha256": "0cedd5d95cf5d086dc7ffe3a37f38f5e4bc920d996f186d5cd0ecb7dd0cce77f"
+    },
+    {
+      "path": "运行记录/quality-extra/006.txt",
+      "bytes": 9338,
+      "sha256": "92b32bd479a7ac83a2b16e504a8048c26e94dcca20e1b1fafd86353594bc7768"
+    },
+    {
+      "path": "运行记录/quality-extra/007.txt",
+      "bytes": 7911,
+      "sha256": "4d46883d6a600e4bdae13f9af89dbd6100804e98137f9f448679ed7526717dd1"
+    },
+    {
+      "path": "运行记录/quality-extra/008.txt",
+      "bytes": 4753,
+      "sha256": "37abd24d4c88160377dfb06f03bfcec05d41764b398f919ce9a28f8f42ed0a92"
+    },
+    {
+      "path": "运行记录/quality-extra/009.txt",
+      "bytes": 4741,
+      "sha256": "abc9f1bfd3cb2580e7e7211f58f0b43669298fa589eb32cba9ad4038b3152a02"
+    },
+    {
+      "path": "运行记录/quality-extra/010.txt",
+      "bytes": 4746,
+      "sha256": "7211203edb1537852d391ed1bfb82b74ea09521873e391b30a5c5aca322435d4"
+    },
+    {
+      "path": "运行记录/quality-extra/011.txt",
+      "bytes": 4744,
+      "sha256": "8126c9f2f9587927db481f90ba3a1a7284c8831d3a01ef8242f2c08a271f37b9"
+    },
+    {
+      "path": "运行记录/quality-extra/012.txt",
+      "bytes": 3601,
+      "sha256": "3d5b2cc34c5773c76318b60ba73185ba5750ff9c0ed89c4beefbc2b1502d0ce8"
+    },
+    {
+      "path": "运行记录/quality-extra/013.txt",
+      "bytes": 3597,
+      "sha256": "f754488651dd84dd6fc49713e3285fb7754fed34e5c34c81fde6b8c0f94b762c"
+    },
+    {
+      "path": "运行记录/quality-extra/014.txt",
+      "bytes": 3607,
+      "sha256": "69f98520d97f759dac3fc82a884305f1dd0dbaec3eeb4ce4e63e4c4b1522e470"
+    },
+    {
+      "path": "运行记录/quality-extra/015.txt",
+      "bytes": 3597,
+      "sha256": "e125cccc6dc6a7329c19ac105fb023902619b6df9bd2d8607b310afae535adcf"
+    },
+    {
+      "path": "运行记录/quality-extra/016.txt",
+      "bytes": 1423,
+      "sha256": "b9660e0b3e46b8029440422c168ddf6e68f42316a1ccfa40c308dbe200816815"
+    },
+    {
+      "path": "运行记录/quality-extra/017.txt",
+      "bytes": 1499,
+      "sha256": "f738be504d4654f78efc6a1c5557b75f34416af685352ec5015bc6562e986a55"
+    },
+    {
+      "path": "运行记录/quality-extra/018.txt",
+      "bytes": 1462,
+      "sha256": "a593a8a334e0476ac76384a88fdd9759d4b99c8777f80a39c69cd73a76fba859"
+    },
+    {
+      "path": "运行记录/quality-extra/019.txt",
+      "bytes": 1562,
+      "sha256": "237c570a309768cd9aaf23a2386d968e8993c65f39652b5cc24a06867d74e992"
+    },
+    {
+      "path": "运行记录/quality-extra/020.txt",
+      "bytes": 737,
+      "sha256": "096a23db64a54d8f6cfb6e18bd69cb57adb30f75acaab3efbf2e3e7dff986466"
+    },
+    {
+      "path": "运行记录/quality-extra/021.txt",
+      "bytes": 853,
+      "sha256": "5cde0c21981a42844338a7c6f4f6b31737a1ce349cb94875daad1bb3c1c3091f"
+    },
+    {
+      "path": "运行记录/quality-extra/022.txt",
+      "bytes": 474,
+      "sha256": "af1595b99c90dadeb84cbfb6f13177b9a8f5cb1813f4f8ec48cbe30b89b37c4a"
+    },
+    {
+      "path": "运行记录/quality-extra/023.txt",
+      "bytes": 7000,
+      "sha256": "970561216e37d8f23dae6807008556573647e9a15012980bad70e71cb8f6a25c"
+    },
+    {
+      "path": "运行记录/quality-extra/history.jsonl",
+      "bytes": 5860,
+      "sha256": "8f41f43bc0aeb19ceb0d88c5fad5928e0720df1973934bad2f0753696e8349d5"
+    },
+    {
+      "path": "运行记录/quality-followup/000.txt",
+      "bytes": 5300,
+      "sha256": "0084680010e582986906f9f91e614b53c847f4c4dcb500ff00744ade0acb380e"
+    },
+    {
+      "path": "运行记录/quality-followup/001.txt",
+      "bytes": 1085,
+      "sha256": "52a01e921b5f89931e3bba6a740b33b905e2904676b761ac98a7f24e8f1e4433"
+    },
+    {
+      "path": "运行记录/quality-followup/002.txt",
+      "bytes": 1084,
+      "sha256": "e9b7ef59a7b0c0789450d812366757a0b298ab40456b932eecaaef7716e23cec"
+    },
+    {
+      "path": "运行记录/quality-followup/003.txt",
+      "bytes": 1518,
+      "sha256": "9107224cd4125fe4367beb98319ae7bd5d770a5c6962d73f13bb030635b43987"
+    },
+    {
+      "path": "运行记录/quality-followup/004.txt",
+      "bytes": 9347,
+      "sha256": "aa7890242012ee9761fe1cfc012da0b17844288bb24e070d2572abf6fe891ea4"
+    },
+    {
+      "path": "运行记录/quality-followup/005.txt",
+      "bytes": 9279,
+      "sha256": "1df0caa008f7a3cef69df1cfb16a310a5e8c06b60fb68c91216455978411494e"
+    },
+    {
+      "path": "运行记录/quality-followup/006.txt",
+      "bytes": 9347,
+      "sha256": "e5ce1ae41070cf57e1ede8e53ecb40448a61d30479986f4e37edfb42231ed94c"
+    },
+    {
+      "path": "运行记录/quality-followup/007.txt",
+      "bytes": 9263,
+      "sha256": "8c3b74f7df42df2bbd71e1cd27f45b06a429b6aa32da490c334814deecbb7b10"
+    },
+    {
+      "path": "运行记录/quality-followup/008.txt",
+      "bytes": 9372,
+      "sha256": "ebf896b198bcaa9267f38be18c060b4268fd7ded2392b18064225a0b8671852e"
+    },
+    {
+      "path": "运行记录/quality-followup/009.txt",
+      "bytes": 9281,
+      "sha256": "8dfc927edd654b7a0871956512cf51d5853ab843c408f4436a578be7afce7e05"
+    },
+    {
+      "path": "运行记录/quality-followup/010.txt",
+      "bytes": 9356,
+      "sha256": "28455d4906ff1d0144f5aaa51d96cc343b1444d3596e7dc9adfd30b83e67120f"
+    },
+    {
+      "path": "运行记录/quality-followup/011.txt",
+      "bytes": 9266,
+      "sha256": "96bbd46f64df2aaf658bbbf5470584ea78656762d939eb7c56619db0a8bc971c"
+    },
+    {
+      "path": "运行记录/quality-followup/012.txt",
+      "bytes": 9374,
+      "sha256": "b02cba2e540d1f88824776955664657eb41a5c09a5a04d502a2e8bc8a89ae833"
+    },
+    {
+      "path": "运行记录/quality-followup/013.txt",
+      "bytes": 9281,
+      "sha256": "c60d0fe024a9b45ce8fae392df4c72a5a31c15232607848fb0b43efacae0da35"
+    },
+    {
+      "path": "运行记录/quality-followup/014.txt",
+      "bytes": 9359,
+      "sha256": "5eb5419f29e776189ea253c08934fa764564a4ba3cdca048cb8330b2b29c7f5a"
+    },
+    {
+      "path": "运行记录/quality-followup/015.txt",
+      "bytes": 9267,
+      "sha256": "bc882930124fd4fa795804ccfc8db5d52ea13679da8451f0ff18cfe3a951d730"
+    },
+    {
+      "path": "运行记录/quality-followup/016.txt",
+      "bytes": 9369,
+      "sha256": "ff26acc4eb9da3b3d5c8fd002b3914b75c55160b518d975a47098b8bc17c8ec2"
+    },
+    {
+      "path": "运行记录/quality-followup/017.txt",
+      "bytes": 9290,
+      "sha256": "38c791ee9dfaea67513c5e16380452a944b431cd567fb9e773f639e23aba472f"
+    },
+    {
+      "path": "运行记录/quality-followup/018.txt",
+      "bytes": 9361,
+      "sha256": "fd86a7581b054346ca56a47127870165fc8de56d535fc5bd264fa021e1a59630"
+    },
+    {
+      "path": "运行记录/quality-followup/019.txt",
+      "bytes": 9281,
+      "sha256": "dd0e5acb4410b1edf1561ecb557722d0ab90ce740fc5abae9f1e8e6f030f10b7"
+    },
+    {
+      "path": "运行记录/quality-followup/020.txt",
+      "bytes": 9437,
+      "sha256": "05bebafae5c9448f9a0001a1801b24c1009d44f0d2722f5a949e013c9b9fa83a"
+    },
+    {
+      "path": "运行记录/quality-followup/021.txt",
+      "bytes": 9335,
+      "sha256": "fb71c5e2a65fc3762b020fa96f15c09b5a0fe208db03689122f868708aad3a7f"
+    },
+    {
+      "path": "运行记录/quality-followup/022.txt",
+      "bytes": 9426,
+      "sha256": "a874f3ed27e8d0115f0e9ece36ca8fb637aecffb0239e85118c02b9860e05a74"
+    },
+    {
+      "path": "运行记录/quality-followup/023.txt",
+      "bytes": 9346,
+      "sha256": "1be1dbec2efd3ef8da865097500150b7d62c6556f9ed34d482fbd6af7a0eeb29"
+    },
+    {
+      "path": "运行记录/quality-followup/024.txt",
+      "bytes": 8094,
+      "sha256": "04dbff773cd085783f8dabba1a7b4e831521c974cbd12add07ab3510692f588d"
+    },
+    {
+      "path": "运行记录/quality-followup/025.txt",
+      "bytes": 9346,
+      "sha256": "19b03064295532d851feeab0e20e5b69d249aa23cb62f6c1d258bccecfaa6f07"
+    },
+    {
+      "path": "运行记录/quality-followup/026.txt",
+      "bytes": 8174,
+      "sha256": "abd58bf6d6cba5e64ad7ceb196c975d1463fcd3476258f02fa3ed488317b35a6"
+    },
+    {
+      "path": "运行记录/quality-followup/027.txt",
+      "bytes": 9344,
+      "sha256": "ccc9f3255923f303859300f0cf7c55bb14160454d580d35c4e12bea54ce76c42"
+    },
+    {
+      "path": "运行记录/quality-followup/028.txt",
+      "bytes": 9431,
+      "sha256": "d51002cb714e43417308f9040aa4997ec6f775983a952ad9de97b0c51fa8bad4"
+    },
+    {
+      "path": "运行记录/quality-followup/029.txt",
+      "bytes": 9388,
+      "sha256": "b3af25effb22546ad1fa6dabd997446d576a90a8a24f8e6c936d0002977bc7ca"
+    },
+    {
+      "path": "运行记录/quality-followup/030.txt",
+      "bytes": 9392,
+      "sha256": "e48aed315adf093cb67ecbaf0c956151f58e165b023d1f780347ed1b7ddeb444"
+    },
+    {
+      "path": "运行记录/quality-followup/031.txt",
+      "bytes": 9359,
+      "sha256": "2b4c2b2b6c01a760139be54a54336b4fbc404e127666d3d5f59183c0446dac90"
+    },
+    {
+      "path": "运行记录/quality-followup/032.txt",
+      "bytes": 9434,
+      "sha256": "a4ce9234e332d5a2f89a6beeb1be9881129624339e72228e1b4819b7ef4adcb7"
+    },
+    {
+      "path": "运行记录/quality-followup/033.txt",
+      "bytes": 9377,
+      "sha256": "955c63b9979b97f490aa4a820a99d45451d013ce18b477bfc7368fa22600edea"
+    },
+    {
+      "path": "运行记录/quality-followup/034.txt",
+      "bytes": 9383,
+      "sha256": "888d431e11f17bd0a24f6fcd38718ea6da05fa5639b75b6db71c190f2fc1e8f7"
+    },
+    {
+      "path": "运行记录/quality-followup/035.txt",
+      "bytes": 9338,
+      "sha256": "2405517281ac390e2bbe96b7d0eef1918f76bb6276f94e6a1be704197cda0c4a"
+    },
+    {
+      "path": "运行记录/quality-followup/036.txt",
+      "bytes": 9359,
+      "sha256": "25139b1a425d323f69a4b5cba93680413b657a7618e8fd1f0a377761c5ba42a4"
+    },
+    {
+      "path": "运行记录/quality-followup/037.txt",
+      "bytes": 9348,
+      "sha256": "b97a87563715f327e41f9b6a0233d7255ce4f48aa89239238975da85631cb093"
+    },
+    {
+      "path": "运行记录/quality-followup/038.txt",
+      "bytes": 9344,
+      "sha256": "82f6d7f94a9dcb88dced50d242cad25acf5bbb235f7fd21b099d91df9406c83b"
+    },
+    {
+      "path": "运行记录/quality-followup/039.txt",
+      "bytes": 7913,
+      "sha256": "27c0dab1bd683079349c39c68add1e6214c47f217abaaa297cc863a1503ab958"
+    },
+    {
+      "path": "运行记录/quality-followup/040.txt",
+      "bytes": 4556,
+      "sha256": "13df3acd56925a574e0966838855a4a04c14db75ec37ce41c8e9dd72edd9d8f1"
+    },
+    {
+      "path": "运行记录/quality-followup/history.jsonl",
+      "bytes": 10003,
+      "sha256": "650a43fa99da6bbbd895591d2df9559c4c6125f8c5a691d2fae6a3d0850374d8"
+    },
+    {
+      "path": "运行记录/quality-followup/state.json",
+      "bytes": 48,
+      "sha256": "2cd04f8763a0371653a5643ff13c1b433f0e69f01e58658b383050817c4d1eac"
+    },
+    {
+      "path": "运行记录/quality-zero-shot/zero-shot-study.err",
+      "bytes": 153,
+      "sha256": "d64617846023aa2420c4c31d568e33c8532a14cf26941d98f0d60feec46ca1b3"
+    },
+    {
+      "path": "运行记录/quality-zero-shot/zero-shot-study.log",
+      "bytes": 1182,
+      "sha256": "768e08fbb7f3944f11059f2d3fc8c2f2952c494184ac2e19d5ff31b21e98278e"
+    },
+    {
+      "path": "运行记录/remaining/cpt.log",
+      "bytes": 375,
+      "sha256": "77e6996bd5fd36beffa3536c285a2d1472bd920eb9f2c65df3677859bdb13442"
+    },
+    {
+      "path": "运行记录/remaining/esim.log",
+      "bytes": 652,
+      "sha256": "1e9cd8136f4d275e69687c1947df062b2912969b438a89b3fdc41bcd619daf0b"
+    },
+    {
+      "path": "运行记录/remaining/filling.log",
+      "bytes": 908,
+      "sha256": "93335638d6cf2feacf091b2d6afe3de166167d08a23fe8ca6be71d4c965c3c04"
+    },
+    {
+      "path": "运行记录/remaining/glove-cnn.log",
+      "bytes": 845,
+      "sha256": "7b726ef2dd72018b462c6964445464b764866a1a4324a00b40a2c48f43aa2c31"
+    },
+    {
+      "path": "运行记录/remaining/glove-rnn.log",
+      "bytes": 845,
+      "sha256": "7b726ef2dd72018b462c6964445464b764866a1a4324a00b40a2c48f43aa2c31"
+    },
+    {
+      "path": "运行记录/remaining/graph-flickr.log",
+      "bytes": 2324,
+      "sha256": "398c1759fffed2465bbd79123b2c810b4072eb24465d276c457cb0e508df5983"
+    },
+    {
+      "path": "运行记录/remaining/graph-zinc.log",
+      "bytes": 3842,
+      "sha256": "9244409c4e5f54280a6df9cd3df44d62175cd0a502629614dddc24053d0f0fe1"
+    },
+    {
+      "path": "运行记录/remaining/history.jsonl",
+      "bytes": 2623,
+      "sha256": "6efaa22e0620d2766aa599ec0d949cb586bfa5e2325db8196209d4233ce827bc"
+    },
+    {
+      "path": "运行记录/remaining/mbti.log",
+      "bytes": 377,
+      "sha256": "92a9c3014081285caaa8a917307aef5ff93fe4193e55c06249909ca074caa7f4"
+    },
+    {
+      "path": "运行记录/remaining/ppo.log",
+      "bytes": 2027,
+      "sha256": "f7baa8602a9ed760f4783c6341504b7592ebb129ee42d365b621d342f9e5832e"
+    },
+    {
+      "path": "运行记录/remaining/qa.log",
+      "bytes": 334,
+      "sha256": "a6269d38899bf8babcb3a24c097db53f1e0260f48873fbf908e3093dcf7bc9d1"
+    },
+    {
+      "path": "运行记录/remaining/scratch-sft.log",
+      "bytes": 588,
+      "sha256": "fcfb98bfc51557c341c966b55a44aa0e944376ad6d2331a7d9f4a33f27821e35"
+    },
+    {
+      "path": "运行记录/remaining/scratch.log",
+      "bytes": 842,
+      "sha256": "9ff7eef14ac584fa30bb370d00e941deeaeb244c64751c74bd8c7d7306fc068e"
+    },
+    {
+      "path": "运行记录/remaining/sft.log",
+      "bytes": 504,
+      "sha256": "d497b337e9a829547aecedc121e174bcd321e4aba9b6568ea97733bc3d561ef1"
+    },
+    {
+      "path": "运行记录/remaining/uie-negative.log",
+      "bytes": 3291,
+      "sha256": "07190a5a094ca96451241029e9ec01721a6e08cfe8a5c9361f77a5c7e13ab8fb"
+    },
+    {
+      "path": "运行记录/remaining/zero-shot.log",
+      "bytes": 462,
+      "sha256": "82b18ace1193de9ac2bee71be5ba77622550b4b0d7e9d708bb39679772c657ba"
+    },
+    {
+      "path": "运行记录/sentiment_source_check.json",
+      "bytes": 361,
+      "sha256": "67249e215e9cd219e0a58dc9a371686a2c7027c593cf405804c93d56a0dce688"
+    },
+    {
+      "path": "运行记录/完成核查.json",
+      "bytes": 10356,
+      "sha256": "c0ecec3965ea69a1c1ad8df929ddf142cf451d3294a4ec2338a0b76675b02f58"
+    },
+    {
+      "path": "运行记录/报告排版核查.json",
+      "bytes": 6495,
+      "sha256": "da7771e8d969be63342deb8edb945db9eedd44964812480bd4c444a0c268c825"
+    },
+    {
+      "path": "运行记录/提交核查.json",
+      "bytes": 10356,
+      "sha256": "c0ecec3965ea69a1c1ad8df929ddf142cf451d3294a4ec2338a0b76675b02f58"
+    },
+    {
+      "path": "运行记录/提交目录核查.json",
+      "bytes": 576,
+      "sha256": "cf8231722c324953cdab929110bce9925819e23056f7b1199da5382136e4ee45"
+    },
+    {
+      "path": "运行记录/数据模型来源.json",
+      "bytes": 23962,
+      "sha256": "77c18602f1e2ca742629d9283786689164c0407d7aed8c0c7b31b2bfb7918936"
+    },
+    {
+      "path": "运行记录/核查/audit.json",
+      "bytes": 20763,
+      "sha256": "9d79f1683134f4b7ca5134ee80d9747e6702abc54386ef0c1e6b08330943bea4"
+    },
+    {
+      "path": "运行记录/核查/audit_workspace_final.log",
+      "bytes": 2609,
+      "sha256": "33ee9d1610aa41c9b2caa0ee8d7ec68194225a16ed05669ef70c65ba3732e4d1"
+    },
+    {
+      "path": "运行记录/核查/audit_workspace_last.log",
+      "bytes": 2609,
+      "sha256": "33ee9d1610aa41c9b2caa0ee8d7ec68194225a16ed05669ef70c65ba3732e4d1"
+    },
+    {
+      "path": "运行记录/核查/build_reports_final.log",
+      "bytes": 54,
+      "sha256": "ad0ba0d283c17df4e6908932f8883e7f5f0ca9adb6778a5c822028b2eb2d0770"
+    },
+    {
+      "path": "运行记录/核查/build_reports_last.log",
+      "bytes": 54,
+      "sha256": "fa579035910f2ef75533278c13c885caf56f4ee6a101bb45a590967a1d030cd3"
+    },
+    {
+      "path": "运行记录/核查/cpt_reload.json",
+      "bytes": 352,
+      "sha256": "0e5820d99f76f2b82b3267504469ed69e138fc5ded5954e5c9182645972cb505"
+    },
+    {
+      "path": "运行记录/核查/cpt_reload.log",
+      "bytes": 507,
+      "sha256": "b800ab37665bc9b8c438dcdc4ff419108414225ba0e018f6b11c6f66692ef595"
+    },
+    {
+      "path": "运行记录/核查/generation_reload_checks.json",
+      "bytes": 906,
+      "sha256": "f401f24a234962ad0c670e3abf46df4e9327d55a5fef516a39e1d6a123373f69"
+    },
+    {
+      "path": "运行记录/核查/kge_ranking.json",
+      "bytes": 337,
+      "sha256": "f0e2b287e77c9434ab2431fd842e4636aad311ccc6b79ea6e9b5d99b3504abaa"
+    },
+    {
+      "path": "运行记录/核查/numpy_crf_math.txt",
+      "bytes": 205,
+      "sha256": "4e8bbcf8a2b5663eb9dacccf63fa1cc257df21862b5b73d901751a165e416b60"
+    },
+    {
+      "path": "运行记录/核查/ppo_math.txt",
+      "bytes": 203,
+      "sha256": "070442ad9289b82c14352b61ba501c36a5dc8f5ab7fc434225768e03b045dbaa"
+    },
+    {
+      "path": "运行记录/核查/ppo_reload.json",
+      "bytes": 433,
+      "sha256": "83473fff7b6efd0712e1385a19b9623d03bc12711613b7540a427feedaaf5e01"
+    },
+    {
+      "path": "运行记录/核查/ppo_reload.log",
+      "bytes": 588,
+      "sha256": "f618e4d9eba1a5134e6e34599cb5aca0c34e48f1ca1f27c010d96b47f133a312"
+    },
+    {
+      "path": "运行记录/核查/scratch-sft_reload.json",
+      "bytes": 227,
+      "sha256": "1fe1078f4819101e0599eb3628b0bceaf3f265906ca3dd46b37a079dd0f42392"
+    },
+    {
+      "path": "运行记录/核查/scratch-sft_reload.log",
+      "bytes": 229,
+      "sha256": "7ae8add9e9a1214bf77464e16e931d351671bbb89d6e4d0919a562c90ed15e29"
+    },
+    {
+      "path": "运行记录/核查/scratch_reload.json",
+      "bytes": 360,
+      "sha256": "a24376c6db31db93facf1e7403cb2c0f0cb5552ed2acc3420c1ac706f47f0b5f"
+    },
+    {
+      "path": "运行记录/核查/scratch_reload.log",
+      "bytes": 362,
+      "sha256": "b835e5ffd04b1635435e581bb11d48b4ee01916ef20101fecbfb03f03a8156be"
+    },
+    {
+      "path": "运行记录/核查/sft_reload.json",
+      "bytes": 298,
+      "sha256": "4cf9aa1ac8f5daceac860dd351769a07a2feb05c16c7fdc98733249381e4ce2e"
+    },
+    {
+      "path": "运行记录/核查/sft_reload.log",
+      "bytes": 453,
+      "sha256": "e57230001cedb15ae8449f45208d16b7ab28d6c03406bbb21883671a430ff295"
+    },
+    {
+      "path": "运行记录/核查/syntax.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "运行记录/核查/t5_filling_reload.json",
+      "bytes": 345,
+      "sha256": "9a67c5f60fb7b59a7bfb82f78c56a8c79601b5aeeb003dbf2f8c0834b61ed3b7"
+    },
+    {
+      "path": "运行记录/核查/t5_filling_reload.log",
+      "bytes": 347,
+      "sha256": "3ee6ec2c6f1a47ac9561c5c0ded84d38c7f183512d7c0ac23293ca40729af803"
+    },
+    {
+      "path": "运行记录/核查/t5_qa_reload.json",
+      "bytes": 267,
+      "sha256": "c3312f34ff4c27df940c84473fdd1efd71d7b2f83a86344ca0468def47792144"
+    },
+    {
+      "path": "运行记录/核查/t5_qa_reload.log",
+      "bytes": 269,
+      "sha256": "6340063012115b5d1ff3b03810fb6590f1a568e3cff55e4c8b192e75733eb71d"
+    },
+    {
+      "path": "运行记录/核查/verify_local_tools_final.log",
+      "bytes": 55,
+      "sha256": "49d1339960a320942a7bb85a1b8514a50400d07f662099b5fb9dbea85661a52d"
+    },
+    {
+      "path": "运行记录/独立环境/dependencies.txt",
+      "bytes": 31,
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+    },
+    {
+      "path": "运行记录/独立环境/graph-saved-inference.txt",
+      "bytes": 820,
+      "sha256": "31ea295c737df226d733f7b94abd174691700893a9022e22a03029f4f00dc7dc"
+    },
+    {
+      "path": "运行记录/独立环境/kge-ranking.txt",
+      "bytes": 266,
+      "sha256": "e4350a0bbebafc63a2ec278af924bfdcd514d48060e1ab4887af002e6024f3a0"
+    },
+    {
+      "path": "运行记录/独立环境/numpy-crf.txt",
+      "bytes": 148,
+      "sha256": "2449d48f4c51589849c16bc63b19baa97ded4602ea6c89781d5408dd42b661c6"
+    },
+    {
+      "path": "运行记录/独立环境/numpy-saved-inference.txt",
+      "bytes": 702,
+      "sha256": "3d0edbb1f15e1a69f9bbd164c9dd02f2c1df015a64305e9b70cb30c221d5edd4"
+    },
+    {
+      "path": "运行记录/独立环境/ppo-math.txt",
+      "bytes": 203,
+      "sha256": "070442ad9289b82c14352b61ba501c36a5dc8f5ab7fc434225768e03b045dbaa"
+    },
+    {
+      "path": "运行记录/独立环境/qwen-saved-inference.txt",
+      "bytes": 453,
+      "sha256": "e57230001cedb15ae8449f45208d16b7ab28d6c03406bbb21883671a430ff295"
+    },
+    {
+      "path": "运行记录/独立环境/sft.json",
+      "bytes": 298,
+      "sha256": "4cf9aa1ac8f5daceac860dd351769a07a2feb05c16c7fdc98733249381e4ce2e"
+    },
+    {
+      "path": "运行记录/独立环境核查.json",
+      "bytes": 1537,
+      "sha256": "590a9e6f9196699c5dec7e8cdd14e80d7a1984fac446db26acac6a15ab0c3a7e"
+    },
+    {
+      "path": "运行记录/诊断/conll_reference_check.json",
+      "bytes": 750,
+      "sha256": "f8f18a0ced08d74862c15b8797a00e1482afa3837fec653db9ab8fae61f9b223"
+    },
+    {
+      "path": "运行记录/诊断/conve_separate_bn.json",
+      "bytes": 7983,
+      "sha256": "fa8c21142cdf5eb5e18c0dc726d42d2c9eab7d01f6b77390e720b76ed3a61efa"
+    },
+    {
+      "path": "运行记录/诊断/esim_attention.json",
+      "bytes": 2773,
+      "sha256": "bdec6aecaf1a8c4a64add6e644b029ccc044051f2114ba8cc561026969b6dee9"
+    },
+    {
+      "path": "运行记录/诊断/flickr_labels.json",
+      "bytes": 623,
+      "sha256": "f3a79de5059d0e70531bc026eda0c34b78e6c896ca1950dba13aa21d80759bae"
+    },
+    {
+      "path": "运行记录/诊断/generation_lengths.json",
+      "bytes": 3720,
+      "sha256": "6aa4ea542510a161793534ed20867ff63d2a818c739510cfd92d09645f1f3c3b"
+    },
+    {
+      "path": "运行记录/诊断/link_reload_devices.json",
+      "bytes": 3119,
+      "sha256": "bce026cf976605cdd73d862865b956a05c378a2f0086520e617361865dfae341"
+    },
+    {
+      "path": "运行记录/诊断/link_score_saturation.json",
+      "bytes": 1147,
+      "sha256": "ca886fc0cf0f70c4378238775f798a7e52cd6fddcbacf4db008d815c578e0b36"
+    },
+    {
+      "path": "运行记录/诊断/mask_fill_baseline_samples.json",
+      "bytes": 72560,
+      "sha256": "0225f0018b6c7f179815e4c9c223405c61e0f33f66597ad7bf505114868ed3cc"
+    },
+    {
+      "path": "运行记录/诊断/task2_classes.json",
+      "bytes": 3446,
+      "sha256": "fa33a094a9b1a7a0501771d62405b0ab011764a58eb188b626df3f830e7d1a27"
+    },
+    {
+      "path": "运行记录/诊断/task3_classes.json",
+      "bytes": 3712,
+      "sha256": "86c8ac24d1805c4fd64018d8340192de4ed0c0286c9f134ac8c48e59ab378422"
+    },
+    {
+      "path": "运行记录/诊断/task4_entities.json",
+      "bytes": 6646,
+      "sha256": "4379adc6251ab9055ff5eac32f8caab70d6cf963d6604dc4f55ffc8200104bbc"
+    },
+    {
+      "path": "运行记录/诊断/uie_fill_baseline_result.json",
+      "bytes": 4768,
+      "sha256": "3a5217e7d84f2d78c2fb22e24081a9861a3da611f8dadbc9c1300be5eebd22bc"
+    },
+    {
+      "path": "运行记录/诊断/zero_shot_output_checks.json",
+      "bytes": 118734,
+      "sha256": "a2a0537a904a17ebd0945308ea721211b849f20abe5c00322fec4bac7ed94fce"
+    },
+    {
+      "path": "运行记录/诊断/截图失败/graph2.json",
+      "bytes": 528,
+      "sha256": "49c06952de6e806929f1e87074400236c9bf02b970b6b0bae50b2569fdf1e658"
+    },
+    {
+      "path": "运行记录/诊断/截图失败/graph2.png",
+      "bytes": 28863,
+      "sha256": "3b48530958a39255f3ec92709ed6413f498e13ea94a69545b6811c7b41f1c32f"
+    },
+    {
+      "path": "运行记录/诊断/截图失败/graph2.txt",
+      "bytes": 495,
+      "sha256": "1690b53e934316ac19e9095a6d1a5b8b0f15388b60cbc608b582657b086d2a0d"
+    },
+    {
+      "path": "进度日志.md",
+      "bytes": 169467,
+      "sha256": "c610aa3bbd0eab5f1b2868a7931aafe4c9551ff03847e4f5e6ab9f7b80b7a085"
+    }
+  ],
+  "count": 1059,
+  "bytes": 22136062,
+  "excluded": [
+    "virtual environments",
+    "git metadata of upstream clones",
+    "model checkpoints",
+    "training datasets and caches"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "task": "sft",
+      "exit_code": 0,
+      "result": "运行记录\\核查\\sft_reload.json"
+    },
+    {
+      "task": "cpt",
+      "exit_code": 0,
+      "result": "运行记录\\核查\\cpt_reload.json"
+    },
+    {
+      "task": "ppo",
+      "exit_code": 0,
+      "result": "运行记录\\核查\\ppo_reload.json"
+    },
+    {
+      "task": "scratch",
+      "exit_code": 0,
+      "result": "运行记录\\核查\\scratch_reload.json"
+    },
+    {
+      "task": "scratch-sft",
+      "exit_code": 0,
+      "result": "运行记录\\核查\\scratch-sft_reload.json"
+    },
+    {
+      "task": "t5_qa",
+      "exit_code": 0,
+      "result": "运行记录\\核查\\t5_qa_reload.json"
+    },
+    {
+      "task": "t5_filling",
+      "exit_code": 0,
+      "result": "运行记录\\核查\\t5_filling_reload.json"
+    }
+  ]
+}

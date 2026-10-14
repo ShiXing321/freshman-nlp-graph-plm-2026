@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\scripts\demo_saved.py", line 244, in <module>
+    graph(int(args.task[-1]))
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\scripts\demo_saved.py", line 125, in graph
+    assert abs(value - record["test"][key]) < 1e-6, (kind, key, value, record["test"][key])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('gcn', 'average_precision', 0.710502299993756, 0.710501179187022)

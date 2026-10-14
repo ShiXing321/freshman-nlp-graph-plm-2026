@@ -1,0 +1,17 @@
+{
+  "prompt": "将评论分类。只回答一个类别。类别：电脑、水果、平板、书籍、衣服、酒店、蒙牛、洗浴。评论：苹果很新鲜，包装也很好。",
+  "output": "电脑"
+}
+{
+  "prompt": "判断两个句子表达的意思是否相同，只回答相同或不同。句子1：今天北京下雨了。句子2：北京今天有雨。",
+  "output": "相同。"
+}
+{
+  "prompt": "抽取原文中属于“王宏文的出生地”的信息。只输出JSON字符串数组，没有则输出[]。原文：王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+  "output": "```json\n[\"河南新密市\"]\n```"
+}
+{
+  "prompt": "抽取原文中属于“李泳豪的出生地”的信息。只输出JSON字符串数组，没有则输出[]。原文：李泳豪是艺人李家鼎和施明的儿子",
+  "output": "```json\n[\n    \"李家鼎\",\n    \"施明\"\n]\n```"
+}
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

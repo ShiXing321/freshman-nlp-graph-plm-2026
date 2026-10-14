@@ -1,0 +1,48 @@
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gcn', '--pool', 'mean', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gcn', '--pool', 'mean', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gcn', '--pool', 'max', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gcn', '--pool', 'max', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gcn', '--pool', 'min', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gcn', '--pool', 'min', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gat', '--pool', 'mean', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gat', '--pool', 'mean', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gat', '--pool', 'max', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gat', '--pool', 'max', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gat', '--pool', 'min', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gat', '--pool', 'min', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'sage', '--pool', 'mean', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'sage', '--pool', 'mean', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'sage', '--pool', 'max', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'sage', '--pool', 'max', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'sage', '--pool', 'min', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'sage', '--pool', 'min', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gin', '--pool', 'mean', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gin', '--pool', 'mean', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gin', '--pool', 'max', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gin', '--pool', 'max', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gin', '--pool', 'min', '--mode', 'full', '--epochs', '30', '--limit', '2000']
+exit 0
+['graph_beginner/task3/code/train.py', '--dataset', 'ZINC', '--model', 'gin', '--pool', 'min', '--mode', 'batch', '--epochs', '30', '--limit', '2000']
+exit 0

@@ -1,0 +1,482 @@
+[
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gcn",
+      "--pool",
+      "mean",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:20:28.345927+08:00",
+    "log": "运行记录\\graph-tu\\000.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gcn",
+      "--pool",
+      "mean",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:20:38.317584+08:00",
+    "log": "运行记录\\graph-tu\\001.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gcn",
+      "--pool",
+      "max",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:20:51.800761+08:00",
+    "log": "运行记录\\graph-tu\\002.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gcn",
+      "--pool",
+      "max",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:21:03.236707+08:00",
+    "log": "运行记录\\graph-tu\\003.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gcn",
+      "--pool",
+      "min",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:21:14.399962+08:00",
+    "log": "运行记录\\graph-tu\\004.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gcn",
+      "--pool",
+      "min",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:21:24.939656+08:00",
+    "log": "运行记录\\graph-tu\\005.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gat",
+      "--pool",
+      "mean",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:21:35.784899+08:00",
+    "log": "运行记录\\graph-tu\\006.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gat",
+      "--pool",
+      "mean",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:21:45.249821+08:00",
+    "log": "运行记录\\graph-tu\\007.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gat",
+      "--pool",
+      "max",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:21:56.408467+08:00",
+    "log": "运行记录\\graph-tu\\008.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gat",
+      "--pool",
+      "max",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:22:06.640597+08:00",
+    "log": "运行记录\\graph-tu\\009.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gat",
+      "--pool",
+      "min",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:22:17.702852+08:00",
+    "log": "运行记录\\graph-tu\\010.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gat",
+      "--pool",
+      "min",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:22:27.833367+08:00",
+    "log": "运行记录\\graph-tu\\011.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "sage",
+      "--pool",
+      "mean",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:22:39.907674+08:00",
+    "log": "运行记录\\graph-tu\\012.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "sage",
+      "--pool",
+      "mean",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:22:50.129330+08:00",
+    "log": "运行记录\\graph-tu\\013.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "sage",
+      "--pool",
+      "max",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:23:00.780577+08:00",
+    "log": "运行记录\\graph-tu\\014.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "sage",
+      "--pool",
+      "max",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:23:11.441206+08:00",
+    "log": "运行记录\\graph-tu\\015.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "sage",
+      "--pool",
+      "min",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:23:23.797481+08:00",
+    "log": "运行记录\\graph-tu\\016.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "sage",
+      "--pool",
+      "min",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:23:38.675476+08:00",
+    "log": "运行记录\\graph-tu\\017.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gin",
+      "--pool",
+      "mean",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:23:58.948561+08:00",
+    "log": "运行记录\\graph-tu\\018.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gin",
+      "--pool",
+      "mean",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:24:21.100387+08:00",
+    "log": "运行记录\\graph-tu\\019.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gin",
+      "--pool",
+      "max",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:24:34.061733+08:00",
+    "log": "运行记录\\graph-tu\\020.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gin",
+      "--pool",
+      "max",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:24:45.371219+08:00",
+    "log": "运行记录\\graph-tu\\021.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gin",
+      "--pool",
+      "min",
+      "--mode",
+      "full",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:24:58.534480+08:00",
+    "log": "运行记录\\graph-tu\\022.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task3/code/train.py",
+      "--dataset",
+      "MUTAG",
+      "--model",
+      "gin",
+      "--pool",
+      "min",
+      "--mode",
+      "batch",
+      "--epochs",
+      "30",
+      "--limit",
+      "0"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:25:11.170022+08:00",
+    "log": "运行记录\\graph-tu\\023.txt"
+  }
+]

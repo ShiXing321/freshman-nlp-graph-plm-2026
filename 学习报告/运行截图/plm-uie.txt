@@ -1,0 +1,84 @@
+{
+  "augmentation": "none",
+  "test": {
+    "precision": 0.9523809523809523,
+    "recall": 0.8695652173913043,
+    "f1": 0.909090909090909,
+    "gold_spans": 23
+  },
+  "example": [
+    {
+      "prompt": "历史人物",
+      "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+      "gold": [
+        "李贺"
+      ],
+      "prediction": [
+        "李贺"
+      ]
+    }
+  ]
+}
+{
+  "augmentation": "negative",
+  "test": {
+    "precision": 0.9523809523809523,
+    "recall": 0.8695652173913043,
+    "f1": 0.909090909090909,
+    "gold_spans": 23
+  },
+  "example": [
+    {
+      "prompt": "历史人物",
+      "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+      "gold": [
+        "李贺"
+      ],
+      "prediction": [
+        "李贺"
+      ]
+    }
+  ]
+}
+{
+  "augmentation": "swap",
+  "test": {
+    "precision": 0.9,
+    "recall": 0.782608695652174,
+    "f1": 0.8372093023255814,
+    "gold_spans": 23
+  },
+  "example": [
+    {
+      "prompt": "历史人物",
+      "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+      "gold": [
+        "李贺"
+      ],
+      "prediction": [
+        "李贺"
+      ]
+    }
+  ]
+}
+{
+  "augmentation": "fill",
+  "test": {
+    "precision": 0.8695652173913043,
+    "recall": 0.8695652173913043,
+    "f1": 0.8695652173913043,
+    "gold_spans": 23
+  },
+  "example": [
+    {
+      "prompt": "历史人物",
+      "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+      "gold": [
+        "李贺"
+      ],
+      "prediction": [
+        "李贺"
+      ]
+    }
+  ]
+}

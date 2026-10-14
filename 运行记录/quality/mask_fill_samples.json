@@ -1,0 +1,2817 @@
+{
+  "model": "t5_filling_expanded",
+  "rules": "60-character context on each side; both MASK tokens retained; length<=12; no repeated trigrams; original entity offsets preserved; baseline extraction text set unchanged",
+  "attempts": [
+    {
+      "prompt": "企业",
+      "original_content": "在今年的全国两会代表中，京东集团董事局主席兼ceo刘强东、网易公司董事局主席兼ceo丁磊首次当选全国政协委员",
+      "input": "\"在今年的全国两会代表中，京东集团董事局主席兼ceo刘强东、网易公司董事局主席兼ceo丁磊首[MASK]全国政协委员\"中[MASK]位置的文本是：",
+      "removed": "次当选",
+      "generated": "次成为",
+      "accepted": true,
+      "content": "在今年的全国两会代表中，京东集团董事局主席兼ceo刘强东、网易公司董事局主席兼ceo丁磊首次成为全国政协委员",
+      "result_list": [
+        {
+          "text": "网易公司",
+          "start": 29,
+          "end": 33
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "京东集团",
+          "网易公司"
+        ],
+        [
+          "京东集团",
+          "网易公司"
+        ]
+      ]
+    },
+    {
+      "prompt": "Number",
+      "original_content": "荣山村位于海南省海口市秀英区西秀镇，始建于唐未间由三姓（即姓罗姓苻姓陈）迁居立村，主要以捕捞为主，经过长期多姓农民迁入居住繁衍生存至今已有21个姓氏居住我村到目前已形成5个村民领导小组，成立一个村委会，总户数为1485户、总人口6457人，其中男3783人，女2874人，劳动力3082个，耕地面积为2573.8亩，其中水田1865亩，坡地584亩，可利用滩涂面积3100亩",
+      "input": "\"建于唐未间由三姓（即姓罗姓苻姓陈）迁居立村，主要以捕捞为主，经过长期多姓农民迁入居住繁衍生存至今已有21个姓氏居住我村到[MASK]形成5个村民领导小组，成立一个村委会，总户数为1485户、总人口6457人，其中男3783人，女2874人，劳动力308\"中[MASK]位置的文本是：",
+      "removed": "目前已",
+      "generated": "今年1月1日，村委会成立了一个村",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "影视作品",
+      "original_content": "基本资料片名：魔宫战士/探险骑士  导演：尚格·云顿演员表影片类型：动作片  出品年代：1996年  国家/地区：欧美  一次，德斯等与美国一家报纸的女记者纽顿来到梅泰岛看拳赛，不巧碰上了基斯",
+      "input": "\"基本资料片名：魔宫战士/探险骑士  导演：尚格·云顿[MASK]影片类型：动作片  出品年代：1996年  国家/地区：欧美  一次，德斯等与美国一家报纸的女记者纽顿来到梅泰岛看拳赛，\"中[MASK]位置的文本是：",
+      "removed": "演员表",
+      "generated": "导演：罗斯·罗斯",
+      "accepted": true,
+      "content": "基本资料片名：魔宫战士/探险骑士  导演：尚格·云顿导演：罗斯·罗斯影片类型：动作片  出品年代：1996年  国家/地区：欧美  一次，德斯等与美国一家报纸的女记者纽顿来到梅泰岛看拳赛，不巧碰上了基斯",
+      "result_list": [
+        {
+          "text": "魔宫战士",
+          "start": 7,
+          "end": 11
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "探险骑士",
+          "魔宫战士"
+        ],
+        [
+          "探险骑士",
+          "魔宫战士"
+        ]
+      ]
+    },
+    {
+      "prompt": "穆斯塔法·多甘的身高",
+      "original_content": "穆斯塔法·多甘mustafa dogan是一位土耳其后裔的德国人，1976年1月1日出生在土耳其的伊斯帕尔塔省，身高180cm体重77kg，1989年在德国一个很小的足球俱乐部tv asberg开始足球生涯，1999年代表德国成年国家队出场两次，没有进球",
+      "input": "\"穆斯塔法·多甘mustafa dogan是一位土耳其后裔的德国人，1976年1月1日出生[MASK]其的伊斯帕尔塔省，身高180cm体重77kg，1989年在德国一个很小的足球俱乐部tv asberg开始足球生涯，199\"中[MASK]位置的文本是：",
+      "removed": "在土耳",
+      "generated": "于土耳",
+      "accepted": true,
+      "content": "穆斯塔法·多甘mustafa dogan是一位土耳其后裔的德国人，1976年1月1日出生于土耳其的伊斯帕尔塔省，身高180cm体重77kg，1989年在德国一个很小的足球俱乐部tv asberg开始足球生涯，1999年代表德国成年国家队出场两次，没有进球",
+      "result_list": [
+        {
+          "text": "180cm",
+          "start": 58,
+          "end": 63
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "180cm"
+        ],
+        [
+          "180cm"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，祖籍是立陶宛犹太人",
+      "input": "\"波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，[MASK]立陶宛犹太人\"中[MASK]位置的文本是：",
+      "removed": "祖籍是",
+      "generated": "是",
+      "accepted": true,
+      "content": "波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，是立陶宛犹太人",
+      "result_list": [
+        {
+          "text": "1924年11月20日",
+          "start": 9,
+          "end": 20
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1924年11月20日"
+        ],
+        [
+          "1924年11月20日"
+        ]
+      ]
+    },
+    {
+      "prompt": "李淑珍的出生地",
+      "original_content": "李淑珍　　1951年1月生，女，北京市人",
+      "input": "\"李淑珍　　1951年1月[MASK]，北京市人\"中[MASK]位置的文本是：",
+      "removed": "生，女",
+      "generated": "出生",
+      "accepted": true,
+      "content": "李淑珍　　1951年1月出生，北京市人",
+      "result_list": [
+        {
+          "text": "北京",
+          "start": 15,
+          "end": 17
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "北京"
+        ],
+        [
+          "北京"
+        ]
+      ]
+    },
+    {
+      "prompt": "叶海波的出生日期",
+      "original_content": "叶海波，男，1977年出生于湖北红安县，1997年至2007年就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学",
+      "input": "\"叶海波，男，1977年出生于湖北红安县，1997年至2007[MASK]于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学\"中[MASK]位置的文本是：",
+      "removed": "年就读",
+      "generated": "年毕业",
+      "accepted": true,
+      "content": "叶海波，男，1977年出生于湖北红安县，1997年至2007年毕业于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学",
+      "result_list": [
+        {
+          "text": "1977年",
+          "start": 6,
+          "end": 11
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1977年"
+        ],
+        [
+          "1977年"
+        ]
+      ]
+    },
+    {
+      "prompt": "叶海波的毕业院校",
+      "original_content": "叶海波，男，1977年出生于湖北红安县，1997年至2007年就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学",
+      "input": "\"叶海波，男，1977年出生于湖北红安县，1997年至2007年就读于武汉大学，分别获[MASK]学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学\"中[MASK]位置的文本是：",
+      "removed": "得法学",
+      "generated": "法学博士（中国共产党）、法学硕士",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "高俊岭的民族",
+      "original_content": "高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长",
+      "input": "\"高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人[MASK]文化，现任北京市顺义区高丽营镇副镇长\"中[MASK]位置的文本是：",
+      "removed": "，大学",
+      "generated": "，毕业于北京大学",
+      "accepted": true,
+      "content": "高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，毕业于北京大学文化，现任北京市顺义区高丽营镇副镇长",
+      "result_list": [
+        {
+          "text": "汉族",
+          "start": 7,
+          "end": 9
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "汉族"
+        ],
+        [
+          "汉族"
+        ]
+      ]
+    },
+    {
+      "prompt": "周惠玲的出生地",
+      "original_content": "周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任晴隆县人民检察院反贪污贿赂局预防职务犯罪科科长",
+      "input": "\"周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，[MASK]隆县人民检察院反贪污贿赂局预防职务犯罪科科长\"中[MASK]位置的文本是：",
+      "removed": "现任晴",
+      "generated": "中共党员，现任江西省",
+      "accepted": true,
+      "content": "周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，中共党员，现任江西省隆县人民检察院反贪污贿赂局预防职务犯罪科科长",
+      "result_list": [
+        {
+          "text": "江西崇仁",
+          "start": 23,
+          "end": 27
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "江西崇仁"
+        ],
+        [
+          "江西崇仁"
+        ]
+      ]
+    },
+    {
+      "prompt": "国家",
+      "original_content": "克诺佩·理查德,荷兰籍足球运动员",
+      "input": "\"克诺佩·理查德,荷兰籍足[MASK]员\"中[MASK]位置的文本是：",
+      "removed": "球运动",
+      "generated": "球运动",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "企业",
+      "original_content": "安徽华电六安电厂有限公司于2010年02月09日在六安市工商行政和质量技术监督管理局登记成立",
+      "input": "\"安徽华电六安电厂有限公司于2010年02月09日在六安市工商[MASK]质量技术监督管理局登记成立\"中[MASK]位置的文本是：",
+      "removed": "行政和",
+      "generated": "管理局、六安市",
+      "accepted": true,
+      "content": "安徽华电六安电厂有限公司于2010年02月09日在六安市工商管理局、六安市质量技术监督管理局登记成立",
+      "result_list": [
+        {
+          "text": "安徽华电六安电厂有限公司",
+          "start": 0,
+          "end": 12
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "安徽华电六安电厂有限公司"
+        ],
+        [
+          "安徽华电六安电厂有限公司"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "基本资料球员:卡路比  生日:1979年10月18日  身高:175cm  体重:73kg  球衣号码:22  国籍:法国  效力球队:尼姆  场上位置:前锋球队阵容前锋  蒂鲍尔特,贝内泽特,塞杜",
+      "input": "\"生日:1979年10月18日  身高:175cm  体重:73kg  球衣号码:22  国籍:法国  效力球队:尼姆  [MASK]置:前锋球队阵容前锋  蒂鲍尔特,贝内泽特,塞杜\"中[MASK]位置的文本是：",
+      "removed": "场上位",
+      "generated": "·德尔斯出生日期:2011-07-15身高",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "4家庭的教育方式王菲的厉害不仅在于她唱歌，也在于她的教育，窦唯和李亚鹏是她的前夫，窦靖童和李嫣也出自不同的家庭，但是之前却相处的非常好",
+      "input": "\"4家庭的教育方式王菲的厉害不仅在于[MASK]，也在于她的教育，窦唯和李亚鹏是她的前夫，窦靖童和李嫣也出自不同的家庭，但是之前却相处的非常好\"中[MASK]位置的文本是：",
+      "removed": "她唱歌",
+      "generated": "她的家庭",
+      "accepted": true,
+      "content": "4家庭的教育方式王菲的厉害不仅在于她的家庭，也在于她的教育，窦唯和李亚鹏是她的前夫，窦靖童和李嫣也出自不同的家庭，但是之前却相处的非常好",
+      "result_list": [
+        {
+          "text": "窦靖童",
+          "start": 42,
+          "end": 45
+        },
+        {
+          "text": "王菲",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "王菲"
+        ],
+        [
+          "王菲"
+        ]
+      ]
+    },
+    {
+      "prompt": "Text",
+      "original_content": "高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长",
+      "input": "\"高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义[MASK]营镇副镇长\"中[MASK]位置的文本是：",
+      "removed": "区高丽",
+      "generated": "区高丽",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "波努瓦·芒德勃罗的出生地",
+      "original_content": "波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，祖籍是立陶宛犹太人",
+      "input": "\"波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，[MASK]立陶宛犹太人\"中[MASK]位置的文本是：",
+      "removed": "祖籍是",
+      "generated": "是",
+      "accepted": true,
+      "content": "波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，是立陶宛犹太人",
+      "result_list": [
+        {
+          "text": "波兰华沙",
+          "start": 22,
+          "end": 26
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "华沙",
+          "波兰华沙"
+        ],
+        [
+          "华沙",
+          "波兰华沙"
+        ]
+      ]
+    },
+    {
+      "prompt": "银鸥的目",
+      "original_content": "黄脚鸥（larus livens），又名银鸥，是鸟纲鸻形目鸥科的一种水鸟，体中等",
+      "input": "\"黄脚鸥（larus livens），又名银鸥，[MASK]鸻形目鸥科的一种水鸟，体中等\"中[MASK]位置的文本是：",
+      "removed": "是鸟纲",
+      "generated": "为鸟形目、",
+      "accepted": false,
+      "content": "黄脚鸥（larus livens），又名银鸥，为鸟形目、鸻形目鸥科的一种水鸟，体中等",
+      "result_list": [
+        {
+          "text": "鸻形目",
+          "start": 28,
+          "end": 31
+        }
+      ],
+      "reference_consistent": false,
+      "reference_predictions": [
+        [
+          "鸻形目"
+        ],
+        [
+          "鸟形目"
+        ]
+      ],
+      "reason": "baseline extraction changed after filling"
+    },
+    {
+      "prompt": "国家",
+      "original_content": "穆斯塔法·多甘mustafa dogan是一位土耳其后裔的德国人，1976年1月1日出生在土耳其的伊斯帕尔塔省，身高180cm体重77kg，1989年在德国一个很小的足球俱乐部tv asberg开始足球生涯，1999年代表德国成年国家队出场两次，没有进球",
+      "input": "\"6年1月1日出生在土耳其的伊斯帕尔塔省，身高180cm体重77kg，1989年在德国一个很小的足球俱乐部tv asber[MASK]足球生涯，1999年代表德国成年国家队出场两次，没有进球\"中[MASK]位置的文本是：",
+      "removed": "g开始",
+      "generated": "中参加工作，在德国参加了一个",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "历史人物",
+      "original_content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁琅琊王氏王导玄孙王僧绰",
+      "input": "\"中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆[MASK]生母为文元袁皇后袁齐妫，东阳公主下嫁琅琊王氏王导玄孙王僧绰\"中[MASK]位置的文本是：",
+      "removed": "长女，",
+      "generated": "的儿子刘义隆，",
+      "accepted": true,
+      "content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆的儿子刘义隆，生母为文元袁皇后袁齐妫，东阳公主下嫁琅琊王氏王导玄孙王僧绰",
+      "result_list": [
+        {
+          "text": "王僧绰",
+          "start": 60,
+          "end": 63
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [],
+        []
+      ]
+    },
+    {
+      "prompt": "高俊岭的出生地",
+      "original_content": "高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长",
+      "input": "\"高俊岭 [MASK]汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长\"中[MASK]位置的文本是：",
+      "removed": "，女，",
+      "generated": "，男，",
+      "accepted": true,
+      "content": "高俊岭 ，男，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长",
+      "result_list": [
+        {
+          "text": "北京市顺义区高丽营镇",
+          "start": 26,
+          "end": 36
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "北京市顺义区高丽营镇"
+        ],
+        [
+          "北京市顺义区高丽营镇"
+        ]
+      ]
+    },
+    {
+      "prompt": "叶海波的出生地",
+      "original_content": "叶海波，男，1977年出生于湖北红安县，1997年至2007年就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学",
+      "input": "\"叶海波，男，1977年出生于湖北红安县，1997年至20[MASK]就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学\"中[MASK]位置的文本是：",
+      "removed": "07年",
+      "generated": "年在武汉大学",
+      "accepted": true,
+      "content": "叶海波，男，1977年出生于湖北红安县，1997年至20年在武汉大学就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学",
+      "result_list": [
+        {
+          "text": "湖北红安县",
+          "start": 14,
+          "end": 19
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "湖北红安县"
+        ],
+        [
+          "湖北红安县"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "胜利阀门有限公司于2001年7月11日在福建省泉州市工商行政管理局登记成立",
+      "input": "\"胜利阀门有限公司于2001年7月11日在福建省泉州市工商行[MASK]局登记成立\"中[MASK]位置的文本是：",
+      "removed": "政管理",
+      "generated": "有限公司在泉州市工商行政管理",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "目",
+      "original_content": "网目大理石芋螺是新腹足目、芋螺科的一种生物，分布于印度，斯里兰卡",
+      "input": "\"网目大理石芋螺是新腹足目、芋螺科的一种生物，[MASK]印度，斯里兰卡\"中[MASK]位置的文本是：",
+      "removed": "分布于",
+      "generated": "生于",
+      "accepted": true,
+      "content": "网目大理石芋螺是新腹足目、芋螺科的一种生物，生于印度，斯里兰卡",
+      "result_list": [
+        {
+          "text": "新腹足目",
+          "start": 8,
+          "end": 12
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "新腹足目"
+        ],
+        [
+          "新腹足目"
+        ]
+      ]
+    },
+    {
+      "prompt": "Text",
+      "original_content": "张翀（1469—1526），字鹏举",
+      "input": "\"张翀（146[MASK]526），字鹏举\"中[MASK]位置的文本是：",
+      "removed": "9—1",
+      "generated": "##5",
+      "accepted": true,
+      "content": "张翀（146##5526），字鹏举",
+      "result_list": [
+        {
+          "text": "鹏举",
+          "start": 15,
+          "end": 17
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "鹏举"
+        ],
+        [
+          "鹏举"
+        ]
+      ]
+    },
+    {
+      "prompt": "邹抗的出生地",
+      "original_content": "邹抗1，女，1981年12月出生，江西芦溪人，汉族，省委党校在职研究生文化，中国共产党党员",
+      "input": "\"邹抗1[MASK]1981年12月出生，江西芦溪人，汉族，省委党校在职研究生文化，中国共产党党员\"中[MASK]位置的文本是：",
+      "removed": "，女，",
+      "generated": "，男，",
+      "accepted": true,
+      "content": "邹抗1，男，1981年12月出生，江西芦溪人，汉族，省委党校在职研究生文化，中国共产党党员",
+      "result_list": [
+        {
+          "text": "江西芦溪",
+          "start": 17,
+          "end": 21
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "江西芦溪"
+        ],
+        [
+          "江西芦溪"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长",
+      "input": "\"高俊岭[MASK]，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长\"中[MASK]位置的文本是：",
+      "removed": " ，女",
+      "generated": "，男，汉族",
+      "accepted": true,
+      "content": "高俊岭，男，汉族，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长",
+      "result_list": [
+        {
+          "text": "1973年12月",
+          "start": 17,
+          "end": 25
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1973年12月"
+        ],
+        [
+          "1973年12月"
+        ]
+      ]
+    },
+    {
+      "prompt": "机构",
+      "original_content": "胜利阀门有限公司于2001年7月11日在福建省泉州市工商行政管理局登记成立",
+      "input": "\"胜利阀门有限公司于2001年7月11日在福建省泉[MASK]商行政管理局登记成立\"中[MASK]位置的文本是：",
+      "removed": "州市工",
+      "generated": "县市场监督管理局、福建省",
+      "accepted": true,
+      "content": "胜利阀门有限公司于2001年7月11日在福建省泉县市场监督管理局、福建省商行政管理局登记成立",
+      "result_list": [
+        {
+          "text": "胜利阀门有限公司",
+          "start": 0,
+          "end": 8
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "胜利阀门有限公司"
+        ],
+        [
+          "胜利阀门有限公司"
+        ]
+      ]
+    },
+    {
+      "prompt": "吴振文的民族",
+      "original_content": "吴振文，男，苗族，湖南省龙山县人，1959年11月出生，1976年8月参加工作，1986年12月入党，本科",
+      "input": "\"吴振文，男，苗族，湖南省龙山县人，1959年11月出生，1976年8月参加工作，1986年12月[MASK]本科\"中[MASK]位置的文本是：",
+      "removed": "入党，",
+      "generated": "加入中国共产党，现任湖南大学教育",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "姜宝昌的毕业院校",
+      "original_content": "姜宝昌1978年考入山东大学中文系，1981年7月山东大学中文系现代汉语专业硕士研究生毕业",
+      "input": "\"姜宝昌1978年考入山东大学中文系[MASK]81年7月山东大学中文系现代汉语专业硕士研究生毕业\"中[MASK]位置的文本是：",
+      "removed": "，19",
+      "generated": "中文专业，现任山东大学中文系教授",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "李淑珍　　1951年1月生，女，北京市人",
+      "input": "\"李淑珍　　1951年1月生[MASK]北京市人\"中[MASK]位置的文本是：",
+      "removed": "，女，",
+      "generated": "，",
+      "accepted": true,
+      "content": "李淑珍　　1951年1月生，北京市人",
+      "result_list": [
+        {
+          "text": "李淑珍",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "李淑珍"
+        ],
+        [
+          "李淑珍"
+        ]
+      ]
+    },
+    {
+      "prompt": "杏树扁刺蛾的目",
+      "original_content": "杏树扁刺蛾，为鳞翅目刺蛾科扁刺蛾属的一种昆虫",
+      "input": "\"杏树扁刺蛾，为鳞翅目刺蛾[MASK]蛾属的一种昆虫\"中[MASK]位置的文本是：",
+      "removed": "科扁刺",
+      "generated": "科扁刺",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "袁齐妫的国籍",
+      "original_content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁琅琊王氏王导玄孙王僧绰",
+      "input": "\"中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁琅[MASK]王导玄孙王僧绰\"中[MASK]位置的文本是：",
+      "removed": "琊王氏",
+      "generated": "王子王子，为",
+      "accepted": true,
+      "content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁琅王子王子，为王导玄孙王僧绰",
+      "result_list": [
+        {
+          "text": "中国",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "中国"
+        ],
+        [
+          "中国"
+        ]
+      ]
+    },
+    {
+      "prompt": "生物",
+      "original_content": "杏树扁刺蛾，为鳞翅目刺蛾科扁刺蛾属的一种昆虫",
+      "input": "\"杏树扁刺蛾，为鳞翅目刺蛾科扁刺蛾属的[MASK]虫\"中[MASK]位置的文本是：",
+      "removed": "一种昆",
+      "generated": "一种",
+      "accepted": true,
+      "content": "杏树扁刺蛾，为鳞翅目刺蛾科扁刺蛾属的一种虫",
+      "result_list": [
+        {
+          "text": "杏树扁刺蛾",
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "杏树扁刺蛾"
+        ],
+        [
+          "杏树扁刺蛾"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁琅琊王氏王导玄孙王僧绰",
+      "input": "\"中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁[MASK]氏王导玄孙王僧绰\"中[MASK]位置的文本是：",
+      "removed": "琅琊王",
+      "generated": "于北朝时期，王",
+      "accepted": false,
+      "content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁于北朝时期，王氏王导玄孙王僧绰",
+      "result_list": [
+        {
+          "text": "东阳公主",
+          "start": 42,
+          "end": 46
+        },
+        {
+          "text": "袁齐妫",
+          "start": 38,
+          "end": 41
+        },
+        {
+          "text": "刘义隆",
+          "start": 24,
+          "end": 27
+        }
+      ],
+      "reference_consistent": false,
+      "reference_predictions": [
+        [
+          "东阳公主",
+          "刘义隆",
+          "袁齐妫"
+        ],
+        [
+          "东阳公主",
+          "刘义隆",
+          "王僧绰",
+          "袁齐妫"
+        ]
+      ],
+      "reason": "baseline extraction changed after filling"
+    },
+    {
+      "prompt": "窦靖童的母亲",
+      "original_content": "很多人都把她们母女俩拿来作比较，发现不管是个性还是舞台表现力，窦靖童都真是像极了王菲",
+      "input": "\"[MASK]都把她们母女俩拿来作比较，发现不管是个性还是舞台表现力，窦靖童都真是像极了王菲\"中[MASK]位置的文本是：",
+      "removed": "很多人",
+      "generated": "这个时候，王菲和王菲",
+      "accepted": true,
+      "content": "这个时候，王菲和王菲都把她们母女俩拿来作比较，发现不管是个性还是舞台表现力，窦靖童都真是像极了王菲",
+      "result_list": [
+        {
+          "text": "王菲",
+          "start": 47,
+          "end": 49
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "王菲"
+        ],
+        [
+          "王菲"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，祖籍是立陶宛犹太人",
+      "input": "\"波努瓦·芒德勃罗，1924年11月20日生于波兰华沙[MASK]是立陶宛犹太人\"中[MASK]位置的文本是：",
+      "removed": "，祖籍",
+      "generated": "，",
+      "accepted": true,
+      "content": "波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，是立陶宛犹太人",
+      "result_list": [
+        {
+          "text": "波努瓦·芒德勃罗",
+          "start": 0,
+          "end": 8
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "波努瓦·芒德勃罗"
+        ],
+        [
+          "波努瓦·芒德勃罗"
+        ]
+      ]
+    },
+    {
+      "prompt": "关羽的字",
+      "original_content": "关羽关云长，后世都尊称关二爷为关公，并在很多地方都有关公的像或者庙宇，后世都敬重关羽的仁义，敬重他讲信用，讲义气，绝不做不忠义不仁义的事情",
+      "input": "\"关羽关云长，后世都[MASK]二爷为关公，并在很多地方都有关公的像或者庙宇，后世都敬重关羽的仁义，敬重他讲信用，讲义气，绝不做不忠义不仁义的事情\"中[MASK]位置的文本是：",
+      "removed": "尊称关",
+      "generated": "称为关羽，以关羽的",
+      "accepted": true,
+      "content": "关羽关云长，后世都称为关羽，以关羽的二爷为关公，并在很多地方都有关公的像或者庙宇，后世都敬重关羽的仁义，敬重他讲信用，讲义气，绝不做不忠义不仁义的事情",
+      "result_list": [
+        {
+          "text": "云长",
+          "start": 3,
+          "end": 5
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "云长"
+        ],
+        [
+          "云长"
+        ]
+      ]
+    },
+    {
+      "prompt": "目",
+      "original_content": "苦恶鸟属于鹤形目秧鸡科的一属，身体短胖",
+      "input": "\"苦恶鸟属于鹤形目秧鸡[MASK]属，身体短胖\"中[MASK]位置的文本是：",
+      "removed": "科的一",
+      "generated": "科，鸟科苦恶鸟",
+      "accepted": true,
+      "content": "苦恶鸟属于鹤形目秧鸡科，鸟科苦恶鸟属，身体短胖",
+      "result_list": [
+        {
+          "text": "鹤形目",
+          "start": 5,
+          "end": 8
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "鹤形目"
+        ],
+        [
+          "鹤形目"
+        ]
+      ]
+    },
+    {
+      "prompt": "卢根生的出生日期",
+      "original_content": "卢根生，第三军医大学西南医院教授，男，1965年5月出生，湖北省黄冈县人",
+      "input": "\"卢根生，第三军医大学西[MASK]教授，男，1965年5月出生，湖北省黄冈县人\"中[MASK]位置的文本是：",
+      "removed": "南医院",
+      "generated": "北师范大学医学院医学系",
+      "accepted": true,
+      "content": "卢根生，第三军医大学西北师范大学医学院医学系教授，男，1965年5月出生，湖北省黄冈县人",
+      "result_list": [
+        {
+          "text": "1965年5月",
+          "start": 27,
+          "end": 34
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1965年5月"
+        ],
+        [
+          "1965年5月"
+        ]
+      ]
+    },
+    {
+      "prompt": "学校",
+      "original_content": "朱心红，1968年5月生，广东省“珠江学者”特聘教授，南方医科大学基础医学院博士生导师，毕业于第一军医大学，获神经生物学博士学位",
+      "input": "\"朱心红，1968年5月生，[MASK]“珠江学者”特聘教授，南方医科大学基础医学院博士生导师，毕业于第一军医大学，获神经生物学博士学位\"中[MASK]位置的文本是：",
+      "removed": "广东省",
+      "generated": "南方医科大学",
+      "accepted": true,
+      "content": "朱心红，1968年5月生，南方医科大学“珠江学者”特聘教授，南方医科大学基础医学院博士生导师，毕业于第一军医大学，获神经生物学博士学位",
+      "result_list": [
+        {
+          "text": "第一军医大学",
+          "start": 50,
+          "end": 56
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "第一军医大学"
+        ],
+        [
+          "第一军医大学"
+        ]
+      ]
+    },
+    {
+      "prompt": "朴世摞的国籍",
+      "original_content": "个人资料姓名：朴世摞  国籍 : 韩国  性别: 女  出生日期: 1983-03-10  身高 ( m / in): 1",
+      "input": "\"个人资料姓名：朴世摞  国籍 : 韩国  性别: 女  出生日期: 1983-03-10[MASK]高 ( m / in): 1\"中[MASK]位置的文本是：",
+      "removed": "  身",
+      "generated": "身高:",
+      "accepted": true,
+      "content": "个人资料姓名：朴世摞  国籍 : 韩国  性别: 女  出生日期: 1983-03-10身高:高 ( m / in): 1",
+      "result_list": [
+        {
+          "text": "韩国",
+          "start": 17,
+          "end": 19
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "韩国"
+        ],
+        [
+          "韩国"
+        ]
+      ]
+    },
+    {
+      "prompt": "Text",
+      "original_content": "周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任晴隆县人民检察院反贪污贿赂局预防职务犯罪科科长",
+      "input": "\"周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任晴隆县人民检察[MASK]污贿赂局预防职务犯罪科科长\"中[MASK]位置的文本是：",
+      "removed": "院反贪",
+      "generated": "局委员会副主任，现任晴隆县人民检",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "目",
+      "original_content": "迷卡斗蟋（学名：velarifictorus micado）是直翅目蟋蟀科的一种常见鸣虫，即常人所说的“蛐蛐儿”，广泛分布于我国的广大地区",
+      "input": "\"迷卡斗蟋（学名：velarifictorus micado）是直翅目蟋蟀科的一种常见鸣虫[MASK]人所说的“蛐蛐儿”，广泛分布于我国的广大地区\"中[MASK]位置的文本是：",
+      "removed": "，即常",
+      "generated": "，是中国",
+      "accepted": true,
+      "content": "迷卡斗蟋（学名：velarifictorus micado）是直翅目蟋蟀科的一种常见鸣虫，是中国人所说的“蛐蛐儿”，广泛分布于我国的广大地区",
+      "result_list": [
+        {
+          "text": "直翅目",
+          "start": 31,
+          "end": 34
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "直翅目"
+        ],
+        [
+          "直翅目"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "梅香雪，女，1960年7月出生，汉族，湖北浠水人",
+      "input": "\"梅香雪[MASK]1960年7月出生，汉族，湖北浠水人\"中[MASK]位置的文本是：",
+      "removed": "，女，",
+      "generated": "，男，",
+      "accepted": true,
+      "content": "梅香雪，男，1960年7月出生，汉族，湖北浠水人",
+      "result_list": [
+        {
+          "text": "1960年7月",
+          "start": 6,
+          "end": 13
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1960年7月"
+        ],
+        [
+          "1960年7月"
+        ]
+      ]
+    },
+    {
+      "prompt": "许有国的毕业院校",
+      "original_content": "许有国，毕业于江苏教育学院，中学高级教师，盐城市英语教学能手，盐城市英语学科带头人，市13届人大代表，市第二届兼职教育科学研究员，连续多年任教初三",
+      "input": "\"许有国，毕业于江苏教育学院，中学高级教师，盐城市英语教学能手，盐城市英语学科[MASK]，市13届人大代表，市第二届兼职教育科学研究员，连续多年任教初三\"中[MASK]位置的文本是：",
+      "removed": "带头人",
+      "generated": "研究生学历，现任盐城市教育科学院",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "邹抗1，女，1981年12月出生，江西芦溪人，汉族，省委党校在职研究生文化，中国共产党党员",
+      "input": "\"邹抗1，女，1981年12月出生，江西芦溪人，汉族，[MASK]校在职研究生文化，中国共产党党员\"中[MASK]位置的文本是：",
+      "removed": "省委党",
+      "generated": "大学学历，中共党员，中国共产党",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "何良风，女，汉族，湘潭市优秀教师，湘潭师范学院附中中教一级教师",
+      "input": "\"何良风，女，汉族[MASK]市优秀教师，湘潭师范学院附中中教一级教师\"中[MASK]位置的文本是：",
+      "removed": "，湘潭",
+      "generated": "，湖南省湘潭",
+      "accepted": true,
+      "content": "何良风，女，汉族，湖南省湘潭市优秀教师，湘潭师范学院附中中教一级教师",
+      "result_list": [
+        {
+          "text": "何良风",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "何良风"
+        ],
+        [
+          "何良风"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "其他信息冯小宁和刘小微，演艺圈难得的模范夫妻，从相识、相知到相恋，以及步入婚姻殿堂，一次次考验让他们的生命紧紧相连",
+      "input": "\"其他信息冯小宁和刘小微，演艺圈难得的模范夫妻，从相识、相[MASK]恋，以及步入婚姻殿堂，一次次考验让他们的生命紧紧相连\"中[MASK]位置的文本是：",
+      "removed": "知到相",
+      "generated": "爱、相爱、",
+      "accepted": true,
+      "content": "其他信息冯小宁和刘小微，演艺圈难得的模范夫妻，从相识、相爱、相爱、恋，以及步入婚姻殿堂，一次次考验让他们的生命紧紧相连",
+      "result_list": [
+        {
+          "text": "冯小宁",
+          "start": 4,
+          "end": 7
+        },
+        {
+          "text": "刘小微",
+          "start": 8,
+          "end": 11
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "冯小宁",
+          "刘小微"
+        ],
+        [
+          "冯小宁",
+          "刘小微"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "扎维德·尼马尼（1919-2000），南斯拉夫社会主义联邦共和国议会副主席、科索沃自治省主席团主席",
+      "input": "\"扎维德·尼马尼（1919-2000），南斯拉夫社会主义联邦[MASK]议会副主席、科索沃自治省主席团主席\"中[MASK]位置的文本是：",
+      "removed": "共和国",
+      "generated": "党员，南斯拉夫社会主义联合会副主",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "霖园集团的创始人",
+      "original_content": "霖园集团（官方英文译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身与核心企业为国泰人寿",
+      "input": "\"霖园集团（官[MASK]译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身与核心企业为国泰人寿\"中[MASK]位置的文本是：",
+      "removed": "方英文",
+      "generated": "名：",
+      "accepted": true,
+      "content": "霖园集团（官名：译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身与核心企业为国泰人寿",
+      "result_list": [
+        {
+          "text": "蔡万霖",
+          "start": 46,
+          "end": 49
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "蔡万霖"
+        ],
+        [
+          "蔡万霖"
+        ]
+      ]
+    },
+    {
+      "prompt": "吴超羽的毕业院校",
+      "original_content": "人物生平吴超羽，吴尚时之子，1967年于中山大学地质地理系毕业后，来到广东台山的烽火角农场接受上山下海“再教育”",
+      "input": "\"人物生平吴超羽，吴尚时之子，1967年于中山大学地质地理系毕业后，[MASK]东台山的烽火角农场接受上山下海“再教育”\"中[MASK]位置的文本是：",
+      "removed": "来到广",
+      "generated": "在北京",
+      "accepted": true,
+      "content": "人物生平吴超羽，吴尚时之子，1967年于中山大学地质地理系毕业后，在北京东台山的烽火角农场接受上山下海“再教育”",
+      "result_list": [
+        {
+          "text": "中山大学",
+          "start": 20,
+          "end": 24
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "中山大学"
+        ],
+        [
+          "中山大学"
+        ]
+      ]
+    },
+    {
+      "prompt": "历史人物",
+      "original_content": "张翀（1469—1526），字鹏举",
+      "input": "\"张翀（14[MASK]1526），字鹏举\"中[MASK]位置的文本是：",
+      "removed": "69—",
+      "generated": "-",
+      "accepted": true,
+      "content": "张翀（14-1526），字鹏举",
+      "result_list": [
+        {
+          "text": "张翀",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "张翀"
+        ],
+        [
+          "张翀"
+        ]
+      ]
+    },
+    {
+      "prompt": "学校",
+      "original_content": "姜宝昌1978年考入山东大学中文系，1981年7月山东大学中文系现代汉语专业硕士研究生毕业",
+      "input": "\"姜宝昌1978年考入山东大学中文系，1981年7[MASK]大学中文系现代汉语专业硕士研究生毕业\"中[MASK]位置的文本是：",
+      "removed": "月山东",
+      "generated": "月参加工作，山东",
+      "accepted": true,
+      "content": "姜宝昌1978年考入山东大学中文系，1981年7月参加工作，山东大学中文系现代汉语专业硕士研究生毕业",
+      "result_list": [
+        {
+          "text": "山东大学",
+          "start": 10,
+          "end": 14
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "山东大学"
+        ],
+        [
+          "山东大学"
+        ]
+      ]
+    },
+    {
+      "prompt": "目",
+      "original_content": "多棱蛹笔螺是一种蛹笔螺科、腹足纲、新腹足目贝类动物，分布于热带到温带浅海，具高度多样性",
+      "input": "\"多棱蛹笔螺是一种蛹笔螺科、腹足纲、新腹足目贝类动物，分布于热带到温带浅海，具[MASK]样性\"中[MASK]位置的文本是：",
+      "removed": "高度多",
+      "generated": "多种",
+      "accepted": true,
+      "content": "多棱蛹笔螺是一种蛹笔螺科、腹足纲、新腹足目贝类动物，分布于热带到温带浅海，具多种样性",
+      "result_list": [
+        {
+          "text": "新腹足目",
+          "start": 17,
+          "end": 21
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "新腹足目"
+        ],
+        [
+          "新腹足目"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "朱心红，1968年5月生，广东省“珠江学者”特聘教授，南方医科大学基础医学院博士生导师，毕业于第一军医大学，获神经生物学博士学位",
+      "input": "\"朱心红，1968年5月生，广东省“[MASK]者”特聘教授，南方医科大学基础医学院博士生导师，毕业于第一军医大学，获神经生物学博士学位\"中[MASK]位置的文本是：",
+      "removed": "珠江学",
+      "generated": "中国医学院医学科学院科学研究",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "人物生平吴超羽，吴尚时之子，1967年于中山大学地质地理系毕业后，来到广东台山的烽火角农场接受上山下海“再教育”",
+      "input": "\"人物生平吴超羽，吴尚时之子，1967年于中山大学地质地理系毕业后，[MASK]东台山的烽火角农场接受上山下海“再教育”\"中[MASK]位置的文本是：",
+      "removed": "来到广",
+      "generated": "在北京",
+      "accepted": true,
+      "content": "人物生平吴超羽，吴尚时之子，1967年于中山大学地质地理系毕业后，在北京东台山的烽火角农场接受上山下海“再教育”",
+      "result_list": [
+        {
+          "text": "吴超羽",
+          "start": 4,
+          "end": 7
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "吴超羽"
+        ],
+        [
+          "吴超羽"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "穆斯塔法·多甘mustafa dogan是一位土耳其后裔的德国人，1976年1月1日出生在土耳其的伊斯帕尔塔省，身高180cm体重77kg，1989年在德国一个很小的足球俱乐部tv asberg开始足球生涯，1999年代表德国成年国家队出场两次，没有进球",
+      "input": "\"土耳其的伊斯帕尔塔省，身高180cm体重77kg，1989年在德国一个很小的足球俱乐部tv asberg开始足球生涯，1[MASK]年代表德国成年国家队出场两次，没有进球\"中[MASK]位置的文本是：",
+      "removed": "999",
+      "generated": "月1日出生于德国德国，1988",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "地点",
+      "original_content": "卢根生，第三军医大学西南医院教授，男，1965年5月出生，湖北省黄冈县人",
+      "input": "\"卢根生，第三军医大学西南医院教授，男，1965年5月[MASK]湖北省黄冈县人\"中[MASK]位置的文本是：",
+      "removed": "出生，",
+      "generated": "10日出生，",
+      "accepted": true,
+      "content": "卢根生，第三军医大学西南医院教授，男，1965年5月10日出生，湖北省黄冈县人",
+      "result_list": [
+        {
+          "text": "湖北省黄冈县",
+          "start": 32,
+          "end": 38
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "湖北省黄冈县"
+        ],
+        [
+          "湖北省黄冈县"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "高群耀，1958年7月出生，是恢复高考后的首批大学生，在哈尔滨工业大学获得工程力学学士和硕士学位",
+      "input": "\"高群耀，1958年7月出生，是恢复高考后的首批大学生，在哈尔滨工业大学获得[MASK]学学士和硕士学位\"中[MASK]位置的文本是：",
+      "removed": "工程力",
+      "generated": "大学学士、大学教育",
+      "accepted": true,
+      "content": "高群耀，1958年7月出生，是恢复高考后的首批大学生，在哈尔滨工业大学获得大学学士、大学教育学学士和硕士学位",
+      "result_list": [
+        {
+          "text": "高群耀",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "高群耀"
+        ],
+        [
+          "高群耀"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "李民宬（1570-1629），字宽甫，号敬亭，朝鲜王朝诗人",
+      "input": "\"李民宬（1570-1629），字宽甫，号敬亭，朝鲜[MASK]人\"中[MASK]位置的文本是：",
+      "removed": "王朝诗",
+      "generated": "朝鲜",
+      "accepted": true,
+      "content": "李民宬（1570-1629），字宽甫，号敬亭，朝鲜朝鲜人",
+      "result_list": [
+        {
+          "text": "1570",
+          "start": 4,
+          "end": 8
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1570"
+        ],
+        [
+          "1570"
+        ]
+      ]
+    },
+    {
+      "prompt": "王国维的号",
+      "original_content": "王国维，字静安，又字伯隅，号观堂",
+      "input": "\"王国维，字静安[MASK]伯隅，号观堂\"中[MASK]位置的文本是：",
+      "removed": "，又字",
+      "generated": "，字",
+      "accepted": true,
+      "content": "王国维，字静安，字伯隅，号观堂",
+      "result_list": [
+        {
+          "text": "观堂",
+          "start": 13,
+          "end": 15
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "观堂"
+        ],
+        [
+          "观堂"
+        ]
+      ]
+    },
+    {
+      "prompt": "周惠玲的出生日期",
+      "original_content": "周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任晴隆县人民检察院反贪污贿赂局预防职务犯罪科科长",
+      "input": "\"周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任晴隆县人民检察院反贪污贿赂局预防职务[MASK]科长\"中[MASK]位置的文本是：",
+      "removed": "犯罪科",
+      "generated": "副主任、副",
+      "accepted": true,
+      "content": "周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任晴隆县人民检察院反贪污贿赂局预防职务副主任、副科长",
+      "result_list": [
+        {
+          "text": "1966年10月",
+          "start": 7,
+          "end": 15
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1966年10月"
+        ],
+        [
+          "1966年10月"
+        ]
+      ]
+    },
+    {
+      "prompt": "谢天羽的出生地",
+      "original_content": "简介谢天羽，女，1943年10月生，四川祟庆县人，煤炭科学研究总院重庆分院研究员、硕士生导师",
+      "input": "\"简介谢天羽，女，1943年10月生，四川祟庆县人，煤[MASK]研究总院重庆分院研究员、硕士生导师\"中[MASK]位置的文本是：",
+      "removed": "炭科学",
+      "generated": "工业大学研究生学历，四川大学工业",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "苏扬的民族",
+      "original_content": "邓大枫男，汉族，1969年10月生，江苏扬州人，省委党校大学学历，中共党员，现任琅琊区东门街道党工委副书记、办事处主任（主持街道全面工作），拟任琅琊区东门街道党工委书记",
+      "input": "\"0月生，江苏扬州人，省委党校大学学历，中共党员，现任琅琊区东门街道党工委副书记、办事处主任（主持街道全面工作），拟任琅琊[MASK]街道党工委书记\"中[MASK]位置的文本是：",
+      "removed": "区东门",
+      "generated": "区东门",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "太平公主的母亲",
+      "original_content": "这些屠杀都是为了帝王之路清除障碍，从杀死太平公主的丈夫薛绍中，就可以看出武则天的良苦用心，她要新驸马必须姓武",
+      "input": "\"这些屠杀都是为了帝王[MASK]除障碍，从杀死太平公主的丈夫薛绍中，就可以看出武则天的良苦用心，她要新驸马必须姓武\"中[MASK]位置的文本是：",
+      "removed": "之路清",
+      "generated": "的儿子，为了",
+      "accepted": true,
+      "content": "这些屠杀都是为了帝王的儿子，为了除障碍，从杀死太平公主的丈夫薛绍中，就可以看出武则天的良苦用心，她要新驸马必须姓武",
+      "result_list": [
+        {
+          "text": "武则天",
+          "start": 39,
+          "end": 42
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "武则天"
+        ],
+        [
+          "武则天"
+        ]
+      ]
+    },
+    {
+      "prompt": "地点",
+      "original_content": "周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任晴隆县人民检察院反贪污贿赂局预防职务犯罪科科长",
+      "input": "\"周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任晴隆县人民检察院反贪污贿赂局[MASK]务犯罪科科长\"中[MASK]位置的文本是：",
+      "removed": "预防职",
+      "generated": "副主任、委员会副副主席、副委员、",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "湖北桐梓湖食品有限公司的成立日期",
+      "original_content": "湖北桐梓湖食品有限公司1于2008年4月由原海马水产食品公司组建成立",
+      "input": "\"湖北桐梓湖食品有限公司1于2008年4月由原[MASK]产食品公司组建成立\"中[MASK]位置的文本是：",
+      "removed": "海马水",
+      "generated": "桐梓湖",
+      "accepted": true,
+      "content": "湖北桐梓湖食品有限公司1于2008年4月由原桐梓湖产食品公司组建成立",
+      "result_list": [
+        {
+          "text": "2008年4月",
+          "start": 13,
+          "end": 20
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "2008年4月"
+        ],
+        [
+          "2008年4月"
+        ]
+      ]
+    },
+    {
+      "prompt": "企业",
+      "original_content": "霖园集团（官方英文译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身与核心企业为国泰人寿",
+      "input": "\"霖园集团（官方英文译名：linyuan group）是台湾第一大民营[MASK]团，由知名台湾企业家蔡万霖创立，其前身与核心企业为国泰人寿\"中[MASK]位置的文本是：",
+      "removed": "企业集",
+      "generated": "集团的集团集团，是台湾第一大民营",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长",
+      "input": "\"高俊岭[MASK]，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长\"中[MASK]位置的文本是：",
+      "removed": " ，女",
+      "generated": "，男，汉族",
+      "accepted": true,
+      "content": "高俊岭，男，汉族，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长",
+      "result_list": [
+        {
+          "text": "高俊岭",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "高俊岭"
+        ],
+        [
+          "高俊岭"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "附心汉歌曲名称：附心汉 周汤豪『附心汉』 专辑名称：同名专辑 歌手姓名：周汤豪 发行时间：2010年07月16日 发行公司：华纳唱片 专辑语种：国语",
+      "input": "\"附心汉歌曲名称：附心汉 周汤豪『附心汉[MASK]辑名称：同名专辑 歌手姓名：周汤豪 发行时间：2010年07月16日 发行公司：华纳唱片 专辑语种：国语\"中[MASK]位置的文本是：",
+      "removed": "』 专",
+      "generated": "歌曲名称：周汤豪专辑：专辑作品：",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "地点",
+      "original_content": "梅香雪，女，1960年7月出生，汉族，湖北浠水人",
+      "input": "\"梅香雪，女，1960年7月[MASK]汉族，湖北浠水人\"中[MASK]位置的文本是：",
+      "removed": "出生，",
+      "generated": "出生，",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "目",
+      "original_content": "黄脚鸥（larus livens），又名银鸥，是鸟纲鸻形目鸥科的一种水鸟，体中等",
+      "input": "\"黄脚鸥（larus livens[MASK]名银鸥，是鸟纲鸻形目鸥科的一种水鸟，体中等\"中[MASK]位置的文本是：",
+      "removed": "），又",
+      "generated": "），",
+      "accepted": true,
+      "content": "黄脚鸥（larus livens），名银鸥，是鸟纲鸻形目鸥科的一种水鸟，体中等",
+      "result_list": [
+        {
+          "text": "鸻形目",
+          "start": 25,
+          "end": 28
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "鸻形目"
+        ],
+        [
+          "鸻形目"
+        ]
+      ]
+    },
+    {
+      "prompt": "机构",
+      "original_content": "北京嘉诚信实科技有限公司（简称：嘉诚信实）是国内一家提供移动互联网整合营销服务的移动互联网公司，作为从事无线营销的公司，自2013年成立至今，累计服务50多家客户",
+      "input": "\"公司（简称：嘉诚信实）是国内一家提供移动互联网整合营销服务的移动互联网公司，作为从事无线营销的公司，自2013年成立至今[MASK]服务50多家客户\"中[MASK]位置的文本是：",
+      "removed": "，累计",
+      "generated": "，已经在中国市场监督管理局登记成",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "刘义隆的妻子",
+      "original_content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁琅琊王氏王导玄孙王僧绰",
+      "input": "\"中国古代南北朝时期南朝宋（刘宋）第三位皇帝[MASK]刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁琅琊王氏王导玄孙王僧绰\"中[MASK]位置的文本是：",
+      "removed": "宋文帝",
+      "generated": "刘义隆的儿子",
+      "accepted": true,
+      "content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝刘义隆的儿子刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁琅琊王氏王导玄孙王僧绰",
+      "result_list": [
+        {
+          "text": "袁齐妫",
+          "start": 41,
+          "end": 44
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "袁齐妫"
+        ],
+        [
+          "袁齐妫"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "邹抗1，女，1981年12月出生，江西芦溪人，汉族，省委党校在职研究生文化，中国共产党党员",
+      "input": "\"邹抗1，女，1981年12月出生，江西芦溪人，汉族，省委党校[MASK]究生文化，中国共产党党员\"中[MASK]位置的文本是：",
+      "removed": "在职研",
+      "generated": "教育学院教育专业毕业，中共党员，",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "王治郅，1977年7月8日出生于北京，前中国职业篮球运动员，曾效力八一火箭队、达拉斯小牛队、洛杉矶快船队、迈阿密热火队，司职大前锋、中锋",
+      "input": "\"王治郅，1977年7月8日出生于北京，前中国职业篮球运[MASK]曾效力八一火箭队、达拉斯小牛队、洛杉矶快船队、迈阿密热火队，司职大前锋、中锋\"中[MASK]位置的文本是：",
+      "removed": "动员，",
+      "generated": "动员，",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "克诺佩·理查德,荷兰籍足球运动员",
+      "input": "\"克诺佩·理查德,荷兰籍足[MASK]员\"中[MASK]位置的文本是：",
+      "removed": "球运动",
+      "generated": "球运动",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "北京嘉诚信实科技有限公司的成立日期",
+      "original_content": "北京嘉诚信实科技有限公司（简称：嘉诚信实）是国内一家提供移动互联网整合营销服务的移动互联网公司，作为从事无线营销的公司，自2013年成立至今，累计服务50多家客户",
+      "input": "\"北京嘉诚信实科技有限公司（简称：嘉诚[MASK]是国内一家提供移动互联网整合营销服务的移动互联网公司，作为从事无线营销的公司，自2013年成立至今，累计服务50多家客户\"中[MASK]位置的文本是：",
+      "removed": "信实）",
+      "generated": "信实科技有限公司）",
+      "accepted": true,
+      "content": "北京嘉诚信实科技有限公司（简称：嘉诚信实科技有限公司）是国内一家提供移动互联网整合营销服务的移动互联网公司，作为从事无线营销的公司，自2013年成立至今，累计服务50多家客户",
+      "result_list": [
+        {
+          "text": "2013年",
+          "start": 67,
+          "end": 72
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "2013年"
+        ],
+        [
+          "2013年"
+        ]
+      ]
+    },
+    {
+      "prompt": "目",
+      "original_content": "黑角原花蝽，属于动物界，昆虫纲 ，半翅目，花蝽科",
+      "input": "\"黑角原花蝽，属于动物界[MASK]纲 ，半翅目，花蝽科\"中[MASK]位置的文本是：",
+      "removed": "，昆虫",
+      "generated": "，花",
+      "accepted": true,
+      "content": "黑角原花蝽，属于动物界，花纲 ，半翅目，花蝽科",
+      "result_list": [
+        {
+          "text": "半翅目",
+          "start": 16,
+          "end": 19
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "半翅目"
+        ],
+        [
+          "半翅目"
+        ]
+      ]
+    },
+    {
+      "prompt": "冯小宁的妻子",
+      "original_content": "其他信息冯小宁和刘小微，演艺圈难得的模范夫妻，从相识、相知到相恋，以及步入婚姻殿堂，一次次考验让他们的生命紧紧相连",
+      "input": "\"其他信息冯小宁和刘小微[MASK]圈难得的模范夫妻，从相识、相知到相恋，以及步入婚姻殿堂，一次次考验让他们的生命紧紧相连\"中[MASK]位置的文本是：",
+      "removed": "，演艺",
+      "generated": "、刘小宁等人都是一个婚姻",
+      "accepted": true,
+      "content": "其他信息冯小宁和刘小微、刘小宁等人都是一个婚姻圈难得的模范夫妻，从相识、相知到相恋，以及步入婚姻殿堂，一次次考验让他们的生命紧紧相连",
+      "result_list": [
+        {
+          "text": "刘小微",
+          "start": 8,
+          "end": 11
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "刘小微"
+        ],
+        [
+          "刘小微"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "白百何自从把陈羽凡绿了之后，人气急转直下，微博上过生日的祝福都没有多少人送，点赞评论都没有过万的，已经不能算是流量明星了，这就是身为流量明星的悲哀，粉丝不喜欢你了，没有演技没有实力就什么都不是了",
+      "input": "\"凡绿了之后，人气急转直下，微博上过生日的祝福都没有多少人送，点赞评论都没有过万的，已经不能算是流量明星了，这就是身为流量[MASK]悲哀，粉丝不喜欢你了，没有演技没有实力就什么都不是了\"中[MASK]位置的文本是：",
+      "removed": "明星的",
+      "generated": "明星的",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "陈化，男，祖籍福建，1955年生于天津，早年毕业于天津工艺美院商业美术专业，从事广告摄影、国内外展览30多年",
+      "input": "\"陈化，男，祖籍福建，1955年生于天津，早年毕业于天津工艺美院[MASK]术专业，从事广告摄影、国内外展览30多年\"中[MASK]位置的文本是：",
+      "removed": "商业美",
+      "generated": "，毕业于天津工艺美术学院美术",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "霍力民的出生地",
+      "original_content": "霍力民，男，1955年出生，山东博兴人",
+      "input": "\"霍力民[MASK]1955年出生，山东博兴人\"中[MASK]位置的文本是：",
+      "removed": "，男，",
+      "generated": "，男，",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "地点",
+      "original_content": "赵矛，汉族，山东乐陵人，1948年10月出生，现任高级经济师，信仰共产主义",
+      "input": "\"赵矛，汉族，山东乐陵人，1948年10月出生，现任高级经济师，信仰[MASK]义\"中[MASK]位置的文本是：",
+      "removed": "共产主",
+      "generated": "中国共产党，中国人民共产国家主要",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "梅香雪，女，1960年7月出生，汉族，湖北浠水人",
+      "input": "\"梅香雪，女，1960年7月[MASK]汉族，湖北浠水人\"中[MASK]位置的文本是：",
+      "removed": "出生，",
+      "generated": "出生，",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "个人资料姓名：朴世摞  国籍 : 韩国  性别: 女  出生日期: 1983-03-10  身高 ( m / in): 1",
+      "input": "\"个人资料姓名：朴世摞  国籍 : 韩国  性别: 女  出生日[MASK]1983-03-10  身高 ( m / in): 1\"中[MASK]位置的文本是：",
+      "removed": "期: ",
+      "generated": ":韩国日期:",
+      "accepted": true,
+      "content": "个人资料姓名：朴世摞  国籍 : 韩国  性别: 女  出生日:韩国日期:1983-03-10  身高 ( m / in): 1",
+      "result_list": [
+        {
+          "text": "朴世摞",
+          "start": 7,
+          "end": 10
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "朴世摞"
+        ],
+        [
+          "朴世摞"
+        ]
+      ]
+    },
+    {
+      "prompt": "地点",
+      "original_content": "王治郅，1977年7月8日出生于北京，前中国职业篮球运动员，曾效力八一火箭队、达拉斯小牛队、洛杉矶快船队、迈阿密热火队，司职大前锋、中锋",
+      "input": "\"王治郅，1977年7月8日出生于北京，前中国职业篮球运动员，曾效力八一火[MASK]达拉斯小牛队、洛杉矶快船队、迈阿密热火队，司职大前锋、中锋\"中[MASK]位置的文本是：",
+      "removed": "箭队、",
+      "generated": "队、",
+      "accepted": true,
+      "content": "王治郅，1977年7月8日出生于北京，前中国职业篮球运动员，曾效力八一火队、达拉斯小牛队、洛杉矶快船队、迈阿密热火队，司职大前锋、中锋",
+      "result_list": [
+        {
+          "text": "北京",
+          "start": 16,
+          "end": 18
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "北京"
+        ],
+        [
+          "北京"
+        ]
+      ]
+    },
+    {
+      "prompt": "机构",
+      "original_content": "迈阿密热火队（miami heat），于1988年成立并加入nba，是一支属于美国佛罗里达州迈阿密市的职业篮球队，是美国男篮职业联赛（nba）东部联盟东南赛区的一部分",
+      "input": "\"迈阿密热火队（miami heat），于1988年成立并加入nba，是一支属于美国佛[MASK]州迈阿密市的职业篮球队，是美国男篮职业联赛（nba）东部联盟东南赛区的一部分\"中[MASK]位置的文本是：",
+      "removed": "罗里达",
+      "generated": "斯特·迈阿密",
+      "accepted": true,
+      "content": "迈阿密热火队（miami heat），于1988年成立并加入nba，是一支属于美国佛斯特·迈阿密州迈阿密市的职业篮球队，是美国男篮职业联赛（nba）东部联盟东南赛区的一部分",
+      "result_list": [
+        {
+          "text": "迈阿密热火队",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "迈阿密热火队"
+        ],
+        [
+          "迈阿密热火队"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "在圣保罗书院中学毕业后，曾钰成又在中学会考及大学入学考试中名列全港前十名",
+      "input": "\"在圣保罗书院中学毕业后，曾钰成又在中[MASK]及大学入学考试中名列全港前十名\"中[MASK]位置的文本是：",
+      "removed": "学会考",
+      "generated": "学历",
+      "accepted": true,
+      "content": "在圣保罗书院中学毕业后，曾钰成又在中学历及大学入学考试中名列全港前十名",
+      "result_list": [
+        {
+          "text": "曾钰成",
+          "start": 12,
+          "end": 15
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "曾钰成"
+        ],
+        [
+          "曾钰成"
+        ]
+      ]
+    },
+    {
+      "prompt": "目",
+      "original_content": "狭翼鱼龙（stenopterygius）又名狭翼龙，是双孔亚纲鱼龙目狭翼鱼龙科中的一个属，生活在英格兰、法国、德国、卢森堡，年代为侏罗纪中到晚期（托阿尔阶到阿连阶），身长约4米",
+      "input": "\"狭翼鱼龙（st[MASK]pterygius）又名狭翼龙，是双孔亚纲鱼龙目狭翼鱼龙科中的一个属，生活在英格兰、法国、德国、卢森堡，年代为侏罗纪中到\"中[MASK]位置的文本是：",
+      "removed": "eno",
+      "generated": "，",
+      "accepted": true,
+      "content": "狭翼鱼龙（st，pterygius）又名狭翼龙，是双孔亚纲鱼龙目狭翼鱼龙科中的一个属，生活在英格兰、法国、德国、卢森堡，年代为侏罗纪中到晚期（托阿尔阶到阿连阶），身长约4米",
+      "result_list": [
+        {
+          "text": "鱼龙目",
+          "start": 29,
+          "end": 32
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "鱼龙目"
+        ],
+        [
+          "鱼龙目"
+        ]
+      ]
+    },
+    {
+      "prompt": "地点",
+      "original_content": "宝鸡市地方税务局是主管宝鸡市地方税收的职能部门，其主要职能是：",
+      "input": "\"宝鸡市地方税务局是主管宝鸡市[MASK]收的职能部门，其主要职能是：\"中[MASK]位置的文本是：",
+      "removed": "地方税",
+      "generated": "地方税务局管理和管理管理、管理及",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "陈化的出生日期",
+      "original_content": "陈化，男，祖籍福建，1955年生于天津，早年毕业于天津工艺美院商业美术专业，从事广告摄影、国内外展览30多年",
+      "input": "\"陈化，男，祖籍福建，1955年生于天津，早年毕业于天津工艺美院商业美术专[MASK]事广告摄影、国内外展览30多年\"中[MASK]位置的文本是：",
+      "removed": "业，从",
+      "generated": "业，曾经在天津工艺美术学院工作，",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "历史人物",
+      "original_content": "王国维，字静安，又字伯隅，号观堂",
+      "input": "\"王国维，字静安[MASK]伯隅，号观堂\"中[MASK]位置的文本是：",
+      "removed": "，又字",
+      "generated": "，字",
+      "accepted": true,
+      "content": "王国维，字静安，字伯隅，号观堂",
+      "result_list": [
+        {
+          "text": "王国维",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "王国维"
+        ],
+        [
+          "王国维"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "武纬(1906～1971)黄埔军校第五期政治科毕业",
+      "input": "\"武纬(1906～1971)黄埔军校[MASK]政治科毕业\"中[MASK]位置的文本是：",
+      "removed": "第五期",
+      "generated": "大学",
+      "accepted": true,
+      "content": "武纬(1906～1971)黄埔军校大学政治科毕业",
+      "result_list": [
+        {
+          "text": "1906",
+          "start": 3,
+          "end": 7
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1906～1971"
+        ],
+        [
+          "1906～1971"
+        ]
+      ]
+    },
+    {
+      "prompt": "Text",
+      "original_content": "邓大枫男，汉族，1969年10月生，江苏扬州人，省委党校大学学历，中共党员，现任琅琊区东门街道党工委副书记、办事处主任（主持街道全面工作），拟任琅琊区东门街道党工委书记",
+      "input": "\"0月生，江苏扬州人，省委党校大学学历，中共党员，现任琅琊区东门街道党工委副书记、办事处主任（主持街道全面工作），拟任琅琊[MASK]街道党工委书记\"中[MASK]位置的文本是：",
+      "removed": "区东门",
+      "generated": "区东门",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "王老吉大健康产业（雅安）有限公司的成立日期",
+      "original_content": "王老吉大健康产业（雅安）有限公司于2013年7月2日在雅安市名山区工商行政管理局登记成立",
+      "input": "\"王老吉大健康产业（雅安）有限公司于2013年7月2日在[MASK]名山区工商行政管理局登记成立\"中[MASK]位置的文本是：",
+      "removed": "雅安市",
+      "generated": "雅安市",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "李新民的出生地",
+      "original_content": "李新民，男，高村镇波浪后村人",
+      "input": "\"李新民[MASK]高村镇波浪后村人\"中[MASK]位置的文本是：",
+      "removed": "，男，",
+      "generated": "，汉族，湖南省",
+      "accepted": false,
+      "content": "李新民，汉族，湖南省高村镇波浪后村人",
+      "result_list": [
+        {
+          "text": "高村镇波浪后村",
+          "start": 10,
+          "end": 17
+        }
+      ],
+      "reference_consistent": false,
+      "reference_predictions": [
+        [
+          "高村镇波浪后村"
+        ],
+        [
+          "湖南省高村镇波浪后村"
+        ]
+      ],
+      "reason": "baseline extraction changed after filling"
+    },
+    {
+      "prompt": "国家",
+      "original_content": "lewandowski grzegorz,波兰籍运动员",
+      "input": "\"lewandowski grzegorz,波兰[MASK]员\"中[MASK]位置的文本是：",
+      "removed": "籍运动",
+      "generated": "人，波兰人",
+      "accepted": true,
+      "content": "lewandowski grzegorz,波兰人，波兰人员",
+      "result_list": [
+        {
+          "text": "波兰",
+          "start": 21,
+          "end": 23
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "波兰"
+        ],
+        [
+          "波兰"
+        ]
+      ]
+    },
+    {
+      "prompt": "苦恶鸟属的目",
+      "original_content": "苦恶鸟属于鹤形目秧鸡科的一属，身体短胖",
+      "input": "\"苦恶鸟属于鹤形目秧鸡科的一属[MASK]短胖\"中[MASK]位置的文本是：",
+      "removed": "，身体",
+      "generated": "，属于鸟形目，",
+      "accepted": true,
+      "content": "苦恶鸟属于鹤形目秧鸡科的一属，属于鸟形目，短胖",
+      "result_list": [
+        {
+          "text": "鹤形目",
+          "start": 5,
+          "end": 8
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "鹤形目"
+        ],
+        [
+          "鹤形目"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "湖北桐梓湖食品有限公司1于2008年4月由原海马水产食品公司组建成立",
+      "input": "\"湖北桐梓湖食品有限公司1于2008年4月由原海马水产食品公司[MASK]立\"中[MASK]位置的文本是：",
+      "removed": "组建成",
+      "generated": "、桐梓湖食品有限公司等主要公司联",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "地点",
+      "original_content": "叶海波，男，1977年出生于湖北红安县，1997年至2007年就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学",
+      "input": "\"，1977年出生于湖北红安县，1997年至2007年就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和[MASK]士（2007）学位，主要研究宪法学与行政法学\"中[MASK]位置的文本是：",
+      "removed": "法学博",
+      "generated": "法学",
+      "accepted": true,
+      "content": "叶海波，男，1977年出生于湖北红安县，1997年至2007年就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学士（2007）学位，主要研究宪法学与行政法学",
+      "result_list": [
+        {
+          "text": "湖北红安县",
+          "start": 14,
+          "end": 19
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "湖北红安县"
+        ],
+        [
+          "湖北红安县"
+        ]
+      ]
+    },
+    {
+      "prompt": "Text",
+      "original_content": "何良风，女，汉族，湘潭市优秀教师，湘潭师范学院附中中教一级教师",
+      "input": "\"何良风[MASK]汉族，湘潭市优秀教师，湘潭师范学院附中中教一级教师\"中[MASK]位置的文本是：",
+      "removed": "，女，",
+      "generated": "，男，",
+      "accepted": true,
+      "content": "何良风，男，汉族，湘潭市优秀教师，湘潭师范学院附中中教一级教师",
+      "result_list": [
+        {
+          "text": "汉族",
+          "start": 6,
+          "end": 8
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "汉族"
+        ],
+        [
+          "汉族"
+        ]
+      ]
+    },
+    {
+      "prompt": "拓跋宏的母亲",
+      "original_content": "467年，献文帝妃子李夫人生下一子拓跋宏",
+      "input": "\"4[MASK]，献文帝妃子李夫人生下一子拓跋宏\"中[MASK]位置的文本是：",
+      "removed": "67年",
+      "generated": "月1日，汉族",
+      "accepted": true,
+      "content": "4月1日，汉族，献文帝妃子李夫人生下一子拓跋宏",
+      "result_list": [
+        {
+          "text": "李夫人",
+          "start": 13,
+          "end": 16
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "李夫人"
+        ],
+        [
+          "李夫人"
+        ]
+      ]
+    },
+    {
+      "prompt": "张翀的字",
+      "original_content": "张翀（1469—1526），字鹏举",
+      "input": "\"张翀（146[MASK]526），字鹏举\"中[MASK]位置的文本是：",
+      "removed": "9—1",
+      "generated": "##5",
+      "accepted": true,
+      "content": "张翀（146##5526），字鹏举",
+      "result_list": [
+        {
+          "text": "鹏举",
+          "start": 15,
+          "end": 17
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "鹏举"
+        ],
+        [
+          "鹏举"
+        ]
+      ]
+    },
+    {
+      "prompt": "京基集团的董事长",
+      "original_content": "京基集团创始人陈华董事长认为社会责任感是一个企业发展的不竭动力，做一个企业公民的实践者，是京基的品牌定位之一",
+      "input": "\"京基集团创始人陈华董事长认为社会责任感[MASK]企业发展的不竭动力，做一个企业公民的实践者，是京基的品牌定位之一\"中[MASK]位置的文本是：",
+      "removed": "是一个",
+      "generated": "，京基集团有限公司的成立，是京基",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "高群耀的出生日期",
+      "original_content": "高群耀，1958年7月出生，是恢复高考后的首批大学生，在哈尔滨工业大学获得工程力学学士和硕士学位",
+      "input": "\"高群耀，1958年7月出生，是恢复高考后的首批大学生，[MASK]滨工业大学获得工程力学学士和硕士学位\"中[MASK]位置的文本是：",
+      "removed": "在哈尔",
+      "generated": "在北京",
+      "accepted": true,
+      "content": "高群耀，1958年7月出生，是恢复高考后的首批大学生，在北京滨工业大学获得工程力学学士和硕士学位",
+      "result_list": [
+        {
+          "text": "1958年7月",
+          "start": 4,
+          "end": 11
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1958年7月"
+        ],
+        [
+          "1958年7月"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "lewandowski grzegorz,波兰籍运动员",
+      "input": "\"lewandowski grzegorz,波兰[MASK]员\"中[MASK]位置的文本是：",
+      "removed": "籍运动",
+      "generated": "人，波兰人",
+      "accepted": true,
+      "content": "lewandowski grzegorz,波兰人，波兰人员",
+      "result_list": [
+        {
+          "text": "lewandowski grzegorz",
+          "start": 0,
+          "end": 20
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "lewandowski grzegorz"
+        ],
+        [
+          "lewandowski grzegorz"
+        ]
+      ]
+    },
+    {
+      "prompt": "目",
+      "original_content": "布莱町海螺是一种新腹足目、芋螺科类动物",
+      "input": "\"布莱町海螺[MASK]新腹足目、芋螺科类动物\"中[MASK]位置的文本是：",
+      "removed": "是一种",
+      "generated": "是一种",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "Text",
+      "original_content": "李民宬（1570-1629），字宽甫，号敬亭，朝鲜王朝诗人",
+      "input": "\"李民宬（1570-1629），字宽甫，号敬亭，朝鲜[MASK]人\"中[MASK]位置的文本是：",
+      "removed": "王朝诗",
+      "generated": "朝鲜",
+      "accepted": true,
+      "content": "李民宬（1570-1629），字宽甫，号敬亭，朝鲜朝鲜人",
+      "result_list": [
+        {
+          "text": "敬亭",
+          "start": 20,
+          "end": 22
+        },
+        {
+          "text": "宽甫",
+          "start": 16,
+          "end": 18
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "宽甫",
+          "敬亭"
+        ],
+        [
+          "宽甫",
+          "敬亭"
+        ]
+      ]
+    },
+    {
+      "prompt": "谭孝曾的父亲",
+      "original_content": "谭孝曾是谭元寿的长子，也是谭派第六代传人",
+      "input": "\"谭孝曾是谭元寿的长子，也是[MASK]六代传人\"中[MASK]位置的文本是：",
+      "removed": "谭派第",
+      "generated": "谭元寿的",
+      "accepted": true,
+      "content": "谭孝曾是谭元寿的长子，也是谭元寿的六代传人",
+      "result_list": [
+        {
+          "text": "谭元寿",
+          "start": 4,
+          "end": 7
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "谭元寿"
+        ],
+        [
+          "谭元寿"
+        ]
+      ]
+    },
+    {
+      "prompt": "扎维德·尼马尼的出生日期",
+      "original_content": "扎维德·尼马尼（1919-2000），南斯拉夫社会主义联邦共和国议会副主席、科索沃自治省主席团主席",
+      "input": "\"扎维德·尼马尼（1919-2000），南斯拉夫社会主义联邦[MASK]议会副主席、科索沃自治省主席团主席\"中[MASK]位置的文本是：",
+      "removed": "共和国",
+      "generated": "党员，南斯拉夫社会主义联合会副主",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "明宇商旅（成都）股份有限公司的成立日期",
+      "original_content": "明宇商旅（成都）股份有限公司于2006年06月02日在成都市工商行政管理局登记成立",
+      "input": "\"明宇商旅（成都）股份有限公司于2006年06月02日在成都市工商行政管理局[MASK]立\"中[MASK]位置的文本是：",
+      "removed": "登记成",
+      "generated": "成都市工商行政管理局登记成立",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "陈化的出生地",
+      "original_content": "陈化，男，祖籍福建，1955年生于天津，早年毕业于天津工艺美院商业美术专业，从事广告摄影、国内外展览30多年",
+      "input": "\"陈化，男，祖籍福建，1955年生于天津，早年毕业于天津工艺美院商业美术专业，从事广告摄影、国内外展[MASK]多年\"中[MASK]位置的文本是：",
+      "removed": "览30",
+      "generated": "艺术、美术、艺术等工作，在美术学",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "机构",
+      "original_content": "王老吉大健康产业（雅安）有限公司于2013年7月2日在雅安市名山区工商行政管理局登记成立",
+      "input": "\"王老吉大健康产业（雅安）有限公司于2013年7月2日在雅安市名[MASK]商行政管理局登记成立\"中[MASK]位置的文本是：",
+      "removed": "山区工",
+      "generated": "雅安市",
+      "accepted": true,
+      "content": "王老吉大健康产业（雅安）有限公司于2013年7月2日在雅安市名雅安市商行政管理局登记成立",
+      "result_list": [
+        {
+          "text": "王老吉大健康产业（雅安）有限公司",
+          "start": 0,
+          "end": 16
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "王老吉大健康产业（雅安）有限公司"
+        ],
+        [
+          "王老吉大健康产业（雅安）有限公司"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "叶海波，男，1977年出生于湖北红安县，1997年至2007年就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，主要研究宪法学与行政法学",
+      "input": "\"县，1997年至2007年就读于武汉大学，分别获得法学学士（2001）、法学硕士（2004）和法学博士（2007）学位，[MASK]究宪法学与行政法学\"中[MASK]位置的文本是：",
+      "removed": "主要研",
+      "generated": "毕业于武汉大学，主要研究法学、法",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "地点",
+      "original_content": "高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市顺义区高丽营镇副镇长",
+      "input": "\"高俊岭 ，女，汉族，中共党员，1973年12月出生，北京市顺义区高丽营镇人，大学文化，现任北京市[MASK]高丽营镇副镇长\"中[MASK]位置的文本是：",
+      "removed": "顺义区",
+      "generated": "顺义区",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "赵矛的出生地",
+      "original_content": "赵矛，汉族，山东乐陵人，1948年10月出生，现任高级经济师，信仰共产主义",
+      "input": "\"赵矛，汉族，山东乐陵人，1948年10月出生，现任高级经[MASK]信仰共产主义\"中[MASK]位置的文本是：",
+      "removed": "济师，",
+      "generated": "济师，大学学历，",
+      "accepted": true,
+      "content": "赵矛，汉族，山东乐陵人，1948年10月出生，现任高级经济师，大学学历，信仰共产主义",
+      "result_list": [
+        {
+          "text": "山东乐陵",
+          "start": 6,
+          "end": 10
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "山东乐陵"
+        ],
+        [
+          "山东乐陵"
+        ]
+      ]
+    },
+    {
+      "prompt": "陈化的祖籍",
+      "original_content": "陈化，男，祖籍福建，1955年生于天津，早年毕业于天津工艺美院商业美术专业，从事广告摄影、国内外展览30多年",
+      "input": "\"陈化，男，祖籍福建，1955年生于天津[MASK]毕业于天津工艺美院商业美术专业，从事广告摄影、国内外展览30多年\"中[MASK]位置的文本是：",
+      "removed": "，早年",
+      "generated": "工艺美术学院，",
+      "accepted": true,
+      "content": "陈化，男，祖籍福建，1955年生于天津工艺美术学院，毕业于天津工艺美院商业美术专业，从事广告摄影、国内外展览30多年",
+      "result_list": [
+        {
+          "text": "福建",
+          "start": 7,
+          "end": 9
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "福建"
+        ],
+        [
+          "福建"
+        ]
+      ]
+    },
+    {
+      "prompt": "国家",
+      "original_content": "扎维德·尼马尼（1919-2000），南斯拉夫社会主义联邦共和国议会副主席、科索沃自治省主席团主席",
+      "input": "\"扎维德·尼马尼（1919-2000），南斯拉夫社会主义联邦共[MASK]会副主席、科索沃自治省主席团主席\"中[MASK]位置的文本是：",
+      "removed": "和国议",
+      "generated": "产党主席、南斯拉夫社会主义联合会",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "梅香雪的出生日期",
+      "original_content": "梅香雪，女，1960年7月出生，汉族，湖北浠水人",
+      "input": "\"梅香雪[MASK]1960年7月出生，汉族，湖北浠水人\"中[MASK]位置的文本是：",
+      "removed": "，女，",
+      "generated": "，男，",
+      "accepted": true,
+      "content": "梅香雪，男，1960年7月出生，汉族，湖北浠水人",
+      "result_list": [
+        {
+          "text": "1960年7月",
+          "start": 6,
+          "end": 13
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1960年7月"
+        ],
+        [
+          "1960年7月"
+        ]
+      ]
+    },
+    {
+      "prompt": "波努瓦·芒德勃罗的出生日期",
+      "original_content": "波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，祖籍是立陶宛犹太人",
+      "input": "\"波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，[MASK]立陶宛犹太人\"中[MASK]位置的文本是：",
+      "removed": "祖籍是",
+      "generated": "是",
+      "accepted": true,
+      "content": "波努瓦·芒德勃罗，1924年11月20日生于波兰华沙，是立陶宛犹太人",
+      "result_list": [
+        {
+          "text": "1924年11月20日",
+          "start": 9,
+          "end": 20
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1924年11月20日"
+        ],
+        [
+          "1924年11月20日"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "霖园集团（官方英文译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身与核心企业为国泰人寿",
+      "input": "\"霖园集团（官[MASK]译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身与核心企业为国泰人寿\"中[MASK]位置的文本是：",
+      "removed": "方英文",
+      "generated": "名：",
+      "accepted": true,
+      "content": "霖园集团（官名：译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身与核心企业为国泰人寿",
+      "result_list": [
+        {
+          "text": "蔡万霖",
+          "start": 46,
+          "end": 49
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "蔡万霖"
+        ],
+        [
+          "蔡万霖"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "基本资料球员:卡路比  生日:1979年10月18日  身高:175cm  体重:73kg  球衣号码:22  国籍:法国  效力球队:尼姆  场上位置:前锋球队阵容前锋  蒂鲍尔特,贝内泽特,塞杜",
+      "input": "\"8日  身高:175cm  体重:73kg  球衣号码:22  国籍:法国  效力球队:尼姆  场上位置:前锋球队阵容前[MASK]蒂鲍尔特,贝内泽特,塞杜\"中[MASK]位置的文本是：",
+      "removed": "锋  ",
+      "generated": "身高:178cm球衣号码:1",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "宁波理工监测科技股份有限公司的成立日期",
+      "original_content": "宁波理工监测科技股份有限公司创立于2000年12月，总部位于宁波保税区留学人员创业园，在北京、西安、广州、杭州等地均设有分支机构，员工总数近300人",
+      "input": "\"宁波理工监测科技股份有限公司[MASK]2000年12月，总部位于宁波保税区留学人员创业园，在北京、西安、广州、杭州等地均设有分支机构，员工总数近300人\"中[MASK]位置的文本是：",
+      "removed": "创立于",
+      "generated": "成立于",
+      "accepted": true,
+      "content": "宁波理工监测科技股份有限公司成立于2000年12月，总部位于宁波保税区留学人员创业园，在北京、西安、广州、杭州等地均设有分支机构，员工总数近300人",
+      "result_list": [
+        {
+          "text": "2000年12月",
+          "start": 17,
+          "end": 25
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "2000年12月"
+        ],
+        [
+          "2000年12月"
+        ]
+      ]
+    },
+    {
+      "prompt": "鸡鸣寺的所在城市",
+      "original_content": "日本侵略军攻陷南京时，鸡鸣寺、北极阁成了日军杀害中国军民的屠场，鸡鸣寺空无一人",
+      "input": "\"日本侵略军攻陷南京时，鸡鸣寺、北极阁成了日军杀害中[MASK]的屠场，鸡鸣寺空无一人\"中[MASK]位置的文本是：",
+      "removed": "国军民",
+      "generated": "日军，日本军队在南京成立了日本国",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "国家",
+      "original_content": "jervier donan,多米尼克籍足球运动员",
+      "input": "\"jervier donan,多米尼克籍足[MASK]员\"中[MASK]位置的文本是：",
+      "removed": "球运动",
+      "generated": "球运动",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "霖园集团的总部地点",
+      "original_content": "霖园集团（官方英文译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身与核心企业为国泰人寿",
+      "input": "\"霖园集团（官方英文译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身[MASK]企业为国泰人寿\"中[MASK]位置的文本是：",
+      "removed": "与核心",
+      "generated": "是台湾第一大民营",
+      "accepted": true,
+      "content": "霖园集团（官方英文译名：linyuan group）是台湾第一大民营企业集团，由知名台湾企业家蔡万霖创立，其前身是台湾第一大民营企业为国泰人寿",
+      "result_list": [
+        {
+          "text": "台湾",
+          "start": 27,
+          "end": 29
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "台湾"
+        ],
+        [
+          "台湾"
+        ]
+      ]
+    },
+    {
+      "prompt": "生物",
+      "original_content": "迷卡斗蟋（学名：velarifictorus micado）是直翅目蟋蟀科的一种常见鸣虫，即常人所说的“蛐蛐儿”，广泛分布于我国的广大地区",
+      "input": "\"迷卡斗蟋（学名：velarifictorus micado）是直翅目蟋蟀科的一种常见鸣虫，即常人所说的“蛐蛐儿[MASK]泛分布于我国的广大地区\"中[MASK]位置的文本是：",
+      "removed": "”，广",
+      "generated": "，",
+      "accepted": true,
+      "content": "迷卡斗蟋（学名：velarifictorus micado）是直翅目蟋蟀科的一种常见鸣虫，即常人所说的“蛐蛐儿，泛分布于我国的广大地区",
+      "result_list": [
+        {
+          "text": "迷卡斗蟋",
+          "start": 0,
+          "end": 4
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "迷卡斗蟋"
+        ],
+        [
+          "迷卡斗蟋"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "安徽华电六安电厂有限公司于2010年02月09日在六安市工商行政和质量技术监督管理局登记成立",
+      "input": "\"安徽华电六安电厂有限公司于2010年02月09日在六安市工商[MASK]质量技术监督管理局登记成立\"中[MASK]位置的文本是：",
+      "removed": "行政和",
+      "generated": "管理局、六安市",
+      "accepted": true,
+      "content": "安徽华电六安电厂有限公司于2010年02月09日在六安市工商管理局、六安市质量技术监督管理局登记成立",
+      "result_list": [
+        {
+          "text": "2010年02月09日",
+          "start": 13,
+          "end": 24
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "2010年02月09日"
+        ],
+        [
+          "2010年02月09日"
+        ]
+      ]
+    },
+    {
+      "prompt": "陈化的毕业院校",
+      "original_content": "陈化，男，祖籍福建，1955年生于天津，早年毕业于天津工艺美院商业美术专业，从事广告摄影、国内外展览30多年",
+      "input": "\"陈化，男，祖籍福建，1955年生于天津，早年毕业于天津工艺美院商业美术[MASK]从事广告摄影、国内外展览30多年\"中[MASK]位置的文本是：",
+      "removed": "专业，",
+      "generated": "专业，",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "生物",
+      "original_content": "狭翼鱼龙（stenopterygius）又名狭翼龙，是双孔亚纲鱼龙目狭翼鱼龙科中的一个属，生活在英格兰、法国、德国、卢森堡，年代为侏罗纪中到晚期（托阿尔阶到阿连阶），身长约4米",
+      "input": "\"（stenopterygius）又名狭翼龙，是双孔亚纲鱼龙目狭翼鱼龙科中的一个属，生活在英格兰、法国、德国、卢森堡，年代[MASK]纪中到晚期（托阿尔阶到阿连阶），身长约4米\"中[MASK]位置的文本是：",
+      "removed": "为侏罗",
+      "generated": "为中国，生活于2011年1月1日，生于",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "人物",
+      "original_content": "唐清云，男，汉族，1973年3月出生，大学文化，中共党员，现任市委政法委综治办副主任（副科级），拟明确正科级",
+      "input": "\"唐清云，男，汉族，1973年3月出生，[MASK]化，中共党员，现任市委政法委综治办副主任（副科级），拟明确正科级\"中[MASK]位置的文本是：",
+      "removed": "大学文",
+      "generated": "中共党员，汉族，1984年7月参加工作",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "Text",
+      "original_content": "邹抗1，女，1981年12月出生，江西芦溪人，汉族，省委党校在职研究生文化，中国共产党党员",
+      "input": "\"邹抗1，女，1981年12月出生，江西芦溪人，汉族，省委党校在职[MASK]文化，中国共产党党员\"中[MASK]位置的文本是：",
+      "removed": "研究生",
+      "generated": "学历，大学学历、",
+      "accepted": true,
+      "content": "邹抗1，女，1981年12月出生，江西芦溪人，汉族，省委党校在职学历，大学学历、文化，中国共产党党员",
+      "result_list": [
+        {
+          "text": "汉族",
+          "start": 23,
+          "end": 25
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "汉族"
+        ],
+        [
+          "汉族"
+        ]
+      ]
+    },
+    {
+      "prompt": "人物",
+      "original_content": "姜宝昌1978年考入山东大学中文系，1981年7月山东大学中文系现代汉语专业硕士研究生毕业",
+      "input": "\"姜宝昌1978年考入山东大学中文系，1981年7月山东大学[MASK]现代汉语专业硕士研究生毕业\"中[MASK]位置的文本是：",
+      "removed": "中文系",
+      "generated": "中文学院",
+      "accepted": true,
+      "content": "姜宝昌1978年考入山东大学中文系，1981年7月山东大学中文学院现代汉语专业硕士研究生毕业",
+      "result_list": [
+        {
+          "text": "姜宝昌",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "姜宝昌"
+        ],
+        [
+          "姜宝昌"
+        ]
+      ]
+    },
+    {
+      "prompt": "王治郅的出生地",
+      "original_content": "王治郅，1977年7月8日出生于北京，前中国职业篮球运动员，曾效力八一火箭队、达拉斯小牛队、洛杉矶快船队、迈阿密热火队，司职大前锋、中锋",
+      "input": "\"王治郅，1977年7月8日出生于北京，前中国职业篮球运动员，曾效力八一火箭队、达拉斯小牛队、洛杉矶快船队、迈阿密热火队[MASK]大前锋、中锋\"中[MASK]位置的文本是：",
+      "removed": "，司职",
+      "generated": "，是一名中国足球运动员、篮球",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "霍力民的出生日期",
+      "original_content": "霍力民，男，1955年出生，山东博兴人",
+      "input": "\"霍力民[MASK]1955年出生，山东博兴人\"中[MASK]位置的文本是：",
+      "removed": "，男，",
+      "generated": "，男，",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "朴世摞的出生日期",
+      "original_content": "个人资料姓名：朴世摞  国籍 : 韩国  性别: 女  出生日期: 1983-03-10  身高 ( m / in): 1",
+      "input": "\"个人资料姓名：朴世摞  国籍 : 韩国  性别: 女  [MASK]期: 1983-03-10  身高 ( m / in): 1\"中[MASK]位置的文本是：",
+      "removed": "出生日",
+      "generated": "生日",
+      "accepted": true,
+      "content": "个人资料姓名：朴世摞  国籍 : 韩国  性别: 女  生日期: 1983-03-10  身高 ( m / in): 1",
+      "result_list": [
+        {
+          "text": "1983-03-10",
+          "start": 33,
+          "end": 43
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1983-03-10"
+        ],
+        [
+          "1983-03-10"
+        ]
+      ]
+    },
+    {
+      "prompt": "刘小微的丈夫",
+      "original_content": "其他信息冯小宁和刘小微，演艺圈难得的模范夫妻，从相识、相知到相恋，以及步入婚姻殿堂，一次次考验让他们的生命紧紧相连",
+      "input": "\"其他信息冯小宁和刘小微，演艺圈难得的模范夫妻，从相识、相知到相恋，以及步入婚姻殿堂[MASK]次考验让他们的生命紧紧相连\"中[MASK]位置的文本是：",
+      "removed": "，一次",
+      "generated": "，这一次",
+      "accepted": true,
+      "content": "其他信息冯小宁和刘小微，演艺圈难得的模范夫妻，从相识、相知到相恋，以及步入婚姻殿堂，这一次次考验让他们的生命紧紧相连",
+      "result_list": [
+        {
+          "text": "冯小宁",
+          "start": 4,
+          "end": 7
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "冯小宁"
+        ],
+        [
+          "冯小宁"
+        ]
+      ]
+    },
+    {
+      "prompt": "Date",
+      "original_content": "扎维德·尼马尼（1919-2000），南斯拉夫社会主义联邦共和国议会副主席、科索沃自治省主席团主席",
+      "input": "\"扎维德·尼马尼（1919-2000），南斯拉夫社会主义[MASK]和国议会副主席、科索沃自治省主席团主席\"中[MASK]位置的文本是：",
+      "removed": "联邦共",
+      "generated": "国家党员，中国共产党副主任、中国",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "王僧绰的妻子",
+      "original_content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下嫁琅琊王氏王导玄孙王僧绰",
+      "input": "\"中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下[MASK]王氏王导玄孙王僧绰\"中[MASK]位置的文本是：",
+      "removed": "嫁琅琊",
+      "generated": "子，",
+      "accepted": false,
+      "content": "中国古代南北朝时期南朝宋（刘宋）第三位皇帝宋文帝刘义隆长女，生母为文元袁皇后袁齐妫，东阳公主下子，王氏王导玄孙王僧绰",
+      "result_list": [
+        {
+          "text": "东阳公主",
+          "start": 42,
+          "end": 46
+        }
+      ],
+      "reference_consistent": false,
+      "reference_predictions": [
+        [
+          "东阳公主"
+        ],
+        [
+          "袁齐妫"
+        ]
+      ],
+      "reason": "baseline extraction changed after filling"
+    },
+    {
+      "prompt": "Date",
+      "original_content": "周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任晴隆县人民检察院反贪污贿赂局预防职务犯罪科科长",
+      "input": "\"周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现[MASK]县人民检察院反贪污贿赂局预防职务犯罪科科长\"中[MASK]位置的文本是：",
+      "removed": "任晴隆",
+      "generated": "任江西省江西市",
+      "accepted": true,
+      "content": "周惠玲1，女，1966年10月生，籍贯和出生地江西崇仁，汉族，现任江西省江西市县人民检察院反贪污贿赂局预防职务犯罪科科长",
+      "result_list": [
+        {
+          "text": "1966年10月",
+          "start": 7,
+          "end": 15
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "1966年10月"
+        ],
+        [
+          "1966年10月"
+        ]
+      ]
+    },
+    {
+      "prompt": "白条锯足蛛的目",
+      "original_content": "白条锯足蛛，runcinia albostriata （boesenberg et strand，1906），为蜘蛛目(araneae)，蜘蛛目蟹蛛科锯足蛛属的一个物种",
+      "input": "\"条锯足蛛，runcinia albostriata （boesenberg et strand，1906），为蜘蛛目(a[MASK]eae)，蜘蛛目蟹蛛科锯足蛛属的一个物种\"中[MASK]位置的文本是：",
+      "removed": "ran",
+      "generated": ")(",
+      "accepted": true,
+      "content": "白条锯足蛛，runcinia albostriata （boesenberg et strand，1906），为蜘蛛目(a)(eae)，蜘蛛目蟹蛛科锯足蛛属的一个物种",
+      "result_list": [
+        {
+          "text": "蜘蛛目",
+          "start": 56,
+          "end": 59
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "蜘蛛目"
+        ],
+        [
+          "蜘蛛目"
+        ]
+      ]
+    },
+    {
+      "prompt": "李民宬的字",
+      "original_content": "李民宬（1570-1629），字宽甫，号敬亭，朝鲜王朝诗人",
+      "input": "\"李民宬（1570-162[MASK]字宽甫，号敬亭，朝鲜王朝诗人\"中[MASK]位置的文本是：",
+      "removed": "9），",
+      "generated": "），",
+      "accepted": true,
+      "content": "李民宬（1570-162），字宽甫，号敬亭，朝鲜王朝诗人",
+      "result_list": [
+        {
+          "text": "宽甫",
+          "start": 15,
+          "end": 17
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "宽甫"
+        ],
+        [
+          "宽甫"
+        ]
+      ]
+    },
+    {
+      "prompt": "胜利阀门有限公司的成立日期",
+      "original_content": "胜利阀门有限公司于2001年7月11日在福建省泉州市工商行政管理局登记成立",
+      "input": "\"胜利阀门有限公司于2001年7月11日在福建省泉州市工[MASK]管理局登记成立\"中[MASK]位置的文本是：",
+      "removed": "商行政",
+      "generated": "商行政管理局、泉州市市场监督",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    },
+    {
+      "prompt": "窦靖童的母亲",
+      "original_content": "4家庭的教育方式王菲的厉害不仅在于她唱歌，也在于她的教育，窦唯和李亚鹏是她的前夫，窦靖童和李嫣也出自不同的家庭，但是之前却相处的非常好",
+      "input": "\"4家庭的教育方式王菲的厉[MASK]在于她唱歌，也在于她的教育，窦唯和李亚鹏是她的前夫，窦靖童和李嫣也出自不同的家庭，但是之前却相处的非常好\"中[MASK]位置的文本是：",
+      "removed": "害不仅",
+      "generated": "，也",
+      "accepted": true,
+      "content": "4家庭的教育方式王菲的厉，也在于她唱歌，也在于她的教育，窦唯和李亚鹏是她的前夫，窦靖童和李嫣也出自不同的家庭，但是之前却相处的非常好",
+      "result_list": [
+        {
+          "text": "王菲",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "reference_consistent": true,
+      "reference_predictions": [
+        [
+          "王菲"
+        ],
+        [
+          "王菲"
+        ]
+      ]
+    },
+    {
+      "prompt": "穆斯塔法·多甘的国籍",
+      "original_content": "穆斯塔法·多甘mustafa dogan是一位土耳其后裔的德国人，1976年1月1日出生在土耳其的伊斯帕尔塔省，身高180cm体重77kg，1989年在德国一个很小的足球俱乐部tv asberg开始足球生涯，1999年代表德国成年国家队出场两次，没有进球",
+      "input": "\"穆斯塔法·多甘mustafa dogan是一位土耳其后裔的德国人，1976年1月1日出生在土耳其的伊斯[MASK]省，身高180cm体重77kg，1989年在德国一个很小的足球俱乐部tv asberg开始足球生涯，1999年代表德国成\"中[MASK]位置的文本是：",
+      "removed": "帕尔塔",
+      "generated": "斯特尔斯，生于德国德国北京",
+      "accepted": false,
+      "reason": "empty, excessive length, repeated phrase, or unchanged filling"
+    }
+  ],
+  "accepted_count": 87
+}

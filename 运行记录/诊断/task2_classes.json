@@ -1,0 +1,168 @@
+{
+  "checkpoint": "nlp-beginner/legacy/task2/checkpoints/rnn_glove_n0_lr0.001_kaggle.pt",
+  "test_examples": 15994,
+  "classification_report": {
+    "0": {
+      "precision": 0.6802721088435374,
+      "recall": 0.1392757660167131,
+      "f1-score": 0.23121387283236994,
+      "support": 718.0
+    },
+    "1": {
+      "precision": 0.4898580121703854,
+      "recall": 0.5008641548565503,
+      "f1-score": 0.4952999487267134,
+      "support": 2893.0
+    },
+    "2": {
+      "precision": 0.7122977012679105,
+      "recall": 0.8298306713101957,
+      "f1-score": 0.7665853117372975,
+      "support": 8327.0
+    },
+    "3": {
+      "precision": 0.5459022159690468,
+      "recall": 0.488511174063582,
+      "f1-score": 0.5156146179401994,
+      "support": 3177.0
+    },
+    "4": {
+      "precision": 0.6521739130434783,
+      "recall": 0.25597269624573377,
+      "f1-score": 0.36764705882352944,
+      "support": 879.0
+    },
+    "accuracy": 0.6399899962485932,
+    "macro avg": {
+      "precision": 0.6161007902588717,
+      "recall": 0.442890892498555,
+      "f1-score": 0.47527216201202194,
+      "support": 15994.0
+    },
+    "weighted avg": {
+      "precision": 0.634268461392732,
+      "recall": 0.6399899962485932,
+      "f1-score": 0.6217043647054142,
+      "support": 15994.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      100,
+      479,
+      131,
+      8,
+      0
+    ],
+    [
+      33,
+      1449,
+      1286,
+      123,
+      2
+    ],
+    [
+      13,
+      755,
+      6910,
+      640,
+      9
+    ],
+    [
+      1,
+      239,
+      1276,
+      1552,
+      109
+    ],
+    [
+      0,
+      36,
+      98,
+      520,
+      225
+    ]
+  ],
+  "errors": [
+    {
+      "input": {
+        "text": "This quiet , introspective and entertaining independent is worth seeking .",
+        "label": 4,
+        "sentence_id": "2"
+      },
+      "prediction": 3
+    },
+    {
+      "input": {
+        "text": "quiet , introspective and entertaining independent",
+        "label": 4,
+        "sentence_id": "2"
+      },
+      "prediction": 3
+    },
+    {
+      "input": {
+        "text": "introspective",
+        "label": 2,
+        "sentence_id": "2"
+      },
+      "prediction": 3
+    },
+    {
+      "input": {
+        "text": "entertaining",
+        "label": 4,
+        "sentence_id": "2"
+      },
+      "prediction": 3
+    },
+    {
+      "input": {
+        "text": "is worth seeking",
+        "label": 4,
+        "sentence_id": "2"
+      },
+      "prediction": 3
+    },
+    {
+      "input": {
+        "text": "is worth",
+        "label": 2,
+        "sentence_id": "2"
+      },
+      "prediction": 3
+    },
+    {
+      "input": {
+        "text": "worth",
+        "label": 2,
+        "sentence_id": "2"
+      },
+      "prediction": 3
+    },
+    {
+      "input": {
+        "text": "A comedy-drama of nearly epic proportions rooted in a sincere performance by the title character undergoing midlife crisis .",
+        "label": 4,
+        "sentence_id": "6"
+      },
+      "prediction": 3
+    },
+    {
+      "input": {
+        "text": "of nearly epic proportions",
+        "label": 3,
+        "sentence_id": "6"
+      },
+      "prediction": 2
+    },
+    {
+      "input": {
+        "text": "nearly epic",
+        "label": 4,
+        "sentence_id": "6"
+      },
+      "prediction": 2
+    }
+  ]
+}

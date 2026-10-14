@@ -1,0 +1,181 @@
+{
+  "name": "uie_base_negative_v1",
+  "config": {
+    "augment": "negative",
+    "pretrained_uie": true,
+    "batch": 8,
+    "epochs": 8,
+    "lr": 2e-05,
+    "seed": 42,
+    "pretrained": "Pky/uie-base-zh pretrained encoder and boundary heads",
+    "counts": {
+      "train": 2102,
+      "dev": 122,
+      "test": 110
+    },
+    "original_train_count": 2087,
+    "initialization": "seed reset after mining, before model construction; same initial heads across arms",
+    "negative_mining": "baseline false positives on already labeled training negatives only",
+    "split": "group by original content; upstream empty test replaced by held-out half of dev"
+  },
+  "started": "2026-10-14T10:52:17.175511+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 0.024945327526298442,
+      "dev": {
+        "precision": 0.5111111111111111,
+        "recall": 0.9583333333333334,
+        "f1": 0.6666666666666666,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 2,
+      "loss": 0.008232317685431919,
+      "dev": {
+        "precision": 0.4888888888888889,
+        "recall": 0.9166666666666666,
+        "f1": 0.6376811594202899,
+        "gold_spans": 24
+      },
+      "threshold": 0.5
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0062119020641285974,
+      "dev": {
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "f1": 0.7272727272727273,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 4,
+      "loss": 0.0038438181649729257,
+      "dev": {
+        "precision": 0.5476190476190477,
+        "recall": 0.9583333333333334,
+        "f1": 0.696969696969697,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0022934032179124804,
+      "dev": {
+        "precision": 0.5227272727272727,
+        "recall": 0.9583333333333334,
+        "f1": 0.6764705882352942,
+        "gold_spans": 24
+      },
+      "threshold": 0.5
+    },
+    {
+      "epoch": 6,
+      "loss": 0.002871530736254345,
+      "dev": {
+        "precision": 0.6111111111111112,
+        "recall": 0.9166666666666666,
+        "f1": 0.7333333333333334,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 7,
+      "loss": 0.0028764959457211123,
+      "dev": {
+        "precision": 0.575,
+        "recall": 0.9583333333333334,
+        "f1": 0.71875,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 8,
+      "loss": 0.001812432184306782,
+      "dev": {
+        "precision": 0.6285714285714286,
+        "recall": 0.9166666666666666,
+        "f1": 0.7457627118644068,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 511.92624760000035,
+  "baseline_dev": {
+    "precision": 0.7037037037037037,
+    "recall": 0.7916666666666666,
+    "f1": 0.7450980392156864,
+    "gold_spans": 24
+  },
+  "best_dev_f1": 0.7457627118644068,
+  "best_epoch": 8,
+  "test": {
+    "precision": 0.9523809523809523,
+    "recall": 0.8695652173913043,
+    "f1": 0.909090909090909,
+    "gold_spans": 23
+  },
+  "examples": [
+    {
+      "prompt": "历史人物",
+      "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+      "gold": [
+        "李贺"
+      ],
+      "prediction": [
+        "李贺"
+      ]
+    },
+    {
+      "prompt": "Text",
+      "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+      "gold": [
+        "中唐"
+      ],
+      "prediction": []
+    },
+    {
+      "prompt": "人物",
+      "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+      "gold": [
+        "王宏文"
+      ],
+      "prediction": [
+        "王宏文"
+      ]
+    },
+    {
+      "prompt": "Text",
+      "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+      "gold": [
+        "汉",
+        "汉族"
+      ],
+      "prediction": [
+        "汉族"
+      ]
+    },
+    {
+      "prompt": "Date",
+      "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+      "gold": [
+        "1952年1月"
+      ],
+      "prediction": [
+        "1952年1月"
+      ]
+    }
+  ],
+  "threshold": 0.7
+}

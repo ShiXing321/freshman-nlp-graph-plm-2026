@@ -1,0 +1,153 @@
+{
+  "name": "t5_filling_n5000_v2_expanded",
+  "config": {
+    "task": "filling",
+    "limit": 5000,
+    "epochs": 8,
+    "batch": 8,
+    "lr": 0.0003,
+    "source_length": 192,
+    "target_length": 64,
+    "seed": 42,
+    "eval_limit": 500,
+    "tag": "_expanded",
+    "pretrained": "uer/t5-small-chinese-cluecorpussmall",
+    "counts": {
+      "train": 5000,
+      "dev": 500,
+      "test": 500
+    },
+    "parsing": {
+      "train.tsv": {
+        "valid": 347886,
+        "malformed_filtered": 2250
+      },
+      "dev.tsv": {
+        "valid": 38645,
+        "malformed_filtered": 259
+      }
+    },
+    "labels": "target tokens + SEP, no CLS in labels; decoder_start_token=CLS, padding=-100",
+    "split": "grouped held-out half of upstream dev, overlapping training groups removed"
+  },
+  "started": "2026-10-14T11:34:28.944091+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 6.625522296142578,
+      "dev": {
+        "loss": 5.401403949019643
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 5.187620335388184,
+      "dev": {
+        "loss": 4.4247212372424425
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 4.471147416305542,
+      "dev": {
+        "loss": 3.93273293514489
+      }
+    },
+    {
+      "epoch": 4,
+      "loss": 4.0372890239715575,
+      "dev": {
+        "loss": 3.6496665872171987
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 3.7129948955535887,
+      "dev": {
+        "loss": 3.4708543033307038
+      }
+    },
+    {
+      "epoch": 6,
+      "loss": 3.4554586616516114,
+      "dev": {
+        "loss": 3.3272089147264836
+      }
+    },
+    {
+      "epoch": 7,
+      "loss": 3.240558158493042,
+      "dev": {
+        "loss": 3.2407538618847074
+      }
+    },
+    {
+      "epoch": 8,
+      "loss": 3.0554254615783694,
+      "dev": {
+        "loss": 3.177131232349503
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 692.2397452000005,
+  "best_dev_loss": 3.177131232349503,
+  "test": {
+    "loss": 3.1252763600488187,
+    "exact_match": 0.036,
+    "character_f1": 0.29130162447921304,
+    "examples": [
+      {
+        "input": "\"吕治国 [MASK]1952年6月出生，湖南石门人\"中[MASK]位置的文本是：",
+        "gold": "男，土家族，",
+        "prediction": "， 男 ，"
+      },
+      {
+        "input": "\"《长江往事》是周[MASK]孙逊等主演的年代剧\"中[MASK]位置的文本是：",
+        "gold": "小兵执导，由韩童生、王雨、王媛可、",
+        "prediction": "杰 、 刘 恺 威 、"
+      },
+      {
+        "input": "\"拍摄背景：《中国造》[MASK]影视部共同拍摄，著名导演马进执导\"中[MASK]位置的文本是：",
+        "gold": "由天津电视台电视剧制作中心和央视",
+        "prediction": "由 中 国 电 视 台 、 中 国"
+      },
+      {
+        "input": "\"从康熙帝对荣妃的态度我们不难看出，荣妃似乎只是他的一个玩物，与[MASK]也是众多命运凄惨的后妃的代表\"中[MASK]位置的文本是：",
+        "gold": "对孝诚仁皇后赫舍里氏更不能同时而语，康熙帝在荣妃身上更多的是为了绵延皇室子嗣，荣妃",
+        "prediction": "荣 妃 的 关 系 也 是 一 个 很 好 的 ， 荣 妃"
+      },
+      {
+        "input": "\"[MASK]》是潇十二郎创作的网络小说，发表于17K小说网\"中[MASK]位置的文本是：",
+        "gold": "《无情剑道",
+        "prediction": "《 小 说 之 爱"
+      },
+      {
+        "input": "\"《[MASK]年浙江大学出版社出版的图书，作者是王英华\"中[MASK]位置的文本是：",
+        "gold": "初中培优训练题库语文（七年级上）》是2010",
+        "prediction": "中 国 人 民 出 版 社 》 是 2011"
+      },
+      {
+        "input": "\"罗添导 男，1955[MASK]兴宁市人\"中[MASK]位置的文本是：",
+        "gold": "年3月生，广东",
+        "prediction": "年 5 月 出 生 ，"
+      },
+      {
+        "input": "\"《[MASK]的一首歌曲，收录于专辑《自选角度-2000》中\"中[MASK]位置的文本是：",
+        "gold": "亲爱是疼》是由歌手谭咏麟",
+        "prediction": "自 己 的 心 》 是 由 张 智 霖 作 词 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲 ， 张 智 霖 作 曲"
+      },
+      {
+        "input": "\"《为江山》是电视剧[MASK]片头曲，由段思思作词，谭旋作曲，雷立编曲，孙楠演唱\"中[MASK]位置的文本是：",
+        "gold": "《大唐荣耀》的",
+        "prediction": "《 为 江 山 》 的"
+      },
+      {
+        "input": "\"01  身高：168cm  国籍：乌克兰  项目：花样滑冰  格鲁什娜[MASK]开始练习滑冰\"中[MASK]位置的文本是：",
+        "gold": "简介  年",
+        "prediction": "身 高 ： 178cm 体 重 ： 178cm 体 重 ： 178cm 体 重 ： 178cm"
+      }
+    ]
+  }
+}

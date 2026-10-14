@@ -1,0 +1,16 @@
+{
+  "checkpoint": "nlp-beginner/legacy/task3/checkpoints/esim_glove_n100000_lr0.001_expanded.pt",
+  "test_examples": 128,
+  "metrics": {
+    "accuracy": 0.8203125,
+    "macro_f1": 0.8172974044850045
+  }
+}
+{
+  "input": {
+    "premise": "This church choir sings to the masses as they sing joyous songs from the book at a church.",
+    "hypothesis": "The church has cracks in the ceiling.",
+    "label": 1
+  },
+  "prediction": 2
+}

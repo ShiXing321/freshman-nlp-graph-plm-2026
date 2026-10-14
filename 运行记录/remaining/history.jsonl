@@ -1,0 +1,15 @@
+{"time": "2026-10-13T23:58:05.272370", "name": "esim", "command": ["nlp-beginner/legacy/train_torch.py", "matching", "--model", "esim", "--limit", "20000", "--epochs", "5"], "exit_code": 0}
+{"time": "2026-10-13T23:58:40.523189", "name": "zero-shot", "command": ["transformers_tasks/local_runs/llm_tasks.py", "zero-shot"], "exit_code": 0}
+{"time": "2026-10-13T23:58:59.300160", "name": "mbti", "command": ["transformers_tasks/local_runs/llm_tasks.py", "mbti"], "exit_code": 0}
+{"time": "2026-10-14T00:02:34.161435", "name": "sft", "command": ["transformers_tasks/local_runs/llm_tasks.py", "sft", "--limit", "400", "--epochs", "2"], "exit_code": 0}
+{"time": "2026-10-14T00:03:42.040089", "name": "cpt", "command": ["transformers_tasks/local_runs/llm_tasks.py", "cpt", "--limit", "400", "--epochs", "1"], "exit_code": 0}
+{"time": "2026-10-14T00:03:57.488915", "name": "scratch", "command": ["transformers_tasks/local_runs/llm_tasks.py", "scratch", "--limit", "1000", "--epochs", "5", "--batch", "8", "--accumulate", "1", "--lr", "0.0005"], "exit_code": 0}
+{"time": "2026-10-14T00:04:11.437362", "name": "scratch-sft", "command": ["transformers_tasks/local_runs/llm_tasks.py", "scratch-sft", "--limit", "400", "--epochs", "3", "--batch", "8", "--accumulate", "1"], "exit_code": 0}
+{"time": "2026-10-14T00:05:59.249400", "name": "ppo", "command": ["transformers_tasks/local_runs/ppo_task.py"], "exit_code": 0}
+{"time": "2026-10-14T00:07:04.878836", "name": "uie-negative", "command": ["transformers_tasks/local_runs/span_task.py", "--augment", "negative"], "exit_code": 0}
+{"time": "2026-10-14T00:08:51.270158", "name": "qa", "command": ["transformers_tasks/local_runs/seq2seq_tasks.py", "qa"], "exit_code": 0}
+{"time": "2026-10-14T00:09:02.270863", "name": "filling", "command": ["transformers_tasks/local_runs/seq2seq_tasks.py", "filling"], "exit_code": 1}
+{"time": "2026-10-14T00:09:07.845043", "name": "glove-cnn", "command": ["nlp-beginner/legacy/train_torch.py", "classification", "--model", "cnn", "--epochs", "8", "--glove", "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt"], "exit_code": 1}
+{"time": "2026-10-14T00:09:13.474320", "name": "glove-rnn", "command": ["nlp-beginner/legacy/train_torch.py", "classification", "--model", "rnn", "--epochs", "8", "--glove", "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt"], "exit_code": 1}
+{"time": "2026-10-14T00:16:55.603914", "name": "graph-zinc", "command": ["scripts/run_matrix.py", "graph-zinc"], "exit_code": 0}
+{"time": "2026-10-14T00:22:22.335325", "name": "graph-flickr", "command": ["scripts/run_matrix.py", "graph-flickr"], "exit_code": 0}

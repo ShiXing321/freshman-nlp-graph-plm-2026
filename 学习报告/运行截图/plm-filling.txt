@@ -1,0 +1,6 @@
+{
+  "task": "t5_filling",
+  "input": "\"[MASK]，著名画家，毕业于中央美术学院\"中[MASK]位置的文本是：",
+  "output": "陈 伟 ， 男",
+  "checkpoint": "C:\\Users\\86157\\Documents\\ChatGPT\\新生任务\\transformers_tasks\\local_runs\\checkpoints\\t5_filling_expanded"
+}

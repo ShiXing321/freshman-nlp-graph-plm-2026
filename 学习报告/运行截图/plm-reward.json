@@ -1,0 +1,17 @@
+{
+  "task": "plm-reward",
+  "started": "2026-10-14T12:51:17.596839+08:00",
+  "finished": "2026-10-14T12:51:29.183133+08:00",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-u",
+    "scripts/demo_saved.py",
+    "plm-reward"
+  ],
+  "exit_code": 0,
+  "output_sha256": "0dd6b96cedd5bf9e3cc778702fc5e8f1a222ee6a0991c48e4b20e0c6436e0119",
+  "capture": "Playwright screenshot of actual local execution page, no image editing",
+  "screenshot_sha256": "995abe860533fdd22d74da9a0cd34c1a0b8a485527a05cf3b1063d0b1aed1e6c"
+}

@@ -1,0 +1,32 @@
+['graph_beginner/task1/code/train.py', '--dataset', 'Flickr', '--model', 'gcn', '--mode', 'full', '--epochs', '100', '--hidden', '16']
+exit 0
+['graph_beginner/task1/code/train.py', '--dataset', 'Flickr', '--model', 'gcn', '--mode', 'sampled', '--epochs', '100', '--hidden', '16']
+exit 0
+['graph_beginner/task1/code/train.py', '--dataset', 'Flickr', '--model', 'gat', '--mode', 'full', '--epochs', '100', '--hidden', '16']
+exit 0
+['graph_beginner/task1/code/train.py', '--dataset', 'Flickr', '--model', 'gat', '--mode', 'sampled', '--epochs', '100', '--hidden', '16']
+exit 0
+['graph_beginner/task1/code/train.py', '--dataset', 'Flickr', '--model', 'sage', '--mode', 'full', '--epochs', '100', '--hidden', '16']
+exit 0
+['graph_beginner/task1/code/train.py', '--dataset', 'Flickr', '--model', 'sage', '--mode', 'sampled', '--epochs', '100', '--hidden', '16']
+exit 0
+['graph_beginner/task1/code/train.py', '--dataset', 'Flickr', '--model', 'gin', '--mode', 'full', '--epochs', '100', '--hidden', '16']
+exit 0
+['graph_beginner/task1/code/train.py', '--dataset', 'Flickr', '--model', 'gin', '--mode', 'sampled', '--epochs', '100', '--hidden', '16']
+exit 0
+['graph_beginner/task2/code/train.py', '--dataset', 'Flickr', '--model', 'gcn', '--mode', 'full', '--epochs', '50', '--hidden', '16']
+exit 0
+['graph_beginner/task2/code/train.py', '--dataset', 'Flickr', '--model', 'gcn', '--mode', 'sampled', '--epochs', '50', '--hidden', '16']
+exit 0
+['graph_beginner/task2/code/train.py', '--dataset', 'Flickr', '--model', 'gat', '--mode', 'full', '--epochs', '50', '--hidden', '16']
+exit 0
+['graph_beginner/task2/code/train.py', '--dataset', 'Flickr', '--model', 'gat', '--mode', 'sampled', '--epochs', '50', '--hidden', '16']
+exit 0
+['graph_beginner/task2/code/train.py', '--dataset', 'Flickr', '--model', 'sage', '--mode', 'full', '--epochs', '50', '--hidden', '16']
+exit 0
+['graph_beginner/task2/code/train.py', '--dataset', 'Flickr', '--model', 'sage', '--mode', 'sampled', '--epochs', '50', '--hidden', '16']
+exit 0
+['graph_beginner/task2/code/train.py', '--dataset', 'Flickr', '--model', 'gin', '--mode', 'full', '--epochs', '50', '--hidden', '16']
+exit 0
+['graph_beginner/task2/code/train.py', '--dataset', 'Flickr', '--model', 'gin', '--mode', 'sampled', '--epochs', '50', '--hidden', '16']
+exit 0

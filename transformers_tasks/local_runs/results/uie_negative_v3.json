@@ -1,0 +1,245 @@
+{
+  "name": "uie_negative_v3",
+  "config": {
+    "augment": "negative",
+    "batch": 16,
+    "epochs": 15,
+    "lr": 0.0003,
+    "seed": 42,
+    "pretrained": "small BERT; not UIE-base pretrained weights",
+    "counts": {
+      "train": 2194,
+      "dev": 122,
+      "test": 110
+    },
+    "original_train_count": 2087,
+    "initialization": "seed reset after mining, before model construction; same initial heads across arms",
+    "negative_mining": "baseline false positives on already labeled training negatives only",
+    "split": "group by original content; upstream empty test replaced by held-out half of dev"
+  },
+  "started": "2026-10-14T00:40:48.225651+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 0.15314329169357813,
+      "dev": {
+        "precision": 0.023255813953488372,
+        "recall": 0.041666666666666664,
+        "f1": 0.029850746268656712,
+        "gold_spans": 24
+      },
+      "threshold": 0.3
+    },
+    {
+      "epoch": 2,
+      "loss": 0.10841247474701707,
+      "dev": {
+        "precision": 0.029411764705882353,
+        "recall": 0.041666666666666664,
+        "f1": 0.034482758620689655,
+        "gold_spans": 24
+      },
+      "threshold": 0.5
+    },
+    {
+      "epoch": 3,
+      "loss": 0.09379161765956835,
+      "dev": {
+        "precision": 0.25,
+        "recall": 0.08333333333333333,
+        "f1": 0.125,
+        "gold_spans": 24
+      },
+      "threshold": 0.5
+    },
+    {
+      "epoch": 4,
+      "loss": 0.07835119485400054,
+      "dev": {
+        "precision": 0.08695652173913043,
+        "recall": 0.08333333333333333,
+        "f1": 0.0851063829787234,
+        "gold_spans": 24
+      },
+      "threshold": 0.5
+    },
+    {
+      "epoch": 5,
+      "loss": 0.06973030748407788,
+      "dev": {
+        "precision": 0.06896551724137931,
+        "recall": 0.08333333333333333,
+        "f1": 0.07547169811320754,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 6,
+      "loss": 0.06361125936645101,
+      "dev": {
+        "precision": 0.11538461538461539,
+        "recall": 0.125,
+        "f1": 0.12000000000000001,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 7,
+      "loss": 0.05664141910828127,
+      "dev": {
+        "precision": 0.02127659574468085,
+        "recall": 0.08333333333333333,
+        "f1": 0.03389830508474576,
+        "gold_spans": 24
+      },
+      "threshold": 0.5
+    },
+    {
+      "epoch": 8,
+      "loss": 0.053660388543536254,
+      "dev": {
+        "precision": 0.11538461538461539,
+        "recall": 0.125,
+        "f1": 0.12000000000000001,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 9,
+      "loss": 0.04859367587562029,
+      "dev": {
+        "precision": 0.04838709677419355,
+        "recall": 0.125,
+        "f1": 0.06976744186046512,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 10,
+      "loss": 0.04621599088257405,
+      "dev": {
+        "precision": 0.08571428571428572,
+        "recall": 0.125,
+        "f1": 0.1016949152542373,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 11,
+      "loss": 0.04175807868785063,
+      "dev": {
+        "precision": 0.022222222222222223,
+        "recall": 0.16666666666666666,
+        "f1": 0.0392156862745098,
+        "gold_spans": 24
+      },
+      "threshold": 0.3
+    },
+    {
+      "epoch": 12,
+      "loss": 0.038220569229902954,
+      "dev": {
+        "precision": 0.05263157894736842,
+        "recall": 0.08333333333333333,
+        "f1": 0.06451612903225808,
+        "gold_spans": 24
+      },
+      "threshold": 0.7
+    },
+    {
+      "epoch": 13,
+      "loss": 0.03578655329662814,
+      "dev": {
+        "precision": 0.047619047619047616,
+        "recall": 0.16666666666666666,
+        "f1": 0.07407407407407407,
+        "gold_spans": 24
+      },
+      "threshold": 0.5
+    },
+    {
+      "epoch": 14,
+      "loss": 0.03333819671317514,
+      "dev": {
+        "precision": 0.038834951456310676,
+        "recall": 0.16666666666666666,
+        "f1": 0.06299212598425197,
+        "gold_spans": 24
+      },
+      "threshold": 0.5
+    },
+    {
+      "epoch": 15,
+      "loss": 0.0318254931484338,
+      "dev": {
+        "precision": 0.037037037037037035,
+        "recall": 0.125,
+        "f1": 0.05714285714285714,
+        "gold_spans": 24
+      },
+      "threshold": 0.5
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 54.93686479999997,
+  "best_dev_f1": 0.125,
+  "test": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "gold_spans": 23
+  },
+  "examples": [
+    {
+      "prompt": "历史人物",
+      "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+      "gold": [
+        "李贺"
+      ],
+      "prediction": []
+    },
+    {
+      "prompt": "Text",
+      "content": "由此也可以看出，李贺所处年代属于中唐，也有人称他为中唐最后一位诗人",
+      "gold": [
+        "中唐"
+      ],
+      "prediction": []
+    },
+    {
+      "prompt": "人物",
+      "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+      "gold": [
+        "王宏文"
+      ],
+      "prediction": [
+        "王宏文，男，汉族",
+        "汉族"
+      ]
+    },
+    {
+      "prompt": "Text",
+      "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+      "gold": [
+        "汉",
+        "汉族"
+      ],
+      "prediction": []
+    },
+    {
+      "prompt": "Date",
+      "content": "王宏文，男，汉族，1952年1月出生，河南新密市人，中共党员，大学学历，现任河南省人民政府宗教事务局巡视员",
+      "gold": [
+        "1952年1月"
+      ],
+      "prediction": []
+    }
+  ],
+  "threshold": 0.5
+}

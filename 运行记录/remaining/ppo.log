@@ -1,0 +1,15 @@
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+{"iteration": 1, "loss": 2.5443257987499237, "clip_fraction": 0.0, "reward": 4.484385132789612, "sampled_kl": 0.0}
+{"iteration": 2, "loss": 2.825554370880127, "clip_fraction": 0.00390625, "reward": 4.530978322029114, "sampled_kl": 0.13367261365056038}
+{"iteration": 3, "loss": 2.688601925969124, "clip_fraction": 0.0, "reward": 4.575712323188782, "sampled_kl": 0.13186034932732582}
+{"iteration": 4, "loss": 3.640541732311249, "clip_fraction": 0.0, "reward": 5.0399476289749146, "sampled_kl": -0.23323402181267738}
+{"iteration": 5, "loss": 2.8596165478229523, "clip_fraction": 0.0, "reward": 4.32383930683136, "sampled_kl": 0.09146196395158768}
+{"iteration": 6, "loss": 2.48781056702137, "clip_fraction": 0.0, "reward": 3.980135813355446, "sampled_kl": -0.44305554777383804}
+{"iteration": 7, "loss": 2.125256910920143, "clip_fraction": 0.00390625, "reward": 4.042358160018921, "sampled_kl": -0.16892679780721664}
+{"iteration": 8, "loss": 2.97277669608593, "clip_fraction": 0.0, "reward": 5.13494074344635, "sampled_kl": -0.961663156747818}
+{"iteration": 9, "loss": 2.0855736285448074, "clip_fraction": 0.0, "reward": 4.76984703540802, "sampled_kl": -0.8223739266395569}
+{"iteration": 10, "loss": 2.2837132811546326, "clip_fraction": 0.0, "reward": 4.086925148963928, "sampled_kl": -0.07526379823684692}
+{"iteration": 11, "loss": 2.0771518647670746, "clip_fraction": 0.009341032709926367, "reward": 3.393934667110443, "sampled_kl": 1.0758371949195862}
+{"iteration": 12, "loss": 2.5005510598421097, "clip_fraction": 0.0, "reward": 4.157438039779663, "sampled_kl": -0.763506606221199}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\qwen_ppo.json

@@ -1,0 +1,370 @@
+{
+  "time": "2026-10-14T12:43:09.794916+08:00",
+  "checks": [
+    {
+      "name": "syntax",
+      "passed": true,
+      "log": "运行记录\\核查\\syntax.txt"
+    },
+    {
+      "name": "numpy_crf_math",
+      "passed": true,
+      "log": "运行记录\\核查\\numpy_crf_math.txt"
+    },
+    {
+      "name": "ppo_math",
+      "passed": true,
+      "log": "运行记录\\核查\\ppo_math.txt"
+    },
+    {
+      "name": "PLM upstream Git blobs",
+      "passed": true,
+      "files_checked": 300,
+      "failures": []
+    },
+    {
+      "name": "qwen05 weights SHA256",
+      "passed": true,
+      "actual": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "expected": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+    },
+    {
+      "name": "t5-small-zh weights SHA256",
+      "passed": true,
+      "actual": "45812ed7877f4dc392567fe996a2095e0e4c3c163d2b303c99937ff6929a52fe",
+      "expected": "45812ed7877f4dc392567fe996a2095e0e4c3c163d2b303c99937ff6929a52fe"
+    },
+    {
+      "name": "ZINC test-00000-of-00001-a7e189a5b3ef716a.parquet",
+      "passed": true,
+      "sha256": "996a44b1eceffe5e2f62afd734dd8f012b0181885703d8715f665224a916085c"
+    },
+    {
+      "name": "ZINC train-00000-of-00001-6f490776c4276cb5.parquet",
+      "passed": true,
+      "sha256": "0c4d987925590895f4903e6da34251b9df81dd9130d135e98cb62a1831e41198"
+    },
+    {
+      "name": "ZINC validation-00000-of-00001-02aa90c76bb53982.parquet",
+      "passed": true,
+      "sha256": "ae99692d6c84e9c5906578b28929ef65e6ee3b1b4045e2c18c0d750d6ea0147e"
+    },
+    {
+      "name": "SNLI training parquet",
+      "passed": true
+    },
+    {
+      "name": "GloVe official ZIP entry CRC",
+      "passed": true,
+      "crc": 3530997057
+    },
+    {
+      "name": "Flickr official ZIP CRC",
+      "passed": true,
+      "invalid_entry": null
+    },
+    {
+      "name": "checkpoint tensors finite",
+      "passed": true,
+      "checkpoints": 220,
+      "failures": []
+    },
+    {
+      "name": "saved generation tensors finite",
+      "passed": true,
+      "files": 10,
+      "failures": []
+    },
+    {
+      "name": "NLP checkpoint forward",
+      "passed": true,
+      "models": [
+        "nlp-beginner\\legacy\\task2\\checkpoints\\cnn_glove_n0_lr0.001.pt",
+        "nlp-beginner\\legacy\\task2\\checkpoints\\cnn_glove_n0_lr0.001_kaggle.pt",
+        "nlp-beginner\\legacy\\task2\\checkpoints\\cnn_random_n0_lr0.001.pt",
+        "nlp-beginner\\legacy\\task2\\checkpoints\\cnn_random_n0_lr0.001_kaggle.pt",
+        "nlp-beginner\\legacy\\task2\\checkpoints\\rnn_glove_n0_lr0.001.pt",
+        "nlp-beginner\\legacy\\task2\\checkpoints\\rnn_glove_n0_lr0.001_kaggle.pt",
+        "nlp-beginner\\legacy\\task2\\checkpoints\\rnn_random_n0_lr0.001.pt",
+        "nlp-beginner\\legacy\\task2\\checkpoints\\rnn_random_n0_lr0.001_kaggle.pt",
+        "nlp-beginner\\legacy\\task2\\checkpoints\\softmax_random_n0_lr0.001.pt",
+        "nlp-beginner\\legacy\\task2\\checkpoints\\softmax_random_n0_lr0.001_kaggle.pt",
+        "nlp-beginner\\legacy\\task3\\checkpoints\\esim_glove_n100000_lr0.001_expanded.pt",
+        "nlp-beginner\\legacy\\task3\\checkpoints\\esim_random_n20000_lr0.001.pt",
+        "nlp-beginner\\legacy\\task4\\checkpoints\\bilstm-crf_glove_n0_lr0.001_casing.pt",
+        "nlp-beginner\\legacy\\task4\\checkpoints\\bilstm-crf_glove_n0_lr0.001_expanded.pt",
+        "nlp-beginner\\legacy\\task4\\checkpoints\\bilstm-crf_random_n0_lr0.001.pt",
+        "nlp-beginner\\legacy\\task5\\checkpoints\\gru_lr0.001.pt",
+        "nlp-beginner\\legacy\\task5\\checkpoints\\lstm_lr0.001.pt"
+      ]
+    },
+    {
+      "name": "Graph checkpoint forward",
+      "passed": true,
+      "models": [
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gat_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gat_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gat_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gat_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gcn_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gcn_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gcn_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gcn_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gin_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gin_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gin_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_gin_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_sage_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_sage_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_sage_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\CiteSeer_sage_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gat_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gat_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gat_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gat_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l1_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l1_lr0.01_ablation.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l2_lr0.001.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l2_lr0.001_ablation.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l2_lr0.01_seed2026.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l2_lr0.01_seed7.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l2_lr0.1.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l2_lr0.1_ablation.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l3_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_full_l3_lr0.01_ablation.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_sampled_l2_lr0.01_seed2026.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gcn_sampled_l2_lr0.01_seed7.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gin_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gin_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gin_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_gin_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_sage_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_sage_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_sage_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Cora_sage_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gat_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gat_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gat_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gat_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gcn_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gcn_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gcn_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gcn_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gin_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gin_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gin_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_gin_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_sage_full_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_sage_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_sage_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task1\\checkpoints\\Flickr_sage_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gat_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gat_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gat_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gat_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gcn_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gcn_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gcn_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gcn_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gin_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gin_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gin_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_gin_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_sage_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_sage_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_sage_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\CiteSeer_sage_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gat_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gat_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gat_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gat_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gcn_full_l1_lr0.01_ablation.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gcn_full_l2_lr0.001_ablation.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gcn_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gcn_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gcn_full_l2_lr0.1_ablation.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gcn_full_l3_lr0.01_ablation.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gcn_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gcn_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gin_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gin_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gin_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_gin_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_sage_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_sage_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_sage_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Cora_sage_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gat_full_l2_lr0.001_tuned.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gat_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gat_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gat_sampled_l2_lr0.001_tuned.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gat_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gat_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gcn_full_l2_lr0.001_tuned.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gcn_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gcn_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gcn_sampled_l2_lr0.001_tuned.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gcn_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gcn_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gin_full_l2_lr0.001_tuned.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gin_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gin_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gin_sampled_l2_lr0.001_tuned.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gin_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_gin_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_sage_full_l2_lr0.001_tuned.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_sage_full_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_sage_full_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_sage_sampled_l2_lr0.001_tuned.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_sage_sampled_l2_lr0.01.pt",
+        "graph_beginner\\task2\\checkpoints\\Flickr_sage_sampled_l2_lr0.01_isolated.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gat_max_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gat_max_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gat_mean_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gat_mean_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gat_min_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gat_min_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gcn_max_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gcn_max_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gcn_mean_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gcn_mean_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gcn_min_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gcn_min_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_max_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_max_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_mean_batch_n0_lr0.0001_l2_ablation.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_mean_batch_n0_lr0.001_l1_ablation.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_mean_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_mean_batch_n0_lr0.001_l3_ablation.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_mean_batch_n0_lr0.01_l2_ablation.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_mean_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_min_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_gin_min_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_sage_max_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_sage_max_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_sage_mean_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_sage_mean_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_sage_min_batch_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\MUTAG_sage_min_full_n0_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gat_max_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gat_max_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gat_mean_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gat_mean_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gat_min_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gat_min_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gcn_max_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gcn_max_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gcn_mean_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gcn_mean_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gcn_min_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gcn_min_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_max_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_max_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_mean_batch_n2000_lr0.0001_l2_ablation.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_mean_batch_n2000_lr0.001_l1_ablation.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_mean_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_mean_batch_n2000_lr0.001_l3_ablation.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_mean_batch_n2000_lr0.01_l2_ablation.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_mean_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_min_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_gin_min_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_sage_max_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_sage_max_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_sage_mean_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_sage_mean_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_sage_min_batch_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task3\\checkpoints\\ZINC_sage_min_full_n2000_lr0.001_l2.pt",
+        "graph_beginner\\task4\\checkpoints\\conve_n0_d64_lr0.001_full.pt",
+        "graph_beginner\\task4\\checkpoints\\conve_n20000_d64_lr0.001.pt",
+        "graph_beginner\\task4\\checkpoints\\rotate_n0_d64_lr0.001_full.pt",
+        "graph_beginner\\task4\\checkpoints\\rotate_n20000_d64_lr0.001.pt",
+        "graph_beginner\\task4\\checkpoints\\transe_n0_d64_lr0.001_full.pt",
+        "graph_beginner\\task4\\checkpoints\\transe_n20000_d64_lr0.001.pt"
+      ]
+    },
+    {
+      "name": "BERT checkpoint forward",
+      "passed": true,
+      "models": [
+        "classification",
+        "pointwise",
+        "dssm",
+        "sbert",
+        "simcse",
+        "pet",
+        "ptuning"
+      ]
+    },
+    {
+      "name": "UIE checkpoint forward",
+      "passed": true,
+      "models": [
+        "none",
+        "negative",
+        "swap"
+      ]
+    },
+    {
+      "name": "Pretrained UIE checkpoint forward",
+      "passed": true,
+      "models": [
+        "none",
+        "negative",
+        "swap",
+        "fill"
+      ]
+    },
+    {
+      "name": "reward checkpoint forward",
+      "passed": true,
+      "examples": [
+        4.295193195343018,
+        -0.8291783928871155
+      ]
+    },
+    {
+      "name": "pointwise grouped splits",
+      "passed": true,
+      "overlaps": {
+        "train/dev": 0,
+        "train/test": 0,
+        "dev/test": 0
+      }
+    },
+    {
+      "name": "dssm grouped splits",
+      "passed": true,
+      "overlaps": {
+        "train/dev": 0,
+        "train/test": 0,
+        "dev/test": 0
+      }
+    },
+    {
+      "name": "sbert grouped splits",
+      "passed": true,
+      "overlaps": {
+        "train/dev": 0,
+        "train/test": 0,
+        "dev/test": 0
+      }
+    },
+    {
+      "name": "UIE grouped splits",
+      "passed": true
+    },
+    {
+      "name": "scratch docs independent holdouts",
+      "passed": true
+    },
+    {
+      "name": "Qwen SFT prompts independent holdouts",
+      "passed": true
+    }
+  ],
+  "status": "passed"
+}

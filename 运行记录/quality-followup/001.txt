@@ -1,0 +1,9 @@
+{"epoch": 1, "train_loss": 1.0345434642661844, "dev": {"accuracy": 0.6084696823869105, "macro_f1": 0.3723728125794155}}
+{"epoch": 2, "train_loss": 0.8966628712483832, "dev": {"accuracy": 0.6190567853705486, "macro_f1": 0.4388713923468906}}
+{"epoch": 3, "train_loss": 0.8450273396815023, "dev": {"accuracy": 0.6224574911774142, "macro_f1": 0.45807206471303685}}
+{"epoch": 4, "train_loss": 0.8101755470324037, "dev": {"accuracy": 0.621944177093359, "macro_f1": 0.4133454870492641}}
+{"epoch": 5, "train_loss": 0.7864277706505091, "dev": {"accuracy": 0.6254090471607314, "macro_f1": 0.44313247062216804}}
+{"epoch": 6, "train_loss": 0.7649587647781447, "dev": {"accuracy": 0.6232274623034969, "macro_f1": 0.44175693205626043}}
+{"epoch": 7, "train_loss": 0.7455937687797405, "dev": {"accuracy": 0.6210458774462624, "macro_f1": 0.4345056466839242}}
+{"epoch": 8, "train_loss": 0.7319311901966856, "dev": {"accuracy": 0.6195059351940969, "macro_f1": 0.45056292332297343}}
+C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\task2\results\cnn_glove_n0_lr0.001_kaggle.json

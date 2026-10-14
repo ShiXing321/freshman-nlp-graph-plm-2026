@@ -1,0 +1,6 @@
+{"epoch": 1, "train_loss": 0.996570733165741, "dev": {"accuracy": 0.589, "macro_f1": 0.5816273831275528}}
+{"epoch": 2, "train_loss": 0.8046091863155365, "dev": {"accuracy": 0.654, "macro_f1": 0.6506501939601429}}
+{"epoch": 3, "train_loss": 0.6843173073291778, "dev": {"accuracy": 0.677, "macro_f1": 0.6742785061512439}}
+{"epoch": 4, "train_loss": 0.5775491499900818, "dev": {"accuracy": 0.679, "macro_f1": 0.6767806619785515}}
+{"epoch": 5, "train_loss": 0.4749431250810623, "dev": {"accuracy": 0.671, "macro_f1": 0.6681614456007594}}
+C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\task3\results\esim_random_n20000_lr0.001.json

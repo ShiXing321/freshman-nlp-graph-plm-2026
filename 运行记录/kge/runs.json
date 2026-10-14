@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "graph_beginner/task4/code/train.py",
+      "--model",
+      "transe",
+      "--epochs",
+      "5",
+      "--limit",
+      "20000",
+      "--eval-limit",
+      "50"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:21:17.963148+08:00",
+    "log": "运行记录\\kge\\000.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task4/code/train.py",
+      "--model",
+      "rotate",
+      "--epochs",
+      "5",
+      "--limit",
+      "20000",
+      "--eval-limit",
+      "50"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:35:22.644076+08:00",
+    "log": "运行记录\\kge\\001.txt"
+  },
+  {
+    "command": [
+      "graph_beginner/task4/code/train.py",
+      "--model",
+      "conve",
+      "--epochs",
+      "5",
+      "--limit",
+      "20000",
+      "--eval-limit",
+      "50"
+    ],
+    "exit_code": 0,
+    "started": "2026-10-13T23:35:44.686519+08:00",
+    "log": "运行记录\\kge\\002.txt"
+  }
+]

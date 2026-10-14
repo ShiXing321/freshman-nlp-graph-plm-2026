@@ -1,0 +1,61 @@
+{
+  "name": "cpt",
+  "config": {
+    "task": "cpt",
+    "limit": 400,
+    "epochs": 1,
+    "batch": 1,
+    "accumulate": 8,
+    "length": 192,
+    "lr": 0.0002,
+    "seed": 42,
+    "model": "Qwen2.5-0.5B-Instruct + LoRA",
+    "parameters": 494573440,
+    "trainable_parameters": 540672,
+    "counts": {
+      "train": 200,
+      "dev": 25,
+      "test": 25
+    },
+    "masking": "all nonpadding tokens",
+    "split": "deduplicated document/prompt split, fixed seed, no test-based selection",
+    "truncation": "prefix capped to half context; target truncated to remaining capacity"
+  },
+  "started": "2026-10-14T00:02:45.735469+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 3.350493702292442,
+      "dev": {
+        "loss": 3.2843758192547203,
+        "perplexity": 26.692318283000645,
+        "tokens": 3403
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 55.3856708000003,
+  "baseline_dev": {
+    "loss": 3.422903748564674,
+    "perplexity": 30.65830991779326,
+    "tokens": 3403
+  },
+  "best_dev_loss": 3.2843758192547203,
+  "test": {
+    "loss": 3.1278088804057753,
+    "perplexity": 22.823914786631285,
+    "tokens": 3932
+  },
+  "examples_before": [],
+  "examples": [
+    {
+      "input": "春天来了",
+      "output": "春天，万物复苏的季节。在这个充满生机和希望的季节里，大自然开始换上新装，展现出它最美丽的面貌。春天的气息弥漫在空气中，仿佛能让人感受到生命的"
+    },
+    {
+      "input": "请解释梯度下降。",
+      "output": "梯度下降是一种优化算法，用于在机器学习和深度学习中找到最优解。它通过迭代地调整模型参数来最小化损失函数。\n\n梯度下降的基本思想是：对于"
+    }
+  ]
+}

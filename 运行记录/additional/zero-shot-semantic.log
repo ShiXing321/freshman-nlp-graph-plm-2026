@@ -1,0 +1,6 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+dev valid 8802 filtered 0
+test valid 0 filtered 12500
+unlabeled upstream test: heldout evaluation uses sentence-connected groups from dev
+train original 477532 deduplicated and heldout removed 232702
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\qwen_zero_shot_v2.json

@@ -1,0 +1,17 @@
+{
+  "task": "plm-scratch",
+  "started": "2026-10-14T12:52:52.101176+08:00",
+  "finished": "2026-10-14T12:53:05.212373+08:00",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-u",
+    "scripts/demo_saved.py",
+    "plm-scratch"
+  ],
+  "exit_code": 0,
+  "output_sha256": "9777b2de22ee910a6502da29cfeb4195ef7b83d1098bbfda5cd0c4c98cac5c1c",
+  "capture": "Playwright screenshot of actual local execution page, no image editing",
+  "screenshot_sha256": "30f62dba9437c63a393640aeb2d73ac101c7f7527269e90dfe1089c58062bbe6"
+}

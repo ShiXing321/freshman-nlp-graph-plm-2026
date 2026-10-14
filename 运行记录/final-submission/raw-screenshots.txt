@@ -1,0 +1,12 @@
+nlp1 captured
+nlp2 captured
+nlp3 captured
+nlp4 captured
+nlp5 captured
+graph1 captured
+Traceback (most recent call last):
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\scripts\capture_runs.py", line 76, in <module>
+    main(args.tasks or TASKS)
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\scripts\capture_runs.py", line 63, in main
+    raise RuntimeError(task + " failed; see original output")
+RuntimeError: graph2 failed; see original output

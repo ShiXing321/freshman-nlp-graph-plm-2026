@@ -1,0 +1,9 @@
+{"epoch": 1, "loss": 0.024945327526298442, "dev": {"precision": 0.5111111111111111, "recall": 0.9583333333333334, "f1": 0.6666666666666666, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 2, "loss": 0.008232317685431919, "dev": {"precision": 0.4888888888888889, "recall": 0.9166666666666666, "f1": 0.6376811594202899, "gold_spans": 24}, "threshold": 0.5}
+{"epoch": 3, "loss": 0.0062119020641285974, "dev": {"precision": 0.5714285714285714, "recall": 1.0, "f1": 0.7272727272727273, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 4, "loss": 0.0038438181649729257, "dev": {"precision": 0.5476190476190477, "recall": 0.9583333333333334, "f1": 0.696969696969697, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 5, "loss": 0.0022934032179124804, "dev": {"precision": 0.5227272727272727, "recall": 0.9583333333333334, "f1": 0.6764705882352942, "gold_spans": 24}, "threshold": 0.5}
+{"epoch": 6, "loss": 0.002871530736254345, "dev": {"precision": 0.6111111111111112, "recall": 0.9166666666666666, "f1": 0.7333333333333334, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 7, "loss": 0.0028764959457211123, "dev": {"precision": 0.575, "recall": 0.9583333333333334, "f1": 0.71875, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 8, "loss": 0.001812432184306782, "dev": {"precision": 0.6285714285714286, "recall": 0.9166666666666666, "f1": 0.7457627118644068, "gold_spans": 24}, "threshold": 0.7}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\uie_base_negative_v1.json

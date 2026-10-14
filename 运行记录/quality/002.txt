@@ -1,0 +1,21 @@
+{"epoch": 1, "train_loss": 1.2464468948515115, "dev_accuracy": 0.5054218800128328}
+{"epoch": 2, "train_loss": 1.198139802008469, "dev_accuracy": 0.5188322104587745}
+{"epoch": 3, "train_loss": 1.1734165491651043, "dev_accuracy": 0.5349374398460057}
+{"epoch": 4, "train_loss": 1.158181319396518, "dev_accuracy": 0.5281360282322746}
+{"epoch": 5, "train_loss": 1.14764442567002, "dev_accuracy": 0.5280076997112608}
+{"epoch": 6, "train_loss": 1.1403589355435915, "dev_accuracy": 0.5445620789220404}
+{"epoch": 7, "train_loss": 1.134759102015848, "dev_accuracy": 0.534809111324992}
+{"epoch": 8, "train_loss": 1.1310408398320473, "dev_accuracy": 0.5386589669554058}
+{"epoch": 9, "train_loss": 1.128411606423142, "dev_accuracy": 0.5349374398460057}
+{"epoch": 10, "train_loss": 1.127543061974115, "dev_accuracy": 0.5525184472248957}
+{"epoch": 11, "train_loss": 1.1245978808524797, "dev_accuracy": 0.5389156239974334}
+{"epoch": 12, "train_loss": 1.1235601984089716, "dev_accuracy": 0.5351299326275265}
+{"epoch": 13, "train_loss": 1.122440357697684, "dev_accuracy": 0.5406480590311197}
+{"epoch": 14, "train_loss": 1.122034495938498, "dev_accuracy": 0.5393006095604748}
+{"epoch": 15, "train_loss": 1.1215209084901387, "dev_accuracy": 0.5581007378889958}
+{"epoch": 16, "train_loss": 1.1209022646659694, "dev_accuracy": 0.5452037215271094}
+{"epoch": 17, "train_loss": 1.1206539926864627, "dev_accuracy": 0.5577799165864613}
+{"epoch": 18, "train_loss": 1.1204383011277386, "dev_accuracy": 0.5354507539300609}
+{"epoch": 19, "train_loss": 1.1201514431550104, "dev_accuracy": 0.5407122232916266}
+{"epoch": 20, "train_loss": 1.1203863918290722, "dev_accuracy": 0.5417388514597369}
+C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\task1\results\tfidf_n1_softmax_lr0.5_b64_shuffleTrue_kaggle.json

@@ -1,0 +1,10 @@
+Mask Then Fill 146 generated 145 accepted
+{"epoch": 1, "loss": 0.024868153667788433, "dev": {"precision": 0.696969696969697, "recall": 0.9583333333333334, "f1": 0.8070175438596493, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 2, "loss": 0.007948996615941659, "dev": {"precision": 0.5238095238095238, "recall": 0.9166666666666666, "f1": 0.6666666666666667, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 3, "loss": 0.004685313108531502, "dev": {"precision": 0.5581395348837209, "recall": 1.0, "f1": 0.7164179104477612, "gold_spans": 24}, "threshold": 0.5}
+{"epoch": 4, "loss": 0.0029212707595195663, "dev": {"precision": 0.6388888888888888, "recall": 0.9583333333333334, "f1": 0.7666666666666666, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 5, "loss": 0.0030115318885332735, "dev": {"precision": 0.6666666666666666, "recall": 0.8333333333333334, "f1": 0.7407407407407408, "gold_spans": 24}, "threshold": 0.5}
+{"epoch": 6, "loss": 0.004017605375906285, "dev": {"precision": 0.5609756097560976, "recall": 0.9583333333333334, "f1": 0.7076923076923077, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 7, "loss": 0.0021815393978117117, "dev": {"precision": 0.7419354838709677, "recall": 0.9583333333333334, "f1": 0.8363636363636364, "gold_spans": 24}, "threshold": 0.7}
+{"epoch": 8, "loss": 0.0028449793215289134, "dev": {"precision": 0.7419354838709677, "recall": 0.9583333333333334, "f1": 0.8363636363636364, "gold_spans": 24}, "threshold": 0.7}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\uie_base_fill_v1.json

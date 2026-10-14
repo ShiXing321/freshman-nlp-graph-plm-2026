@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "model": "TransE",
+      "passed": true,
+      "mrr": 0.17549604177474976
+    },
+    {
+      "model": "RotatE",
+      "passed": true,
+      "mrr": 0.1211850643157959
+    },
+    {
+      "model": "ConvE",
+      "passed": true,
+      "mrr": 0.3687500059604645
+    }
+  ]
+}

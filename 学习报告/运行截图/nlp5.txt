@@ -1,0 +1,5 @@
+{
+  "checkpoint": "nlp-beginner/legacy/task5/checkpoints/gru_lr0.001.pt",
+  "temperature": 0.7,
+  "generated": "春风亭古，云阳明风欲。\n\n况便无年春明，\n罗屋谁。\n\n不道愧百，山不得扫。\n\n冥，来光大故人。\n\n\n帝四歌至，\n永翅风月。\n大谈事之，\n飞月。\n郁\n青园无花，高树树"
+}

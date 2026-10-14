@@ -1,0 +1,68 @@
+{
+  "model": "classification",
+  "test_examples": 32,
+  "metrics": {
+    "accuracy": 0.71875,
+    "macro_f1": 0.7780257936507936
+  }
+}
+{
+  "model": "pointwise",
+  "test_examples": 128,
+  "metrics": {
+    "accuracy": 0.828125,
+    "macro_f1": 0.7708333333333333,
+    "auc": 0.8825000000000001,
+    "average_precision": 0.7678739914382857
+  }
+}
+{
+  "model": "dssm",
+  "test_examples": 128,
+  "metrics": {
+    "accuracy": 0.8046875,
+    "macro_f1": 0.7519956599240487,
+    "auc": 0.9039285714285714,
+    "average_precision": 0.8060529829853409
+  }
+}
+{
+  "model": "sbert",
+  "test_examples": 128,
+  "metrics": {
+    "accuracy": 0.9296875,
+    "macro_f1": 0.9031525851197982,
+    "auc": 0.9689285714285715,
+    "average_precision": 0.9094602702711432
+  }
+}
+dev valid 8802 filtered 0
+test valid 0 filtered 12500
+unlabeled upstream test: heldout evaluation uses sentence-connected groups from dev
+train original 477532 deduplicated and heldout removed 232702
+{
+  "model": "simcse",
+  "test_examples": 128,
+  "metrics": {
+    "accuracy": 0.6484375,
+    "macro_f1": 0.6200277063130814,
+    "auc": 0.641301688279912,
+    "average_precision": 0.61472698567192
+  }
+}
+{
+  "model": "pet",
+  "test_examples": 128,
+  "metrics": {
+    "accuracy": 0.5859375,
+    "macro_f1": 0.4491753978710501
+  }
+}
+{
+  "model": "ptuning",
+  "test_examples": 128,
+  "metrics": {
+    "accuracy": 0.3359375,
+    "macro_f1": 0.22945280852759747
+  }
+}

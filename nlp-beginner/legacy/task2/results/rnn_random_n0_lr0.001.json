@@ -1,0 +1,97 @@
+{
+  "name": "rnn_random_n0_lr0.001",
+  "config": {
+    "task": "classification",
+    "model": "rnn",
+    "glove": "",
+    "dim": 50,
+    "hidden": 64,
+    "batch": 32,
+    "epochs": 8,
+    "lr": 0.001,
+    "max_length": 100,
+    "limit": 0,
+    "seed": 42
+  },
+  "started": "2026-10-13T23:15:46.175949+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.5658105879687192,
+      "dev": {
+        "accuracy": 0.3133514986376022,
+        "macro_f1": 0.16508018877443648
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.5208807045154358,
+      "dev": {
+        "accuracy": 0.33969118982742963,
+        "macro_f1": 0.2265219631843133
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.463934846585163,
+      "dev": {
+        "accuracy": 0.37783832879200724,
+        "macro_f1": 0.27651954752187546
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.3964413587520186,
+      "dev": {
+        "accuracy": 0.3723887375113533,
+        "macro_f1": 0.32832471265691404
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.3346693689903517,
+      "dev": {
+        "accuracy": 0.3614895549500454,
+        "macro_f1": 0.3317368032765513
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.2665988927923337,
+      "dev": {
+        "accuracy": 0.371480472297911,
+        "macro_f1": 0.3369100668180879
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.2156224485193745,
+      "dev": {
+        "accuracy": 0.3642143505903724,
+        "macro_f1": 0.33664347747328727
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.1623195403077629,
+      "dev": {
+        "accuracy": 0.3760217983651226,
+        "macro_f1": 0.3541850868234929
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 43.33847120000064,
+  "best_dev_score": 0.37783832879200724,
+  "test": {
+    "accuracy": 0.35384615384615387,
+    "macro_f1": 0.2563806748759455
+  },
+  "counts": {
+    "train": 8544,
+    "dev": 1101,
+    "test": 2210
+  },
+  "glove_coverage": null
+}

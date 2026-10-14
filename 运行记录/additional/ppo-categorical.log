@@ -1,0 +1,15 @@
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+{"iteration": 1, "loss": 2.7293209731578827, "clip_fraction": 0.004999999888241291, "reward": 4.794116497039795, "sampled_kl": 0.0}
+{"iteration": 2, "loss": 2.787792891263962, "clip_fraction": 0.00390625, "reward": 4.049175381660461, "sampled_kl": 0.07307931780815125}
+{"iteration": 3, "loss": 3.9980103373527527, "clip_fraction": 0.00390625, "reward": 4.316611409187317, "sampled_kl": 0.1857377290725708}
+{"iteration": 4, "loss": 2.2067832201719284, "clip_fraction": 0.00390625, "reward": 4.399991273880005, "sampled_kl": 0.1227429248392582}
+{"iteration": 5, "loss": 2.525941342115402, "clip_fraction": 0.00390625, "reward": 3.9413201808929443, "sampled_kl": 0.0523899681866169}
+{"iteration": 6, "loss": 2.5770750641822815, "clip_fraction": 0.00390625, "reward": 4.497303247451782, "sampled_kl": 0.05313672870397568}
+{"iteration": 7, "loss": 2.4095117300748825, "clip_fraction": 0.00390625, "reward": 4.550305724143982, "sampled_kl": 0.4165777787566185}
+{"iteration": 8, "loss": 3.5335214138031006, "clip_fraction": 0.0, "reward": 2.196491865441203, "sampled_kl": 0.3627529740333557}
+{"iteration": 9, "loss": 1.966111958026886, "clip_fraction": 0.0, "reward": 3.9918025732040405, "sampled_kl": 0.5235356017947197}
+{"iteration": 10, "loss": 2.081574410200119, "clip_fraction": 0.00390625, "reward": 3.9662775099277496, "sampled_kl": 0.543657474219799}
+{"iteration": 11, "loss": 1.8015097379684448, "clip_fraction": 0.0, "reward": 3.8333982825279236, "sampled_kl": 1.08809232711792}
+{"iteration": 12, "loss": 2.3504444658756256, "clip_fraction": 0.0, "reward": 4.076595723628998, "sampled_kl": 0.7709137573838234}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\qwen_ppo_v2.json

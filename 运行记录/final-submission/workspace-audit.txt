@@ -1,0 +1,49 @@
+syntax PASS
+numpy_crf_math PASS
+ppo_math PASS
+PLM upstream Git blobs PASS
+qwen05 weights SHA256 PASS
+t5-small-zh weights SHA256 PASS
+ZINC test-00000-of-00001-a7e189a5b3ef716a.parquet PASS
+ZINC train-00000-of-00001-6f490776c4276cb5.parquet PASS
+ZINC validation-00000-of-00001-02aa90c76bb53982.parquet PASS
+SNLI training parquet PASS
+GloVe official ZIP entry CRC PASS
+Flickr official ZIP CRC PASS
+checkpoint tensors finite PASS
+saved generation tensors finite PASS
+NLP checkpoint forward PASS
+Graph checkpoint forward PASS
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+dev valid 8802 filtered 0
+test valid 0 filtered 12500
+unlabeled upstream test: heldout evaluation uses sentence-connected groups from dev
+train original 477532 deduplicated and heldout removed 232702
+BERT checkpoint forward PASS
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+UIE checkpoint forward PASS
+Pretrained UIE checkpoint forward PASS
+Some weights of BertModel were not initialized from the model checkpoint at C:\Users\86157\Documents\ChatGPT\新生任务\.cache\models\bert-small-zh and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+reward checkpoint forward PASS
+pointwise grouped splits PASS
+dssm grouped splits PASS
+sbert grouped splits PASS
+UIE grouped splits PASS
+scratch docs independent holdouts PASS
+Qwen SFT prompts independent holdouts PASS
+passed

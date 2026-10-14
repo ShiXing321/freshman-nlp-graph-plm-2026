@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "split": "train",
+      "count": 8544,
+      "exact_text_label_order_match": true
+    },
+    {
+      "split": "dev",
+      "count": 1101,
+      "exact_text_label_order_match": true
+    },
+    {
+      "split": "test",
+      "count": 2210,
+      "exact_text_label_order_match": true
+    }
+  ]
+}

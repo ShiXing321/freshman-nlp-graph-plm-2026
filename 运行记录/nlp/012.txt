@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\train_torch.py", line 223, in <module>
+    language_model(args) if args.task == "lm" else supervised(args)
+                                                   ^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\train_torch.py", line 95, in supervised
+    rows = read_rows(name, args.limit, args.seed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\Documents\ChatGPT\新生任务\nlp-beginner\legacy\train_torch.py", line 36, in read_rows
+    rows = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\86157\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\86157\\Documents\\ChatGPT\\新生任务\\nlp-beginner\\legacy\\data\\processed\\snli\\train.jsonl'

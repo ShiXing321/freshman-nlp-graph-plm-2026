@@ -1,0 +1,9 @@
+{
+  "started": "2026-10-14T12:57:13.514326+08:00",
+  "url": "http://127.0.0.1:8765",
+  "action": "input text, click tokenizer button, wait for actual API response",
+  "exit_code": 0,
+  "output_sha256": "4c14825b626a81ffba85e7ebb4933fdc34abdda25d6f1f044374ee77a408b0b5",
+  "screenshot_sha256": "a59a99d75b3bfbca18fa04aee20a927761c94a08c8702ebef13774e1436c1f34",
+  "capture": "Playwright element screenshot of original running tokenizer UI"
+}

@@ -1,0 +1,33 @@
+{
+  "model": "transe",
+  "test": {
+    "mrr": 0.22352701425552368,
+    "hits@1": 0.1599999964237213,
+    "hits@3": 0.23000000417232513,
+    "hits@10": 0.4000000059604645,
+    "evaluated_triples": 50,
+    "ranking": "filtered head and tail, average rank for ties"
+  }
+}
+{
+  "model": "rotate",
+  "test": {
+    "mrr": 0.2067055106163025,
+    "hits@1": 0.12999999523162842,
+    "hits@3": 0.23000000417232513,
+    "hits@10": 0.3499999940395355,
+    "evaluated_triples": 50,
+    "ranking": "filtered head and tail, average rank for ties"
+  }
+}
+{
+  "model": "conve",
+  "test": {
+    "mrr": 0.1075233742594719,
+    "hits@1": 0.05000000074505806,
+    "hits@3": 0.09000000357627869,
+    "hits@10": 0.20999999344348907,
+    "evaluated_triples": 50,
+    "ranking": "filtered head and tail, average rank for ties"
+  }
+}

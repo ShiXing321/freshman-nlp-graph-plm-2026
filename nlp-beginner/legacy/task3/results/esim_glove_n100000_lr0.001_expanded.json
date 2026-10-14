@@ -1,0 +1,116 @@
+{
+  "name": "esim_glove_n100000_lr0.001_expanded",
+  "config": {
+    "task": "matching",
+    "data_name": "sentiment",
+    "eval_limit": 0,
+    "tag": "_expanded",
+    "model": "esim",
+    "glove": "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt",
+    "dim": 50,
+    "hidden": 64,
+    "batch": 64,
+    "epochs": 10,
+    "lr": 0.001,
+    "max_length": 100,
+    "limit": 100000,
+    "seed": 42
+  },
+  "started": "2026-10-14T09:53:43.581881+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7523139726638794,
+      "dev": {
+        "accuracy": 0.7761633814265393,
+        "macro_f1": 0.7766027721602656
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5477947784614563,
+      "dev": {
+        "accuracy": 0.7946555578134525,
+        "macro_f1": 0.7956565116275911
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.46657077116012574,
+      "dev": {
+        "accuracy": 0.8158910790489737,
+        "macro_f1": 0.8154497266169392
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.40541122831344606,
+      "dev": {
+        "accuracy": 0.8130461288356026,
+        "macro_f1": 0.8132667666551816
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.35425423050880434,
+      "dev": {
+        "accuracy": 0.8127413127413128,
+        "macro_f1": 0.8129551802900039
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.31203059890270235,
+      "dev": {
+        "accuracy": 0.8067465962202804,
+        "macro_f1": 0.8042062853976772
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.27426468396663667,
+      "dev": {
+        "accuracy": 0.8118268644584434,
+        "macro_f1": 0.8108014361271465
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.24347233892202377,
+      "dev": {
+        "accuracy": 0.8068482015850437,
+        "macro_f1": 0.8061536822489015
+      }
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.2168772672533989,
+      "dev": {
+        "accuracy": 0.8015647226173542,
+        "macro_f1": 0.801978712890691
+      }
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.19361754447937013,
+      "dev": {
+        "accuracy": 0.8017679333468807,
+        "macro_f1": 0.8017977434493831
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 803.2977654999995,
+  "best_dev_score": 0.8158910790489737,
+  "test": {
+    "accuracy": 0.8127035830618893,
+    "macro_f1": 0.8121248935239395
+  },
+  "counts": {
+    "train": 100000,
+    "dev": 9842,
+    "test": 9824
+  },
+  "glove_coverage": 0.9109017358799734
+}

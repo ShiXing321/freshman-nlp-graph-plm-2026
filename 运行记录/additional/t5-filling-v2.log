@@ -1,0 +1,13 @@
+train.tsv {'valid': 347886, 'malformed_filtered': 2250}
+dev.tsv {'valid': 38645, 'malformed_filtered': 259}
+{"epoch": 1, "loss": 7.508496292114258, "dev": {"loss": 6.772470467899432}}
+{"epoch": 2, "loss": 6.602534366607666, "dev": {"loss": 6.095108572148607}}
+{"epoch": 3, "loss": 6.010505470275879, "dev": {"loss": 5.524601795720948}}
+{"epoch": 4, "loss": 5.520701335906982, "dev": {"loss": 5.099979157810817}}
+{"epoch": 5, "loss": 5.102371433258057, "dev": {"loss": 4.758431548113657}}
+{"epoch": 6, "loss": 4.741574420928955, "dev": {"loss": 4.510576781042399}}
+{"epoch": 7, "loss": 4.445748895645141, "dev": {"loss": 4.33680256207784}}
+{"epoch": 8, "loss": 4.1608590259552, "dev": {"loss": 4.196622671062472}}
+{"epoch": 9, "loss": 3.9254284744262695, "dev": {"loss": 4.103383927546161}}
+{"epoch": 10, "loss": 3.6956695098876953, "dev": {"loss": 4.008907465959424}}
+C:\Users\86157\Documents\ChatGPT\新生任务\transformers_tasks\local_runs\results\t5_filling_n1000_v2.json

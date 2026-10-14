@@ -1,0 +1,73 @@
+{
+  "name": "esim_random_n20000_lr0.001",
+  "config": {
+    "task": "matching",
+    "model": "esim",
+    "glove": "",
+    "dim": 50,
+    "hidden": 64,
+    "batch": 32,
+    "epochs": 5,
+    "lr": 0.001,
+    "max_length": 100,
+    "limit": 20000,
+    "seed": 42
+  },
+  "started": "2026-10-13T23:56:10.814038+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.996570733165741,
+      "dev": {
+        "accuracy": 0.589,
+        "macro_f1": 0.5816273831275528
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8046091863155365,
+      "dev": {
+        "accuracy": 0.654,
+        "macro_f1": 0.6506501939601429
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6843173073291778,
+      "dev": {
+        "accuracy": 0.677,
+        "macro_f1": 0.6742785061512439
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5775491499900818,
+      "dev": {
+        "accuracy": 0.679,
+        "macro_f1": 0.6767806619785515
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4749431250810623,
+      "dev": {
+        "accuracy": 0.671,
+        "macro_f1": 0.6681614456007594
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 113.6770360999999,
+  "best_dev_score": 0.679,
+  "test": {
+    "accuracy": 0.675,
+    "macro_f1": 0.6760139842064405
+  },
+  "counts": {
+    "train": 20000,
+    "dev": 1000,
+    "test": 1000
+  },
+  "glove_coverage": null
+}

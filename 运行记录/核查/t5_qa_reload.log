@@ -1,0 +1,6 @@
+{
+  "task": "t5_qa",
+  "input": "问题：李白是哪一朝的诗人？ 原文：李白是唐代诗人。",
+  "output": "唐 代 诗 人",
+  "checkpoint": "C:\\Users\\86157\\Documents\\ChatGPT\\新生任务\\transformers_tasks\\local_runs\\checkpoints\\t5_qa"
+}

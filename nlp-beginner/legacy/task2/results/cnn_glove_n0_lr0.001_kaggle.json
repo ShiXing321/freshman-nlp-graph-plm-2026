@@ -1,0 +1,101 @@
+{
+  "name": "cnn_glove_n0_lr0.001_kaggle",
+  "config": {
+    "task": "classification",
+    "data_name": "sentiment_kaggle",
+    "eval_limit": 1000,
+    "tag": "",
+    "use_case": false,
+    "model": "cnn",
+    "glove": "nlp-beginner/legacy/data/raw/glove/glove.6B.50d.txt",
+    "dim": 50,
+    "hidden": 64,
+    "batch": 64,
+    "epochs": 8,
+    "lr": 0.001,
+    "max_length": 100,
+    "limit": 0,
+    "seed": 42
+  },
+  "started": "2026-10-14T11:58:59.408145+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0345434642661844,
+      "dev": {
+        "accuracy": 0.6084696823869105,
+        "macro_f1": 0.3723728125794155
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8966628712483832,
+      "dev": {
+        "accuracy": 0.6190567853705486,
+        "macro_f1": 0.4388713923468906
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8450273396815023,
+      "dev": {
+        "accuracy": 0.6224574911774142,
+        "macro_f1": 0.45807206471303685
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.8101755470324037,
+      "dev": {
+        "accuracy": 0.621944177093359,
+        "macro_f1": 0.4133454870492641
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.7864277706505091,
+      "dev": {
+        "accuracy": 0.6254090471607314,
+        "macro_f1": 0.44313247062216804
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7649587647781447,
+      "dev": {
+        "accuracy": 0.6232274623034969,
+        "macro_f1": 0.44175693205626043
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.7455937687797405,
+      "dev": {
+        "accuracy": 0.6210458774462624,
+        "macro_f1": 0.4345056466839242
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.7319311901966856,
+      "dev": {
+        "accuracy": 0.6195059351940969,
+        "macro_f1": 0.45056292332297343
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 90.12712420000025,
+  "best_dev_score": 0.6254090471607314,
+  "test": {
+    "accuracy": 0.6321120420157559,
+    "macro_f1": 0.4584130289898015
+  },
+  "counts": {
+    "train": 124481,
+    "dev": 15585,
+    "test": 15994
+  },
+  "glove_coverage": 0.9800349752258817
+}

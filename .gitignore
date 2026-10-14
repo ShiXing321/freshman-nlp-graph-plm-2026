@@ -1,0 +1,10 @@
+.venv*/
+.cache/
+**/__pycache__/
+**/checkpoints/
+**/data/raw/
+**/data/processed/
+**/data/*
+!**/data/README.md
+!**/data/label_mapping.txt
+*.tmp

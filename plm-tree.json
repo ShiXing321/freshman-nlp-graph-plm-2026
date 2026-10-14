@@ -1,0 +1,3100 @@
+{
+  "sha": "5464a2c16b73d1c8382f40fe48682830a87dfe65",
+  "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/5464a2c16b73d1c8382f40fe48682830a87dfe65",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24cb5cf7af5c165788783ed75f58d95ba8916e93",
+      "size": 60,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/24cb5cf7af5c165788783ed75f58d95ba8916e93"
+    },
+    {
+      "path": "LLM",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "046e0436d1b5a7875460a1efac725cf72edcb729",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/046e0436d1b5a7875460a1efac725cf72edcb729"
+    },
+    {
+      "path": "LLM/LLMsTrainer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea29f815bf84ec461282989c2bbfe6a38e489e57",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/ea29f815bf84ec461282989c2bbfe6a38e489e57"
+    },
+    {
+      "path": "LLM/LLMsTrainer/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4596e29a6459b7af519dfc9f92e63d00e6c4ecc",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/e4596e29a6459b7af519dfc9f92e63d00e6c4ecc"
+    },
+    {
+      "path": "LLM/LLMsTrainer/assets/sampler_viewer.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d53b67e4b1a6a6f00f5a132afe01e5f243c0301",
+      "size": 900278,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/4d53b67e4b1a6a6f00f5a132afe01e5f243c0301"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "129e5c3b3c10fff5ac7450a5e3093b8fe3899b6d",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/129e5c3b3c10fff5ac7450a5e3093b8fe3899b6d"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/accelerate_configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b35e67b1f4e2cb75f468e12eaa4e996fe874d0c3",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/b35e67b1f4e2cb75f468e12eaa4e996fe874d0c3"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/accelerate_configs/ds_stage1.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "811c434f6ceca81b8f52009f29d3faa06af47e42",
+      "size": 420,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/811c434f6ceca81b8f52009f29d3faa06af47e42"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/accelerate_configs/ds_stage2.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2880b211915b2855790fb2980af3c9488efef5a4",
+      "size": 420,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/2880b211915b2855790fb2980af3c9488efef5a4"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/accelerate_configs/ds_stage3.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f2902aabfc1c7cb5f8044bb8f0e0a66ddc8e077",
+      "size": 419,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9f2902aabfc1c7cb5f8044bb8f0e0a66ddc8e077"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/accelerate_configs/ds_stage3_offload.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7d3cc78ccb0db17ccc1fee7a93509be73c74fcc",
+      "size": 417,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/d7d3cc78ccb0db17ccc1fee7a93509be73c74fcc"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/pretrain_configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0589e21e65ca13c2b2bf1747a18c0c6f4690796",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/e0589e21e65ca13c2b2bf1747a18c0c6f4690796"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/pretrain_configs/llama.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76e91d14fc453eed8b419ee6c34bb00673e23be4",
+      "size": 1441,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/76e91d14fc453eed8b419ee6c34bb00673e23be4"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/reward_model_configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1dcedb375ec02cdacad54edcd225f2baf7d74e56",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/1dcedb375ec02cdacad54edcd225f2baf7d74e56"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/reward_model_configs/llama.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f5a6a285302ad864fccdaf88635f9de80945d49",
+      "size": 958,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3f5a6a285302ad864fccdaf88635f9de80945d49"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/sample_policy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e6b69926139ff8f35b749b59d550a13477f3bc8",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/5e6b69926139ff8f35b749b59d550a13477f3bc8"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/sample_policy/pretrain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7db566b8a76247ef8e148a8176fea7bf62286450",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/7db566b8a76247ef8e148a8176fea7bf62286450"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/sample_policy/pretrain/MNBVC.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0e809f6357b4346a3f2af53ae0167ad903f9ca7",
+      "size": 74,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/b0e809f6357b4346a3f2af53ae0167ad903f9ca7"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/sft_configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a40b9872ba084ea04120cd7cb94ca3cc0d75e93a",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/a40b9872ba084ea04120cd7cb94ca3cc0d75e93a"
+    },
+    {
+      "path": "LLM/LLMsTrainer/configs/sft_configs/llama.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "332af7c0ccc727597e66cafee258260938ebf898",
+      "size": 1100,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/332af7c0ccc727597e66cafee258260938ebf898"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19457dd5185febb8f8ff22385453e05097564810",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/19457dd5185febb8f8ff22385453e05097564810"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/compress_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61484d2888079af027ec02cb7447b59038d1dbd2",
+      "size": 4549,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/61484d2888079af027ec02cb7447b59038d1dbd2"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/reward_model_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8d0efe71307aff3f840be5fe4f62ca432cdba6e",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/d8d0efe71307aff3f840be5fe4f62ca432cdba6e"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/reward_model_data/sentiment_comments.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85c63543bf2c2ad49661514b77e011b8b002b1ed",
+      "size": 388643,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/85c63543bf2c2ad49661514b77e011b8b002b1ed"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/shuffled_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "341beeac5702ec4b2f9253a746d6b696eb708995",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/341beeac5702ec4b2f9253a746d6b696eb708995"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/shuffled_data/pretrain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bef4bb7a2f6a6ec4f3546dc379bbdfa6ccb43cdd",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/bef4bb7a2f6a6ec4f3546dc379bbdfa6ccb43cdd"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/shuffled_data/pretrain/MNBVC_news.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "922731e88191db787d9d47399fc578f5f65cadfc",
+      "size": 259108,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/922731e88191db787d9d47399fc578f5f65cadfc"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/shuffled_data/pretrain/MNBVC_qa.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc87e3f24ffab2c302a5aeb69b39f1e797438386",
+      "size": 124019,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/fc87e3f24ffab2c302a5aeb69b39f1e797438386"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/shuffled_data/pretrain/MNBVC_wiki.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80fcbb247f4a573f094d0f22afdb1e353e7b510e",
+      "size": 132756,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/80fcbb247f4a573f094d0f22afdb1e353e7b510e"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/shuffled_data/sft",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1ee9176d668920a4df4371e6c793cf802fa27f6",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/a1ee9176d668920a4df4371e6c793cf802fa27f6"
+    },
+    {
+      "path": "LLM/LLMsTrainer/data/shuffled_data/sft/sharegpt.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cb0f135f976c038a9d1995e1e626c41cf0a65df",
+      "size": 29489461,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3cb0f135f976c038a9d1995e1e626c41cf0a65df"
+    },
+    {
+      "path": "LLM/LLMsTrainer/dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30484c8a9dfab18ef88ce3a70c0318417b215ad3",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/30484c8a9dfab18ef88ce3a70c0318417b215ad3"
+    },
+    {
+      "path": "LLM/LLMsTrainer/dataset/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1392aaa2a7f2045657d37aa0700c12690f2839a",
+      "size": 31102,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/d1392aaa2a7f2045657d37aa0700c12690f2839a"
+    },
+    {
+      "path": "LLM/LLMsTrainer/dataset/reward_model_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1177431228733b5222ea10ed666a75afe5dce196",
+      "size": 6251,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/1177431228733b5222ea10ed666a75afe5dce196"
+    },
+    {
+      "path": "LLM/LLMsTrainer/eval_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f093b5960b6af2d4c2721c7a89f23c21823928fc",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/f093b5960b6af2d4c2721c7a89f23c21823928fc"
+    },
+    {
+      "path": "LLM/LLMsTrainer/eval_data/knowledge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16fb7b9a775ba7f55234ea1f5cb1840c9938d818",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/16fb7b9a775ba7f55234ea1f5cb1840c9938d818"
+    },
+    {
+      "path": "LLM/LLMsTrainer/eval_data/knowledge/knowledge_and_reasoning.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f19f57a394b7d18920a9070b03a23634d5875fb",
+      "size": 115474,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/1f19f57a394b7d18920a9070b03a23634d5875fb"
+    },
+    {
+      "path": "LLM/LLMsTrainer/eval_data/pretrain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d94b3059e59e5a78a15609c7ab96c6bde01abfc9",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/d94b3059e59e5a78a15609c7ab96c6bde01abfc9"
+    },
+    {
+      "path": "LLM/LLMsTrainer/eval_data/pretrain/generation_test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9839a197b14ad5294ba34f1bba71cf54d848ec50",
+      "size": 768,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9839a197b14ad5294ba34f1bba71cf54d848ec50"
+    },
+    {
+      "path": "LLM/LLMsTrainer/eval_data/reward_model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3a614a912fadf4211e7673b8f0c37ea6179f4f1",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/a3a614a912fadf4211e7673b8f0c37ea6179f4f1"
+    },
+    {
+      "path": "LLM/LLMsTrainer/eval_data/reward_model/sentiment_comments_test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27d8abb542838558c6384b39b62288b27e905c1a",
+      "size": 42619,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/27d8abb542838558c6384b39b62288b27e905c1a"
+    },
+    {
+      "path": "LLM/LLMsTrainer/eval_data/sft",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d895b69fff60780de14228a5d56b8a8919629f0c",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/d895b69fff60780de14228a5d56b8a8919629f0c"
+    },
+    {
+      "path": "LLM/LLMsTrainer/eval_data/sft/share_gpt_test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1e48f2959725783737f47edf816022c8ff61ad3",
+      "size": 146,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e1e48f2959725783737f47edf816022c8ff61ad3"
+    },
+    {
+      "path": "LLM/LLMsTrainer/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "642c53823f4706b836f46ec4eb03ec5f247cdb8e",
+      "size": 7537,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/642c53823f4706b836f46ec4eb03ec5f247cdb8e"
+    },
+    {
+      "path": "LLM/LLMsTrainer/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46c6069aaf62508281fb66660c05f54683a4f88f",
+      "size": 10905,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/46c6069aaf62508281fb66660c05f54683a4f88f"
+    },
+    {
+      "path": "LLM/LLMsTrainer/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "495d48f3f41c5b7ff18d6f403592092f8fc0baff",
+      "size": 329,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/495d48f3f41c5b7ff18d6f403592092f8fc0baff"
+    },
+    {
+      "path": "LLM/LLMsTrainer/solver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22c7a049c48132789148e6531e58203470090a34",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/22c7a049c48132789148e6531e58203470090a34"
+    },
+    {
+      "path": "LLM/LLMsTrainer/solver/evaluator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6acf55e6fd34ce39b7ea51dea7d04007f95a5690",
+      "size": 13650,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6acf55e6fd34ce39b7ea51dea7d04007f95a5690"
+    },
+    {
+      "path": "LLM/LLMsTrainer/solver/reward_model_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f21bcc967dab00b6621146aad470506322ea44b",
+      "size": 16683,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/8f21bcc967dab00b6621146aad470506322ea44b"
+    },
+    {
+      "path": "LLM/LLMsTrainer/solver/trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23380ec1e7cd7ae22661b04fee22918f8954b85c",
+      "size": 18999,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/23380ec1e7cd7ae22661b04fee22918f8954b85c"
+    },
+    {
+      "path": "LLM/LLMsTrainer/train_llms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3dfe19a47a78a71643f1d22a6cd29fe18e6e86",
+      "size": 8990,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ed3dfe19a47a78a71643f1d22a6cd29fe18e6e86"
+    },
+    {
+      "path": "LLM/LLMsTrainer/train_llms.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a73b72a6b1dddd643b1d04e514f8e2e0b853cc",
+      "size": 224,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/85a73b72a6b1dddd643b1d04e514f8e2e0b853cc"
+    },
+    {
+      "path": "LLM/LLMsTrainer/train_multi_node_llms.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "829aec91025b86523993bf53317ea0cab1ec8a0a",
+      "size": 766,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/829aec91025b86523993bf53317ea0cab1ec8a0a"
+    },
+    {
+      "path": "LLM/LLMsTrainer/train_reward_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40c12cb20ec975aa92464b6480e942277effb1be",
+      "size": 4472,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/40c12cb20ec975aa92464b6480e942277effb1be"
+    },
+    {
+      "path": "LLM/LLMsTrainer/train_reward_model.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c28b1ef4035948394f2e5d83ec3627683907d55",
+      "size": 188,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6c28b1ef4035948394f2e5d83ec3627683907d55"
+    },
+    {
+      "path": "LLM/LLMsTrainer/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "811f946515af1795be64e07e6252a097c364ea39",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/811f946515af1795be64e07e6252a097c364ea39"
+    },
+    {
+      "path": "LLM/LLMsTrainer/utils/extend_model_token_embedding.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3901c8fd8282a8a43110f70fc957825f8b19bc8a",
+      "size": 12223,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3901c8fd8282a8a43110f70fc957825f8b19bc8a"
+    },
+    {
+      "path": "LLM/LLMsTrainer/utils/extend_model_token_embeddings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "376b20fd41c55c586a698a77436453120ffa4f6f",
+      "size": 8155,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/376b20fd41c55c586a698a77436453120ffa4f6f"
+    },
+    {
+      "path": "LLM/LLMsTrainer/utils/merge_tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69968622f503055f9002eb37d70339aec07bf7d5",
+      "size": 2109,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/69968622f503055f9002eb37d70339aec07bf7d5"
+    },
+    {
+      "path": "LLM/LLMsTrainer/utils/model_freeze.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6e6e93aa4150dca880dd260ddb29dc852411b4f",
+      "size": 2280,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f6e6e93aa4150dca880dd260ddb29dc852411b4f"
+    },
+    {
+      "path": "LLM/LLMsTrainer/utils/sampler_viewer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff0eab5c8cf3629896805fb30c8db76cf63a80c3",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/ff0eab5c8cf3629896805fb30c8db76cf63a80c3"
+    },
+    {
+      "path": "LLM/LLMsTrainer/utils/sampler_viewer/web.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c095114b00b26880e88a589a36430c8eb4a61ee",
+      "size": 8038,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/1c095114b00b26880e88a589a36430c8eb4a61ee"
+    },
+    {
+      "path": "LLM/LLMsTrainer/utils/train_tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4577e9169c717b49fd5df42761d86a2cf22d143",
+      "size": 2257,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/d4577e9169c717b49fd5df42761d86a2cf22d143"
+    },
+    {
+      "path": "LLM/chatglm_finetune",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "030b1062a976bfa2c198646bccaf96e82682da31",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/030b1062a976bfa2c198646bccaf96e82682da31"
+    },
+    {
+      "path": "LLM/chatglm_finetune/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "572365655b23b0aacdb769de5ee7623ff56f9cc4",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/572365655b23b0aacdb769de5ee7623ff56f9cc4"
+    },
+    {
+      "path": "LLM/chatglm_finetune/assets/ChatGLM Fine-Tune.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccbe1981c0e446caac8cbc8151ae8e10ee20b1bc",
+      "size": 92734,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ccbe1981c0e446caac8cbc8151ae8e10ee20b1bc"
+    },
+    {
+      "path": "LLM/chatglm_finetune/assets/label1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc140a0fdf596829527be4f26bee57441c578368",
+      "size": 493060,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/cc140a0fdf596829527be4f26bee57441c578368"
+    },
+    {
+      "path": "LLM/chatglm_finetune/assets/label2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7856593d0139f88b42929c1841146b532e55b20",
+      "size": 518888,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a7856593d0139f88b42929c1841146b532e55b20"
+    },
+    {
+      "path": "LLM/chatglm_finetune/assets/playground.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53edec0c7131602521168e83c3d7fcbd8277f5fd",
+      "size": 227951,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/53edec0c7131602521168e83c3d7fcbd8277f5fd"
+    },
+    {
+      "path": "LLM/chatglm_finetune/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41bc509b43d0ac5dd72bff6e0b0c6b4c4d9ee6ea",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/41bc509b43d0ac5dd72bff6e0b0c6b4c4d9ee6ea"
+    },
+    {
+      "path": "LLM/chatglm_finetune/data/dataset.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4ff314abe28877f6798114d849036adf45743f",
+      "size": 4551,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/8a4ff314abe28877f6798114d849036adf45743f"
+    },
+    {
+      "path": "LLM/chatglm_finetune/data/mixed_dev_dataset.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443ecb5aaeffe7d9dc3bea9076012d2333e76f29",
+      "size": 66501,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/443ecb5aaeffe7d9dc3bea9076012d2333e76f29"
+    },
+    {
+      "path": "LLM/chatglm_finetune/data/mixed_train_dataset.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43615504bc4eae8c4d3438dc8b2f253a82284c4",
+      "size": 508681,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e43615504bc4eae8c4d3438dc8b2f253a82284c4"
+    },
+    {
+      "path": "LLM/chatglm_finetune/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2085dd1cae7aecbbb999c1ab9fd2532b5214815",
+      "size": 7544,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c2085dd1cae7aecbbb999c1ab9fd2532b5214815"
+    },
+    {
+      "path": "LLM/chatglm_finetune/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d131138532f79e3a9809397fc803e461a102ac",
+      "size": 6209,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f7d131138532f79e3a9809397fc803e461a102ac"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc956a4b3aa63aa1980093cf834f5a1cc2680a1f",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/fc956a4b3aa63aa1980093cf834f5a1cc2680a1f"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/.github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b10915cece6083afcb7e071d50e9eff1645ee18",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/3b10915cece6083afcb7e071d50e9eff1645ee18"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/.github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fddd7716faeabea6072b6c7ffe60ac1e036f9000",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/fddd7716faeabea6072b6c7ffe60ac1e036f9000"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/.github/workflows/build_documentation.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e58cb8a274a1c0425ec159715dc4def076da80f",
+      "size": 365,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9e58cb8a274a1c0425ec159715dc4def076da80f"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/.github/workflows/build_pr_documentation.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7506143ec76b1512b1207f0c93a25832276212be",
+      "size": 397,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/7506143ec76b1512b1207f0c93a25832276212be"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/.github/workflows/delete_doc_comment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e86cc2ddddf480db1a47318eb2e9c99de52686f7",
+      "size": 246,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e86cc2ddddf480db1a47318eb2e9c99de52686f7"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/.github/workflows/stale.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ad3e6ddd9529ec7fca28bf6c9cd5f92dfa3c6a7",
+      "size": 544,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/8ad3e6ddd9529ec7fca28bf6c9cd5f92dfa3c6a7"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/.github/workflows/tests.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d6a9bacbfc461dd39a2d862336173145e2818e8",
+      "size": 1087,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3d6a9bacbfc461dd39a2d862336173145e2818e8"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da99824aa34e856e9aeb2e74bbfc324e7acc6d36",
+      "size": 1887,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/da99824aa34e856e9aeb2e74bbfc324e7acc6d36"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c8b9d3b2979286038ddf5d86b5bb52a3fb385b9",
+      "size": 533,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/8c8b9d3b2979286038ddf5d86b5bb52a3fb385b9"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af8439997a1e8af33ab6523396c5d8af1c12aafe",
+      "size": 18682,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/af8439997a1e8af33ab6523396c5d8af1c12aafe"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2beacb12e96907b1a868bb23c636881bf49191e6",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/2beacb12e96907b1a868bb23c636881bf49191e6"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8879933e6cda150267451c9e7d07dd22b7b0d3f1",
+      "size": 585,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/8879933e6cda150267451c9e7d07dd22b7b0d3f1"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5955736ee6dce3d2ef803021f87283d5152f1f8a",
+      "size": 10424,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5955736ee6dce3d2ef803021f87283d5152f1f8a"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5fe245b2f471a3b10434a3cac738ca7c4b4cb419",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/5fe245b2f471a3b10434a3cac738ca7c4b4cb419"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2974756ce8d5964a46caf9190b6cd0a207cc2fa0",
+      "size": 280,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/2974756ce8d5964a46caf9190b6cd0a207cc2fa0"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/_toctree.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12f89011c4625e59156581c65e5f8d576d8f0b55",
+      "size": 492,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/12f89011c4625e59156581c65e5f8d576d8f0b55"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/index.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "008be12f0b2eb7069db99c96516c88b2292b3d0d",
+      "size": 1869,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/008be12f0b2eb7069db99c96516c88b2292b3d0d"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/install.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5ecffc013d3b63b4fe41ec2c2629924c8b56f9",
+      "size": 1423,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5f5ecffc013d3b63b4fe41ec2c2629924c8b56f9"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/package_reference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51025954b6806d714e97478e38c470bab88ee547",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/51025954b6806d714e97478e38c470bab88ee547"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/package_reference/config.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6866685500b390630a5a1b2b14f522743165225d",
+      "size": 601,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6866685500b390630a5a1b2b14f522743165225d"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/package_reference/peft_model.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2618effb7b5d3c28c37c55259771ed1c81d865a",
+      "size": 849,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f2618effb7b5d3c28c37c55259771ed1c81d865a"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/package_reference/tuners.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9404266e0d9f3f6466c325bb49001e7c6172db21",
+      "size": 571,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9404266e0d9f3f6466c325bb49001e7c6172db21"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/quicktour.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a625aa86fbf8fbd1af537d843f13ef91a1af5573",
+      "size": 13728,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a625aa86fbf8fbd1af537d843f13ef91a1af5573"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/task_guides",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd70555d0dd802ff47b1d93b16a724517a4bfeb8",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/cd70555d0dd802ff47b1d93b16a724517a4bfeb8"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/docs/source/task_guides/image_classification_lora.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfbbecabf88a2cd822a66c66f4fe803aaf530285",
+      "size": 14778,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/cfbbecabf88a2cd822a66c66f4fe803aaf530285"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6e7b22f0b6f499d86dcfd20dcc91b88ce82ff9e",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/f6e7b22f0b6f499d86dcfd20dcc91b88ce82ff9e"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/causal_language_modeling",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8f0cd28f7f901b4d1b022153c6e10e7b7ed6035",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/e8f0cd28f7f901b4d1b022153c6e10e7b7ed6035"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/causal_language_modeling/accelerate_ds_zero3_cpu_offload_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a0bcfaf09bd632e6ac2152c8a4f30e183cc102",
+      "size": 506,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a4a0bcfaf09bd632e6ac2152c8a4f30e183cc102"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/causal_language_modeling/peft_lora_clm_accelerate_big_model_inference.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "385f5dcdb2023187fd141565010166ea4dad1a2b",
+      "size": 17323,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/385f5dcdb2023187fd141565010166ea4dad1a2b"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/causal_language_modeling/peft_lora_clm_accelerate_ds_zero3_offload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b136781eb5d9a77f0fe257f4d1901e2bffa7e83d",
+      "size": 14859,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/b136781eb5d9a77f0fe257f4d1901e2bffa7e83d"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/causal_language_modeling/peft_prefix_tuning_clm.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf36d219e2fa5d74e70e7f9b09dc6d216c517dfe",
+      "size": 70856,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/cf36d219e2fa5d74e70e7f9b09dc6d216c517dfe"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/causal_language_modeling/peft_prompt_tuning_clm.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e289206110366c96d7479012cc100317638cb346",
+      "size": 67367,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e289206110366c96d7479012cc100317638cb346"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/causal_language_modeling/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e53d13816bdfaf5ad65833851387c51bda5ae45",
+      "size": 64,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5e53d13816bdfaf5ad65833851387c51bda5ae45"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/conditional_generation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "706f79510cb34366c693bbc290e0bdd2ee43e2f4",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/706f79510cb34366c693bbc290e0bdd2ee43e2f4"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/conditional_generation/accelerate_ds_zero3_cpu_offload_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a0bcfaf09bd632e6ac2152c8a4f30e183cc102",
+      "size": 506,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a4a0bcfaf09bd632e6ac2152c8a4f30e183cc102"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/conditional_generation/peft_adalora_seq2seq.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31b4aa595a5b9c47e60220b870aeff4f0070c292",
+      "size": 5536,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/31b4aa595a5b9c47e60220b870aeff4f0070c292"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/conditional_generation/peft_lora_seq2seq.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cbd4f1cb97213f3dd01d326c1e8a36bc0f08ca8",
+      "size": 16880,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6cbd4f1cb97213f3dd01d326c1e8a36bc0f08ca8"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/conditional_generation/peft_lora_seq2seq_accelerate_big_model_inference.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "132cb01556efe0d73e58465ea8bd2d21eda2289a",
+      "size": 9333,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/132cb01556efe0d73e58465ea8bd2d21eda2289a"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/conditional_generation/peft_lora_seq2seq_accelerate_ds_zero3_offload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6b9130285a200c9308d75b911be48877cf63be7",
+      "size": 12426,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c6b9130285a200c9308d75b911be48877cf63be7"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/conditional_generation/peft_lora_seq2seq_accelerate_fsdp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2146a5dce5519715ba6ac21077bd560dac62c73",
+      "size": 5091,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c2146a5dce5519715ba6ac21077bd560dac62c73"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/conditional_generation/peft_prefix_tuning_seq2seq.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa85f9a743e8aded291f6bf3929d1a9ab595f775",
+      "size": 19757,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/aa85f9a743e8aded291f6bf3929d1a9ab595f775"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/conditional_generation/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e53d13816bdfaf5ad65833851387c51bda5ae45",
+      "size": 64,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5e53d13816bdfaf5ad65833851387c51bda5ae45"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/image_classification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f7e0fa08ad50393facceac62e3e04fee950f8bd",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/3f7e0fa08ad50393facceac62e3e04fee950f8bd"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/image_classification/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a115d7c540aa11430551c9f25b346d653d0c42",
+      "size": 889,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/37a115d7c540aa11430551c9f25b346d653d0c42"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/image_classification/image_classification_peft_lora.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc7ac4bfab08bffb04c9f6156b5497b6bb8ec252",
+      "size": 591712,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/dc7ac4bfab08bffb04c9f6156b5497b6bb8ec252"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/int8_training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62cf0a61d38358a86590d09282cf91895d5f6d96",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/62cf0a61d38358a86590d09282cf91895d5f6d96"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/int8_training/Finetune_flan_t5_large_bnb_peft.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1452bd5293a76a0810146f76f923ebb8330edca",
+      "size": 259310,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f1452bd5293a76a0810146f76f923ebb8330edca"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/int8_training/Finetune_opt_bnb_peft.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b15be1355cc2fc3b840ff8b0bec2b05649697b",
+      "size": 293446,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a3b15be1355cc2fc3b840ff8b0bec2b05649697b"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/int8_training/fine_tune_blip2_int8.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca6ba40d7010d3843013d641a817a8deae599972",
+      "size": 3471,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ca6ba40d7010d3843013d641a817a8deae599972"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/int8_training/peft_bnb_whisper_large_v2_training.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be7f9b8c5c2655d0e816539fd6174afa957ea58",
+      "size": 641420,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3be7f9b8c5c2655d0e816539fd6174afa957ea58"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/lora_dreambooth",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eebc9735667c35e255a914afd22b58fb129a4522",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/eebc9735667c35e255a914afd22b58fb129a4522"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/lora_dreambooth/colab_notebook.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91ac558aaf6728e2b9d0e501d99cbed0f053c3a5",
+      "size": 1043,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/91ac558aaf6728e2b9d0e501d99cbed0f053c3a5"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/lora_dreambooth/lora_dreambooth_inference.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a98bbe63bd4fb12e41dbd84a757fbcfd25830c79",
+      "size": 508849,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a98bbe63bd4fb12e41dbd84a757fbcfd25830c79"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/lora_dreambooth/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcaffe6f432f8154265d7c19ce530fc020b795f5",
+      "size": 99,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/fcaffe6f432f8154265d7c19ce530fc020b795f5"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/lora_dreambooth/train_dreambooth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32f78a83ccc99b079235708d2ab75aaada8f0496",
+      "size": 45119,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/32f78a83ccc99b079235708d2ab75aaada8f0496"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/semantic_segmentation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df920836edd214296e4d84b0c912a20a94e329de",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/df920836edd214296e4d84b0c912a20a94e329de"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/semantic_segmentation/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abccbcbf28a41191b010e0681d814195db220529",
+      "size": 888,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/abccbcbf28a41191b010e0681d814195db220529"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/semantic_segmentation/semantic_segmentation_peft_lora.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09ccbb8201e7a27e69c586ba2e7c1cc2b290fc35",
+      "size": 907250,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/09ccbb8201e7a27e69c586ba2e7c1cc2b290fc35"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/sequence_classification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eeac92d5ba6907944f65d8e7cc3792eca1fa9ef8",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/eeac92d5ba6907944f65d8e7cc3792eca1fa9ef8"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/sequence_classification/LoRA.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44c61e49077c3ac7a0a76d6dfed70efb173424be",
+      "size": 31831,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/44c61e49077c3ac7a0a76d6dfed70efb173424be"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/sequence_classification/P_Tuning.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b811fcd7abcd778f45961597dce6cbff3b22a8f9",
+      "size": 31570,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/b811fcd7abcd778f45961597dce6cbff3b22a8f9"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/sequence_classification/Prompt_Tuning.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10bd63383bd32594dbec3b62b6b52431d05a8e71",
+      "size": 31731,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/10bd63383bd32594dbec3b62b6b52431d05a8e71"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/sequence_classification/prefix_tuning.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee96b33c0d65467700a92f22a7fe5a4331cbb30f",
+      "size": 31968,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ee96b33c0d65467700a92f22a7fe5a4331cbb30f"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/sequence_classification/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b7ca3427e6cd951532ff6c817672f6bd2289486",
+      "size": 54,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/4b7ca3427e6cd951532ff6c817672f6bd2289486"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/token_classification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c267f572ceb3ba20c0e6f7e39795953f0e0d026",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/6c267f572ceb3ba20c0e6f7e39795953f0e0d026"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/token_classification/peft_lora_token_cls.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0197962020ec0d8f1d101bc005708412f94d5ee",
+      "size": 48844,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f0197962020ec0d8f1d101bc005708412f94d5ee"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/examples/token_classification/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc9e3c1902f9209ab3c56c3ea43fdd4a923cac17",
+      "size": 73,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/dc9e3c1902f9209ab3c56c3ea43fdd4a923cac17"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72149d682c8f540bad7e0b8363f8073b5b01e39",
+      "size": 665,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a72149d682c8f540bad7e0b8363f8073b5b01e39"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0d13e94c2a1df5d4b83a51d82053f6c7f08ac77",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/a0d13e94c2a1df5d4b83a51d82053f6c7f08ac77"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/scripts/stale.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9101354c5a3f0efb47be5c6865d02070ae491ca",
+      "size": 2293,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e9101354c5a3f0efb47be5c6865d02070ae491ca"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e61396b54af92fd1a1b39892113b1b58ef4e8f32",
+      "size": 3139,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e61396b54af92fd1a1b39892113b1b58ef4e8f32"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd058731287ca36a923b3350e84597955661266e",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/fd058731287ca36a923b3350e84597955661266e"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8dfe384c8915795826deac0491d9ba050defdaef",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/8dfe384c8915795826deac0491d9ba050defdaef"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc666ce01e9e97c92030a6d32de4e99dabaedf4a",
+      "size": 1711,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/dc666ce01e9e97c92030a6d32de4e99dabaedf4a"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/import_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71db603f3368ca27b67c7251f78ee39a0ca8f321",
+      "size": 720,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/71db603f3368ca27b67c7251f78ee39a0ca8f321"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/mapping.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ca77ad38a6b8e55505efee5161b5567a301ce0f",
+      "size": 4937,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/1ca77ad38a6b8e55505efee5161b5567a301ce0f"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/peft_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0280236378b27fb047f823daaf57d4264c285f76",
+      "size": 52272,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/0280236378b27fb047f823daaf57d4264c285f76"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/tuners",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c5d4cbf505185e26a80f42e4db31967e97f01fd",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/8c5d4cbf505185e26a80f42e4db31967e97f01fd"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/tuners/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "146366be56b095db1c9f803211062bf1ecc0615c",
+      "size": 1109,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/146366be56b095db1c9f803211062bf1ecc0615c"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/tuners/adalora.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c67bd34def0cb7db23d973231372cd464444a4",
+      "size": 29818,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/36c67bd34def0cb7db23d973231372cd464444a4"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/tuners/lora.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9af74c513e1f0fb09ec00c828e5a22479e0db4ba",
+      "size": 22437,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9af74c513e1f0fb09ec00c828e5a22479e0db4ba"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/tuners/p_tuning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a272f357d13215bb08f1ab1f2f734a94e327529",
+      "size": 6755,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/4a272f357d13215bb08f1ab1f2f734a94e327529"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/tuners/prefix_tuning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d18000e0fb919236d4a7a3f3f949aa90aef30340",
+      "size": 3785,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/d18000e0fb919236d4a7a3f3f949aa90aef30340"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/tuners/prompt_tuning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6880ff7d0c7e2c5f375a19c85b62e2355ae2b1da",
+      "size": 4935,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6880ff7d0c7e2c5f375a19c85b62e2355ae2b1da"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e40abaf789d96942c56d1d61f90de292a0bdd13",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/3e40abaf789d96942c56d1d61f90de292a0bdd13"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "346b667304861b5166cf57d312cfbc09b2bb7942",
+      "size": 1372,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/346b667304861b5166cf57d312cfbc09b2bb7942"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/utils/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31c46699a12c77e09b2bd837c6d51336c02c4c0a",
+      "size": 6783,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/31c46699a12c77e09b2bd837c6d51336c02c4c0a"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/utils/other.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bfbbfb85933eaabc6316d55de102f280aeed71b",
+      "size": 9103,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/1bfbbfb85933eaabc6316d55de102f280aeed71b"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/src/peft/utils/save_and_load.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2876bbe5e3eb5cb71e851b03e8ee8cee9cc1f0b2",
+      "size": 5622,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/2876bbe5e3eb5cb71e851b03e8ee8cee9cc1f0b2"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c864a7557407478e0075c7696127c10655c66b95",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/c864a7557407478e0075c7696127c10655c66b95"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/tests/test_common_gpu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf1fad905ef9828cdaf301a0979a746e9ad40bd1",
+      "size": 5661,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/cf1fad905ef9828cdaf301a0979a746e9ad40bd1"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/tests/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34fdc44a7dfe0a9ea6ac42eb4ffb43b6a3ffe6f5",
+      "size": 3613,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/34fdc44a7dfe0a9ea6ac42eb4ffb43b6a3ffe6f5"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/tests/test_decoder_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdbf56b9b935d31ce2fb822a430be2eba6ea36a4",
+      "size": 3572,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/cdbf56b9b935d31ce2fb822a430be2eba6ea36a4"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/tests/test_encoder_decoder_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "974e2147857f796097066389a09996a6de7f721f",
+      "size": 3871,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/974e2147857f796097066389a09996a6de7f721f"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/tests/test_gpu_examples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edf6c2c9a7d778be1ee1613b1b8f6dc37cbf3eca",
+      "size": 17453,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/edf6c2c9a7d778be1ee1613b1b8f6dc37cbf3eca"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/tests/testing_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d0d169a1f036d2c34784e7628bea5387b7131c6",
+      "size": 12422,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/0d0d169a1f036d2c34784e7628bea5387b7131c6"
+    },
+    {
+      "path": "LLM/chatglm_finetune/peft-chatglm/tests/testing_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68851ff46987823c052c44146cafbc78cc100eb3",
+      "size": 1622,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/68851ff46987823c052c44146cafbc78cc100eb3"
+    },
+    {
+      "path": "LLM/chatglm_finetune/playground_local.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4680241142a5ba62fcb6f07153232ce578f728a3",
+      "size": 12288,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/4680241142a5ba62fcb6f07153232ce578f728a3"
+    },
+    {
+      "path": "LLM/chatglm_finetune/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e67702d82d94ce58dec593570550977eb231cb",
+      "size": 7840,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f4e67702d82d94ce58dec593570550977eb231cb"
+    },
+    {
+      "path": "LLM/chatglm_finetune/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45e9ddaf8cbaa2b2778a3f28a4cfa92591b3edf4",
+      "size": 128,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/45e9ddaf8cbaa2b2778a3f28a4cfa92591b3edf4"
+    },
+    {
+      "path": "LLM/chatglm_finetune/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4483fc056bcf029b600d85c6b743fc1082555d68",
+      "size": 14458,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/4483fc056bcf029b600d85c6b743fc1082555d68"
+    },
+    {
+      "path": "LLM/chatglm_finetune/train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0946a4fac5b8ac674602d2ae2491d654bdbab116",
+      "size": 1022,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/0946a4fac5b8ac674602d2ae2491d654bdbab116"
+    },
+    {
+      "path": "LLM/chatglm_finetune/train_multi_gpu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d46b7e837ba90129a50eed89945d4282dc7d551",
+      "size": 14181,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/7d46b7e837ba90129a50eed89945d4282dc7d551"
+    },
+    {
+      "path": "LLM/chatglm_finetune/train_multi_gpu.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48e923ef52652a8312fa63e573e820e387dcec9e",
+      "size": 1213,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/48e923ef52652a8312fa63e573e820e387dcec9e"
+    },
+    {
+      "path": "LLM/chatglm_finetune/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d01fe84909d7c02b2e96359f26f728541c4c6866",
+      "size": 6355,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/d01fe84909d7c02b2e96359f26f728541c4c6866"
+    },
+    {
+      "path": "LLM/llms_mbti",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ada03cf89aa7c269e97c788941d70d4878153b38",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/ada03cf89aa7c269e97c788941d70d4878153b38"
+    },
+    {
+      "path": "LLM/llms_mbti/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "878376e3346f67889d20a29b44fe36996a168d73",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/878376e3346f67889d20a29b44fe36996a168d73"
+    },
+    {
+      "path": "LLM/llms_mbti/assets/mbti_visualization.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a7da84d8b528b4994dc005bc10eadf03954fa34",
+      "size": 435033,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/7a7da84d8b528b4994dc005bc10eadf03954fa34"
+    },
+    {
+      "path": "LLM/llms_mbti/get_llms_mbti.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78df696b30d80a73b218716ab771a3d2b78e6cb3",
+      "size": 7086,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/78df696b30d80a73b218716ab771a3d2b78e6cb3"
+    },
+    {
+      "path": "LLM/llms_mbti/llms_mbti.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a416dabb98039528115d13b33b38dc8eeb59b554",
+      "size": 1743,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a416dabb98039528115d13b33b38dc8eeb59b554"
+    },
+    {
+      "path": "LLM/llms_mbti/mbti_questions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10a80c73b511287bfaf51f21204a35e09f9cf913",
+      "size": 15360,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/10a80c73b511287bfaf51f21204a35e09f9cf913"
+    },
+    {
+      "path": "LLM/llms_mbti/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9ed699684271704e7c777b90ac2b43c5c748bf",
+      "size": 2008,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9e9ed699684271704e7c777b90ac2b43c5c748bf"
+    },
+    {
+      "path": "LLM/llms_mbti/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22cd815cf92bca7124c70cfca16003a887133985",
+      "size": 39,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/22cd815cf92bca7124c70cfca16003a887133985"
+    },
+    {
+      "path": "LLM/llms_mbti/web.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "258cc14551b62fbc21191955adce9ae6a8cb55d2",
+      "size": 19051,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/258cc14551b62fbc21191955adce9ae6a8cb55d2"
+    },
+    {
+      "path": "LLM/zero-shot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22bfa565a9ef1ebbf7c43c166ce5e70ffc3b0ad5",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/22bfa565a9ef1ebbf7c43c166ce5e70ffc3b0ad5"
+    },
+    {
+      "path": "LLM/zero-shot/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64e0031e88dd725c404a818ab1921f4477da63b6",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/64e0031e88dd725c404a818ab1921f4477da63b6"
+    },
+    {
+      "path": "LLM/zero-shot/assets/llm_cls_res.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ac13dc5e942fa0d51ccf307341a7283c03a46f",
+      "size": 274773,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/54ac13dc5e942fa0d51ccf307341a7283c03a46f"
+    },
+    {
+      "path": "LLM/zero-shot/assets/llm_information_extraction_res.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a148cdd28cc65d629c178066f6c7fa3ab147564a",
+      "size": 183484,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a148cdd28cc65d629c178066f6c7fa3ab147564a"
+    },
+    {
+      "path": "LLM/zero-shot/assets/llm_text_matching_res.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cde5c3f18b8c28fb69c833026b2b80e65a3cd68a",
+      "size": 68740,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/cde5c3f18b8c28fb69c833026b2b80e65a3cd68a"
+    },
+    {
+      "path": "LLM/zero-shot/assets/playground.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76b522cc5e05505703771bd60d9c3666b4e5fc1",
+      "size": 279514,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e76b522cc5e05505703771bd60d9c3666b4e5fc1"
+    },
+    {
+      "path": "LLM/zero-shot/llm_classification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a5abb7b7d029043281ea265542adb4ac6a14af",
+      "size": 7756,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/37a5abb7b7d029043281ea265542adb4ac6a14af"
+    },
+    {
+      "path": "LLM/zero-shot/llm_information_extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad0c1d7e46c17047b680d1c210a7fb8cc47a06a4",
+      "size": 9711,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ad0c1d7e46c17047b680d1c210a7fb8cc47a06a4"
+    },
+    {
+      "path": "LLM/zero-shot/llm_text_matching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f2e0c115d336cc6e15dc9af263b3d5060836e2c",
+      "size": 4872,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3f2e0c115d336cc6e15dc9af263b3d5060836e2c"
+    },
+    {
+      "path": "LLM/zero-shot/playground.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c69b95183db172d6f636c9e7ca26b6b405277c93",
+      "size": 4364,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c69b95183db172d6f636c9e7ca26b6b405277c93"
+    },
+    {
+      "path": "LLM/zero-shot/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "216526baab307c5b35f2ba170fe9b8af2b6ae5ff",
+      "size": 15906,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/216526baab307c5b35f2ba170fe9b8af2b6ae5ff"
+    },
+    {
+      "path": "LLM/zero-shot/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daaf1c5abf971fcad28056bd77472ef99207df48",
+      "size": 81,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/daaf1c5abf971fcad28056bd77472ef99207df48"
+    },
+    {
+      "path": "RLHF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cde3cf7ac7f75e3fad89bc2714fb350ff2878037",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/cde3cf7ac7f75e3fad89bc2714fb350ff2878037"
+    },
+    {
+      "path": "RLHF/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a733f46d56e42f03b7ef6dc5c4128289393ea09c",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/a733f46d56e42f03b7ef6dc5c4128289393ea09c"
+    },
+    {
+      "path": "RLHF/assets/ERNIE Reward Model.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6475a0ad9a801b5b95959e0dcacd975291780e8f",
+      "size": 73653,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6475a0ad9a801b5b95959e0dcacd975291780e8f"
+    },
+    {
+      "path": "RLHF/assets/PPO-Sentiment-Zh.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa0219a98175c6580c5e35a6d5b54c6396beb3c0",
+      "size": 421865,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/aa0219a98175c6580c5e35a6d5b54c6396beb3c0"
+    },
+    {
+      "path": "RLHF/assets/end.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e64a52f80a9d1f132f2690ec4caf9a1d6d9e195",
+      "size": 110576,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/8e64a52f80a9d1f132f2690ec4caf9a1d6d9e195"
+    },
+    {
+      "path": "RLHF/assets/rank_list_dataset.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5119dea028120264af25d108fb6610162597bb9d",
+      "size": 238259,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5119dea028120264af25d108fb6610162597bb9d"
+    },
+    {
+      "path": "RLHF/assets/rank_list_labler.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "544a36d1e6a0a5f2bb8e8534302e54cd811d62f3",
+      "size": 503825,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/544a36d1e6a0a5f2bb8e8534302e54cd811d62f3"
+    },
+    {
+      "path": "RLHF/assets/sentiment-analysis.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a9cb6ac8803c61a20a1fc9cdce656dfa72f3d9e",
+      "size": 71204,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6a9cb6ac8803c61a20a1fc9cdce656dfa72f3d9e"
+    },
+    {
+      "path": "RLHF/assets/start.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c7322d04d9ffb555a6d19ef967ceeb5fbe047c3",
+      "size": 94040,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3c7322d04d9ffb555a6d19ef967ceeb5fbe047c3"
+    },
+    {
+      "path": "RLHF/assets/terminal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "955e05230f49c4c7ceecb52eac92f2caef585a4a",
+      "size": 263612,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/955e05230f49c4c7ceecb52eac92f2caef585a4a"
+    },
+    {
+      "path": "RLHF/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d8c504a3d7667144d41c0043518717565141158",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/0d8c504a3d7667144d41c0043518717565141158"
+    },
+    {
+      "path": "RLHF/data/reward_datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c4cee31df98109b3f2559951ba7bc58748d3a3a",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/1c4cee31df98109b3f2559951ba7bc58748d3a3a"
+    },
+    {
+      "path": "RLHF/data/reward_datasets/sentiment_analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aff74df7fb7f291340f7321cba7e2649e41ffcc9",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/aff74df7fb7f291340f7321cba7e2649e41ffcc9"
+    },
+    {
+      "path": "RLHF/data/reward_datasets/sentiment_analysis/dev.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0632273d9203dba36c043d485f36fa799a42760",
+      "size": 2006106,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/d0632273d9203dba36c043d485f36fa799a42760"
+    },
+    {
+      "path": "RLHF/data/reward_datasets/sentiment_analysis/train.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "639fee112a297ee26c7fb8acb50ee5eca04d1988",
+      "size": 7928864,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/639fee112a297ee26c7fb8acb50ee5eca04d1988"
+    },
+    {
+      "path": "RLHF/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2085dd1cae7aecbbb999c1ab9fd2532b5214815",
+      "size": 7544,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c2085dd1cae7aecbbb999c1ab9fd2532b5214815"
+    },
+    {
+      "path": "RLHF/inference_ppo_gpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d108bf79f797363530c845685d838751d143e33",
+      "size": 3480,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6d108bf79f797363530c845685d838751d143e33"
+    },
+    {
+      "path": "RLHF/inference_reward_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "263380a9d0d1974879363cf3e58e5d2f70b65720",
+      "size": 2831,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/263380a9d0d1974879363cf3e58e5d2f70b65720"
+    },
+    {
+      "path": "RLHF/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75dc5396d08b4a66b987a06b0a429d948153b5ab",
+      "size": 6016,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/75dc5396d08b4a66b987a06b0a429d948153b5ab"
+    },
+    {
+      "path": "RLHF/ppo_sentiment_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "658f7f7980574de47a4c8c343619ca9c70c69da4",
+      "size": 7599,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/658f7f7980574de47a4c8c343619ca9c70c69da4"
+    },
+    {
+      "path": "RLHF/ranklist_labeler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a29b3408c2cd58b980c0ec2496293eb9895a155a",
+      "size": 9579,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a29b3408c2cd58b980c0ec2496293eb9895a155a"
+    },
+    {
+      "path": "RLHF/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fa64892a926601316db5696d880ce2007bbf7d5",
+      "size": 10377,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/1fa64892a926601316db5696d880ce2007bbf7d5"
+    },
+    {
+      "path": "RLHF/start_ranklist_labler.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd964061390e91d2c814ea229e779d7e61f1e05b",
+      "size": 52,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/dd964061390e91d2c814ea229e779d7e61f1e05b"
+    },
+    {
+      "path": "RLHF/terminal_main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eddc161114ee2462457d665571ff5c0da496d808",
+      "size": 7244,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/eddc161114ee2462457d665571ff5c0da496d808"
+    },
+    {
+      "path": "RLHF/train_reward_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6aa18c3fe059179fe895463551005ca90334f19",
+      "size": 11027,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/b6aa18c3fe059179fe895463551005ca90334f19"
+    },
+    {
+      "path": "RLHF/train_reward_model.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e000b75d8216e4d30f23438f0a847973000525e6",
+      "size": 546,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e000b75d8216e4d30f23438f0a847973000525e6"
+    },
+    {
+      "path": "RLHF/trl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8301e3e476b646178edeba5e5b927a020474cde",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/c8301e3e476b646178edeba5e5b927a020474cde"
+    },
+    {
+      "path": "RLHF/trl/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "485f44ac21b2ee78a2ee1ed0ea584114a1c957c3",
+      "size": 22,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/485f44ac21b2ee78a2ee1ed0ea584114a1c957c3"
+    },
+    {
+      "path": "RLHF/trl/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf6d963059422e91274d76aeb3f411a2d537b8b",
+      "size": 4028,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ddf6d963059422e91274d76aeb3f411a2d537b8b"
+    },
+    {
+      "path": "RLHF/trl/gpt2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d9cde4ac107e653cdc988b96fa3a1475df7aae9",
+      "size": 6789,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/2d9cde4ac107e653cdc988b96fa3a1475df7aae9"
+    },
+    {
+      "path": "RLHF/trl/ppo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ddc934e76f7c91cd1ef0106a3e47a6bed18237a",
+      "size": 14756,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/7ddc934e76f7c91cd1ef0106a3e47a6bed18237a"
+    },
+    {
+      "path": "RLHF/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b7019c67affd93d7c26ea577a4f8139d84d916",
+      "size": 5493,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f4b7019c67affd93d7c26ea577a4f8139d84d916"
+    },
+    {
+      "path": "UIE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "faf7a28166aaa7c38cd1da28e18f81ca5cee43c1",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/faf7a28166aaa7c38cd1da28e18f81ca5cee43c1"
+    },
+    {
+      "path": "UIE/Augmenter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b89372f3a15b7dc7e0fe222b79f52980df8a72c",
+      "size": 34300,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5b89372f3a15b7dc7e0fe222b79f52980df8a72c"
+    },
+    {
+      "path": "UIE/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aea244bde29f5bb050eba103102e1e67ad13357",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/7aea244bde29f5bb050eba103102e1e67ad13357"
+    },
+    {
+      "path": "UIE/assets/UIE Base No Aug.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec18d3cf329ba344d59f56c375d2fb904ce455b",
+      "size": 167088,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6ec18d3cf329ba344d59f56c375d2fb904ce455b"
+    },
+    {
+      "path": "UIE/assets/auto_neg_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5621fe1a657dfc3556d25ab3c814ed5469793129",
+      "size": 161905,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5621fe1a657dfc3556d25ab3c814ed5469793129"
+    },
+    {
+      "path": "UIE/assets/auto_neg_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1df4d5bf3f9e206580381296f4857c496479193",
+      "size": 661964,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a1df4d5bf3f9e206580381296f4857c496479193"
+    },
+    {
+      "path": "UIE/assets/mask_then_fill.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589e60af5f81ea033b4dbd67d5af57db194c1348",
+      "size": 901919,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/589e60af5f81ea033b4dbd67d5af57db194c1348"
+    },
+    {
+      "path": "UIE/assets/swap_spo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb438304e27f0040cc75710098df238604a38819",
+      "size": 653093,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/cb438304e27f0040cc75710098df238604a38819"
+    },
+    {
+      "path": "UIE/assets/web_da_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "361f30e2cf86d33ca668aebb11afd4a8a6eb1a96",
+      "size": 183267,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/361f30e2cf86d33ca668aebb11afd4a8a6eb1a96"
+    },
+    {
+      "path": "UIE/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07fcefd8f8312542bb0206fbbfb08c7e549adf07",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/07fcefd8f8312542bb0206fbbfb08c7e549adf07"
+    },
+    {
+      "path": "UIE/data/DuIE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66237e4a821c27c8c9749a079fa9bfabb5744ac4",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/66237e4a821c27c8c9749a079fa9bfabb5744ac4"
+    },
+    {
+      "path": "UIE/data/DuIE/dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db306c3963739427bb4ce901a6b9f8c17963e4d5",
+      "size": 58298,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/db306c3963739427bb4ce901a6b9f8c17963e4d5"
+    },
+    {
+      "path": "UIE/data/DuIE/doccano_ext.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cde48249dc1290752f4108c754c730a33d0c53d7",
+      "size": 55550,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/cde48249dc1290752f4108c754c730a33d0c53d7"
+    },
+    {
+      "path": "UIE/data/DuIE/sample_index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44733d8005b00e451792e613520b4b3d9af57bf5",
+      "size": 434,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/44733d8005b00e451792e613520b4b3d9af57bf5"
+    },
+    {
+      "path": "UIE/data/DuIE/test.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "UIE/data/DuIE/train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4516ef30427eedc09378bca5c23e7e99eb59a78",
+      "size": 443733,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c4516ef30427eedc09378bca5c23e7e99eb59a78"
+    },
+    {
+      "path": "UIE/doccano.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c23b1803dc44365eb0c230ce826fd02d04322ee8",
+      "size": 8077,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c23b1803dc44365eb0c230ce826fd02d04322ee8"
+    },
+    {
+      "path": "UIE/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72c44fc58d4080cb717fcdfe27aadc3b147dc59e",
+      "size": 7548,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/72c44fc58d4080cb717fcdfe27aadc3b147dc59e"
+    },
+    {
+      "path": "UIE/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb51eb7956b8870f7f2b5076ae99063724eee7da",
+      "size": 11506,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/eb51eb7956b8870f7f2b5076ae99063724eee7da"
+    },
+    {
+      "path": "UIE/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a86e7671429afa6cd0171c7e8c94bd3b648deb94",
+      "size": 8467,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a86e7671429afa6cd0171c7e8c94bd3b648deb94"
+    },
+    {
+      "path": "UIE/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43c331c57c20b97ac6f6652c9b43b18bab19a62",
+      "size": 14684,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e43c331c57c20b97ac6f6652c9b43b18bab19a62"
+    },
+    {
+      "path": "UIE/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af214794dea493674b87001142153147127e69c",
+      "size": 10057,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3af214794dea493674b87001142153147127e69c"
+    },
+    {
+      "path": "UIE/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6484d32fc2ca5722553082e56f21ca23045d17cb",
+      "size": 17041,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6484d32fc2ca5722553082e56f21ca23045d17cb"
+    },
+    {
+      "path": "UIE/train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8954fa19aa4332f2afba16c5cd19c8da1dcf4b4",
+      "size": 400,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a8954fa19aa4332f2afba16c5cd19c8da1dcf4b4"
+    },
+    {
+      "path": "UIE/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "893b205301418e4d9befbf15381910440a6ecc89",
+      "size": 24242,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/893b205301418e4d9befbf15381910440a6ecc89"
+    },
+    {
+      "path": "UIE/web_da.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ac114e23f7b0dd03b54c85432fd29407553a58e",
+      "size": 20372,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/8ac114e23f7b0dd03b54c85432fd29407553a58e"
+    },
+    {
+      "path": "answer_generation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c46471f277fa15a30dc5cf3d2467fd9f01e26d3b",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/c46471f277fa15a30dc5cf3d2467fd9f01e26d3b"
+    },
+    {
+      "path": "answer_generation/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "976d8a9b301c75791225ff73dc272f8c1ea70342",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/976d8a9b301c75791225ff73dc272f8c1ea70342"
+    },
+    {
+      "path": "answer_generation/assets/T5-Base-Chinese.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47c1fda12ed344a1c4003869b5abe02a8a23190e",
+      "size": 176326,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/47c1fda12ed344a1c4003869b5abe02a8a23190e"
+    },
+    {
+      "path": "answer_generation/bleu_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2e1829859aa5a71810e88a722fd931dccec291",
+      "size": 9083,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/df2e1829859aa5a71810e88a722fd931dccec291"
+    },
+    {
+      "path": "answer_generation/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f7a36c5309ac25a4bce6e6d8c6ed483a38d1154",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/9f7a36c5309ac25a4bce6e6d8c6ed483a38d1154"
+    },
+    {
+      "path": "answer_generation/data/DuReaderQG",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2ccfb02be209f2aa3393164cc41493db68ea867",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/d2ccfb02be209f2aa3393164cc41493db68ea867"
+    },
+    {
+      "path": "answer_generation/data/DuReaderQG/dev.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e44371182b0cb2b5136c40f82136b37efc20e61",
+      "size": 876316,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/1e44371182b0cb2b5136c40f82136b37efc20e61"
+    },
+    {
+      "path": "answer_generation/data/DuReaderQG/train.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4e2bf8c55513df48ad4496bf38ea931d4ac17ae",
+      "size": 12489747,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c4e2bf8c55513df48ad4496bf38ea931d4ac17ae"
+    },
+    {
+      "path": "answer_generation/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2085dd1cae7aecbbb999c1ab9fd2532b5214815",
+      "size": 7544,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c2085dd1cae7aecbbb999c1ab9fd2532b5214815"
+    },
+    {
+      "path": "answer_generation/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2238d78699e6c724a5c0cbe65e012a5675a977e",
+      "size": 3575,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a2238d78699e6c724a5c0cbe65e012a5675a977e"
+    },
+    {
+      "path": "answer_generation/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9263fca45b6c1ccaff7020dc46c8a96cb2cc79ff",
+      "size": 4859,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9263fca45b6c1ccaff7020dc46c8a96cb2cc79ff"
+    },
+    {
+      "path": "answer_generation/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c18df4d4f0af5dfe750f3937ab59d26aa0da2f27",
+      "size": 10365,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c18df4d4f0af5dfe750f3937ab59d26aa0da2f27"
+    },
+    {
+      "path": "answer_generation/train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9597fffff2e41be0cddffd472496346b7e22bd98",
+      "size": 498,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9597fffff2e41be0cddffd472496346b7e22bd98"
+    },
+    {
+      "path": "answer_generation/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a24005f65737794beaa3399d32b11842dbe4f70",
+      "size": 6718,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/4a24005f65737794beaa3399d32b11842dbe4f70"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10157cbfcbc71fe34646024e1a73b503e7619404",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/10157cbfcbc71fe34646024e1a73b503e7619404"
+    },
+    {
+      "path": "assets/icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a75c0a2896a1383a15871bbf89d4affee168fc68",
+      "size": 21512,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a75c0a2896a1383a15871bbf89d4affee168fc68"
+    },
+    {
+      "path": "data_augment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8072059d11e7d5c41be627b5a86e65762437d0f",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/e8072059d11e7d5c41be627b5a86e65762437d0f"
+    },
+    {
+      "path": "data_augment/filling_model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07b28cca370b0a1a41fa42710547a5e374b3a6f9",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/07b28cca370b0a1a41fa42710547a5e374b3a6f9"
+    },
+    {
+      "path": "data_augment/filling_model/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c80f3f6fd1e4d4e91a9fdefcbcdd22f490f5e9e2",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/c80f3f6fd1e4d4e91a9fdefcbcdd22f490f5e9e2"
+    },
+    {
+      "path": "data_augment/filling_model/assets/T5-Base-Chinese.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781f0545569ce7c42cc65d4fbb8f96088e783a0d",
+      "size": 173305,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/781f0545569ce7c42cc65d4fbb8f96088e783a0d"
+    },
+    {
+      "path": "data_augment/filling_model/bleu_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2e1829859aa5a71810e88a722fd931dccec291",
+      "size": 9083,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/df2e1829859aa5a71810e88a722fd931dccec291"
+    },
+    {
+      "path": "data_augment/filling_model/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb4aa2486c8ee9f08ad9e08c6935ff5de8ba07ca",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/bb4aa2486c8ee9f08ad9e08c6935ff5de8ba07ca"
+    },
+    {
+      "path": "data_augment/filling_model/data/dataset_text.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0e71475c879ad5ad3e0223ad10c3c6807fe301a",
+      "size": 29515182,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f0e71475c879ad5ad3e0223ad10c3c6807fe301a"
+    },
+    {
+      "path": "data_augment/filling_model/data/dev.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ac998fcf08410c45ba551f28df8a8be63107c39",
+      "size": 7413125,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9ac998fcf08410c45ba551f28df8a8be63107c39"
+    },
+    {
+      "path": "data_augment/filling_model/data/train.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25330557354efcc392a42cb23379e3c9a36d80ac",
+      "size": 66789641,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/25330557354efcc392a42cb23379e3c9a36d80ac"
+    },
+    {
+      "path": "data_augment/filling_model/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2085dd1cae7aecbbb999c1ab9fd2532b5214815",
+      "size": 7544,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c2085dd1cae7aecbbb999c1ab9fd2532b5214815"
+    },
+    {
+      "path": "data_augment/filling_model/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "316a58cd3f1b184c21421dbd029d7efa1ecf6157",
+      "size": 3263,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/316a58cd3f1b184c21421dbd029d7efa1ecf6157"
+    },
+    {
+      "path": "data_augment/filling_model/parse_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "448054e8828d610316c445b1397336389562c6c1",
+      "size": 4636,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/448054e8828d610316c445b1397336389562c6c1"
+    },
+    {
+      "path": "data_augment/filling_model/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a98a19c1e18aeea61366f2eed00b6264f44650d",
+      "size": 3777,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9a98a19c1e18aeea61366f2eed00b6264f44650d"
+    },
+    {
+      "path": "data_augment/filling_model/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee537dba4893e530e5ce6b90383a02a132fbf671",
+      "size": 11078,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ee537dba4893e530e5ce6b90383a02a132fbf671"
+    },
+    {
+      "path": "data_augment/filling_model/train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ff076808fb1052bba508c7d962c4e9f30d1747",
+      "size": 456,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/23ff076808fb1052bba508c7d962c4e9f30d1747"
+    },
+    {
+      "path": "data_augment/filling_model/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a083c04824add012e389f142082cabd9fb0a704c",
+      "size": 6708,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a083c04824add012e389f142082cabd9fb0a704c"
+    },
+    {
+      "path": "dataset_tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f01058383755fe645f71a6c5aa7c0abee061f04",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/8f01058383755fe645f71a6c5aa7c0abee061f04"
+    },
+    {
+      "path": "dataset_tools/generate_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea5d5020aa8598a4de6cdf587306fb96715944c",
+      "size": 4111,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/cea5d5020aa8598a4de6cdf587306fb96715944c"
+    },
+    {
+      "path": "prompt_tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b89ea193ad320c96961cf1262060267d6ac95b7",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/4b89ea193ad320c96961cf1262060267d6ac95b7"
+    },
+    {
+      "path": "prompt_tasks/PET",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54b8edf5f8a791173bcc08233ae988f0af29989c",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/54b8edf5f8a791173bcc08233ae988f0af29989c"
+    },
+    {
+      "path": "prompt_tasks/PET/RDropLoss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d73dd1ad652b8d5340d32b493ac112456a35f59",
+      "size": 5490,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/2d73dd1ad652b8d5340d32b493ac112456a35f59"
+    },
+    {
+      "path": "prompt_tasks/PET/Template.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fb46d277bea077e9108d20ba8efc35e4530193f",
+      "size": 7175,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6fb46d277bea077e9108d20ba8efc35e4530193f"
+    },
+    {
+      "path": "prompt_tasks/PET/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67a7616994e93e937dc2135658faceeb2009571f",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/67a7616994e93e937dc2135658faceeb2009571f"
+    },
+    {
+      "path": "prompt_tasks/PET/assets/train_log.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84b245f8546d5b7dcf676862b7512d6552be5def",
+      "size": 169211,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/84b245f8546d5b7dcf676862b7512d6552be5def"
+    },
+    {
+      "path": "prompt_tasks/PET/class_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bedbb13a9b6e5b38935cf644233f64694b77bf23",
+      "size": 6846,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/bedbb13a9b6e5b38935cf644233f64694b77bf23"
+    },
+    {
+      "path": "prompt_tasks/PET/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8fb4f673816f3acb5f3430be3f216cc0c9a4e67c",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/8fb4f673816f3acb5f3430be3f216cc0c9a4e67c"
+    },
+    {
+      "path": "prompt_tasks/PET/data/comment_classify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0a8c36528def0f6df490458929f93742da19e8d",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/a0a8c36528def0f6df490458929f93742da19e8d"
+    },
+    {
+      "path": "prompt_tasks/PET/data/comment_classify/dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e73b87b5cdbd062a47f176db88623fc2b124162",
+      "size": 101096,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/2e73b87b5cdbd062a47f176db88623fc2b124162"
+    },
+    {
+      "path": "prompt_tasks/PET/data/comment_classify/prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec2cc9fa0599b61f70083ddee172d1b5fabb9749",
+      "size": 37,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ec2cc9fa0599b61f70083ddee172d1b5fabb9749"
+    },
+    {
+      "path": "prompt_tasks/PET/data/comment_classify/train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb496aa637220423b5450019f3728e57c2e2fb9d",
+      "size": 9792,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/fb496aa637220423b5450019f3728e57c2e2fb9d"
+    },
+    {
+      "path": "prompt_tasks/PET/data/comment_classify/verbalizer.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "888f82a528352a65ec30c918c1e87be52a67a0a6",
+      "size": 125,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/888f82a528352a65ec30c918c1e87be52a67a0a6"
+    },
+    {
+      "path": "prompt_tasks/PET/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe34ee9867609090ea99c71c3b1cd6c58a2ac90e",
+      "size": 7546,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/fe34ee9867609090ea99c71c3b1cd6c58a2ac90e"
+    },
+    {
+      "path": "prompt_tasks/PET/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76cb7e7ac7a6d8ec5befe61a32ac77e214f7f71",
+      "size": 4662,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e76cb7e7ac7a6d8ec5befe61a32ac77e214f7f71"
+    },
+    {
+      "path": "prompt_tasks/PET/pet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cba5ac653ced4cd8813f0fba40b3c8fbe23bbd9",
+      "size": 12861,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9cba5ac653ced4cd8813f0fba40b3c8fbe23bbd9"
+    },
+    {
+      "path": "prompt_tasks/PET/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e37b94356389b88f84530820b80a630d0ba82c52",
+      "size": 6151,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e37b94356389b88f84530820b80a630d0ba82c52"
+    },
+    {
+      "path": "prompt_tasks/PET/train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17a91e2c3498f45db1928f532ba60c2a89687618",
+      "size": 577,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/17a91e2c3498f45db1928f532ba60c2a89687618"
+    },
+    {
+      "path": "prompt_tasks/PET/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e8a5750e6028b9ade5b71940fecfac5116f5e01",
+      "size": 9951,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/1e8a5750e6028b9ade5b71940fecfac5116f5e01"
+    },
+    {
+      "path": "prompt_tasks/PET/verbalizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15b1032f2ed4da81af4ab447e036bbb01a7b747d",
+      "size": 9939,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/15b1032f2ed4da81af4ab447e036bbb01a7b747d"
+    },
+    {
+      "path": "prompt_tasks/p-tuning",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a13c28ec06735bddfa1e2ccfdf63902ab0a776d",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/8a13c28ec06735bddfa1e2ccfdf63902ab0a776d"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/RDropLoss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a241367f0bf82b2107ff7dedbf2149c64a394309",
+      "size": 5513,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a241367f0bf82b2107ff7dedbf2149c64a394309"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e212b2e9446ef7dd39daaebe8733b82f630b8d50",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/e212b2e9446ef7dd39daaebe8733b82f630b8d50"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/assets/train_log.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e54b36a4364a1798f0238bf00c924b4d4762c7ad",
+      "size": 119348,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e54b36a4364a1798f0238bf00c924b4d4762c7ad"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/class_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bedbb13a9b6e5b38935cf644233f64694b77bf23",
+      "size": 6846,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/bedbb13a9b6e5b38935cf644233f64694b77bf23"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4156d9744622c84a98f9cfe0e1194de274048308",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/4156d9744622c84a98f9cfe0e1194de274048308"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/data/comment_classify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0af1e834b426b35bd1c61442cbdb7eabcde2d75",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/c0af1e834b426b35bd1c61442cbdb7eabcde2d75"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/data/comment_classify/dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cddbc3ec494b7376be4e18d5727ebc4655ac43d",
+      "size": 71925,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/4cddbc3ec494b7376be4e18d5727ebc4655ac43d"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/data/comment_classify/train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb496aa637220423b5450019f3728e57c2e2fb9d",
+      "size": 9792,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/fb496aa637220423b5450019f3728e57c2e2fb9d"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/data/comment_classify/verbalizer.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "888f82a528352a65ec30c918c1e87be52a67a0a6",
+      "size": 125,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/888f82a528352a65ec30c918c1e87be52a67a0a6"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2085dd1cae7aecbbb999c1ab9fd2532b5214815",
+      "size": 7544,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c2085dd1cae7aecbbb999c1ab9fd2532b5214815"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e616f3617a7a84cf38979a360aa9daae38e64aa2",
+      "size": 4378,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/e616f3617a7a84cf38979a360aa9daae38e64aa2"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/p_tuning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ec0cdfe28e02a570535cfebed6acf844b8492da",
+      "size": 14721,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9ec0cdfe28e02a570535cfebed6acf844b8492da"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "509d31848cadba913877af5b6add098fe215b3f5",
+      "size": 4684,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/509d31848cadba913877af5b6add098fe215b3f5"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f9610d2886c519d60500c28de22a1fbdde3d891",
+      "size": 529,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3f9610d2886c519d60500c28de22a1fbdde3d891"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66f693adbaf611af80d8bc3e8ef64c72cf60f2cd",
+      "size": 12727,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/66f693adbaf611af80d8bc3e8ef64c72cf60f2cd"
+    },
+    {
+      "path": "prompt_tasks/p-tuning/verbalizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15b1032f2ed4da81af4ab447e036bbb01a7b747d",
+      "size": 9939,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/15b1032f2ed4da81af4ab447e036bbb01a7b747d"
+    },
+    {
+      "path": "readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77a158ce058eb03af55ed434ae5ad71a3088da20",
+      "size": 5314,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/77a158ce058eb03af55ed434ae5ad71a3088da20"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e4ab25c1f8a0f040e0c301a3a5318a2faf5655c",
+      "size": 126,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9e4ab25c1f8a0f040e0c301a3a5318a2faf5655c"
+    },
+    {
+      "path": "text_classification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3184b9079f3c35858433070fd1059a70e2b8490",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/a3184b9079f3c35858433070fd1059a70e2b8490"
+    },
+    {
+      "path": "text_classification/FocalLoss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "916257fe825387dc6abdf092461065960fef684a",
+      "size": 4108,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/916257fe825387dc6abdf092461065960fef684a"
+    },
+    {
+      "path": "text_classification/class_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2ecba60ef57519acca7eb319857ce24be88aeb8",
+      "size": 6712,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/b2ecba60ef57519acca7eb319857ce24be88aeb8"
+    },
+    {
+      "path": "text_classification/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4db79c32a952545dd4dda8ec4089485b072b7108",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/4db79c32a952545dd4dda8ec4089485b072b7108"
+    },
+    {
+      "path": "text_classification/data/comment_classify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec65d7a49b8628d16a9bd74c68a5633715bfd494",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/ec65d7a49b8628d16a9bd74c68a5633715bfd494"
+    },
+    {
+      "path": "text_classification/data/comment_classify/dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "342804218a3925f7a5597de11a2752ea06ebf950",
+      "size": 9477,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/342804218a3925f7a5597de11a2752ea06ebf950"
+    },
+    {
+      "path": "text_classification/data/comment_classify/label_mapping.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ab66a025d6622d654c4ad0e5573a6b536cd6ec4",
+      "size": 71,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3ab66a025d6622d654c4ad0e5573a6b536cd6ec4"
+    },
+    {
+      "path": "text_classification/data/comment_classify/train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eeac26850d6799b5e27454660ddeaf8949c7204",
+      "size": 66298,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/7eeac26850d6799b5e27454660ddeaf8949c7204"
+    },
+    {
+      "path": "text_classification/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2085dd1cae7aecbbb999c1ab9fd2532b5214815",
+      "size": 7544,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c2085dd1cae7aecbbb999c1ab9fd2532b5214815"
+    },
+    {
+      "path": "text_classification/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b60060755b8c1866f066c21852685d4b377e9c6",
+      "size": 4286,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5b60060755b8c1866f066c21852685d4b377e9c6"
+    },
+    {
+      "path": "text_classification/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26c2e67756822882e4e0181f8dc3b0e30c9cfb81",
+      "size": 13430,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/26c2e67756822882e4e0181f8dc3b0e30c9cfb81"
+    },
+    {
+      "path": "text_classification/train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "319b3d49b77b8069d54767159481b0cc61a05c28",
+      "size": 438,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/319b3d49b77b8069d54767159481b0cc61a05c28"
+    },
+    {
+      "path": "text_classification/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ece75ae51b82b793e96618f5a400a7baaf5cd398",
+      "size": 4090,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ece75ae51b82b793e96618f5a400a7baaf5cd398"
+    },
+    {
+      "path": "text_matching",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54870c09c2da79894ec6c7958cccab10b53f408f",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/54870c09c2da79894ec6c7958cccab10b53f408f"
+    },
+    {
+      "path": "text_matching/supervised",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14e8bbd62d239890c96400caf390c77f0ab8c3e0",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/14e8bbd62d239890c96400caf390c77f0ab8c3e0"
+    },
+    {
+      "path": "text_matching/supervised/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "096cb79c9be4c6f7fe45641de669648a8a5e2433",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/096cb79c9be4c6f7fe45641de669648a8a5e2433"
+    },
+    {
+      "path": "text_matching/supervised/assets/dssm_train_log.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68d8fbc88b4e4469313fa7081682d054e92b8cf2",
+      "size": 180208,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/68d8fbc88b4e4469313fa7081682d054e92b8cf2"
+    },
+    {
+      "path": "text_matching/supervised/assets/pointwise_train_log.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c972ae24dd64f3f66613613ad75b628c9ef5f331",
+      "size": 222146,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c972ae24dd64f3f66613613ad75b628c9ef5f331"
+    },
+    {
+      "path": "text_matching/supervised/assets/sentence_transformer_train_log.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59f38d5c669d7ae70b25bc1230d0e37ea0856b92",
+      "size": 184949,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/59f38d5c669d7ae70b25bc1230d0e37ea0856b92"
+    },
+    {
+      "path": "text_matching/supervised/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1198c0602dd1e2ef27b29b3b5bb5dfb8672f9c0",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/f1198c0602dd1e2ef27b29b3b5bb5dfb8672f9c0"
+    },
+    {
+      "path": "text_matching/supervised/data/comment_classify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34d3387cfe37690aca1474ad3b0d624b1a4d7956",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/34d3387cfe37690aca1474ad3b0d624b1a4d7956"
+    },
+    {
+      "path": "text_matching/supervised/data/comment_classify/dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f86ed1a59206906c4c88c9f153f5369c049673dd",
+      "size": 93349,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f86ed1a59206906c4c88c9f153f5369c049673dd"
+    },
+    {
+      "path": "text_matching/supervised/data/comment_classify/train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f16f4afe573398a20bff0dce32d1626764290f45",
+      "size": 346529,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/f16f4afe573398a20bff0dce32d1626764290f45"
+    },
+    {
+      "path": "text_matching/supervised/data/comment_classify/types_desc.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbb0050dba28f9b838ae156c600e1efff594fad9",
+      "size": 807,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/fbb0050dba28f9b838ae156c600e1efff594fad9"
+    },
+    {
+      "path": "text_matching/supervised/get_embedding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f37517c8f34626e38ec99bd850b6112cb1f3de8",
+      "size": 5289,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9f37517c8f34626e38ec99bd850b6112cb1f3de8"
+    },
+    {
+      "path": "text_matching/supervised/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72c44fc58d4080cb717fcdfe27aadc3b147dc59e",
+      "size": 7548,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/72c44fc58d4080cb717fcdfe27aadc3b147dc59e"
+    },
+    {
+      "path": "text_matching/supervised/inference_dssm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "134de08e1f20bda301cc33816045ef2106d73dd9",
+      "size": 4057,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/134de08e1f20bda301cc33816045ef2106d73dd9"
+    },
+    {
+      "path": "text_matching/supervised/inference_pointwise.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "205ac5ca03db6e0f076f332343129db88a2c5c1e",
+      "size": 3578,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/205ac5ca03db6e0f076f332343129db88a2c5c1e"
+    },
+    {
+      "path": "text_matching/supervised/inference_sentence_transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea10ac1f5872a0b0153a012d7751c6f804ffa656",
+      "size": 4374,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/ea10ac1f5872a0b0153a012d7751c6f804ffa656"
+    },
+    {
+      "path": "text_matching/supervised/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36498eebc4247864f085f98211231681f47cfb0c",
+      "size": 16665,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/36498eebc4247864f085f98211231681f47cfb0c"
+    },
+    {
+      "path": "text_matching/supervised/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "347641de3f6ae70b8539392e43ee9b7fd501faf9",
+      "size": 11619,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/347641de3f6ae70b8539392e43ee9b7fd501faf9"
+    },
+    {
+      "path": "text_matching/supervised/train_dssm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c2d80ea8b813879f9074e72f7fe166d7f272352",
+      "size": 10509,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/4c2d80ea8b813879f9074e72f7fe166d7f272352"
+    },
+    {
+      "path": "text_matching/supervised/train_dssm.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "988175c483c39c6f233424287c63d4bf059aca81",
+      "size": 441,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/988175c483c39c6f233424287c63d4bf059aca81"
+    },
+    {
+      "path": "text_matching/supervised/train_pointwise.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bca5916efe5203d073b732704c59384396ca5b2",
+      "size": 10039,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/6bca5916efe5203d073b732704c59384396ca5b2"
+    },
+    {
+      "path": "text_matching/supervised/train_pointwise.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfe9a5797c98e25683f16aa1db0467a57cda39d4",
+      "size": 446,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/bfe9a5797c98e25683f16aa1db0467a57cda39d4"
+    },
+    {
+      "path": "text_matching/supervised/train_sentence_transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49074820de93686cffedd108f976108082ee21ee",
+      "size": 10526,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/49074820de93686cffedd108f976108082ee21ee"
+    },
+    {
+      "path": "text_matching/supervised/train_sentence_transformer.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bb8c4fe26db78e98659e25194192f6dc1e077c5",
+      "size": 477,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/3bb8c4fe26db78e98659e25194192f6dc1e077c5"
+    },
+    {
+      "path": "text_matching/supervised/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8227b43ea2d2824152d0d04aaf81fae1260674db",
+      "size": 7126,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/8227b43ea2d2824152d0d04aaf81fae1260674db"
+    },
+    {
+      "path": "text_matching/unsupervised",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82ba26b92c57975f76a4fc8b7f6403f12b58eef7",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/82ba26b92c57975f76a4fc8b7f6403f12b58eef7"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b16d726031f79f13fbff8b361e4dfc6686d3885",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/0b16d726031f79f13fbff8b361e4dfc6686d3885"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ffd4903c8251f209e3432477937ebefd2bbe35f",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/1ffd4903c8251f209e3432477937ebefd2bbe35f"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/assets/ERNIE-ESimCSE.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd33ec78d6507c8a80e3e181db66f79f285ab860",
+      "size": 225648,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/dd33ec78d6507c8a80e3e181db66f79f285ab860"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "179094fd885553e473bc53d9ec93af24f0c015f1",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/179094fd885553e473bc53d9ec93af24f0c015f1"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/data/LCQMC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eaec7b18dbdd925894942472fd7e1a70d90fec54",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/eaec7b18dbdd925894942472fd7e1a70d90fec54"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/data/LCQMC/dev.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "049a28c0be419d0098a72967bded9b2fdc6478d8",
+      "size": 690285,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/049a28c0be419d0098a72967bded9b2fdc6478d8"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/data/LCQMC/test.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d70bb3d3b126f79c2a9396720305d0567448b2bf",
+      "size": 751457,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/d70bb3d3b126f79c2a9396720305d0567448b2bf"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/data/LCQMC/train.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d893e6e3e177ac7537e81ca18957d6de63a61ab",
+      "size": 16031639,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5d893e6e3e177ac7537e81ca18957d6de63a61ab"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/iTrainingLogger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2085dd1cae7aecbbb999c1ab9fd2532b5214815",
+      "size": 7544,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c2085dd1cae7aecbbb999c1ab9fd2532b5214815"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "911791a1f9ca0126e72bc42f4b57327816c7bc70",
+      "size": 4400,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/911791a1f9ca0126e72bc42f4b57327816c7bc70"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9462715fac0b62e0f2ad3b150af9a5b770b14f46",
+      "size": 8036,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/9462715fac0b62e0f2ad3b150af9a5b770b14f46"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c27b75fcdf60586d964263e76e3f5db8c90881c",
+      "size": 4296,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/2c27b75fcdf60586d964263e76e3f5db8c90881c"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0e6ef87a0ff1c10b146cfee36216bbd1a32b116",
+      "size": 12374,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/c0e6ef87a0ff1c10b146cfee36216bbd1a32b116"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "237fb0dac1c006a220feeb369b4404723de1e010",
+      "size": 437,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/237fb0dac1c006a220feeb369b4404723de1e010"
+    },
+    {
+      "path": "text_matching/unsupervised/simcse/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76388aabf356a3ec489a0b968837ef67ea97af36",
+      "size": 8157,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/76388aabf356a3ec489a0b968837ef67ea97af36"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb5f80eafa2726f997dc0f5277363a13d85cd1c8",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/cb5f80eafa2726f997dc0f5277363a13d85cd1c8"
+    },
+    {
+      "path": "tools/tokenizer_viewer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07e1d79cd6846ceb0566fa43a04c59d1edc4f19d",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/07e1d79cd6846ceb0566fa43a04c59d1edc4f19d"
+    },
+    {
+      "path": "tools/tokenizer_viewer/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ba8c4b349e2a0ea5bca2d1588f691f0f290b271",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/2ba8c4b349e2a0ea5bca2d1588f691f0f290b271"
+    },
+    {
+      "path": "tools/tokenizer_viewer/assets/preview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "175c9556858226aaeaa90a93c72f4d49a5880c97",
+      "size": 301693,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/175c9556858226aaeaa90a93c72f4d49a5880c97"
+    },
+    {
+      "path": "tools/tokenizer_viewer/readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb4c72b14d36264df25f8e4814218bff226cf5e",
+      "size": 559,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/fcb4c72b14d36264df25f8e4814218bff226cf5e"
+    },
+    {
+      "path": "tools/tokenizer_viewer/start.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a88329a9e1f3baa0212629ad4f04bc5f21f53571",
+      "size": 42,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/a88329a9e1f3baa0212629ad4f04bc5f21f53571"
+    },
+    {
+      "path": "tools/tokenizer_viewer/web_ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a5f27fda38aa50ed1439a9604288406098919e2",
+      "size": 14614,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/5a5f27fda38aa50ed1439a9604288406098919e2"
+    },
+    {
+      "path": "utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8da41902ce1577987dec90964c11def5019a014d",
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/trees/8da41902ce1577987dec90964c11def5019a014d"
+    },
+    {
+      "path": "utils/class_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bedbb13a9b6e5b38935cf644233f64694b77bf23",
+      "size": 6846,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/bedbb13a9b6e5b38935cf644233f64694b77bf23"
+    },
+    {
+      "path": "utils/span_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "669311074dfdfea2959f2f5c10c2c5b06d0934ab",
+      "size": 8968,
+      "url": "https://api.github.com/repos/HarderThenHarder/transformers_tasks/git/blobs/669311074dfdfea2959f2f5c10c2c5b06d0934ab"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,275 @@
+{
+  "name": "rotate_n0_d64_lr0.001_full",
+  "config": {
+    "model": "rotate",
+    "dim": 64,
+    "batch": 1024,
+    "epochs": 20,
+    "negatives": 8,
+    "margin": 6.0,
+    "lr": 0.001,
+    "limit": 0,
+    "eval_limit": 200,
+    "test_limit": 0,
+    "tag": "_full",
+    "seed": 42,
+    "entities": 14541,
+    "relations": 237,
+    "training_triples": 272115
+  },
+  "started": "2026-10-14T10:34:05.118197+08:00",
+  "status": "completed",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 11.359359597869778,
+      "dev": {
+        "mrr": 0.01222090795636177,
+        "hits@1": 0.0024999999441206455,
+        "hits@3": 0.014999999664723873,
+        "hits@10": 0.02250000089406967,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 7.063292064769786,
+      "dev": {
+        "mrr": 0.007571802008897066,
+        "hits@1": 0.0,
+        "hits@3": 0.0024999999441206455,
+        "hits@10": 0.009999999776482582,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 3.5573133644019332,
+      "dev": {
+        "mrr": 0.01154133677482605,
+        "hits@1": 0.0024999999441206455,
+        "hits@3": 0.009999999776482582,
+        "hits@10": 0.017500000074505806,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 4,
+      "loss": 1.555168920876845,
+      "dev": {
+        "mrr": 0.03330138325691223,
+        "hits@1": 0.019999999552965164,
+        "hits@3": 0.027499999850988388,
+        "hits@10": 0.057500001043081284,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 0.8825450016071705,
+      "dev": {
+        "mrr": 0.04838832840323448,
+        "hits@1": 0.029999999329447746,
+        "hits@3": 0.05000000074505806,
+        "hits@10": 0.07500000298023224,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 6,
+      "loss": 0.6432240498380712,
+      "dev": {
+        "mrr": 0.07236407697200775,
+        "hits@1": 0.04500000178813934,
+        "hits@3": 0.07750000059604645,
+        "hits@10": 0.11500000208616257,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 7,
+      "loss": 0.5270024344544929,
+      "dev": {
+        "mrr": 0.1202150508761406,
+        "hits@1": 0.08250000327825546,
+        "hits@3": 0.11249999701976776,
+        "hits@10": 0.20499999821186066,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 8,
+      "loss": 0.45138853045144056,
+      "dev": {
+        "mrr": 0.15355028212070465,
+        "hits@1": 0.10750000178813934,
+        "hits@3": 0.1574999988079071,
+        "hits@10": 0.2574999928474426,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 9,
+      "loss": 0.3927575690131281,
+      "dev": {
+        "mrr": 0.18577063083648682,
+        "hits@1": 0.1274999976158142,
+        "hits@3": 0.19499999284744263,
+        "hits@10": 0.3100000023841858,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 10,
+      "loss": 0.3444010061079175,
+      "dev": {
+        "mrr": 0.2100955992937088,
+        "hits@1": 0.14499999582767487,
+        "hits@3": 0.23000000417232513,
+        "hits@10": 0.3400000035762787,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 11,
+      "loss": 0.30357151310652364,
+      "dev": {
+        "mrr": 0.22422252595424652,
+        "hits@1": 0.1550000011920929,
+        "hits@3": 0.2475000023841858,
+        "hits@10": 0.35499998927116394,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 12,
+      "loss": 0.2698544416659928,
+      "dev": {
+        "mrr": 0.2318345010280609,
+        "hits@1": 0.1574999988079071,
+        "hits@3": 0.2549999952316284,
+        "hits@10": 0.3725000023841858,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 13,
+      "loss": 0.24203361646371788,
+      "dev": {
+        "mrr": 0.24117565155029297,
+        "hits@1": 0.16750000417232513,
+        "hits@3": 0.26499998569488525,
+        "hits@10": 0.3799999952316284,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 14,
+      "loss": 0.21931422710377083,
+      "dev": {
+        "mrr": 0.24242781102657318,
+        "hits@1": 0.16750000417232513,
+        "hits@3": 0.25999999046325684,
+        "hits@10": 0.39750000834465027,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 15,
+      "loss": 0.2010325676372203,
+      "dev": {
+        "mrr": 0.2515605092048645,
+        "hits@1": 0.18000000715255737,
+        "hits@3": 0.25999999046325684,
+        "hits@10": 0.4025000035762787,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 16,
+      "loss": 0.1859824795686973,
+      "dev": {
+        "mrr": 0.24029690027236938,
+        "hits@1": 0.1599999964237213,
+        "hits@3": 0.26499998569488525,
+        "hits@10": 0.4099999964237213,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 17,
+      "loss": 0.17375138431052056,
+      "dev": {
+        "mrr": 0.24411366879940033,
+        "hits@1": 0.1550000011920929,
+        "hits@3": 0.2849999964237213,
+        "hits@10": 0.4099999964237213,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 18,
+      "loss": 0.1637701799474911,
+      "dev": {
+        "mrr": 0.24119709432125092,
+        "hits@1": 0.1525000035762787,
+        "hits@3": 0.2849999964237213,
+        "hits@10": 0.41999998688697815,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 19,
+      "loss": 0.15561117217887396,
+      "dev": {
+        "mrr": 0.243209570646286,
+        "hits@1": 0.1525000035762787,
+        "hits@3": 0.27250000834465027,
+        "hits@10": 0.41749998927116394,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    },
+    {
+      "epoch": 20,
+      "loss": 0.14863758944434274,
+      "dev": {
+        "mrr": 0.24847951531410217,
+        "hits@1": 0.16500000655651093,
+        "hits@3": 0.2800000011920929,
+        "hits@10": 0.41749998927116394,
+        "evaluated_triples": 200,
+        "ranking": "filtered head and tail, average rank for ties"
+      }
+    }
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 143.7824000000037,
+  "best_dev_mrr": 0.2515605092048645,
+  "test": {
+    "mrr": 0.24726852774620056,
+    "hits@1": 0.1696716547012329,
+    "hits@3": 0.272720605134964,
+    "hits@10": 0.40073782205581665,
+    "evaluated_triples": 20466,
+    "ranking": "filtered head and tail, average rank for ties"
+  }
+}
